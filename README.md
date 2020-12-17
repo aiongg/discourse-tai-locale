@@ -1,4 +1,4 @@
-#discourse-tai-locale
+# discourse-tai-locale
 
 Locale plugin for Tâi (Taioanese) locales.
 

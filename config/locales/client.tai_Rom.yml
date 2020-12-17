@@ -21,44 +21,44 @@ tai_Rom:
     dates:
       time: 'HH:mm'
       time_with_zone: 'HH:mm (z)'
-      time_short_day: 'pài d, HH:mm'
-      timeline_date: YYYY-M
-      long_no_year: 'M-D, HH:mm'
-      long_no_year_no_time: M-D
-      full_no_year_no_time: MM-DD
-      long_with_year: 'YYYY-M-D日 HH:mm'
-      long_with_year_no_time: YYYY年M月D日
-      full_with_year_no_time: YYYY年MM月D日
-      long_date_with_year: YYYY年M月D日 LT
+      time_short_day: 'ddd, HH:mm'
+      timeline_date: YYYY Nî MMM
+      long_no_year: 'MMM D, HH:mm'
+      long_no_year_no_time: MMMD号
+      full_no_year_no_time: MMMM D Hō
+      long_with_year: 'YYYY年MMMD号 HH:mm'
+      long_with_year_no_time: YYYY年MMMD号
+      full_with_year_no_time: YYYY Nî MMMM D Hō
+      long_date_with_year: YYYY/MM/DD LT
       long_date_without_year: M月D日 LT
-      long_date_with_year_without_time: YYYY年M月D日
+      long_date_with_year_without_time: YYYY/MM/DD
       long_date_without_year_with_linebreak: M月D日 <br/>LT
-      long_date_with_year_with_linebreak: YYYY年M月D日 <br/>LT
-      wrap_ago: '%{date}進前'
+      long_date_with_year_with_linebreak: YYYY/MM/DD <br/>LT
+      wrap_ago: '%{date} chêng'
       tiny:
-        half_a_minute: < 1分
+        half_a_minute: < 1h
         less_than_x_seconds:
           other: '< %{count}b'
         x_seconds:
           other: '%{count}b'
         less_than_x_minutes:
-          other: '< %{count}hc'
+          other: '< %{count}h'
         x_minutes:
-          other: '%{count}hc'
+          other: '%{count}h'
         about_x_hours:
-          other: '%{count}tc'
+          other: '%{count}t'
         x_days:
           other: '%{count}k'
         x_months:
           other: '%{count}g'
         about_x_years:
-          other: '%{count}t'
+          other: '%{count}n'
         over_x_years:
-          other: '> %{count}t'
+          other: '> %{count}n'
         almost_x_years:
-          other: '%{count}t'
-        date_month: M g D j
-        date_year: YYYY n M g
+          other: '%{count}n'
+        date_month: MMMD号
+        date_year: YY年MMM
       medium:
         x_minutes:
           other: '%{count} hun ch.'
@@ -66,7 +66,7 @@ tai_Rom:
           other: '%{count} tiám ch.'
         x_days:
           other: '%{count} kang'
-        date_year: YYYY nî M goe̍h D hō
+        date_year: YYYY年MMMD号
       medium_with_ago:
         x_minutes:
           other: '%{count} hun ch. chêng'
@@ -80,22 +80,22 @@ tai_Rom:
           other: '%{count} tang chêng'
       later:
         x_days:
-          other: '%{count} kang liáu āu'
+          other: '%{count} kang āu'
         x_months:
-          other: '%{count} kò goe̍h liáu āu'
+          other: '%{count} kò goe̍h āu'
         x_years:
-          other: '%{count} tang liáu āu'
-      previous_month: téng kò goe̍h
-      next_month: āu kò goe̍h
-      placeholder: ji̍t-chí
+          other: '%{count} tang āu'
+      previous_month: Téng kò goe̍h
+      next_month: Āu kò goe̍h
+      placeholder: ji̍t-kî
     share:
-      topic_html: '話題： <span class="topic-title">%{topicTitle}</span>'
-      post: 'Pho͘ #%{postNumber}'
+      topic_html: 'Ōe-tê： <span class="topic-title">%{topicTitle}</span>'
+      post: 'pho͘ #%{postNumber}'
       close: close
       twitter: Tī Twitter pun tiuⁿ
       facebook: Tī Facebook pun tiuⁿ
       email: Kià tiān-phoe
-      url: Copy and share URL
+      url: Kā URL khó͘-phih, pun ·chhut ·khì
     action_codes:
       public_topic: 'made this topic public %{when}'
       private_topic: 'made this topic a personal message %{when}'
@@ -140,11 +140,6 @@ tai_Rom:
       All outgoing email has been globally disabled by an administrator. No
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
-      one: >-
-        To make launching your new site easier, you are in bootstrap mode. All
-        new users will be granted trust level 1 and have daily email summary
-        emails enabled. This will be automatically turned off when %{count} user
-        has joined.
       other: >-
         To make launching your new site easier, you are in bootstrap mode. All
         new users will be granted trust level 1 and have daily email summary
@@ -187,18 +182,17 @@ tai_Rom:
     generic_error: 'Pháiⁿ-sè, hoat-seng chhò-gō͘.'
     generic_error_with_reason: 'Hoat-seng chhò-gō͘: %{error}'
     go_ahead: Go ahead
-    sign_up: Sign Up
-    log_in: Log In
-    age: Age
+    sign_up: Teng-kì
+    log_in: Ji̍p-chām
+    age: Nî-hòe
     joined: Joined
-    admin_title: Admin
+    admin_title: Koán-lí-oân
     show_more: show more
     show_help: options
     links: Links
     links_lowercase:
-      one: link
       other: links
-    faq: FAQ
+    faq: Būn-tap
     guidelines: Guidelines
     privacy_policy: Privacy Policy
     privacy: Privacy
@@ -223,8 +217,8 @@ tai_Rom:
     max_of_count: 'max of %{count}'
     alternation: or
     character_count:
-      one: '%{count}字'
-      other: '%{count}字'
+      one: '%{count} jī'
+      other: '%{count} jī'
     related_messages:
       title: Related Messages
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
@@ -239,20 +233,20 @@ tai_Rom:
       our_moderators: Our Moderators
       moderators: Moderators
       stat:
-        all_time: 所有个
-        last_7_days: 過去七工
-        last_30_days: 過去三十工
-      like_count: Likes
-      topic_count: 話題
-      post_count: 留話
-      user_count: Users
+        all_time: Só͘-ū ê
+        last_7_days: Kòe khì 7k
+        last_30_days: Kòe khì 30k
+      like_count: Kah-ì
+      topic_count: Ōe-tê
+      post_count: Pho͘-bûn
+      user_count: Sú-iōng-chiá
       active_user_count: Active Users
-      contact: Contact Us
+      contact: Liân-lo̍k
       contact_info: >-
         In the event of a critical issue or urgent matter affecting this site,
         please contact us at %{contact_info}.
     bookmarked:
-      title: Bookmark
+      title: Kì-hō
       clear_bookmarks: Clear Bookmarks
       help:
         bookmark: Click to bookmark the first post on this topic
@@ -286,17 +280,17 @@ tai_Rom:
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
       search_placeholder: 'Search bookmarks by name, topic title, or post content'
-      search: Search
+      search: Chhōe
       reminders:
         later_today: Later today
         next_business_day: Next business day
-        tomorrow: Tomorrow
-        next_week: Next week
+        tomorrow: Miă-chài
+        next_week: Āu lé-pài
         post_local_date: Date in post
         later_this_week: Later this week
-        start_of_next_business_week: Monday
-        start_of_next_business_week_alt: Next Monday
-        next_month: Next month
+        start_of_next_business_week: Pài It
+        start_of_next_business_week_alt: Āu Pài It
+        next_month: Āu Kò Goe̍h
         custom: Custom date and time
         last_custom: Last
         none: No reminder needed
@@ -307,7 +301,7 @@ tai_Rom:
           You have a reminder set for this bookmark which will be sent
           %{at_date_time}
     copy_codeblock:
-      copied: copied!
+      copied: Khó͘-pih hó ·a!
     drafts:
       resume: Resume
       remove: Remove
@@ -333,15 +327,15 @@ tai_Rom:
     preview: preview
     cancel: cancel
     deleting: Deleting...
-    save: Save Changes
-    saving: Saving...
-    saved: Saved!
-    upload: 傳起去
-    uploading: Uploading...
-    uploading_filename: 'Uploading: %{filename}...'
+    save: Khiām
+    saving: Tng teh khiām...
+    saved: Khiām hó ·a!
+    upload: Khǹg ·khí ·lih
+    uploading: Tng teh khǹg...
+    uploading_filename: 'Tng teh khǹg: %{filename}...'
     clipboard: clipboard
-    uploaded: 傳好唖！
-    pasting: Pasting...
+    uploaded: Khǹg hó ·a!
+    pasting: Tng teh tah...
     enable: Enable
     disable: Disable
     continue: Continue
@@ -431,10 +425,10 @@ tai_Rom:
       deleted_user: (user deleted)
       user:
         bio: Bio
-        website: 網站
-        username: Username
-        email: 電批
-        name: 姓名
+        website: Bāng-chām
+        username: Iōng-chiá miâ
+        email: Tiān-phoe
+        name: Sèⁿ-miâ
         fields: Fields
       user_percentage:
         summary:
@@ -450,18 +444,16 @@ tai_Rom:
           one: '%{count}% ignore'
           other: '%{count}% ignore'
       topics:
-        topic: Topic
+        topic: Ōe-tê
         reviewable_count: Count
         reported_by: Reported by
         deleted: '[Topic Deleted]'
         original: (original topic)
         details: details
         unique_users:
-          one: '%{count} user'
-          other: '%{count} users'
+          other: '%{count} ê sú-iōng-chiá'
       replies:
-        one: '%{count} reply'
-        other: '%{count} replies'
+        other: '%{count} hôe èng'
       edit: Edit
       save: Save
       cancel: Cancel
@@ -474,7 +466,7 @@ tai_Rom:
         minimum_score: 'Minimum Score:'
         refresh: Refresh
         status: Status
-        category: Category
+        category: Khăn-páng
         orders:
           score: Score
           score_asc: Score (reverse)
@@ -532,7 +524,7 @@ tai_Rom:
           one: 'You have <strong>%{count}</strong> post pending.'
           other: 'You have <strong>%{count}</strong> posts pending.'
         ok: OK
-      example_username: username
+      example_username: abeng
     user_action:
       user_posted_topic: >-
         <a href='%{userUrl}'>%{user}</a> posted <a href='%{topicUrl}'>the
@@ -623,7 +615,7 @@ tai_Rom:
           posting: Posting
           notification: Notification
         email:
-          title: Email
+          title: Tiān-phoe
           status: 'Synchronized %{old_emails} / %{total_emails} emails via IMAP.'
           credentials:
             title: Credentials
@@ -668,7 +660,7 @@ tai_Rom:
             categories, and they will not appear on the categories or latest
             topics pages.
         tags:
-          title: Tags
+          title: Phiau-á
           long_title: Tags default notifications
           description: >-
             When users are added to this group, their tag notification settings
@@ -714,9 +706,9 @@ tai_Rom:
         messages: There are no messages for this group.
         topics: There are no topics by members of this group.
         logs: There are no logs for this group.
-      add: Add
-      join: Join
-      leave: Leave
+      add: Thiⁿ
+      join: Ka ji̍p
+      leave: Lâi cháu
       request: Request
       message: Message
       confirm_leave: Are you sure you want to leave this group?
@@ -730,9 +722,9 @@ tai_Rom:
         reason: Let the group owners know why you belong in this group
       membership: Membership
       name: Name
-      group_name: Group name
-      user_count: Users
-      bio: About Group
+      group_name: Kûn-cho͘ miâ
+      user_count: Sú-iōng-chiá
+      bio: Koan-î chit kûn
       selector_placeholder: enter username
       owner: owner
       index:
@@ -778,15 +770,15 @@ tai_Rom:
       alias_levels:
         mentionable: Who can @mention this group?
         messageable: Who can message this group?
-        nobody: Nobody
-        only_admins: Only admins
-        mods_and_admins: Only moderators and Admins
+        nobody: Lóng bē sái
+        only_admins: Kan-taⁿ koán-lí-oân
+        mods_and_admins: Kan-taⁿ koán-lí-oân kap cho͘-lí
         members_mods_and_admins: 'Only group members, moderators and admins'
         owners_mods_and_admins: 'Only group owners, moderators and admins'
-        everyone: Everyone
+        everyone: Lóng ē sái
       notifications:
         watching:
-          title: Watching
+          title: Tòe
           description: >-
             You will be notified of every new post in every message, and a count
             of new replies will be shown.
@@ -834,11 +826,11 @@ tai_Rom:
       '14': Pending
       '15': Drafts
     categories:
-      all: só͘ ū khăn-páng
+      all: só͘ ū ê khăn-páng
       all_subcategories: all
       no_subcategory: none
-      category: Category
-      category_list: Display category list
+      category: Khăn-páng
+      category_list: Hián-sī khăn-páng pió
       reorder:
         title: Reorder Categories
         title_long: Reorganize the category list
@@ -863,7 +855,7 @@ tai_Rom:
         other: '%{count} new topics in the past month.'
       n_more: 'Categories (%{count} more)...'
     ip_lookup:
-      title: IP Address Lookup
+      title: Chhōe IP Bāng-chí
       hostname: Hostname
       location: Location
       location_not_found: (unknown)
@@ -884,8 +876,8 @@ tai_Rom:
       required: 'Please enter a value for "%{name}"'
     user:
       said: '%{username}:'
-      profile: Profile
-      mute: Mute
+      profile: Kò Jîn
+      mute: Chēng Im
       edit: Edit Preferences
       download_archive:
         button_text: Download All
@@ -938,12 +930,12 @@ tai_Rom:
       expand_profile: Expand
       collapse_profile: Collapse
       bookmarks: Bookmarks
-      bio: About me
-      timezone: Timezone
+      bio: Koan-î góa
+      timezone: Sî-khu
       invited_by: Invited By
-      trust_level: Trust Level
-      notifications: Notifications
-      statistics: Stats
+      trust_level: Sìn-iōng Kip
+      notifications: Thong-ti
+      statistics: Thóng-kè
       desktop_notifications:
         label: Live Notifications
         not_supported: Notifications are not supported on this browser. Sorry.
@@ -967,7 +959,7 @@ tai_Rom:
         skip_link: Skip these tips
       theme_default_on_all_devices: Make this the default theme on all my devices
       color_scheme_default_on_all_devices: Set default color scheme(s) on all my devices
-      color_scheme: Color Scheme
+      color_scheme: Sek-tī
       color_schemes:
         default_description: Default
         disable_dark_scheme: Same as regular
@@ -975,10 +967,10 @@ tai_Rom:
           You can preview the dark mode color scheme by toggling your device's
           dark mode.
         undo: Reset
-        regular: Regular
-        dark: Dark mode
+        regular: Phó͘-thong
+        dark: Àm-sek
         default_dark_scheme: (site default)
-      dark_mode: Dark Mode
+      dark_mode: Àm-sek
       dark_mode_enable: Enable automatic dark mode color scheme
       text_size_default_on_all_devices: Make this the default text size on all my devices
       allow_private_messages: Allow other users to send me personal messages
@@ -994,7 +986,7 @@ tai_Rom:
       silenced_tooltip: This user is silenced
       suspended_notice: 'This user is suspended until %{date}.'
       suspended_permanently: This user is suspended.
-      suspended_reason: 'Reason: '
+      suspended_reason: 'Lí-iû: '
       github_profile: GitHub
       email_activity_summary: Activity Summary
       mailing_list_mode:
@@ -1010,7 +1002,7 @@ tai_Rom:
           day)
         few_per_day: Send me an email for every new post (about 2 per day)
         warning: Mailing list mode enabled. Email notification settings are overridden.
-      tag_settings: Tags
+      tag_settings: Phiau-á
       watched_tags: Watched
       watched_tags_instructions: >-
         You will automatically watch all topics with these tags. You will be
@@ -1059,8 +1051,8 @@ tai_Rom:
       delete_yourself_not_allowed: Please contact a staff member if you wish your account to be deleted.
       unread_message_count: Messages
       admin_delete: Delete
-      users: Users
-      muted_users: Muted
+      users: Sú-iōng-chiá
+      muted_users: Chēng-im
       muted_users_instructions: Suppress all notifications and PMs from these users.
       allowed_pm_users: Allowed
       allowed_pm_users_instructions: Only allow PMs from these users.
@@ -1086,8 +1078,8 @@ tai_Rom:
         warnings_received: warnings
         rejected_posts: rejected posts
       messages:
-        all: All
-        inbox: Inbox
+        all: Só͘-ū
+        inbox: Sìn-siuⁿ
         sent: Sent
         archive: Archive
         groups: My Groups
@@ -1098,14 +1090,14 @@ tai_Rom:
         select_all: Select All
         tags: Tags
       preferences_nav:
-        account: Account
-        profile: Profile
-        emails: Emails
-        notifications: Notifications
-        categories: Categories
-        users: Users
+        account: Kháu-chō
+        profile: Kò-jîn
+        emails: Tiān-phoe
+        notifications: Thong-ti
+        categories: Khăn-páng
+        users: Sú-iōng-chiá
         tags: Tags
-        interface: Interface
+        interface: Kài-bīn
         apps: Apps
       change_password:
         success: (email sent)
@@ -1146,8 +1138,8 @@ tai_Rom:
             Each of these backup codes can only be used once. Keep them
             somewhere safe but accessible.
       second_factor:
-        title: Two-Factor Authentication
-        enable: Manage Two-Factor Authentication
+        title: Nn̄g Pō͘ Giām-bêng
+        enable: Koán-lí Manage Nn̄g Pō͘ Giām-bêng
         disable_all: Disable All
         forgot_password: Forgot password?
         confirm_password_description: Please confirm your password to continue
@@ -1181,7 +1173,7 @@ tai_Rom:
           this site.
         disable: Disable
         disable_confirm: Are you sure you want to disable all two-factor methods?
-        save: Save
+        save: Khiām
         edit: Edit
         edit_title: Edit Authenticator
         edit_description: Authenticator Name
@@ -1897,8 +1889,7 @@ tai_Rom:
       loading: Loading...
     category_row:
       topic_count:
-        one: '%{count} topic in this category'
-        other: '%{count} topics in this category'
+        other: 'Chit ê khăn-páng ū %{count} ê ōe-tê'
       plus_subcategories_title:
         one: '%{name} and one subcategory'
         other: '%{name} and %{count} subcategories'
@@ -3175,7 +3166,7 @@ tai_Rom:
     category:
       can: 'can&hellip; '
       none: (no category)
-      all: All categories
+      all: Só͘-ū ê khăn-páng
       choose: category&hellip;
       edit: Edit
       edit_dialog_title: 'Edit: %{categoryName}'
@@ -3201,14 +3192,14 @@ tai_Rom:
       required_tag_group_label: 'Tag group:'
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
-      create: New Category
+      create: Sin khăn-páng
       create_long: Create a new category
       save: Save Category
       slug: Category Slug
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
-      name: Category Name
+      name: Khăn-páng miâ
       description: Description
       topic: category topic
       logo: Category Logo Image
