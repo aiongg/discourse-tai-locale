@@ -49,8 +49,8 @@ tai_Rom:
   views: "views"
   loading: "Loading"
   powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
-  sign_up: "Sign Up"
-  log_in: "Log In"
+  sign_up: "Teng Kì"
+  log_in: "Ji̍p Chām"
   submit: "Submit"
   purge_reason: "Automatically deleted as abandoned, deactivated account"
   disable_remote_images_download_reason: "Remote images download was disabled because there wasn't enough disk space available."

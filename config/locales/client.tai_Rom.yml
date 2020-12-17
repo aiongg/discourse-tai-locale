@@ -95,7 +95,7 @@ tai_Rom:
       twitter: Tī Twitter pun tiuⁿ
       facebook: Tī Facebook pun tiuⁿ
       email: Kià tiān-phoe
-      url: Kā URL khó͘-phih, pun ·chhut ·khì
+      url: Kā URL khó͘-pih, pun ·chhut ·khì
     action_codes:
       public_topic: 'made this topic public %{when}'
       private_topic: 'made this topic a personal message %{when}'
@@ -182,8 +182,8 @@ tai_Rom:
     generic_error: 'Pháiⁿ-sè, hoat-seng chhò-gō͘.'
     generic_error_with_reason: 'Hoat-seng chhò-gō͘: %{error}'
     go_ahead: Go ahead
-    sign_up: Teng-kì
-    log_in: Ji̍p-chām
+    sign_up: Teng kì
+    log_in: Ji̍p chām
     age: Nî-hòe
     joined: Joined
     admin_title: Koán-lí
@@ -558,7 +558,7 @@ tai_Rom:
     directory:
       username: Username
       filter_name: filter by username
-      title: Users
+      title: Sú-iōng-chiá
       likes_given: Given
       likes_received: Received
       topics_entered: Viewed
@@ -839,7 +839,7 @@ tai_Rom:
         position: Position
       posts: Posts
       topics: Topics
-      latest: Siōng sin
+      latest: Sin thiⁿ ·ê
       latest_by: latest by
       toggle_ordering: toggle ordering control
       subcategories: Subcategories
@@ -1139,7 +1139,7 @@ tai_Rom:
             somewhere safe but accessible.
       second_factor:
         title: Nn̄g Pō͘ Giām-bêng
-        enable: Koán-lí Manage Nn̄g Pō͘ Giām-bêng
+        enable: Koán-lí Nn̄g Pō͘ Giām-bêng
         disable_all: Disable All
         forgot_password: Forgot password?
         confirm_password_description: Please confirm your password to continue
@@ -1416,7 +1416,7 @@ tai_Rom:
         after_4_minutes: after 4 minutes
         after_5_minutes: after 5 minutes
         after_10_minutes: after 10 minutes
-      notification_level_when_replying: 'When I post in a topic, set that topic to'
+      notification_level_when_replying: 'Góa nā hôe èng, kā hit ê ōe-tê sǹg chò'
       invited:
         search: type to search invites...
         title: Invites
@@ -1575,7 +1575,7 @@ tai_Rom:
         again: Try Again
         fixed: Load Page
     modal:
-      close: close
+      close: koaiⁿ
       dismiss_error: Dismiss error
     close: Close
     assets_changed_confirm: This site was just updated. Refresh now for the latest version?
@@ -1706,7 +1706,7 @@ tai_Rom:
         By registering, you agree to the <a href='%{privacy_link}'
         target='blank'>privacy policy</a> and <a href='%{tos_link}'
         target='blank'>terms of service</a>.
-      title: Create New Account
+      title: Khí Sin Kháu-chō
       failed: >-
         Something went wrong, perhaps this email is already registered, try the
         forgot password link
@@ -1763,10 +1763,10 @@ tai_Rom:
       logging_in_as: 'Logging in as %{email}'
       confirm_button: Finish Login
     login:
-      title: Log In
+      title: Ji̍p Chām
       username: User
       password: Password
-      second_factor_title: Two-Factor Authentication
+      second_factor_title: Nn̄g Pō͘ Giām-bêng
       second_factor_description: 'Please enter the authentication code from your app:'
       second_factor_backup: Log in using a backup code
       second_factor_backup_title: Two-Factor Backup
@@ -3007,11 +3007,11 @@ tai_Rom:
         no_save_draft: 'No, save draft'
         yes_value: 'Yes, discard edit'
       abandon:
-        title: Abandon Draft
-        confirm: Are you sure you want to abandon your post?
-        no_value: 'No, keep'
-        no_save_draft: 'No, save draft'
-        yes_value: 'Yes, abandon'
+        title: Chháu-kó hìⁿ-tiāu
+        confirm: Lí kám khak-tēng beh kā chháu-kó tàn-hìⁿ-sak?
+        no_value: 'Bô, lâu ·le'
+        no_save_draft: 'Bô, khiām chháu-kó'
+        yes_value: 'Hó, hìⁿ-tiāu'
       via_email: this post arrived via email
       via_auto_generated_email: this post arrived via an auto generated email
       whisper: this post is a private whisper for moderators
@@ -3193,9 +3193,9 @@ tai_Rom:
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
       create: Sin khăn-páng
-      create_long: Create a new category
+      create_long: Khí chi̍t ê sin khăn-páng
       save: Save Category
-      slug: Category Slug
+      slug: Khăn-páng mn̂g-pâi
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
@@ -3288,7 +3288,7 @@ tai_Rom:
       navigate_to_first_post_after_read: Navigate to first post after topics are read
       notifications:
         watching:
-          title: Watching
+          title: Teh Khòaⁿ
           description: >-
             You will automatically watch all topics in these categories. You
             will be notified of every new post in every topic, and a count of
@@ -3299,7 +3299,7 @@ tai_Rom:
             You will be notified of new topics in this category but not replies
             to the topics.
         tracking:
-          title: Tracking
+          title: Teh Tòe
           description: >-
             You will automatically track all topics in these categories. You
             will be notified if someone mentions your @name or replies to you,
@@ -3472,10 +3472,9 @@ tai_Rom:
     likes: Chán
     likes_lowercase:
       other: chán
-    users: Users
+    users: Sú-iōng-chiá
     users_lowercase:
-      one: user
-      other: users
+      other: sú-iōng-chiá
     category_title: Category
     history: History
     changed_by: 'by %{author}'
@@ -3487,11 +3486,11 @@ tai_Rom:
       with_topics: '%{filter} topics'
       with_category: '%{filter} %{category} topics'
       latest:
-        title: Siōng sin
+        title: Sin thiⁿ ·ê
         title_with_count:
           one: 'Latest (%{count})'
           other: 'Latest (%{count})'
-        help: topics with recent posts
+        help: Chòe-kīn ū lâng hôe-èng ê ōe-tê
       read:
         title: Read
         help: 'topics you''ve read, in the order that you last read them'
@@ -3513,11 +3512,11 @@ tai_Rom:
           one: '%{count} new'
           other: '%{count} new'
         lower_title: new
-        title: New
+        title: Sin pho͘ ·ê
         title_with_count:
           one: 'New (%{count})'
           other: 'New (%{count})'
-        help: topics created in the last few days
+        help: Chit kúi kang pho͘ ·chhut ·lâi ê ōe-tê
       posted:
         title: My Posts
         help: topics you have posted in
@@ -3579,7 +3578,7 @@ tai_Rom:
       jump_to:
         title: Jump To
         home: '%{shortcut} Chú-ia̍h'
-        latest: '%{shortcut} Siōng sin'
+        latest: '%{shortcut} Sin thiⁿ ·ê'
         new: '%{shortcut} New'
         unread: '%{shortcut} Unread'
         categories: '%{shortcut} Categories'
@@ -3659,15 +3658,13 @@ tai_Rom:
         other: 'Earned this badge %{count} times'
       granted_on: 'Granted %{date}'
       others_count: 'Others with this badge (%{count})'
-      title: Badges
+      title: Chióng-pâi
       allow_title: You can use this badge as a title
       multiple_grant: You can earn this multiple times
       badge_count:
-        one: '%{count} Badge'
-        other: '%{count} Badges'
+        other: '%{count} bīn chióng-pâi'
       more_badges:
-        one: '+%{count} More'
-        other: '+%{count} More'
+        other: 'koh %{count} bīn'
       granted:
         one: '%{count} granted'
         other: '%{count} granted'
@@ -3767,7 +3764,7 @@ tai_Rom:
         untagged_with_category: '%{filter} untagged topics in %{category}'
       notifications:
         watching:
-          title: Watching
+          title: Teh Khòaⁿ
           description: >-
             You will automatically watch all topics with this tag. You will be
             notified of all new posts and topics, plus the count of unread and
@@ -3778,7 +3775,7 @@ tai_Rom:
             You will be notified of new topics in this tag but not replies to
             the topics.
         tracking:
-          title: Tracking
+          title: Teh Tòe
           description: >-
             You will automatically track all topics with this tag. A count of
             unread and new posts will appear next to the topic.
@@ -5294,7 +5291,7 @@ tai_Rom:
         simple_list:
           add_item: Add item...
       badges:
-        title: Badges
+        title: Chióng-pâi
         new_badge: New Badge
         new: New
         name: Name
@@ -5375,7 +5372,7 @@ tai_Rom:
         badge_intro:
           title: Select an existing badge or create a new one to get started
           emoji: woman student emoji
-          what_are_badges_title: What are badges?
+          what_are_badges_title: Chióng-pâi sī siáⁿ?
           badge_query_examples_title: Badge query examples
         mass_award:
           title: Bulk Award
