@@ -186,7 +186,7 @@ tai_Rom:
     log_in: Ji̍p-chām
     age: Nî-hòe
     joined: Joined
-    admin_title: Koán-lí-oân
+    admin_title: Koán-lí
     show_more: show more
     show_help: options
     links: Links
@@ -404,7 +404,7 @@ tai_Rom:
       settings:
         saved: Saved
         save_changes: Save Changes
-        title: Settings
+        title: Siat-tēng
         priorities:
           title: Reviewable Priorities
       moderation_history: Moderation History
@@ -762,7 +762,7 @@ tai_Rom:
         remove_owner_description: 'Remove <b>%{username}</b> as an owner of this group'
         owner: Owner
         forbidden: You're not allowed to view the members.
-      topics: Topics
+      topics: Ōe-tê
       posts: Posts
       mentions: Mentions
       messages: Messages
@@ -824,7 +824,7 @@ tai_Rom:
       '12': Sent Items
       '13': Inbox
       '14': Pending
-      '15': Drafts
+      '15': Chháu-kó
     categories:
       all: só͘ ū ê khăn-páng
       all_subcategories: all
@@ -839,7 +839,7 @@ tai_Rom:
         position: Position
       posts: Posts
       topics: Topics
-      latest: Chòe-kīn
+      latest: Siōng sin
       latest_by: latest by
       toggle_ordering: toggle ordering control
       subcategories: Subcategories
@@ -860,7 +860,7 @@ tai_Rom:
       location: Location
       location_not_found: (unknown)
       organisation: Organization
-      phone: Phone
+      phone: Tiān-ōe
       other_accounts: 'Other accounts with this IP address:'
       delete_other_accounts: 'Delete %{count}'
       username: username
@@ -929,7 +929,7 @@ tai_Rom:
       profile_hidden: This user's public profile is hidden.
       expand_profile: Expand
       collapse_profile: Collapse
-      bookmarks: Bookmarks
+      bookmarks: Kì-hō
       bio: Koan-î góa
       timezone: Sî-khu
       invited_by: Invited By
@@ -3173,9 +3173,9 @@ tai_Rom:
       view: View Topics in Category
       back: Back to category
       general: General
-      settings: Settings
+      settings: Siat-tēng
       topic_template: Topic Template
-      tags: Tags
+      tags: Phiau-á
       tags_allowed_tags: 'Restrict these tags to this category:'
       tags_allowed_tag_groups: 'Restrict these tag groups to this category:'
       tags_placeholder: (Optional) list of allowed tags
@@ -3487,7 +3487,7 @@ tai_Rom:
       with_topics: '%{filter} topics'
       with_category: '%{filter} %{category} topics'
       latest:
-        title: Chòe-kīn
+        title: Siōng sin
         title_with_count:
           one: 'Latest (%{count})'
           other: 'Latest (%{count})'
@@ -3531,7 +3531,7 @@ tai_Rom:
           other: '%{categoryName} (%{count})'
         help: 'latest topics in the %{categoryName} category'
       top:
-        title: Âng
+        title: Chhèng
         help: 'the most active topics in the last year, month, week or day'
         all:
           title: All Time
@@ -3578,8 +3578,8 @@ tai_Rom:
       title: Keyboard Shortcuts
       jump_to:
         title: Jump To
-        home: '%{shortcut} Home'
-        latest: '%{shortcut} Latest'
+        home: '%{shortcut} Chú-ia̍h'
+        latest: '%{shortcut} Siōng sin'
         new: '%{shortcut} New'
         unread: '%{shortcut} Unread'
         categories: '%{shortcut} Categories'
@@ -3587,7 +3587,7 @@ tai_Rom:
         bookmarks: '%{shortcut} Bookmarks'
         profile: '%{shortcut} Profile'
         messages: '%{shortcut} Messages'
-        drafts: '%{shortcut} Drafts'
+        drafts: '%{shortcut} Chháu-kó'
         next: '%{shortcut} Next Topic'
         previous: '%{shortcut} Previous Topic'
       navigation:
@@ -4206,7 +4206,7 @@ tai_Rom:
         is_enabled: 'Y'
         not_enabled: 'N'
         change_settings: Change Settings
-        change_settings_short: Settings
+        change_settings_short: Siat-tēng
         howto: How do I install plugins?
         official: Official Plugin
       backups:
@@ -4339,9 +4339,9 @@ tai_Rom:
             want to continue?
           update_confirm_yes: 'Yes, continue with the update'
           common: Common
-          desktop: Desktop
-          mobile: Mobile
-          settings: Settings
+          desktop: Tiān-náu
+          mobile: Chhiú-ki
+          settings: Siat-tēng
           translations: Translations
           extra_scss: Extra SCSS
           extra_files: Extra files
@@ -4578,8 +4578,8 @@ tai_Rom:
             Customize the template in which all html emails are rendered, and
             style using CSS.
       email:
-        title: Emails
-        settings: Settings
+        title: Tiān-phoe
+        settings: Siat-tēng
         templates: Templates
         preview_digest: Preview Summary
         advanced_test:
@@ -4900,7 +4900,7 @@ tai_Rom:
         not_found: That user can't be found.
         invalid: 'Sorry, you may not impersonate that user.'
       users:
-        title: Iōng-chiá
+        title: Sú-iōng-chiá
         create: Add Admin User
         last_emailed: Last Emailed
         not_found: 'Sorry, that username doesn''t exist in our system.'
@@ -5237,7 +5237,7 @@ tai_Rom:
         reset: reset
         none: none
       site_settings:
-        title: Settings
+        title: Siat-tēng
         no_results: No results found.
         more_than_30_results: >-
           There are more than 30 results. Please refine your search or select a
@@ -5250,7 +5250,7 @@ tai_Rom:
           label: Edit list
           empty: There are no pictures yet. Please upload one.
           upload:
-            label: Upload
+            label: Khǹg ·khí ·lih
             title: Upload image(s)
         selectable_avatars:
           title: List of avatars users can choose from
