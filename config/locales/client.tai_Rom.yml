@@ -141,10 +141,7 @@ tai_Rom:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        To make launching your new site easier, you are in bootstrap mode. All
-        new users will be granted trust level 1 and have daily email summary
-        emails enabled. This will be automatically turned off when %{count}
-        users have joined.
+        "Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sìn-iōng-kip 1, ta̍k kang koh ē siu tāi-ì tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ-tiāu."
     bootstrap_mode_disabled: Bootstrap mode will be disabled within 24 hours.
     themes:
       default_description: Default
@@ -226,10 +223,10 @@ tai_Rom:
       title: Suggested Topics
       pm_title: Suggested Messages
     about:
-      simple_title: About
-      title: 'About %{title}'
+      simple_title: Koan-î
+      title: 'Koan-î %{title}'
       stats: Site Statistics
-      our_admins: Our Admins
+      our_admins: Goán ê koán-lí-oân
       our_moderators: Our Moderators
       moderators: Moderators
       stat:
@@ -240,7 +237,7 @@ tai_Rom:
       topic_count: Ōe-tê
       post_count: Pho͘-bûn
       user_count: Sú-iōng-chiá
-      active_user_count: Active Users
+      active_user_count: Sòaⁿ-téng iōng-chiá
       contact: Liân-lo̍k
       contact_info: >-
         In the event of a critical issue or urgent matter affecting this site,
@@ -418,13 +415,13 @@ tai_Rom:
       title: Review
       topic: 'Topic:'
       filtered_topic: You have filtered to reviewable content in a single topic.
-      filtered_user: User
+      filtered_user: Sú-iōng-chiá
       filtered_reviewed_by: Reviewed By
       show_all_topics: show all topics
       deleted_post: (post deleted)
       deleted_user: (user deleted)
       user:
-        bio: Bio
+        bio: Koan-î góa
         website: Bāng-chām
         username: Iōng-chiá miâ
         email: Tiān-phoe
@@ -556,7 +553,7 @@ tai_Rom:
       sent_by_user: 'Sent by <a href=''%{userUrl}''>%{user}</a>'
       sent_by_you: 'Sent by <a href=''%{userUrl}''>you</a>'
     directory:
-      username: Username
+      username: Iōng-chiá miâ
       filter_name: filter by username
       title: Sú-iōng-chiá
       likes_given: Given
@@ -747,9 +744,8 @@ tai_Rom:
         is_group_user: Member
         is_group_owner: Owner
       title:
-        one: Group
-        other: Groups
-      activity: Activity
+        other: Kûn-cho͘
+      activity: Só͘ chò ·ê
       members:
         title: Members
         filter_placeholder_admin: username or email
@@ -915,8 +911,8 @@ tai_Rom:
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
-      activity_stream: Activity
-      preferences: Preferences
+      activity_stream: Só͘ chò ·ê
+      preferences: Siat-tēng
       feature_topic_on_profile:
         open_search: Select a New Topic
         title: Select a Topic
@@ -959,7 +955,7 @@ tai_Rom:
         skip_link: Skip these tips
       theme_default_on_all_devices: Make this the default theme on all my devices
       color_scheme_default_on_all_devices: Set default color scheme(s) on all my devices
-      color_scheme: Sek-tī
+      color_scheme: Sek-chúi
       color_schemes:
         default_description: Default
         disable_dark_scheme: Same as regular
@@ -1068,7 +1064,7 @@ tai_Rom:
       api_last_used_at: 'Last used at:'
       theme: Theme
       save_to_change_theme: 'Theme will be updated after you click "%{save_text}"'
-      home: Default Home Page
+      home: Góa ê Chú-ia̍h
       staged: Staged
       staff_counters:
         flags_given: helpful flags
@@ -1242,7 +1238,7 @@ tai_Rom:
         upload_title: Upload your picture
         image_is_not_a_square: 'Warning: we''ve cropped your image; width and height were not equal.'
       change_profile_background:
-        title: Profile Header
+        title: Kháu-chō Pōe-kéng Tô͘
         instructions: Profile headers will be centered and have a default width of 1110px.
       change_card_background:
         title: User Card Background
@@ -1251,21 +1247,21 @@ tai_Rom:
         title: Featured Topic
         instructions: 'A link to this topic will be on your user card, and profile.'
       email:
-        title: Email
-        primary: Primary Email
-        secondary: Secondary Emails
+        title: Tiān-phoe
+        primary: Chú Tiān-phoe
+        secondary: Chhù Tiān-phoe
         primary_label: primary
-        unconfirmed_label: unconfirmed
-        resend_label: resend confirmation email
-        resending_label: sending...
-        resent_label: email sent
+        unconfirmed_label: bī jīn-chèng
+        resend_label: jīn-chèng tiān-phoe koh kià chi̍t pái
+        resending_label: tng teh kià...
+        resent_label: tiān-phoe kià ·a
         update_email: Change Email
         set_primary: Set Primary Email
         destroy: Remove Email
         add_email: Add Alternate Email
         sso_override_instructions: Email can be updated from SSO provider.
         no_secondary: No secondary emails
-        instructions: Never shown to the public.
+        instructions: Bē kong-khai hián-sī, goán ē pó-bi̍t.
         admin_note: >-
           Note: An admin user changing another non-admin user's email indicates
           the user has lost access to their original email account, so a reset
@@ -1296,46 +1292,46 @@ tai_Rom:
             authentication.
           generic: 'Your %{provider} account will be used for authentication.'
       name:
-        title: Name
-        instructions: your full name (optional)
-        instructions_required: Your full name
-        required: Please enter a name
-        too_short: Your name is too short
-        ok: Your name looks good
+        title: Miâ
+        instructions: lí ê sèⁿ-miâ (chāi lí siá)
+        instructions_required: Lí ê sèⁿ-miā
+        required: Chhiáⁿ su-ji̍p sèⁿ-miā
+        too_short: Sèⁿ-miâ siuⁿ té
+        ok: Sèⁿ-miâ OK
       username:
-        title: Username
-        instructions: 'unique, no spaces, short'
-        short_instructions: 'People can mention you as @%{username}'
-        available: Your username is available
-        not_available: 'Not available. Try %{suggestion}?'
-        not_available_no_suggestion: Not available
-        too_short: Your username is too short
-        too_long: Your username is too long
-        checking: Checking username availability...
+        title: "Iōng-chiá miâ"
+        instructions: "ûi-it ·ê, mài làng keh, khah té"
+        short_instructions: "Pa̍t lâng ē tàng phah @%{username} kā lí tiám miâ"
+        available: Lí kéng ê iōng-chiá miâ ē ēng tit
+        not_available: 'Bē ēng tit. Kám ài ēng %{suggestion}?'
+        not_available_no_suggestion: Bē ēng tit
+        too_short: Iōng-chiá miâ siuⁿ té
+        too_long: Iōng-chiá miâ siuⁿ tn̂g
+        checking: Tng teh khak-jīn iōng-chiá miâ kám ē ēng tit...
         prefilled: Email matches this registered username
-        required: Please enter a username
+        required: Chhiáⁿ phah chi̍t ê iōng-chiá miâ
       locale:
-        title: Interface language
-        instructions: User interface language. It will change when you refresh the page.
+        title: Kài-bīn gí-giân
+        instructions: Sú-iōng-chiá kài-bīn gí-giân. Ài kā bāng-ia̍h keng-sin chiah khòaⁿ ē tio̍h.
         default: (default)
         any: any
       password_confirmation:
         title: Password Again
       invite_code:
-        title: Invite Code
+        title: Chhiáⁿ Thiap Bé
         instructions: Account registration requires an invite code
       auth_tokens:
-        title: Recently Used Devices
-        details: Details
-        log_out_all: Log out all
-        not_you: Not you?
+        title: Chòe-kīn Sú-iōng Siat-pī
+        details: Siông-sè
+        log_out_all: Choân-pō͘ chhut chām
+        not_you: M̄ sī lí?
         show_all: 'Show all (%{count})'
         show_few: Show fewer
         was_this_you: Was this you?
         was_this_you_description: >-
           If it wasn’t you, we recommend you change your password and log out
           everywhere.
-        browser_and_device: '%{browser} on %{device}'
+        browser_and_device: '%{browser} tī %{device}'
         secure_account: Secure my Account
         latest_post: You last posted…
         device_location: >-
@@ -1347,19 +1343,19 @@ tai_Rom:
       last_emailed: Last Emailed
       last_seen: Seen
       created: Joined
-      log_out: Log Out
-      location: Location
-      website: Web Site
-      email_settings: Email
+      log_out: Chhut Chām
+      location: Ūi-tì
+      website: Bāng-chām
+      email_settings: Tiān-phoe
       hide_profile_and_presence: Hide my public profile and presence features
       enable_physical_keyboard: Enable physical keyboard support on iPad
       text_size:
-        title: Text Size
-        smallest: Smallest
-        smaller: Smaller
-        normal: Normal
-        larger: Larger
-        largest: Largest
+        title: Jī ê chhùn-chhioh
+        smallest: Siōng sè
+        smaller: Khah sè
+        normal: Phó͘-thong
+        larger: Khah tōa
+        largest: Siōng tōa
       title_count_mode:
         title: 'Background page title displays count of:'
         notifications: New notifications
@@ -1419,7 +1415,7 @@ tai_Rom:
       notification_level_when_replying: 'Góa nā hôe èng, kā hit ê ōe-tê sǹg chò'
       invited:
         search: type to search invites...
-        title: Invites
+        title: Chhiáⁿ thiap
         user: Invited User
         sent: Last Sent
         none: No invites to display.
@@ -1539,7 +1535,7 @@ tai_Rom:
       registration_ip_address:
         title: Registration IP Address
       avatar:
-        title: Profile Picture
+        title: Kháu-chō Ang-á
         header_title: 'profile, messages, bookmarks and preferences'
       title:
         title: Title
@@ -1852,15 +1848,15 @@ tai_Rom:
         totp: Use an authenticator app instead
         backup_code: Use a backup code instead
     invites:
-      accept_title: Invitation
+      accept_title: Chhiáⁿ thiap
       emoji: envelope emoji
-      welcome_to: 'Welcome to %{site_name}!'
-      invited_by: 'You were invited by:'
+      welcome_to: '%{site_name} Chhiáⁿ lí lâi chē!'
+      invited_by: 'Iau-chhiáⁿ lí ê lâng:'
       social_login_available: You'll also be able to sign in with any social login using that email.
-      your_email: 'Your account email address is <b>%{email}</b>.'
-      accept_invite: Accept Invitation
-      success: Your account has been created and you're now logged in.
-      name_label: Name
+      your_email: 'Lí ê kháu-chō tiān-phoe sī <b>%{email}</b>.'
+      accept_invite: Chiap-siū chhiáⁿ thiap
+      success: Lí ê kháu-chō kiàn-li̍p hó, í-keng ji̍p chām ·a.
+      name_label: Miâ
       password_label: Password
       optional_description: (optional)
     password_reset:
@@ -2011,7 +2007,7 @@ tai_Rom:
       reply_here: Reply Here
       reply: Reply
       cancel: Cancel
-      create_topic: Create Topic
+      create_topic: Pho͘
       create_pm: Message
       create_whisper: Whisper
       create_shared_draft: Create Shared Draft
@@ -5292,7 +5288,7 @@ tai_Rom:
           add_item: Add item...
       badges:
         title: Chióng-pâi
-        new_badge: New Badge
+        new_badge: Sin ê Chióng-pâi
         new: New
         name: Name
         badge: Badge

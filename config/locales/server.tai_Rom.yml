@@ -309,20 +309,17 @@ tai_Rom:
     no_hosts: "No hosts were set up for embedding."
     configure: "Configure Embedding"
     more_replies:
-      one: "%{count} more reply"
-      other: "%{count} more replies"
+      other: "Koh ū %{count} thong hôe-èng"
 
     loading: "Loading Discussion..."
     permalink: "Permalink"
     imported_from: "This is a companion discussion topic for the original entry at %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one: "%{count} reply"
-      other: "%{count} replies"
+      other: "%{count} thong hôe-èng"
     likes:
-      one: "%{count} like"
-      other: "%{count} likes"
-    last_reply: "Last reply"
+      other: "%{count} lâng kah-ì"
+    last_reply: "Siōng bóe hôe-èng"
     created: "Created"
     new_topic: "Create new topic"
 
@@ -4352,8 +4349,8 @@ tai_Rom:
       errors:
         invalid_csv: We encountered an error on line %{line_number}. Please confirm the CSV has one email per line.
     editor:
-      name: Editor
-      description: First post edit
+      name: Phian-chiá
+      description: Thâu pái phian-chhip lí ê pho͘ bûn
       long_description: |
         This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
     wiki_editor:
@@ -4382,17 +4379,17 @@ tai_Rom:
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
-      name: Welcome
-      description: Received a like
+      name: Hoan-gêng
+      description: Ū lâng kah-ì lí ê pho͘ bûn
       long_description: |
         This badge is granted when you receive your first like on a post. Congratulations, you’ve posted something that your fellow community members found interesting, cool, or useful!
     autobiographer:
-      name: Autobiographer
-      description: Filled out <a href="%{base_uri}/my/preferences/profile">profile</a> information
+      name: Chū-ngó͘ Siāu-kài
+      description: <a href="%{base_uri}/my/preferences/profile">Kháu-chō</a> chu-liāu oân-sêng ·a
       long_description: |
         This badge is granted for filling out <a href="%{base_uri}/my/preferences/profile">your user profile</a> and selecting a profile picture. Letting the community know a bit more about who you are and what you’re interested in makes for a better, more connected community. Join us!
     anniversary:
-      name: Anniversary
+      name: Tō͘-chè
       description: Active member for a year, posted at least once
       long_description: |
         This badge is granted when you’ve been a member for a year with at least one post in that year. Thank you for sticking around and contributing to our community. We couldn’t do it without you.
