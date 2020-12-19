@@ -944,10 +944,10 @@ tai_Rom:
         perm_denied_expl: >-
           You denied permission for notifications. Allow notifications via your
           browser settings.
-        disable: Disable Notifications
-        enable: Enable Notifications
+        disable: Bô Ún-chún Thong-ti
+        enable: Ún-chún Thong-ti
         each_browser_note: 'Note: You have to change this setting on every browser you use.'
-        consent_prompt: Do you want live notifications when people reply to your posts?
+        consent_prompt: Lí ê pho͘-bûn nā ū sin ê hôe-èng, lí kám ài niá thong-ti?
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
       dismiss_notifications_tooltip: Mark all unread notifications as read
