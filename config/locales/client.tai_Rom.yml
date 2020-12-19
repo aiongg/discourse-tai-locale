@@ -3570,7 +3570,7 @@ tai_Rom:
       shortcut_delimiter_or: '%{shortcut1} or %{shortcut2}'
       shortcut_delimiter_slash: '%{shortcut1}/%{shortcut2}'
       shortcut_delimiter_space: '%{shortcut1} %{shortcut2}'
-      title: Keyboard Shortcuts
+      title: Khí-pôaⁿ Khòng-chè
       jump_to:
         title: Jump To
         home: '%{shortcut} Chú-ia̍h'
@@ -3994,7 +3994,7 @@ tai_Rom:
         name_placeholder: 'Group name, no spaces, same as username rule'
         primary: Primary Group
         no_primary: (no primary group)
-        title: Groups
+        title: Kûn-cho͘
         edit: Edit Groups
         refresh: Refresh
         about: Edit your group membership and names here

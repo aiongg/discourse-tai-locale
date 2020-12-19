@@ -612,7 +612,7 @@ tai_Rom:
             word:
               too_many: "Too many words for that action"
 
-  uncategorized_category_name: "Uncategorized"
+  uncategorized_category_name: "Iáu bōe hun-lūi"
 
   vip_category_name: "Lounge"
   vip_category_description: "A category exclusive to members with trust level 3 and higher."
