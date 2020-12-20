@@ -24,18 +24,18 @@ tai_Rom:
     month_names:
       [
         ~,
-        January,
-        February,
-        March,
-        April,
-        May,
-        June,
-        July,
-        August,
-        September,
-        October,
-        November,
-        December,
+        Chiàⁿ Goe̍h,
+        Jī Goe̍h,
+        Saⁿ Goe̍h,
+        Sì Goe̍h,
+        Gō͘ Goe̍h,
+        La̍k Goe̍h,
+        Chhit Goe̍h,
+        Peh Goe̍h,
+        Káu Goe̍h,
+        Cha̍p Goe̍h,
+        Cha̍p-it Goe̍h,
+        Cha̍p-jī Goe̍h,
       ]
     <<: *datetime_formats
   time:
@@ -44,8 +44,8 @@ tai_Rom:
     pm: "pm"
 
   title: "Discourse"
-  topics: "Topics"
-  posts: "posts"
+  topics: "Ōe-tê"
+  posts: "pho͘ bûn"
   views: "views"
   loading: "Loading"
   powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
@@ -54,7 +54,7 @@ tai_Rom:
   submit: "Submit"
   purge_reason: "Automatically deleted as abandoned, deactivated account"
   disable_remote_images_download_reason: "Remote images download was disabled because there wasn't enough disk space available."
-  anonymous: "Anonymous"
+  anonymous: "Bô miâ"
   remove_posts_deleted_by_author: "Deleted by author"
   redirect_warning: "We were unable to verify that the link you selected was actually posted to the forum. If you wish to proceed anyway, select the link below."
   on_another_topic: "On another topic"
@@ -289,7 +289,7 @@ tai_Rom:
   delete_topic_failed: "There was an error deleting that topic. Please contact the site's administrator."
 
   reading_time: "Reading time"
-  likes: "Likes"
+  likes: "Kah-ì"
 
   too_many_replies:
     one: "We're sorry, but new users are temporarily limited to %{count} reply in the same topic."
@@ -309,17 +309,17 @@ tai_Rom:
     no_hosts: "No hosts were set up for embedding."
     configure: "Configure Embedding"
     more_replies:
-      other: "Koh ū %{count} thong hôe-èng"
+      other: "Koh ū %{count} thong tap-ho̍k"
 
     loading: "Loading Discussion..."
     permalink: "Permalink"
     imported_from: "This is a companion discussion topic for the original entry at %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      other: "%{count} thong hôe-èng"
+      other: "%{count} thong tap-ho̍k"
     likes:
       other: "%{count} lâng kah-ì"
-    last_reply: "Siōng bóe hôe-èng"
+    last_reply: "Siōng bóe ê tap-ho̍k"
     created: "Created"
     new_topic: "Create new topic"
 
@@ -362,10 +362,10 @@ tai_Rom:
   just_posted_that: "is too similar to what you recently posted"
   invalid_characters: "contains invalid characters"
   is_invalid: "seems unclear, is it a complete sentence?"
-  next_page: "next page →"
-  prev_page: "← previous page"
+  next_page: "āu ia̍h →"
+  prev_page: "← téng ia̍h"
   page_num: "Page %{num}"
-  home_title: "Home"
+  home_title: "Chú-ia̍h"
   topics_in_category: "Topics in the '%{category}' category"
   rss_posts_in_topic: "RSS feed of '%{topic}'"
   rss_topics_in_category: "RSS feed of topics in the '%{category}' category"
@@ -612,7 +612,7 @@ tai_Rom:
             word:
               too_many: "Too many words for that action"
 
-  uncategorized_category_name: "Iáu bōe hun-lūi"
+  uncategorized_category_name: "Á bē hun tiâⁿ"
 
   vip_category_name: "Lounge"
   vip_category_description: "A category exclusive to members with trust level 3 and higher."

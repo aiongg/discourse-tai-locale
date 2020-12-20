@@ -61,9 +61,9 @@ tai_Rom:
         date_year: YY年MMM
       medium:
         x_minutes:
-          other: '%{count} hun ch.'
+          other: '%{count} hun'
         x_hours:
-          other: '%{count} tiám ch.'
+          other: '%{count} tiám'
         x_days:
           other: '%{count} kang'
         date_year: YYYY年MMMD号
@@ -141,7 +141,7 @@ tai_Rom:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        "Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sìn-iōng-kip 1, ta̍k kang koh ē siu tāi-ì tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ-tiāu."
+        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sìn-iōng-kip 1, ta̍k kang koh ē siu tāi-ì tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ-tiāu.
     bootstrap_mode_disabled: Bootstrap mode will be disabled within 24 hours.
     themes:
       default_description: Default
@@ -178,26 +178,26 @@ tai_Rom:
     submit: Submit
     generic_error: 'Pháiⁿ-sè, hoat-seng chhò-gō͘.'
     generic_error_with_reason: 'Hoat-seng chhò-gō͘: %{error}'
-    go_ahead: Go ahead
+    go_ahead: Kè-sio̍k
     sign_up: Teng kì
     log_in: Ji̍p chām
     age: Nî-hòe
     joined: Joined
     admin_title: Koán-lí
-    show_more: show more
+    show_more: khòaⁿ khah chē
     show_help: options
-    links: Links
+    links: Liân-á
     links_lowercase:
-      other: links
+      other: liân-á
     faq: Būn-tap
-    guidelines: Guidelines
+    guidelines: Sú-iōng Kiàn-gī
     privacy_policy: Privacy Policy
     privacy: Privacy
-    tos: Terms of Service
-    rules: Rules
+    tos: Ho̍k-bū Khè-iok
+    rules: Kui-kí
     conduct: Code of Conduct
-    mobile_view: Mobile View
-    desktop_view: Desktop View
+    mobile_view: Chhiú-ki-á Ōe-bīn
+    desktop_view: Tiān-náu Ōe-bīn
     you: Lí
     or: iā
     now: tú-á
@@ -225,7 +225,7 @@ tai_Rom:
     about:
       simple_title: Koan-î
       title: 'Koan-î %{title}'
-      stats: Site Statistics
+      stats: Bāng-chām thóng-kè
       our_admins: Goán ê koán-lí-oân
       our_moderators: Our Moderators
       moderators: Moderators
@@ -246,7 +246,7 @@ tai_Rom:
       title: Kì-hō
       clear_bookmarks: Clear Bookmarks
       help:
-        bookmark: Click to bookmark the first post on this topic
+        bookmark: Ji̍h ·loeh kā chit ê ōe-tê thâu chi̍t phiⁿ chò kì-hō
         unbookmark: Click to remove all bookmarks in this topic
         unbookmark_with_reminder: >-
           Click to remove all bookmarks and reminders in this topic. You have a
@@ -357,7 +357,7 @@ tai_Rom:
         search: Search for a Message
         placeholder: 'type the message title, url or id here'
     review:
-      order_by: Order by
+      order_by: "Chiàu sūn-sī:"
       in_reply_to: in reply to
       explain:
         why: explain why this item ended up in the queue
@@ -450,7 +450,7 @@ tai_Rom:
         unique_users:
           other: '%{count} ê sú-iōng-chiá'
       replies:
-        other: '%{count} hôe èng'
+        other: '%{count} thong tap-ho̍k'
       edit: Edit
       save: Save
       cancel: Cancel
@@ -463,7 +463,7 @@ tai_Rom:
         minimum_score: 'Minimum Score:'
         refresh: Refresh
         status: Status
-        category: Khăn-páng
+        category: Tiâⁿ
         orders:
           score: Score
           score_asc: Score (reverse)
@@ -632,7 +632,7 @@ tai_Rom:
           title: Membership
           access: Access
         categories:
-          title: Khăn-páng
+          title: Tiâⁿ
           long_title: Category default notifications
           description: >-
             When users are added to this group, their category notification
@@ -718,7 +718,7 @@ tai_Rom:
         title: 'Request to join @%{group_name}'
         reason: Let the group owners know why you belong in this group
       membership: Membership
-      name: Name
+      name: Miâ
       group_name: Kûn-cho͘ miâ
       user_count: Sú-iōng-chiá
       bio: Koan-î chit kûn
@@ -759,9 +759,9 @@ tai_Rom:
         owner: Owner
         forbidden: You're not allowed to view the members.
       topics: Ōe-tê
-      posts: Posts
-      mentions: Mentions
-      messages: Messages
+      posts: Pho͘ bûn
+      mentions: Tiám miâ
+      messages: Sìn-sit
       notification_level: Default notification level for group messages
       alias_levels:
         mentionable: Who can @mention this group?
@@ -822,34 +822,31 @@ tai_Rom:
       '14': Pending
       '15': Chháu-kó
     categories:
-      all: só͘ ū ê khăn-páng
+      all: só͘ ū ê tiâⁿ
       all_subcategories: all
       no_subcategory: none
-      category: Khăn-páng
-      category_list: Hián-sī khăn-páng pió
+      category: Tiâⁿ
+      category_list: Tiâⁿ pió
       reorder:
         title: Reorder Categories
         title_long: Reorganize the category list
         save: Save Order
         apply_all: Apply
         position: Position
-      posts: Posts
-      topics: Topics
+      posts: Pho͘ bûn
+      topics: Ōe-tê
       latest: Sin thiⁿ ·ê
       latest_by: latest by
       toggle_ordering: toggle ordering control
       subcategories: Subcategories
       muted: Muted categories
       topic_sentence:
-        one: '%{count} topic'
-        other: '%{count} topics'
+        other: '%{count} tiâu ōe-tê'
       topic_stat_sentence_week:
-        one: '%{count} new topic in the past week.'
-        other: '%{count} new topics in the past week.'
+        other: 'kòe khì 1 lé-pài ū %{count} tiâu sin ê ōe-tê.'
       topic_stat_sentence_month:
-        one: '%{count} new topic in the past month.'
-        other: '%{count} new topics in the past month.'
-      n_more: 'Categories (%{count} more)...'
+        other: 'kòe khì 1 kò goe̍h ū %{count} tiâu sin ê ōe-tê.'
+      n_more: 'Tiâⁿ (koh %{count} phiàn)...'
     ip_lookup:
       title: Chhōe IP Bāng-chí
       hostname: Hostname
@@ -876,7 +873,7 @@ tai_Rom:
       mute: Chēng Im
       edit: Edit Preferences
       download_archive:
-        button_text: Download All
+        button_text: Lia̍h Choân-pō͘
         confirm: Are you sure you want to download your posts?
         success: >-
           Download initiated, you will be notified via message when the process
@@ -917,7 +914,7 @@ tai_Rom:
         open_search: Select a New Topic
         title: Select a Topic
         search_label: Search for Topic by title
-        save: Save
+        save: Khiām
         clear:
           title: Clear
           warning: Are you sure you want to clear your featured topic?
@@ -928,8 +925,8 @@ tai_Rom:
       bookmarks: Kì-hō
       bio: Koan-î góa
       timezone: Sî-khu
-      invited_by: Invited By
-      trust_level: Sìn-iōng Kip
+      invited_by: Iau-chhiáⁿ lâng
+      trust_level: Sìn-iōng-kip
       notifications: Thong-ti
       statistics: Thóng-kè
       desktop_notifications:
@@ -943,7 +940,7 @@ tai_Rom:
         disable: Bô Ún-chún Thong-ti
         enable: Ún-chún Thong-ti
         each_browser_note: 'Note: You have to change this setting on every browser you use.'
-        consent_prompt: Lí ê pho͘-bûn nā ū sin ê hôe-èng, lí kám ài niá thong-ti?
+        consent_prompt: Lí ê pho͘-bûn nā ū sin ê tap-ho̍k, lí kám ài niá thong-ti?
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
       dismiss_notifications_tooltip: Mark all unread notifications as read
@@ -969,16 +966,16 @@ tai_Rom:
       dark_mode: Àm-sek
       dark_mode_enable: Enable automatic dark mode color scheme
       text_size_default_on_all_devices: Make this the default text size on all my devices
-      allow_private_messages: Allow other users to send me personal messages
-      external_links_in_new_tab: Open all external links in a new tab
+      allow_private_messages: Ún-chún pa̍t ê sú-iōng-chiá kià su-sìn hō͘ ·góa
+      external_links_in_new_tab: Gōa-bāng liân-á khui tī sin hun-ia̍h
       enable_quoting: Enable quote reply for highlighted text
       enable_defer: Enable defer to mark topics unread
       change: change
       featured_topic: Featured Topic
-      moderator: '%{user} is a moderator'
-      admin: '%{user} is an admin'
-      moderator_tooltip: This user is a moderator
-      admin_tooltip: This user is an admin
+      moderator: '%{user} sī tiâⁿ-tiúⁿ'
+      admin: '%{user} sī koán-lí-oân'
+      moderator_tooltip: Sú-iōng-chiá sī tiâⁿ-tiúⁿ
+      admin_tooltip: Sú-iōng-chiá sī koán-lí-oân
       silenced_tooltip: This user is silenced
       suspended_notice: 'This user is suspended until %{date}.'
       suspended_permanently: This user is suspended.
@@ -999,47 +996,46 @@ tai_Rom:
         few_per_day: Send me an email for every new post (about 2 per day)
         warning: Mailing list mode enabled. Email notification settings are overridden.
       tag_settings: Phiau-á
-      watched_tags: Watched
+      watched_tags: Teh Khòaⁿ
       watched_tags_instructions: >-
         You will automatically watch all topics with these tags. You will be
         notified of all new posts and topics, and a count of new posts will also
         appear next to the topic.
-      tracked_tags: Tracked
+      tracked_tags: Teh Tòe
       tracked_tags_instructions: >-
         You will automatically track all topics with these tags. A count of new
         posts will appear next to the topic.
-      muted_tags: Muted
+      muted_tags: Chēng-im
       muted_tags_instructions: >-
         You will not be notified of anything about new topics with these tags,
         and they will not appear in latest.
-      watched_categories: Watched
+      watched_categories: Teh Khòaⁿ
       watched_categories_instructions: >-
-        You will automatically watch all topics in these categories. You will be
-        notified of all new posts and topics, and a count of new posts will also
-        appear next to the topic.
-      tracked_categories: Tracked
+        Chia ê tiâⁿ só͘ ū ê ōe-tê sǹg sī lí teh khòaⁿ.
+        Sin ê ōe-tê kap só͘ ū ê pho͘ bûn lí ē siu thong-ti,
+        sin pho͘ sò͘ mā hián-sī tī ōe-tê piⁿ-·a.
+      tracked_categories: Teh Tòe
       tracked_categories_instructions: >-
-        You will automatically track all topics in these categories. A count of
-        new posts will appear next to the topic.
-      watched_first_post_categories: Watching First Post
+        Chia ê tiâⁿ só͘ ū ê ōe-tê sǹg sī lí teh tòe.
+        Sin pho͘ sò͘ ē hián-sī tī ōe-tê piⁿ-·a.
+      watched_first_post_categories: Teh Khòaⁿ Sin Pho͘ ·ê
       watched_first_post_categories_instructions: >-
-        You will be notified of the first post in each new topic in these
-        categories.
-      watched_first_post_tags: Watching First Post
+        Sin pho͘ ê ōe-tê lí ē siu thong-ti.
+      watched_first_post_tags: Teh Khòaⁿ Sin Pho͘ ·ê
       watched_first_post_tags_instructions: >-
         You will be notified of the first post in each new topic with these
         tags.
-      muted_categories: Muted
+      muted_categories: Chēng-im
       muted_categories_instructions: >-
-        You will not be notified of anything about new topics in these
-        categories, and they will not appear on the categories or latest pages.
+        Chia ê tiâⁿ nā ū sin ê ōe-tê, lí bē siu thong-ti,
+        tiâⁿ ia̍h kap sin thiⁿ ia̍h mā khòaⁿ bē tio̍h.
       muted_categories_instructions_dont_hide: >-
         You will not be notified of anything about new topics in these
         categories.
-      regular_categories: Regular
+      regular_categories: It-poaⁿ
       regular_categories_instructions: You will see these categories in the “Latest” and “Top” topic lists.
       no_category_access: 'As a moderator you have limited category access, save is disabled.'
-      delete_account: Delete My Account
+      delete_account: Kā Góa ê Kháu-chō Thâi-tiāu
       delete_account_confirm: >-
         Are you sure you want to permanently delete your account? This action
         cannot be undone!
@@ -1074,7 +1070,7 @@ tai_Rom:
         warnings_received: warnings
         rejected_posts: rejected posts
       messages:
-        all: Só͘-ū
+        all: Só͘ ū ·ê
         inbox: Sìn-siuⁿ
         sent: Sent
         archive: Archive
@@ -1090,11 +1086,11 @@ tai_Rom:
         profile: Kò-jîn
         emails: Tiān-phoe
         notifications: Thong-ti
-        categories: Khăn-páng
+        categories: Tiâⁿ
         users: Sú-iōng-chiá
-        tags: Tags
+        tags: Phiau-á
         interface: Kài-bīn
-        apps: Apps
+        apps: APP
       change_password:
         success: (email sent)
         in_progress: (sending email)
@@ -1225,7 +1221,7 @@ tai_Rom:
           We've sent an email to your current address. Please follow the
           confirmation instructions.
       change_avatar:
-        title: Change your profile picture
+        title: Ōaⁿ lí ê kháu-chō ang-á
         gravatar: >-
           <a href='//%{gravatarBaseUrl}%{gravatarLoginUrl}'
           target='_blank'>%{gravatarName}</a>, based on
@@ -1250,14 +1246,14 @@ tai_Rom:
         title: Tiān-phoe
         primary: Chú Tiān-phoe
         secondary: Chhù Tiān-phoe
-        primary_label: primary
+        primary_label: chú
         unconfirmed_label: bī jīn-chèng
         resend_label: jīn-chèng tiān-phoe koh kià chi̍t pái
         resending_label: tng teh kià...
         resent_label: tiān-phoe kià ·a
         update_email: Change Email
-        set_primary: Set Primary Email
-        destroy: Remove Email
+        set_primary: Kéng Chú Tiān-phoe
+        destroy: Thâi Tiān-phoe
         add_email: Add Alternate Email
         sso_override_instructions: Email can be updated from SSO provider.
         no_secondary: No secondary emails
@@ -1377,10 +1373,10 @@ tai_Rom:
           and replies
         every_30_minutes: every 30 minutes
         every_hour: hourly
-        daily: daily
-        weekly: weekly
-        every_month: every month
-        every_six_months: every six months
+        daily: ta̍k kang
+        weekly: ta̍k lé-pài
+        every_month: ta̍k kò goe̍h
+        every_six_months: la̍k kò goe̍h
       email_level:
         title: >-
           Send me an email when someone quotes me, replies to my post, mentions
@@ -1412,7 +1408,7 @@ tai_Rom:
         after_4_minutes: after 4 minutes
         after_5_minutes: after 5 minutes
         after_10_minutes: after 10 minutes
-      notification_level_when_replying: 'Góa nā hôe èng, kā hit ê ōe-tê sǹg chò'
+      notification_level_when_replying: 'Góa nā lâu-ōe, kā hit ê ōe-tê sǹg chò'
       invited:
         search: type to search invites...
         title: Chhiáⁿ thiap
@@ -1649,8 +1645,7 @@ tai_Rom:
     time_read_recently_tooltip: '%{time_read} total time read (%{recent_time_read} in the last 60 days)'
     last_reply_lowercase: last reply
     replies_lowercase:
-      one: reply
-      other: replies
+      other: tap-ho̍k
     signup_cta:
       sign_up: Sign Up
       hide_session: Remind me tomorrow
@@ -1885,7 +1880,7 @@ tai_Rom:
       loading: Loading...
     category_row:
       topic_count:
-        other: 'Chit ê khăn-páng ū %{count} ê ōe-tê'
+        other: 'Chit phiàn tiâⁿ ū %{count} ê ōe-tê'
       plus_subcategories_title:
         one: '%{name} and one subcategory'
         other: '%{name} and %{count} subcategories'
@@ -1944,8 +1939,8 @@ tai_Rom:
       confirm_publish: Are you sure you want to publish this draft?
       publishing: Publishing Topic...
     composer:
-      emoji: 'Emoji :)'
-      more_emoji: more...
+      emoji: 'Ang-á-tô͘ :)'
+      more_emoji: khah chē...
       options: Options
       whisper: whisper
       unlist: unlisted
@@ -1954,7 +1949,7 @@ tai_Rom:
       toggle_unlisted: Toggle Unlisted
       posting_not_on_topic: Which topic do you want to reply to?
       saved_local_draft_tip: saved locally
-      similar_topics: Your topic is similar to...
+      similar_topics: Lí ê ōe-tê kài sêng...
       drafts_offline: drafts offline
       edit_conflict: edit conflict
       group_mentioned_limit:
@@ -1988,13 +1983,13 @@ tai_Rom:
         %{ago}</a> – are you sure you want to post it again?
       reference_topic_title: 'RE: %{title}'
       error:
-        title_missing: Title is required
-        title_too_short: 'Title must be at least %{min} characters'
-        title_too_long: 'Title can''t be more than %{max} characters'
-        post_missing: Post can’t be empty
-        post_length: 'Post must be at least %{min} characters'
+        title_missing: Ài thiⁿ Phiau-tê
+        title_too_short: 'Phiau-tê siōng chió ài siá %{min} jī'
+        title_too_long: 'Phiau-tê bē tàng chhiau-kòe %{max} jī'
+        post_missing: Pho͘ bûn lōe-iông bē tàng khang-khang
+        post_length: 'Pho͘ bûn siōng chió ài siá %{min} jī'
         try_like: 'Have you tried the %{heart} button?'
-        category_missing: You must choose a category
+        category_missing: Ài kéng chi̍t phiàn tiâⁿ
         tags_missing:
           one: 'You must choose at least %{count} tag'
           other: 'You must choose at least %{count} tags'
@@ -2005,7 +2000,7 @@ tai_Rom:
       overwrite_edit: Overwrite Edit
       reply_original: Reply on Original Topic
       reply_here: Reply Here
-      reply: Reply
+      reply: Tap-ho̍k
       cancel: Cancel
       create_topic: Pho͘
       create_pm: Message
@@ -2025,20 +2020,20 @@ tai_Rom:
       reply_placeholder_no_images: 'Type here. Use Markdown, BBCode, or HTML to format.'
       reply_placeholder_choose_category: Select a category before typing here.
       view_new_post: View your new post.
-      saving: Saving
-      saved: Saved!
-      saved_draft: Post draft in progress. Tap to resume.
-      uploading: Uploading...
+      saving: Tng teh khiām
+      saved: Khiām ·a!
+      saved_draft: Tng teh siá chhau-kó. Ji̍h ·loeh kè-sio̍k.
+      uploading: Tng teh khǹg...
       show_preview: show preview &raquo;
       hide_preview: '&laquo; hide preview'
       quote_post_title: Quote whole post
       bold_label: B
-      bold_title: Strong
-      bold_text: strong text
+      bold_title: Chho͘-thé
+      bold_text: chhou-thé jī
       italic_label: I
-      italic_title: Emphasis
-      italic_text: emphasized text
-      link_title: Hyperlink
+      italic_title: Chhoa̍h-thé
+      italic_text: chhoa̍h-thé jī
+      link_title: Bāng-liân-á
       link_description: enter link description here
       link_dialog_title: Insert Hyperlink
       link_optional_text: optional title
@@ -2074,9 +2069,9 @@ tai_Rom:
           discussion you may only post once every %{duration}.
       admin_options_title: Optional staff settings for this topic
       composer_actions:
-        reply: Reply
-        draft: Draft
-        edit: Edit
+        reply: Tap-ho̍k
+        draft: Chhau-kó
+        edit: Phian-chhip
         reply_to_post:
           label: 'Reply to a post by %{postUsername}'
           desc: Reply to a specific post
@@ -2180,7 +2175,7 @@ tai_Rom:
         confirm_body: Success! Notifications have been enabled.
         custom: 'Notification from %{username} on %{site_title}'
       titles:
-        mentioned: mentioned
+        mentioned: tiám miâ ·ê
         replied: new reply
         quoted: quoted
         edited: edited
@@ -2205,52 +2200,52 @@ tai_Rom:
         reaction: new reaction
         votes_released: Vote was released
     upload_selector:
-      title: Add an image
-      title_with_attachments: Add an image or a file
-      from_my_computer: From my device
-      from_the_web: From the web
-      remote_tip: link to image
+      title: Khǹg chi̍t pak tô͘
+      title_with_attachments: Khǹg chi̍t pak tô͘ iā sī chi̍t ê tóng-àn
+      from_my_computer: Ùi góa ê siat-pī
+      from_the_web: Ùi bāng-lō͘ téng-koân
+      remote_tip: tô͘ ê bāng-liân-á
       remote_tip_with_attachments: 'link to image or file %{authorized_extensions}'
       local_tip: select images from your device
       local_tip_with_attachments: 'select images or files from your device %{authorized_extensions}'
       hint: (you can also drag & drop into the editor to upload them)
       hint_for_supported_browsers: you can also drag and drop or paste images into the editor
-      uploading: Uploading
+      uploading: Tng teh khǹg...
       select_file: Select File
       default_image_alt_text: image
     search:
-      sort_by: 順序
+      sort_by: Chiàu sūn-sī
       relevance: Relevance
-      latest_post: 上新留話
-      latest_topic: 上新話題
+      latest_post: Sin pho͘ ·ê
+      latest_topic: Sin thiⁿ ·ê
       most_viewed: Most Viewed
       most_liked: Most Liked
       select_all: Select All
       clear_all: Clear All
-      too_short: Your search term is too short.
+      too_short: Lí beh chhōe ê gí-sû siuⁿ té.
       result_count:
         one: '<span>%{count} result for</span><span class=''term''>%{term}</span>'
         other: >-
           <span>%{count}%{plus} results for</span><span
           class='term'>%{term}</span>
-      title: 'cháu chhōe káng-tê, pho͘ bûn, iōng-chiá, ā khăn-páng'
-      full_page_title: cháu chhōe káng-tê ā pho͘ bûn
-      no_results: No results found.
+      title: 'chhōe ōe-tê, pho͘ bûn, sú-iōng-chiá, iā sī tiâⁿ'
+      full_page_title: chhōe ōe-tê iā sī pho͘ bûn
+      no_results: Chhōe bô.
       no_more_results: No more results found.
       post_format: '#%{post_number} by %{username}'
       results_page: 'Search results for ''%{term}'''
       more_results: There are more results. Please narrow your search criteria.
       cant_find: Can’t find what you’re looking for?
       start_new_topic: Perhaps start a new topic?
-      or_search_google: 'Or try searching with Google instead:'
-      search_google: 'Try searching with Google instead:'
+      or_search_google: 'Bô, chhōe Google khòaⁿ māi:'
+      search_google: 'Chhōe Google khòaⁿ māi:'
       search_google_button: Google
       context:
-        user: 'Search posts by @%{username}'
-        category: 'Search the #%{category} category'
-        tag: 'Search the #%{tag} tag'
-        topic: Search this topic
-        private_messages: Search messages
+        user: 'Chhōe @%{username} pho͘ ·ê'
+        category: 'Tī #%{category} tiâⁿ chhōe'
+        tag: 'Chhōe #%{tag} phiau-á'
+        topic: Tī chit ê ōe-tê chhōe
+        private_messages: Chhōe su-sìn
       advanced:
         title: Advanced Search
         posted_by:
@@ -2265,18 +2260,18 @@ tai_Rom:
           label: Tagged
         filters:
           label: Only return topics/posts...
-          title: Matching in title only
-          likes: I liked
+          title: Phiau-tê chhōe ū ·ê
+          likes: Góa kah-ì ·ê
           posted: I posted in
-          created: I created
-          watching: I'm watching
-          tracking: I'm tracking
-          private: In my messages
-          bookmarks: I bookmarked
+          created: Góa khui ·ê
+          watching: Góa teh khòaⁿ ·ê
+          tracking: Góa teh tòe ·ê
+          private: Tī góa ê sìn-siuⁿ
+          bookmarks: Góa kì-hō ·ê
           first: are the very first post
           pinned: are pinned
-          seen: I read
-          unseen: I've not read
+          seen: Góa tha̍k khì ·ê
+          unseen: Góa á bē tha̍k ·ê
           wiki: are wiki
           images: include image(s)
           all_tags: All the above tags
@@ -2348,15 +2343,15 @@ tai_Rom:
           one: 'Progress: <strong>%{count}</strong> topic'
           other: 'Progress: <strong>%{count}</strong> topics'
       none:
-        unread: You have no unread topics.
-        new: You have no new topics.
-        read: You haven't read any topics yet.
-        posted: You haven't posted in any topics yet.
+        unread: Lí bô á bē tha̍k ê ōe-tê.
+        new: Lí bô sin ê ōe-tê.
+        read: Lí á bē tha̍k jīm-hô ōe-tê.
+        posted: Lí á bē tap-ho̍k jīm-hô ōe-tê.
         ready_to_create: 'Ready to '
-        latest: You're all caught up!
-        bookmarks: You have no bookmarked topics yet.
-        category: 'There are no %{category} topics.'
-        top: There are no top topics.
+        latest: Khòaⁿ liáu liáu ·a!
+        bookmarks: Lí á bē kā ōe-tê chò kì-hō.
+        category: '%{category} tiâⁿ bô ōe-tê.'
+        top: Bô teh chhèng ·ê ōe-tê.
         educate:
           new: >-
             <p>Your new topics will appear here. By default, topics are
@@ -2393,16 +2388,16 @@ tai_Rom:
       open_draft: Open Draft
       private_message: Start a message
       archive_message:
-        help: Move message to your archive
-        title: Archive
+        help: Kā chit phiⁿ sìn-sit siu-khǹg
+        title: Siu-khǹg
       move_to_inbox:
-        title: Move to Inbox
-        help: Move message back to Inbox
+        title: Khǹg Sìn-siuⁿ
+        help: Kā chit phiⁿ sìn-sit khǹg tī sìn-siuⁿ
       edit_message:
         help: Edit first post of the message
         title: Edit
       defer:
-        help: Mark as unread
+        help: Kì chò á bē tha̍k
         title: Defer
       feature_on_profile:
         help: Add a link to this topic on your user card and profile
@@ -2413,9 +2408,9 @@ tai_Rom:
           will replace the existing topic.
         help: Remove the link to this topic on your user profile
         title: Remove From Profile
-      list: Topics
+      list: Ōe-tê
       new: new topic
-      unread: unread
+      unread: á bē tha̍k
       new_topics:
         one: '%{count} new topic'
         other: '%{count} new topics'
@@ -2467,13 +2462,13 @@ tai_Rom:
       bumped_at_title_MF: |-
         {FIRST_POST}: {CREATED_AT}
         {LAST_POST}: {BUMPED_AT}
-      browse_all_categories: Browse all categories
-      browse_all_tags: Browse all tags
-      view_latest_topics: view latest topics
-      suggest_create_topic: start a new conversation?
+      browse_all_categories: Oa̍t-lám só͘ ū ê tiâⁿ
+      browse_all_tags: Oa̍t-lám só͘ ū ê phiau-á
+      view_latest_topics: khòaⁿ sin thiⁿ ·ê ōe-tê
+      suggest_create_topic: khui chi̍t tiâu sin ê ōe-tê?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
-      deleted: The topic has been deleted
+      deleted: Ōe-tê thâi-tiāu ·a
       slow_mode_update:
         title: Slow Mode
         select: 'Users may only post in this topic once every:'
@@ -2941,7 +2936,7 @@ tai_Rom:
       reply_as_new_private_message: Reply as new message to the same recipients
       continue_discussion: 'Continuing the discussion from %{postLink}:'
       follow_quote: go to the quoted post
-      show_full: Show Full Post
+      show_full: Hián-sī Kui Phiⁿ
       show_hidden: View ignored content.
       deleted_by_author:
         one: >-
@@ -2958,35 +2953,31 @@ tai_Rom:
         other: 'view %{count} hidden replies'
       notice:
         new_user: >-
-          This is the first time %{user} has posted — let’s welcome them to our
-          community!
+          Che sī %{user} thâu chi̍t pái pho͘ bûn — chhiáⁿ ta̍k-ke
+          phah chi̍t ē chio-ho͘!
         returning_user: >-
-          It’s been a while since we’ve seen %{user} — their last post was
-          %{time}.
-      unread: Post is unread
+          Lán kài kú bô khòaⁿ tio̍h %{user} — i téng pái pho͘ bûn sī %{time}.
+      unread: Pho͘ bûn á bē tha̍k
       has_replies:
-        one: '%{count} Reply'
-        other: '%{count} Replies'
+        other: '%{count} Tap-ho̍k'
       has_replies_count: '%{count}'
       unknown_user: (unknown/deleted user)
       has_likes_title:
-        one: '%{count} person liked this post'
-        other: '%{count} people liked this post'
+        other: '%{count} ê lâng kah-ì chit phiⁿ'
       has_likes_title_only_you: you liked this post
       has_likes_title_you:
-        one: 'you and %{count} other person liked this post'
-        other: 'you and %{count} other people liked this post'
+        other: 'lí kap lēng-gōa %{count} ê lâng kah-ì chit phiⁿ'
       filtered_replies_hint:
         one: View this post and its reply
         other: 'View this post and its %{count} replies'
       errors:
-        create: 'Sorry, there was an error creating your post. Please try again.'
-        edit: 'Sorry, there was an error editing your post. Please try again.'
-        upload: 'Sorry, there was an error uploading that file. Please try again.'
+        create: 'Pháiⁿ sè, pho͘ bûn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
+        edit: 'Pháiⁿ sè, phian-chhip hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
+        upload: 'Pháiⁿ sè, khǹg tóng-àn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
         file_too_large: >-
-          Sorry, that file is too big (maximum size is %{max_size_kb}kb). Why
-          not upload your large file to a cloud sharing service, then paste the
-          link?
+          Pháiⁿ sè, hia ê tóng-àn siuⁿ tìn ūi (siōng tōa: %{max_size_kb}kb).
+          Bô, lí seng kā khǹg tī chi̍t ê hûn-tōaⁿ pêⁿ-tâi,
+          koh kā bāng-liân-á tah tī chia.
         too_many_uploads: 'Sorry, you can only upload one file at a time.'
         too_many_dragged_and_dropped_files:
           one: 'Sorry, you can only upload %{count} file at a time.'
@@ -2998,10 +2989,10 @@ tai_Rom:
         attachment_upload_not_allowed_for_new_user: 'Sorry, new users can not upload attachments.'
         attachment_download_requires_login: 'Sorry, you need to be logged in to download attachments.'
       abandon_edit:
-        confirm: Are you sure you want to discard your changes?
-        no_value: 'No, keep'
-        no_save_draft: 'No, save draft'
-        yes_value: 'Yes, discard edit'
+        confirm: Lí kám khak-tēng beh kā phian-chhip tàn-hìⁿ-sak?
+        no_value: 'Bô, lâu ·le'
+        no_save_draft: 'Bô, khiām chháu-kó'
+        yes_value: 'Hó, hìⁿ-tiāu'
       abandon:
         title: Chháu-kó hìⁿ-tiāu
         confirm: Lí kám khak-tēng beh kā chháu-kó tàn-hìⁿ-sak?
@@ -3162,7 +3153,7 @@ tai_Rom:
     category:
       can: 'can&hellip; '
       none: (no category)
-      all: Só͘-ū ê khăn-páng
+      all: Só͘ ū ê tiâⁿ
       choose: category&hellip;
       edit: Edit
       edit_dialog_title: 'Edit: %{categoryName}'
@@ -3188,14 +3179,14 @@ tai_Rom:
       required_tag_group_label: 'Tag group:'
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
-      create: Sin khăn-páng
-      create_long: Khí chi̍t ê sin khăn-páng
+      create: Sin tiâⁿ
+      create_long: Khí chi̍t phiàn tiâⁿ
       save: Save Category
-      slug: Khăn-páng mn̂g-pâi
+      slug: Tiâⁿ ê mn̂g-pâi
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
-      name: Khăn-páng miâ
+      name: Tiâⁿ miâ
       description: Description
       topic: category topic
       logo: Category Logo Image
@@ -3346,7 +3337,7 @@ tai_Rom:
         none: no subcategories
     flagging:
       title: Thanks for helping to keep our community civil!
-      action: Flag Post
+      action: Kā Pho͘ Bûn Gia̍h Kî-á
       take_action: Take Action...
       take_action_options:
         default:
@@ -3380,9 +3371,9 @@ tai_Rom:
       cant: 'Sorry, you can''t flag this post at this time.'
       notify_staff: Notify staff privately
       formatted_name:
-        off_topic: It's Off-Topic
+        off_topic: Bô Ha̍h Ōe-tê
         inappropriate: It's Inappropriate
-        spam: It's Spam
+        spam: Pùn-sò
       custom_placeholder_notify_user: 'Be specific, be constructive, and always be kind.'
       custom_placeholder_notify_moderators: >-
         Let us know specifically what you are concerned about, and provide
@@ -3399,7 +3390,7 @@ tai_Rom:
           other: '%{count} remaining'
     flagging_topic:
       title: Thanks for helping to keep our community civil!
-      action: Flag Topic
+      action: Gia̍h Kî-á
       notify_action: Message
     topic_map:
       title: Topic Summary
@@ -3412,7 +3403,6 @@ tai_Rom:
     post_links:
       about: expand more links for this post
       title:
-        one: '%{count} more'
         other: '%{count} more'
     topic_statuses:
       warning:
@@ -3447,7 +3437,7 @@ tai_Rom:
       personal_message:
         title: This topic is a personal message
         help: This topic is a personal message
-    posts: Posts
+    posts: Pho͘ Bûn
     posts_likes_MF: >
       This topic has {count, plural, one {1 reply} other {# replies}} {ratio,
       select,
@@ -3464,14 +3454,14 @@ tai_Rom:
     views_long:
       one: 'this topic has been viewed %{count} time'
       other: 'this topic has been viewed %{number} times'
-    activity: Activity
-    likes: Chán
+    activity: Só͘ chò ·ê
+    likes: Kah-ì
     likes_lowercase:
-      other: chán
+      other: kah-ì
     users: Sú-iōng-chiá
     users_lowercase:
       other: sú-iōng-chiá
-    category_title: Category
+    category_title: Tiâⁿ
     history: History
     changed_by: 'by %{author}'
     raw_email:
@@ -3484,25 +3474,22 @@ tai_Rom:
       latest:
         title: Sin thiⁿ ·ê
         title_with_count:
-          one: 'Latest (%{count})'
-          other: 'Latest (%{count})'
-        help: Chòe-kīn ū lâng hôe-èng ê ōe-tê
+          other: 'Sin thiⁿ ·ê (%{count})'
+        help: Chòe-kīn ū sin tap-ho̍k ê ōe-tê
       read:
         title: Read
         help: 'topics you''ve read, in the order that you last read them'
       categories:
-        title: Khăn-páng
-        title_in: 'Category - %{categoryName}'
+        title: Tiâⁿ
+        title_in: 'Tiâⁿ - %{categoryName}'
         help: all topics grouped by category
       unread:
-        title: Unread
+        title: Á bē tha̍k
         title_with_count:
-          one: 'Unread (%{count})'
-          other: 'Unread (%{count})'
+          other: 'Á bē tha̍k (%{count})'
         help: topics you are currently watching or tracking with unread posts
         lower_title_with_count:
-          one: '%{count} unread'
-          other: '%{count} unread'
+          other: '%{count} phiⁿ á bē tha̍k'
       new:
         lower_title_with_count:
           one: '%{count} new'
@@ -3557,7 +3544,7 @@ tai_Rom:
       create_post: Reply / See
       readonly: See
     lightbox:
-      download: download
+      download: lia̍h ·lo̍h ·lâi
       previous: Previous (Left arrow key)
       next: Next (Right arrow key)
       counter: '%curr% of %total%'
@@ -3572,35 +3559,35 @@ tai_Rom:
       shortcut_delimiter_space: '%{shortcut1} %{shortcut2}'
       title: Khí-pôaⁿ Khòng-chè
       jump_to:
-        title: Jump To
+        title: Thiàu kah
         home: '%{shortcut} Chú-ia̍h'
         latest: '%{shortcut} Sin thiⁿ ·ê'
-        new: '%{shortcut} New'
-        unread: '%{shortcut} Unread'
-        categories: '%{shortcut} Categories'
-        top: '%{shortcut} Top'
-        bookmarks: '%{shortcut} Bookmarks'
-        profile: '%{shortcut} Profile'
+        new: '%{shortcut} Sin pho͘ ·ê'
+        unread: '%{shortcut} Á bē tha̍k'
+        categories: '%{shortcut} Tiâⁿ pió'
+        top: '%{shortcut} Chhèng'
+        bookmarks: '%{shortcut} Kì-hō'
+        profile: '%{shortcut} Kháu-chō'
         messages: '%{shortcut} Messages'
         drafts: '%{shortcut} Chháu-kó'
-        next: '%{shortcut} Next Topic'
-        previous: '%{shortcut} Previous Topic'
+        next: '%{shortcut} Āu chi̍t tiâu ōe-tê'
+        previous: '%{shortcut} Téng chi̍t tiâu ōe-tê'
       navigation:
         title: Navigation
-        jump: '%{shortcut} Go to post #'
+        jump: '%{shortcut} Khì pho͘ #'
         back: '%{shortcut} Back'
         up_down: '%{shortcut} Move selection &uarr; &darr;'
         open: '%{shortcut} Open selected topic'
         next_prev: '%{shortcut} Next/previous section'
-        go_to_unread_post: '%{shortcut} Go to the first unread post'
+        go_to_unread_post: '%{shortcut} Khì thâu phiⁿ á bē khòaⁿ ê pho͘ bûn'
       application:
         title: Application
-        create: '%{shortcut} Create a new topic'
-        notifications: '%{shortcut} Open notifications'
+        create: '%{shortcut} Pho͘ sin ê ōe-tê'
+        notifications: '%{shortcut} Thong-ti phah khui'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
         show_incoming_updated_topics: '%{shortcut} Show updated topics'
-        search: '%{shortcut} Search'
+        search: '%{shortcut} Chhōe'
         help: '%{shortcut} Open keyboard help'
         dismiss_new_posts: '%{shortcut} Dismiss New/Posts'
         dismiss_topics: '%{shortcut} Dismiss Topics'
@@ -3679,12 +3666,12 @@ tai_Rom:
         posting:
           name: Posting
     tagging:
-      all_tags: All Tags
+      all_tags: Só͘ ū ê phiau-á
       other_tags: Other Tags
       selector_all_tags: all tags
       selector_no_tags: no tags
       changed: 'tags changed:'
-      tags: Tags
+      tags: Phiau-á
       choose_for_topic: optional tags
       info: Info
       default_info: 'This tag isn''t restricted to any categories, and has no synonyms.'
@@ -3766,7 +3753,7 @@ tai_Rom:
             notified of all new posts and topics, plus the count of unread and
             new posts will also appear next to the topic.
         watching_first_post:
-          title: Watching First Post
+          title: Teh Khòaⁿ Sin Pho͘ ·ê
           description: >-
             You will be notified of new topics in this tag but not replies to
             the topics.
@@ -3776,12 +3763,11 @@ tai_Rom:
             You will automatically track all topics with this tag. A count of
             unread and new posts will appear next to the topic.
         regular:
-          title: Regular
+          title: It-poaⁿ
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            your post.
+            Lí nā hông @tiám-miâ iā sī pho͘ bûn ū tap-ho̍k, chiah ē siu thong-ti.
         muted:
-          title: Muted
+          title: Chēng-im
           description: >-
             You will not be notified of anything about new topics with this tag,
             and they will not appear on your unread tab.
