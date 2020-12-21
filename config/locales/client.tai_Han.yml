@@ -94,7 +94,7 @@ tai_Han:
       twitter: 治Twitter分張
       facebook: 治面册分張
       email: 寄電批
-      url: 共URL khó͘-pih、分出去
+      url: 共網連仔khó͘-pih、分出去
     action_codes:
       public_topic: 'made this topic public %{when}'
       private_topic: 'made this topic a personal message %{when}'
@@ -140,10 +140,10 @@ tai_Han:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        只个網站恰新个、只馬塊使用建立模式。新入來个使用者宅着信用級一、逐工 閣會收大意 電批. %{count} 个使用者 ka 入 liáu, 建立模式 ē chū-tōng 關兆.
-    bootstrap_mode_disabled: 建立模式24点鐘 liáu chū-tōng 關兆.
+        只个網站恰新个、只馬塊使用建立模式。新入來个使用者宅着信用級一、逐工 閣會收大意 電批。%{count}个使用者加入了, 建立模式會自動關兆.
+    bootstrap_mode_disabled: 建立模式24点鐘了自動關兆.
     themes:
-      default_description: 照goân
+      default_description: 照原
       broken_theme_alert: >-
         Your site may not work because theme / component %{theme} has errors.
         Disable it at %{path}.
@@ -258,7 +258,7 @@ tai_Han:
         Are you sure you want to delete this bookmark? The reminder will also be
         deleted.
       confirm_clear: Are you sure you want to clear all your bookmarks from this topic?
-      save: Khiām
+      save: 儉
       no_timezone: >-
         You have not set a timezone yet. You will not be able to set reminders.
         Set one up <a href="%{basePath}/my/preferences/profile">in your
@@ -310,20 +310,20 @@ tai_Han:
         yes_value: '好、硯兆'
         no_value: '無, 留レ'
     topic_count_latest:
-      other: '看 %{count} 新pho͘个也新thiⁿ个話題'
+      other: '看%{count}新pho͘个也新添个話題'
     topic_count_unread:
-      other: '看 %{count} 條夭未讀个話題'
+      other: '看%{count}條夭未讀个話題'
     topic_count_new:
-      other: '看 %{count} 條新pho͘个話題'
+      other: '看%{count}條新pho͘个話題'
     preview: preview
     cancel: 脯去
     deleting: 當塊硯捒...
-    save: Khiām
-    saving: 當塊khiām...
-    saved: Khiām好唖!
+    save: 儉
+    saving: 當塊儉...
+    saved: 儉好唖!
     upload: 藏起去
     uploading: 當塊藏...
-    uploading_filename: '當塊藏: %{filename}...'
+    uploading_filename: '當塊藏： %{filename}...'
     clipboard: clipboard
     uploaded: 藏好唖!
     pasting: 當塊搭...
@@ -339,17 +339,17 @@ tai_Han:
       close: Dismiss this banner.
       edit: Edit this banner >>
     pwa:
-      install_banner: '咁愛<a href>安裝 %{title} 个APP?</a>'
+      install_banner: '咁愛<a href>安裝%{title}个APP？</a>'
     choose_topic:
       none_found: 尋無話題。
       title:
         search: 走尋話題
-        placeholder: '打標題・URL・也是ID号'
+        placeholder: '打標題・URL・ID号'
     choose_message:
       none_found: 尋無訊息。
       title:
         search: 走尋訊息
-        placeholder: '打訊息个標題・URL・也是ID号'
+        placeholder: '打訊息个標題・URL・ID号'
     review:
       order_by: "照順序："
       in_reply_to: in reply to
@@ -393,20 +393,20 @@ tai_Han:
       awaiting_approval: Awaiting Approval
       delete: Delete
       settings:
-        saved: Saved
+        saved: 儉唖
         save_changes: Save Changes
         title: 設定
         priorities:
           title: Reviewable Priorities
       moderation_history: Moderation History
-      view_all: View All
+      view_all: 看所有个
       grouped_by_topic: Grouped by Topic
       none: There are no items to review.
       view_pending: view pending
       topic_has_pending:
         other: 'This topic has <b>%{count}</b> posts pending approval'
       title: Review
-      topic: 'Topic:'
+      topic: '話題：'
       filtered_topic: You have filtered to reviewable content in a single topic.
       filtered_user: 使用者
       filtered_reviewed_by: Reviewed By
@@ -431,17 +431,17 @@ tai_Han:
           other: '%{count}% ignore'
       topics:
         topic: 話題
-        reviewable_count: Count
+        reviewable_count: 額
         reported_by: Reported by
         deleted: '[Topic Deleted]'
         original: (original topic)
-        details: details
+        details: 詳細
         unique_users:
           other: '%{count} 个使用者'
       replies:
         other: '%{count} 通答復'
-      edit: Edit
-      save: Save
+      edit: 編輯
+      save: 儉
       cancel: Cancel
       new_topic: Approving this item will create a new topic
       filters:
@@ -677,7 +677,7 @@ tai_Han:
           from: From
           to: To
       permissions:
-        title: Permissions
+        title: 權限
         none: There are no categories associated with this group.
         description: Members of this group can access these categories
       public_admission: Allow users to join the group freely (Requires publicly visible group)
@@ -694,7 +694,7 @@ tai_Han:
       join: 加入
       leave: 來走
       request: Request
-      message: Message
+      message: 寄批
       confirm_leave: Are you sure you want to leave this group?
       allow_membership_requests: >-
         Allow users to send membership requests to group owners (Requires
@@ -822,7 +822,7 @@ tai_Han:
         position: Position
       posts: Pho͘文
       topics: 話題
-      latest: 新thiⁿ个
+      latest: 新添个
       latest_by: latest by
       toggle_ordering: toggle ordering control
       subcategories: 專題埕
@@ -858,7 +858,7 @@ tai_Han:
       said: '%{username}:'
       profile: 個人
       mute: 靜音
-      edit: Edit Preferences
+      edit: 換設定
       download_archive:
         button_text: 扐全部
         confirm: 汝咁確定卜共汝所有个pho͘文扐落來？
@@ -866,7 +866,7 @@ tai_Han:
           Download initiated, you will be notified via message when the process
           is complete.
         rate_limit_error: '逐工通扐pho͘文一擺、明旦再閣試。'
-      new_private_message: 汝有訊息
+      new_private_message: 寄批
       private_message: 訊息
       private_messages: 訊息
       user_notifications:
@@ -884,14 +884,14 @@ tai_Han:
           ignore duration expires.
         ignore_duration_time_frame_required: Please select a time frame
         ignore_no_users: You have no ignored users.
-        ignore_option: Ignored
+        ignore_option: 籠過
         ignore_option_title: >-
           You will not receive notifications related to this user and all of
           their topics and replies will be hidden.
-        add_ignored_user: Add...
-        mute_option: Muted
+        add_ignored_user: Thiⁿ...
+        mute_option: 靜音
         mute_option_title: You will not receive any notifications related to this user.
-        normal_option: Normal
+        normal_option: 普通
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
@@ -901,7 +901,7 @@ tai_Han:
         open_search: 揀新个話題
         title: 揀一條話題
         search_label: 對標題尋話題
-        save: Khiām
+        save: 儉
         clear:
           title: Clear
           warning: Are you sure you want to clear your featured topic?
@@ -926,7 +926,7 @@ tai_Han:
           browser settings.
         disable: 不准通知
         enable: 允准通知
-        each_browser_note: 'Note: You have to change this setting on every browser you use.'
+        each_browser_note: '註：換閱覽器愛另外設定。'
         consent_prompt: 汝个pho͘文那有新个答復、汝咁愛領通知？
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
@@ -968,7 +968,7 @@ tai_Han:
       suspended_permanently: This user is suspended.
       suspended_reason: '理由： '
       github_profile: GitHub
-      email_activity_summary: 所做个大意
+      email_activity_summary: 定期精選
       mailing_list_mode:
         label: Mailing list mode
         enabled: Enable mailing list mode
@@ -1015,7 +1015,7 @@ tai_Han:
       muted_categories: 靜音
       muted_categories_instructions: >-
         者个埕那有新个話題、汝袂收通知、
-        埕頁甲新thiⁿ頁嗎看袂着。
+        埕頁甲新添頁嗎看袂着。
       muted_categories_instructions_dont_hide: >-
         You will not be notified of anything about new topics in these
         categories.
@@ -1032,12 +1032,12 @@ tai_Han:
       admin_delete: Delete
       users: 使用者
       muted_users: 靜音
-      muted_users_instructions: Suppress all notifications and PMs from these users.
+      muted_users_instructions: 對者个使用者來个通知・私信、朗籠過。
       allowed_pm_users: 允准个
       allowed_pm_users_instructions: Only allow PMs from these users.
       allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
-      ignored_users: Ignored
-      ignored_users_instructions: 'Suppress all posts, notifications, and PMs from these users.'
+      ignored_users: 籠過
+      ignored_users_instructions: 對者个使用者來个pho͘文・通知・私信、朗籠過。
       tracked_topics_link: 顯示
       automatically_unpin_topics: Automatically unpin topics when I reach the bottom.
       apps: Apps
@@ -1148,7 +1148,7 @@ tai_Han:
           this site.
         disable: Disable
         disable_confirm: Are you sure you want to disable all two-factor methods?
-        save: Khiām
+        save: 儉
         edit: Edit
         edit_title: Edit Authenticator
         edit_description: Authenticator Name
@@ -1297,7 +1297,7 @@ tai_Han:
         title: Password Again
       invite_code:
         title: 請帖碼
-        instructions: 註册愛thiⁿ請帖碼
+        instructions: 註册愛添請帖碼
       auth_tokens:
         title: 最近使用設備
         details: 詳細
@@ -1361,12 +1361,11 @@ tai_Han:
         every_six_months: 半冬
       email_level:
         title: >-
-          Send me an email when someone quotes me, replies to my post, mentions
-          my @username, or invites me to a topic
-        always: always
-        only_when_away: only when away
-        never: never
-      email_messages_level: Send me an email when someone messages me
+          那有人共我个pho͘文引用・答復、共我点名、也是邀請我看某乜話題、請寄電批通知
+        always: 朗愛
+        only_when_away: 我那無治レ
+        never: 朗免
+      email_messages_level: 那收着私信請寄電批通知
       include_tl0_in_digests: Include content from new users in summary emails
       email_in_reply_to: Include an excerpt of replied to post in emails
       other_settings: Other
@@ -1461,7 +1460,7 @@ tai_Han:
         instructions: '上無愛打 %{count} 字'
         required: 請輸入 password
       summary:
-        title: 大意
+        title: 報表
         stats: 統計
         time_read: read time
         recent_time_read: recent read time
@@ -1659,11 +1658,11 @@ tai_Han:
       remove_allowed_group: 'Do you really want to remove %{name} from this message?'
     email: 電批
     username: 用者名
-    last_seen: Seen
+    last_seen: 線頂
     created: 創立時
-    created_lowercase: created
-    trust_level: Trust Level
-    search_hint: 'username, email or IP address'
+    created_lowercase: 創立
+    trust_level: 成員級
+    search_hint: '用者名・電批・也IP網址'
     create_account:
       disclaimer: >-
         登記時、汝同意本平台个<a href='%{privacy_link}'
@@ -1979,8 +1978,8 @@ tai_Han:
       reply_placeholder_no_images: 'Type here. Use Markdown, BBCode, or HTML to format.'
       reply_placeholder_choose_category: Select a category before typing here.
       view_new_post: View your new post.
-      saving: 當塊khiām
-      saved: Khiām唖！
+      saving: 當塊儉
+      saved: 儉唖！
       saved_draft: 當塊寫草稿。市落去繼續。
       uploading: 當塊藏...
       show_preview: show preview &raquo;
@@ -2167,7 +2166,7 @@ tai_Han:
       sort_by: 照順序
       relevance: Relevance
       latest_post: 新pho͘个
-      latest_topic: 新thiⁿ个
+      latest_topic: 新添个
       most_viewed: 觀覽額
       most_liked: 甲意个
       select_all: Select All
@@ -2404,7 +2403,7 @@ tai_Han:
         {LAST_POST}: {BUMPED_AT}
       browse_all_categories: 閱覽所有个埕
       browse_all_tags: 閱覽所有个標仔
-      view_latest_topics: 看新thiⁿ个話題
+      view_latest_topics: 看新添个話題
       suggest_create_topic: 咱來開一條新个話題？
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
@@ -2552,40 +2551,40 @@ tai_Han:
           '0_7': You are ignoring all notifications in this category.
           '0_2': You are ignoring all notifications on this topic.
         watching_pm:
-          title: Watching
+          title: 塊看
           description: >-
             You will be notified of every new reply in this message, and a count
             of new replies will be shown.
         watching:
-          title: Watching
+          title: 塊看
           description: >-
             You will be notified of every new reply in this topic, and a count
             of new replies will be shown.
         tracking_pm:
-          title: Tracking
+          title: 塊綴
           description: >-
             A count of new replies will be shown for this message. You will be
             notified if someone mentions your @name or replies to you.
         tracking:
-          title: Tracking
+          title: 塊綴
           description: >-
             A count of new replies will be shown for this topic. You will be
             notified if someone mentions your @name or replies to you.
         regular:
-          title: Normal
+          title: 普通
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
         regular_pm:
-          title: Normal
+          title: 普通
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
         muted_pm:
-          title: Muted
+          title: 靜音
           description: You will never be notified of anything about this message.
         muted:
-          title: Muted
+          title: 靜音
           description: >-
             You will never be notified of anything about this topic, and it will
             not appear in latest.
@@ -2895,13 +2894,13 @@ tai_Han:
       abandon_edit:
         confirm: 汝咁確定卜共編輯旦硯捒？
         no_value: '無、留レ'
-        no_save_draft: '無、khiām草稿'
+        no_save_draft: '無、儉草稿'
         yes_value: '好、硯兆'
       abandon:
         title: 草稿硯兆
         confirm: 汝咁確定卜共草稿旦硯捒。
         no_value: '無、留レ'
-        no_save_draft: '無、khiām草稿'
+        no_save_draft: '無、儉草稿'
         yes_value: '好、硯兆'
       via_email: this post arrived via email
       via_auto_generated_email: this post arrived via an auto generated email
@@ -3075,14 +3074,14 @@ tai_Han:
       required_tag_group_label: 'Tag group:'
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
-      create: 新埕
-      create_long: 起一片埕
-      save: Save Category
+      create: 起埕
+      create_long: 起一片新个埕
+      save: 儉埕
       slug: 埕个門排
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
-      name: 埕 名
+      name: 埕名
       description: Description
       topic: category topic
       logo: Category Logo Image
@@ -3362,9 +3361,9 @@ tai_Han:
       with_topics: '%{filter} topics'
       with_category: '%{filter} %{category} topics'
       latest:
-        title: 新thiⁿ个
+        title: 新添个
         title_with_count:
-          other: '新thiⁿ个（%{count}）'
+          other: '新添个（%{count}）'
         help: 最近有新答復个話題
       read:
         title: 讀去唖
@@ -3398,7 +3397,7 @@ tai_Han:
         title: '%{categoryName}'
         title_with_count:
           other: '%{categoryName} (%{count})'
-        help: '%{categoryName}埕新thiⁿ个話題'
+        help: '%{categoryName}埕新添个話題'
       top:
         title: 銃
         help: 'the most active topics in the last year, month, week or day'
@@ -3448,7 +3447,7 @@ tai_Han:
       jump_to:
         title: 跳甲
         home: '%{shortcut} 主頁'
-        latest: '%{shortcut} 新thiⁿ个'
+        latest: '%{shortcut} 新添个'
         new: '%{shortcut} 新pho͘个'
         unread: '%{shortcut} 夭未讀'
         categories: '%{shortcut} 埕表'
@@ -3669,7 +3668,7 @@ tai_Han:
           new: 汝無新个話題。
           read: 汝夭未看任何話題。
           posted: 汝夭未pho͘文。
-          latest: 無新thiⁿ个話題。
+          latest: 無新添个話題。
           bookmarks: 汝夭未共任何話題做記号。
           top: 無塊銃个話題。
     invite:

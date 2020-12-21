@@ -1,41 +1,41 @@
 tai_Han:
   dates:
     # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-    short_date_no_year: "D MMM"
+    short_date_no_year: "MMMD日"
     # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-    short_date: "D MMM YYYY"
+    short_date: "YYYY年MMMD日"
     # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-    long_date: "D MMMM YYYY LT"
+    long_date: "YYYY Nî MMMM D Hō LT"
 
   datetime_formats: &datetime_formats
     formats:
       # Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
-      short: "%d-%m-%Y"
+      short: "%Y-%m-%d"
       # Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
-      short_no_year: "%-d %B"
+      short_no_year: "%m-%d"
       # Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
-      date_only: "%-d %B %Y"
+      date_only: "%Y %B %-d"
       # Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
-      long: "%-d %B %Y %H:%M"
+      long: "%Y %B %-d %H:%M"
       # Format directives: https://ruby-doc.org/core/Time.html#method-i-strftime
-      no_day: "%B %Y"
+      no_day: "%Y %B"
   date:
     # Do not remove the brackets and commas and do not translate the first month name. It should be "null".
     month_names:
       [
         ~,
-        January,
-        February,
-        March,
-        April,
-        May,
-        June,
-        July,
-        August,
-        September,
-        October,
-        November,
-        December,
+        正月,
+        二月,
+        三月,
+        四月,
+        五月,
+        六月,
+        七月,
+        八月,
+        九月,
+        十月,
+        十一月,
+        十二月,
       ]
     <<: *datetime_formats
   time:
@@ -44,17 +44,17 @@ tai_Han:
     pm: "pm"
 
   title: "Discourse"
-  topics: "Topics"
-  posts: "posts"
+  topics: "話題"
+  posts: "pho͘文"
   views: "views"
   loading: "Loading"
   powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
-  sign_up: "Sign Up"
-  log_in: "Log In"
+  sign_up: "登記"
+  log_in: "入站"
   submit: "Submit"
   purge_reason: "Automatically deleted as abandoned, deactivated account"
   disable_remote_images_download_reason: "Remote images download was disabled because there wasn't enough disk space available."
-  anonymous: "Anonymous"
+  anonymous: "無名"
   remove_posts_deleted_by_author: "Deleted by author"
   redirect_warning: "We were unable to verify that the link you selected was actually posted to the forum. If you wish to proceed anyway, select the link below."
   on_another_topic: "On another topic"
@@ -215,15 +215,15 @@ tai_Han:
 
   word_connector:
     # Connects words with a comma. Example: "foo, bar"
-    comma: ", "
+    comma: "、"
 
   activemodel:
     errors:
       <<: *errors
 
   invite:
-    expired: "Your invite token has expired. Please <a href='%{base_url}/about'>contact staff</a>."
-    not_found: "Your invite token is invalid. Please <a href='%{base_url}/about'>contact staff</a>."
+    expired: "汝个請帖碼過期唖。請甲阮<a href='%{base_url}/about'>連絡</a>。"
+    not_found: "汝个請帖碼有錯誤。請甲阮<a href='%{base_url}/about'>連絡</a>."
     not_found_json: "Your invite token is invalid. Please contact staff."
     not_found_template: |
       <p>Your invite to <a href="%{base_url}">%{site_name}</a> has already been redeemed.</p>
@@ -285,11 +285,11 @@ tai_Han:
     title_category: "You must be in a group to see this category."
     request_membership: "Request Membership"
     join_group: "Join Group"
-  deleted_topic: "Oops! This topic has been deleted and is no longer available."
+  deleted_topic: "Hāi ·a! This topic has been deleted and is no longer available."
   delete_topic_failed: "There was an error deleting that topic. Please contact the site's administrator."
 
   reading_time: "Reading time"
-  likes: "Likes"
+  likes: "Kah-ì"
 
   too_many_replies:
     one: "We're sorry, but new users are temporarily limited to %{count} reply in the same topic."
@@ -309,20 +309,17 @@ tai_Han:
     no_hosts: "No hosts were set up for embedding."
     configure: "Configure Embedding"
     more_replies:
-      one: "%{count} more reply"
-      other: "%{count} more replies"
+      other: "Koh ū %{count} thong tap-ho̍k"
 
     loading: "Loading Discussion..."
     permalink: "Permalink"
     imported_from: "This is a companion discussion topic for the original entry at %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one: "%{count} reply"
-      other: "%{count} replies"
+      other: "%{count} thong tap-ho̍k"
     likes:
-      one: "%{count} like"
-      other: "%{count} likes"
-    last_reply: "Last reply"
+      other: "%{count} lâng kah-ì"
+    last_reply: "Siōng bóe ê tap-ho̍k"
     created: "Created"
     new_topic: "Create new topic"
 
@@ -365,10 +362,10 @@ tai_Han:
   just_posted_that: "is too similar to what you recently posted"
   invalid_characters: "contains invalid characters"
   is_invalid: "seems unclear, is it a complete sentence?"
-  next_page: "next page →"
-  prev_page: "← previous page"
+  next_page: "āu ia̍h →"
+  prev_page: "← téng ia̍h"
   page_num: "Page %{num}"
-  home_title: "Home"
+  home_title: "Chú-ia̍h"
   topics_in_category: "Topics in the '%{category}' category"
   rss_posts_in_topic: "RSS feed of '%{topic}'"
   rss_topics_in_category: "RSS feed of topics in the '%{category}' category"
@@ -615,7 +612,7 @@ tai_Han:
             word:
               too_many: "Too many words for that action"
 
-  uncategorized_category_name: "Uncategorized"
+  uncategorized_category_name: "亜未分埕"
 
   vip_category_name: "Lounge"
   vip_category_description: "A category exclusive to members with trust level 3 and higher."
@@ -3876,10 +3873,10 @@ tai_Han:
         If this was not you, please [review your existing sessions](%{base_url}/my/preferences/account) and consider changing your password.
 
   page_forbidden:
-    title: "Oops! That page is private."
+    title: "Hāi ·a! That page is private."
 
   page_not_found:
-    title: "Oops! That page doesn’t exist or is private."
+    title: "Hāi ·a! That page doesn’t exist or is private."
     popular_topics: "Popular"
     recent_topics: "Recent"
     see_more: "More"
@@ -3892,11 +3889,11 @@ tai_Han:
 
   login_required:
     welcome_message: |
-      ## [Welcome to %{title}](#welcome)
-      An account is required. Please create an account or log in to continue.
+      ## [Hoan-gêng lâi kàu %{title}](#welcome)
+      Nā bô kháu-chō chhiáⁿ seng chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
     welcome_message_invite_only: |
-      ## [Welcome to %{title}](#welcome)
-      An account is required. Please ask an existing member for an invite or log in to continue.
+      ## [Hoan-gêng lâi kàu %{title}](#welcome)
+      Ài siu chhiáⁿ thiap chiah thang chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
 
   deleted: "deleted"
 
@@ -4352,8 +4349,8 @@ tai_Han:
       errors:
         invalid_csv: We encountered an error on line %{line_number}. Please confirm the CSV has one email per line.
     editor:
-      name: Editor
-      description: First post edit
+      name: Phian-chiá
+      description: Thâu pái phian-chhip lí ê pho͘ bûn
       long_description: |
         This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
     wiki_editor:
@@ -4382,17 +4379,17 @@ tai_Han:
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
-      name: Welcome
-      description: Received a like
+      name: Hoan-gêng
+      description: Ū lâng kah-ì lí ê pho͘ bûn
       long_description: |
         This badge is granted when you receive your first like on a post. Congratulations, you’ve posted something that your fellow community members found interesting, cool, or useful!
     autobiographer:
-      name: Autobiographer
-      description: Filled out <a href="%{base_uri}/my/preferences/profile">profile</a> information
+      name: Chū-ngó͘ Siāu-kài
+      description: <a href="%{base_uri}/my/preferences/profile">Kháu-chō</a> chu-liāu oân-sêng ·a
       long_description: |
         This badge is granted for filling out <a href="%{base_uri}/my/preferences/profile">your user profile</a> and selecting a profile picture. Letting the community know a bit more about who you are and what you’re interested in makes for a better, more connected community. Join us!
     anniversary:
-      name: Anniversary
+      name: Tō͘-chè
       description: Active member for a year, posted at least once
       long_description: |
         This badge is granted when you’ve been a member for a year with at least one post in that year. Thank you for sticking around and contributing to our community. We couldn’t do it without you.

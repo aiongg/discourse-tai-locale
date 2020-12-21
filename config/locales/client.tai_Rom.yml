@@ -140,7 +140,7 @@ tai_Rom:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sìn-iōng-kip 1, ta̍k kang koh ē siu tāi-ì tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ tiāu.
+        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sìn-iōng-kip 1, ta̍k kang koh ē siu cheng-soán tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ tiāu.
     bootstrap_mode_disabled: Kiàn-li̍p bô͘-sek 24 tiám-cheng liáu chū-tōng koaiⁿ tiāu.
     themes:
       default_description: Chiàu goân
@@ -393,20 +393,20 @@ tai_Rom:
       awaiting_approval: Awaiting Approval
       delete: Delete
       settings:
-        saved: Saved
+        saved: Khiām ·a
         save_changes: Save Changes
         title: Siat-tēng
         priorities:
           title: Reviewable Priorities
       moderation_history: Moderation History
-      view_all: View All
+      view_all: Khòaⁿ só͘ ū ê
       grouped_by_topic: Grouped by Topic
       none: There are no items to review.
       view_pending: view pending
       topic_has_pending:
         other: 'This topic has <b>%{count}</b> posts pending approval'
       title: Review
-      topic: 'Topic:'
+      topic: 'Ōe-tê:'
       filtered_topic: You have filtered to reviewable content in a single topic.
       filtered_user: Sú-iōng-chiá
       filtered_reviewed_by: Reviewed By
@@ -431,17 +431,17 @@ tai_Rom:
           other: '%{count}% ignore'
       topics:
         topic: Ōe-tê
-        reviewable_count: Count
+        reviewable_count: Gia̍h
         reported_by: Reported by
         deleted: '[Topic Deleted]'
         original: (original topic)
-        details: details
+        details: siông-sè
         unique_users:
           other: '%{count} ê sú-iōng-chiá'
       replies:
         other: '%{count} thong tap-ho̍k'
-      edit: Edit
-      save: Save
+      edit: Phian-chhip
+      save: Khiām
       cancel: Cancel
       new_topic: Approving this item will create a new topic
       filters:
@@ -677,7 +677,7 @@ tai_Rom:
           from: From
           to: To
       permissions:
-        title: Permissions
+        title: Koân-hān
         none: There are no categories associated with this group.
         description: Members of this group can access these categories
       public_admission: Allow users to join the group freely (Requires publicly visible group)
@@ -694,7 +694,7 @@ tai_Rom:
       join: Ka ji̍p
       leave: Lâi cháu
       request: Request
-      message: Message
+      message: Kià Phoe
       confirm_leave: Are you sure you want to leave this group?
       allow_membership_requests: >-
         Allow users to send membership requests to group owners (Requires
@@ -858,7 +858,7 @@ tai_Rom:
       said: '%{username}:'
       profile: Kò Jîn
       mute: Chēng Im
-      edit: Edit Preferences
+      edit: Ōaⁿ Siat-tēng
       download_archive:
         button_text: Lia̍h Choân-pō͘
         confirm: Lí kám khak-tēng beh kā lí só͘ ū ê pho͘ bûn lia̍h ·lo̍h ·lâi?
@@ -866,8 +866,8 @@ tai_Rom:
           Download initiated, you will be notified via message when the process
           is complete.
         rate_limit_error: 'Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì.'
-      new_private_message: Lí ū sìn-sit
-      private_message: Sìn-sit
+      new_private_message: Kià Phoe
+      private_message: Kià Phoe
       private_messages: Sìn-sit
       user_notifications:
         filters:
@@ -884,14 +884,14 @@ tai_Rom:
           ignore duration expires.
         ignore_duration_time_frame_required: Please select a time frame
         ignore_no_users: You have no ignored users.
-        ignore_option: Ignored
+        ignore_option: Làng ·kòe
         ignore_option_title: >-
           You will not receive notifications related to this user and all of
           their topics and replies will be hidden.
-        add_ignored_user: Add...
-        mute_option: Muted
+        add_ignored_user: Thiⁿ...
+        mute_option: Chēng-im
         mute_option_title: You will not receive any notifications related to this user.
-        normal_option: Normal
+        normal_option: Phó͘-thong
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
@@ -926,7 +926,7 @@ tai_Rom:
           browser settings.
         disable: M̄-chún Thong-ti
         enable: Ún-chún Thong-ti
-        each_browser_note: 'Note: You have to change this setting on every browser you use.'
+        each_browser_note: 'Chù: Ōaⁿ oa̍t-lám-khì ài lēng-gōa siat-tēng.'
         consent_prompt: Lí ê pho͘-bûn nā ū sin ê tap-ho̍k, lí kám ài niá thong-ti?
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
@@ -968,7 +968,7 @@ tai_Rom:
       suspended_permanently: This user is suspended.
       suspended_reason: 'Lí-iû: '
       github_profile: GitHub
-      email_activity_summary: Só͘ chò ·ê Tāi-ì
+      email_activity_summary: Tēng-kî Cheng-soán
       mailing_list_mode:
         label: Mailing list mode
         enabled: Enable mailing list mode
@@ -1032,12 +1032,12 @@ tai_Rom:
       admin_delete: Delete
       users: Sú-iōng-chiá
       muted_users: Chēng-im
-      muted_users_instructions: Suppress all notifications and PMs from these users.
+      muted_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê thong-ti / su-sìn, lóng làng ·kòe.
       allowed_pm_users: Ún-chún ·ê
       allowed_pm_users_instructions: Only allow PMs from these users.
       allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
-      ignored_users: Ignored
-      ignored_users_instructions: 'Suppress all posts, notifications, and PMs from these users.'
+      ignored_users: Làng ·kòe
+      ignored_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê pho͘ bûn / thong-ti / su-sìn, lóng làng ·kòe.
       tracked_topics_link: Hián-sī
       automatically_unpin_topics: Automatically unpin topics when I reach the bottom.
       apps: Apps
@@ -1361,12 +1361,13 @@ tai_Rom:
         every_six_months: pòaⁿ tang
       email_level:
         title: >-
-          Send me an email when someone quotes me, replies to my post, mentions
-          my @username, or invites me to a topic
-        always: always
-        only_when_away: only when away
-        never: never
-      email_messages_level: Send me an email when someone messages me
+          Nā ū lâng kā góa ê pho͘ bûn ín-iōng / tap-ho̍k,
+          kā góa tiám miâ, iā sī iau-chhiáⁿ góa khòaⁿ bó͘-mih ōe-tê,
+          chhiáⁿ kià tiān-phoe thong-ti
+        always: lóng ài
+        only_when_away: góa nā bô tī ·le
+        never: lóng bián
+      email_messages_level: Nā siu tio̍h su-sìn chhiáⁿ kià tiān-phoe thong-ti
       include_tl0_in_digests: Include content from new users in summary emails
       email_in_reply_to: Include an excerpt of replied to post in emails
       other_settings: Other
@@ -1461,7 +1462,7 @@ tai_Rom:
         instructions: 'siōng bô ài phah %{count} jī'
         required: Chhiáⁿ su-ji̍p password
       summary:
-        title: Tāi-ì
+        title: Pò-pió
         stats: Thóng-kè
         time_read: read time
         recent_time_read: recent read time
@@ -1660,11 +1661,11 @@ tai_Rom:
       remove_allowed_group: 'Do you really want to remove %{name} from this message?'
     email: Tiān-phoe
     username: Iōng-chiá miâ
-    last_seen: Seen
+    last_seen: Sòaⁿ téng
     created: Chhòng-li̍p sî
-    created_lowercase: created
-    trust_level: Trust Level
-    search_hint: 'username, email or IP address'
+    created_lowercase: chhòng-li̍p
+    trust_level: Sêng-oân-kip
+    search_hint: 'iōng-chiá miâ, tiān-phoe, iā IP bāng-chí'
     create_account:
       disclaimer: >-
         Teng kì sî, lí tông-ì pún pêⁿ-tâi ê <a href='%{privacy_link}'
@@ -2553,40 +2554,40 @@ tai_Rom:
           '0_7': You are ignoring all notifications in this category.
           '0_2': You are ignoring all notifications on this topic.
         watching_pm:
-          title: Watching
+          title: Teh Khòaⁿ
           description: >-
             You will be notified of every new reply in this message, and a count
             of new replies will be shown.
         watching:
-          title: Watching
+          title: Teh Khòaⁿ
           description: >-
             You will be notified of every new reply in this topic, and a count
             of new replies will be shown.
         tracking_pm:
-          title: Tracking
+          title: Teh Tòe
           description: >-
             A count of new replies will be shown for this message. You will be
             notified if someone mentions your @name or replies to you.
         tracking:
-          title: Tracking
+          title: Teh Tòe
           description: >-
             A count of new replies will be shown for this topic. You will be
             notified if someone mentions your @name or replies to you.
         regular:
-          title: Normal
+          title: Phó͘-thong
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
         regular_pm:
-          title: Normal
+          title: Phó͘-thong
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
         muted_pm:
-          title: Muted
+          title: Chēng-im
           description: You will never be notified of anything about this message.
         muted:
-          title: Muted
+          title: Chēng-im
           description: >-
             You will never be notified of anything about this topic, and it will
             not appear in latest.
@@ -3078,9 +3079,9 @@ tai_Rom:
       required_tag_group_label: 'Tag group:'
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
-      create: Sin tiâⁿ
-      create_long: Khí chi̍t phiàn tiâⁿ
-      save: Save Category
+      create: Khí tiâⁿ
+      create_long: Khí chi̍t phiàn sin ê tiâⁿ
+      save: Khiām Tiâⁿ
       slug: Tiâⁿ ê mn̂g-pâi
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
