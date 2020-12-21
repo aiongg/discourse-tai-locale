@@ -868,7 +868,7 @@ tai_Han:
           is complete.
         rate_limit_error: '逐工通扐pho͘文一擺、明旦再閣試。'
       new_private_message: 寄批
-      private_message: 訊息
+      private_message: 寄批
       private_messages: 訊息
       user_notifications:
         filters:

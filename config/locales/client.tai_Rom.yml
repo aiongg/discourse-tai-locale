@@ -866,8 +866,8 @@ tai_Rom:
           Download initiated, you will be notified via message when the process
           is complete.
         rate_limit_error: 'Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì.'
-      new_private_message: Kià Phoe
-      private_message: Kià Phoe
+      new_private_message: Kià phoe
+      private_message: Kià phoe
       private_messages: Sìn-sit
       user_notifications:
         filters:
