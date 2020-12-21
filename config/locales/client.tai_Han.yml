@@ -139,9 +139,10 @@ tai_Han:
       All outgoing email has been globally disabled by an administrator. No
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
-      other: >-
-        只个網站恰新个、只馬塊使用建立模式。新入來个使用者宅着成員級一、逐工閣會收大意 電批。%{count}个使用者加入了, 建立模式會自動關兆.
-    bootstrap_mode_disabled: 建立模式24点鐘了自動關兆.
+      other: "只个網站恰新个、只馬塊使用建立模式。\
+              新入來个使用者宅着成員級一、逐工閣會收精選電批。\
+              %{count}个使用者加入了、建立模式自動關兆。"
+    bootstrap_mode_disabled: 建立模式24点鐘了自動關兆。
     themes:
       default_description: 照原
       broken_theme_alert: >-

@@ -140,7 +140,7 @@ tai_Rom:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sêng-oân-kip 1, ta̍k kang koh ē siu cheng-soán tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek ē chū-tōng koaiⁿ tiāu.
+        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sêng-oân-kip 1, ta̍k kang koh ē siu cheng-soán tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek chū-tōng koaiⁿ tiāu.
     bootstrap_mode_disabled: Kiàn-li̍p bô͘-sek 24 tiám-cheng liáu chū-tōng koaiⁿ tiāu.
     themes:
       default_description: Chiàu goân
