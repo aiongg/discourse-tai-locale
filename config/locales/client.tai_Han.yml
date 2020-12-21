@@ -9,7 +9,6 @@ tai_Han:
           format: '%n %u'
           units:
             byte:
-              one: Byte
               other: Bytes
             gb: GB
             kb: KB
@@ -54,61 +53,48 @@ tai_Han:
         about_x_years:
           other: '%{count}冬'
         over_x_years:
-          one: '> %{count}冬'
           other: '> %{count}冬'
         almost_x_years:
-          one: '%{count}冬'
           other: '%{count}冬'
         date_month: M月D日
         date_year: YYYY年M月
       medium:
         x_minutes:
-          one: '%{count}阿鐘'
-          other: '%{count}阿鐘'
+          other: '%{count}分鐘'
         x_hours:
-          one: '%{count}点鐘'
           other: '%{count}点鐘'
         x_days:
-          one: '%{count}工'
           other: '%{count}工'
         date_year: YYYY年M月D日
       medium_with_ago:
         x_minutes:
-          one: '%{count}阿鐘前'
-          other: '%{count}阿鐘前'
+          other: '%{count}分鐘前'
         x_hours:
-          one: '%{count}点鐘前'
           other: '%{count}点鐘前'
         x_days:
-          one: '%{count}工前'
           other: '%{count}工前'
         x_months:
-          one: '%{count}個月前'
           other: '%{count}個月前'
         x_years:
-          one: '%{count}冬前'
           other: '%{count}冬前'
       later:
         x_days:
-          one: '%{count}工了後'
           other: '%{count}工了後'
         x_months:
-          one: '%{count}個月了後'
           other: '%{count}個月了後'
         x_years:
-          one: '%{count}冬了後'
           other: '%{count}冬了後'
       previous_month: 頂個月
       next_month: 後個月
-      placeholder: 日子
+      placeholder: 日期
     share:
-      topic_html: '話題： <span class="topic-title">%{topicTitle}</span>'
+      topic_html: '話題：<span class="topic-title">%{topicTitle}</span>'
       post: 'pho͘ #%{postNumber}'
-      close: close
+      close: 關
       twitter: 治Twitter分張
-      facebook: 治Facebook分張
+      facebook: 治面册分張
       email: 寄電批
-      url: Copy and share URL
+      url: 共URL khó͘-pih、分出去
     action_codes:
       public_topic: 'made this topic public %{when}'
       private_topic: 'made this topic a personal message %{when}'
@@ -153,19 +139,11 @@ tai_Han:
       All outgoing email has been globally disabled by an administrator. No
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
-      one: >-
-        To make launching your new site easier, you are in bootstrap mode. All
-        new users will be granted trust level 1 and have daily email summary
-        emails enabled. This will be automatically turned off when %{count} user
-        has joined.
       other: >-
-        To make launching your new site easier, you are in bootstrap mode. All
-        new users will be granted trust level 1 and have daily email summary
-        emails enabled. This will be automatically turned off when %{count}
-        users have joined.
-    bootstrap_mode_disabled: Bootstrap mode will be disabled within 24 hours.
+        只个網站恰新个、只馬塊使用建立模式。新入來个使用者宅着信用級一、逐工 閣會收大意 電批. %{count} 个使用者 ka 入 liáu, 建立模式 ē chū-tōng 關兆.
+    bootstrap_mode_disabled: 建立模式24点鐘 liáu chū-tōng 關兆.
     themes:
-      default_description: Default
+      default_description: 照goân
       broken_theme_alert: >-
         Your site may not work because theme / component %{theme} has errors.
         Disable it at %{path}.
@@ -192,127 +170,124 @@ tai_Han:
         us_west_1: US West (N. California)
         us_west_2: US West (Oregon)
     edit: edit the title and category of this topic
-    expand: Expand
+    expand: 打開
     not_implemented: 'That feature hasn''t been implemented yet, sorry!'
     no_value: 'No'
     yes_value: 'Yes'
     submit: Submit
-    generic_error: '歹世、發生錯誤。'
+    generic_error: '歹世, 發生錯誤。'
     generic_error_with_reason: '發生錯誤： %{error}'
-    go_ahead: Go ahead
-    sign_up: Sign Up
-    log_in: Log In
-    age: Age
-    joined: Joined
-    admin_title: Admin
-    show_more: show more
+    go_ahead: 繼續
+    sign_up: 登記
+    log_in: 入站
+    age: 年歲
+    joined: 創立對
+    admin_title: 管理
+    show_more: 看恰多
     show_help: options
-    links: Links
+    links: 連仔
     links_lowercase:
-      one: link
-      other: links
-    faq: FAQ
-    guidelines: Guidelines
-    privacy_policy: Privacy Policy
-    privacy: Privacy
-    tos: Terms of Service
-    rules: Rules
+      other: 連仔
+    faq: 問答
+    guidelines: 𤆬路
+    privacy_policy: 私權條欵
+    privacy: 私權
+    tos: 服務契約
+    rules: 規矩
     conduct: Code of Conduct
-    mobile_view: Mobile View
-    desktop_view: Desktop View
-    you: You
+    mobile_view: 手机仔畫面
+    desktop_view: 電腦畫面
+    you: 汝
     or: 也
     now: 抵仔
     read_more: 看恰多
-    more: More
-    less: Less
-    never: never
-    every_30_minutes: every 30 minutes
-    every_hour: every hour
-    daily: daily
-    weekly: weekly
-    every_month: every month
-    every_six_months: every six months
+    more: 恰多
+    less: 恰少
+    never: 免
+    every_30_minutes: 30分鐘一擺
+    every_hour: 一点鐘一擺
+    daily: 逐工
+    weekly: 逐礼拜
+    every_month: 逐個月
+    every_six_months: 半冬一擺
     max_of_count: 'max of %{count}'
-    alternation: or
+    alternation: 也是
     character_count:
-      one: '%{count}字'
-      other: '%{count}字'
+      other: '%{count} 字'
     related_messages:
       title: Related Messages
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
     suggested_topics:
-      title: Suggested Topics
-      pm_title: Suggested Messages
+      title: 建議个話題
+      pm_title: 建議个訊息
     about:
-      simple_title: About
-      title: 'About %{title}'
-      stats: Site Statistics
-      our_admins: Our Admins
-      our_moderators: Our Moderators
-      moderators: Moderators
+      simple_title: 有關
+      title: '有關 %{title}'
+      stats: 網站統計
+      our_admins: 咱个管理員
+      our_moderators: 咱个埕長
+      moderators: 埕長
       stat:
         all_time: 所有个
-        last_7_days: 過去七工
-        last_30_days: 過去三十工
-      like_count: Likes
+        last_7_days: 過去7工
+        last_30_days: 過去30工
+      like_count: 甲意
       topic_count: 話題
-      post_count: 留話
-      user_count: Users
-      active_user_count: Active Users
-      contact: Contact Us
+      post_count: Pho͘文
+      user_count: 使用者
+      active_user_count: 線頂用者
+      contact: 連絡
       contact_info: >-
-        In the event of a critical issue or urgent matter affecting this site,
-        please contact us at %{contact_info}.
+        萬一抵着緊急狀態、請寄批乎 %{contact_info} 甲阮連絡。
     bookmarked:
-      title: Bookmark
-      clear_bookmarks: Clear Bookmarks
+      title: 記号
+      clear_bookmarks: 除記号
       help:
-        bookmark: Click to bookmark the first post on this topic
-        unbookmark: Click to remove all bookmarks in this topic
+        bookmark: 共只條話題頭一篇文做記号
+        unbookmark: 共只條話題所有个記号刣兆
         unbookmark_with_reminder: >-
           Click to remove all bookmarks and reminders in this topic. You have a
           reminder set %{reminder_at} for this topic.
     bookmarks:
-      created: 'You''ve bookmarked this post. %{name}'
-      not_bookmarked: bookmark this post
+      created: '只條話題汝有做記号。 %{name}'
+      not_bookmarked: 話題做記号
       created_with_reminder: 'You''ve bookmarked this post with a reminder %{date}. %{name}'
-      remove: Remove Bookmark
-      delete: Delete Bookmark
+      remove: 刣記号
+      delete: 刪記号
       confirm_delete: >-
         Are you sure you want to delete this bookmark? The reminder will also be
         deleted.
       confirm_clear: Are you sure you want to clear all your bookmarks from this topic?
-      save: Save
+      save: Khiām
       no_timezone: >-
         You have not set a timezone yet. You will not be able to set reminders.
         Set one up <a href="%{basePath}/my/preferences/profile">in your
         profile</a>.
       invalid_custom_datetime: 'The date and time you provided is invalid, please try again.'
-      list_permission_denied: You do not have permission to view this user's bookmarks.
+      list_permission_denied: 汝無權限看只位使用者做个記号。
       no_user_bookmarks: >-
-        You have no bookmarked posts; bookmarks allow you to quickly refer to
-        specific posts.
+        汝無任何做記号个pho͘文、做記号乎汝恰利便
+        跳甲指定个pho͘文。
       auto_delete_preference:
         label: Automatically delete
         never: Never
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
       search_placeholder: 'Search bookmarks by name, topic title, or post content'
-      search: Search
+      search: 尋
       reminders:
-        later_today: Later today
-        next_business_day: Next business day
-        tomorrow: Tomorrow
-        next_week: Next week
+        later_today: 恰停仔
+        next_business_day: 後上班日
+        tomorrow: 明旦再
+        next_week: 後礼拜
         post_local_date: Date in post
         later_this_week: Later this week
-        start_of_next_business_week: Monday
-        start_of_next_business_week_alt: Next Monday
-        next_month: Next month
+        start_of_next_business_week: 拜一
+        start_of_next_business_week_alt: 後拜一
+        next_month: 後個月
         custom: Custom date and time
         last_custom: Last
-        none: No reminder needed
+        none: 免設提醒
         today_with_time: 'today at %{time}'
         tomorrow_with_time: 'tomorrow at %{time}'
         at_time: 'at %{date_time}'
@@ -320,66 +295,63 @@ tai_Han:
           You have a reminder set for this bookmark which will be sent
           %{at_date_time}
     copy_codeblock:
-      copied: copied!
+      copied: Khó͘-pih好唖！
     drafts:
-      resume: Resume
-      remove: Remove
-      remove_confirmation: Are you sure you want to delete this draft?
-      new_topic: New topic draft
-      new_private_message: New private message draft
-      topic_reply: Draft reply
+      resume: 繼續
+      remove: 刣兆
+      remove_confirmation: 汝咁確定卜共只篇草稿硯兆？
+      new_topic: 新話題草稿
+      new_private_message: 新私信草稿
+      topic_reply: 答復草稿
       abandon:
         confirm: >-
-          You already opened another draft in this topic. Are you sure you want
-          to abandon it?
-        yes_value: 'Yes, abandon'
-        no_value: 'No, keep'
+          別份草稿已經開治只條話題。
+          汝咁確定卜共旦硯捒？
+        yes_value: '好、硯兆'
+        no_value: '無, 留レ'
     topic_count_latest:
-      one: 'See %{count} new or updated topic'
-      other: 'See %{count} new or updated topics'
+      other: '看 %{count} 新pho͘个也新thiⁿ个話題'
     topic_count_unread:
-      one: 'See %{count} unread topic'
-      other: 'See %{count} unread topics'
+      other: '看 %{count} 條夭未讀个話題'
     topic_count_new:
-      one: 'See %{count} new topic'
-      other: 'See %{count} new topics'
+      other: '看 %{count} 條新pho͘个話題'
     preview: preview
-    cancel: cancel
-    deleting: Deleting...
-    save: Save Changes
-    saving: Saving...
-    saved: Saved!
-    upload: 傳起去
-    uploading: Uploading...
-    uploading_filename: 'Uploading: %{filename}...'
+    cancel: 脯去
+    deleting: 當塊硯捒...
+    save: Khiām
+    saving: 當塊khiām...
+    saved: Khiām好唖!
+    upload: 藏起去
+    uploading: 當塊藏...
+    uploading_filename: '當塊藏: %{filename}...'
     clipboard: clipboard
-    uploaded: 傳好唖！
-    pasting: Pasting...
-    enable: Enable
-    disable: Disable
-    continue: Continue
+    uploaded: 藏好唖!
+    pasting: 當塊搭...
+    enable: 允准
+    disable: 不准
+    continue: 繼續
     undo: Undo
     revert: Revert
-    failed: Failed
-    switch_to_anon: Enter Anonymous Mode
-    switch_from_anon: Exit Anonymous Mode
+    failed: 失敗
+    switch_to_anon: 入無名模式
+    switch_from_anon: 出無名模式
     banner:
       close: Dismiss this banner.
       edit: Edit this banner >>
     pwa:
-      install_banner: 'Do you want to <a href>install %{title} on this device?</a>'
+      install_banner: '咁愛<a href>安裝 %{title} 个APP?</a>'
     choose_topic:
-      none_found: No topics found.
+      none_found: 尋無話題。
       title:
-        search: Search for a Topic
-        placeholder: 'type the topic title, url or id here'
+        search: 走尋話題
+        placeholder: '打標題・URL・也是ID号'
     choose_message:
-      none_found: No messages found.
+      none_found: 尋無訊息。
       title:
-        search: Search for a Message
-        placeholder: 'type the message title, url or id here'
+        search: 走尋訊息
+        placeholder: '打訊息个標題・URL・也是ID号'
     review:
-      order_by: Order by
+      order_by: "照順序："
       in_reply_to: in reply to
       explain:
         why: explain why this item ended up in the queue
@@ -423,7 +395,7 @@ tai_Han:
       settings:
         saved: Saved
         save_changes: Save Changes
-        title: Settings
+        title: 設定
         priorities:
           title: Reviewable Priorities
       moderation_history: Moderation History
@@ -432,49 +404,42 @@ tai_Han:
       none: There are no items to review.
       view_pending: view pending
       topic_has_pending:
-        one: 'This topic has <b>%{count}</b> post pending approval'
         other: 'This topic has <b>%{count}</b> posts pending approval'
       title: Review
       topic: 'Topic:'
       filtered_topic: You have filtered to reviewable content in a single topic.
-      filtered_user: User
+      filtered_user: 使用者
       filtered_reviewed_by: Reviewed By
       show_all_topics: show all topics
       deleted_post: (post deleted)
       deleted_user: (user deleted)
       user:
-        bio: Bio
+        bio: 有關我
         website: 網站
-        username: Username
+        username: 用者名
         email: 電批
         name: 姓名
         fields: Fields
       user_percentage:
         summary:
-          one: '%{agreed}, %{disagreed}, %{ignored} (%{count} total flag)'
           other: '%{agreed}, %{disagreed}, %{ignored} (%{count} total flags)'
         agreed:
-          one: '%{count}% agree'
           other: '%{count}% agree'
         disagreed:
-          one: '%{count}% disagree'
           other: '%{count}% disagree'
         ignored:
-          one: '%{count}% ignore'
           other: '%{count}% ignore'
       topics:
-        topic: Topic
+        topic: 話題
         reviewable_count: Count
         reported_by: Reported by
         deleted: '[Topic Deleted]'
         original: (original topic)
         details: details
         unique_users:
-          one: '%{count} user'
-          other: '%{count} users'
+          other: '%{count} 个使用者'
       replies:
-        one: '%{count} reply'
-        other: '%{count} replies'
+        other: '%{count} 通答復'
       edit: Edit
       save: Save
       cancel: Cancel
@@ -487,7 +452,7 @@ tai_Han:
         minimum_score: 'Minimum Score:'
         refresh: Refresh
         status: Status
-        category: Category
+        category: 埕
         orders:
           score: Score
           score_asc: Score (reverse)
@@ -542,10 +507,9 @@ tai_Han:
           We've received your new post but it needs to be approved by a
           moderator before it will appear. Please be patient.
         pending_posts:
-          one: 'You have <strong>%{count}</strong> post pending.'
           other: 'You have <strong>%{count}</strong> posts pending.'
         ok: OK
-      example_username: username
+      example_username: abeng
     user_action:
       user_posted_topic: >-
         <a href='%{userUrl}'>%{user}</a> posted <a href='%{topicUrl}'>the
@@ -577,9 +541,9 @@ tai_Han:
       sent_by_user: 'Sent by <a href=''%{userUrl}''>%{user}</a>'
       sent_by_you: 'Sent by <a href=''%{userUrl}''>you</a>'
     directory:
-      username: Username
+      username: 用者名
       filter_name: filter by username
-      title: Users
+      title: 使用者
       likes_given: Given
       likes_received: Received
       topics_entered: Viewed
@@ -596,7 +560,6 @@ tai_Han:
       posts_read_long: Posts Read
       last_updated: 'Last Updated:'
       total_rows:
-        one: '%{count} user'
         other: '%{count} users'
     group_histories:
       actions:
@@ -636,7 +599,7 @@ tai_Han:
           posting: Posting
           notification: Notification
         email:
-          title: Email
+          title: 電批
           status: 'Synchronized %{old_emails} / %{total_emails} emails via IMAP.'
           credentials:
             title: Credentials
@@ -656,7 +619,7 @@ tai_Han:
           title: Membership
           access: Access
         categories:
-          title: Categories
+          title: 埕
           long_title: Category default notifications
           description: >-
             When users are added to this group, their category notification
@@ -681,7 +644,7 @@ tai_Han:
             categories, and they will not appear on the categories or latest
             topics pages.
         tags:
-          title: Tags
+          title: 標仔
           long_title: Tags default notifications
           description: >-
             When users are added to this group, their tag notification settings
@@ -727,9 +690,9 @@ tai_Han:
         messages: There are no messages for this group.
         topics: There are no topics by members of this group.
         logs: There are no logs for this group.
-      add: Add
-      join: Join
-      leave: Leave
+      add: Thiⁿ
+      join: 加入
+      leave: 來走
       request: Request
       message: Message
       confirm_leave: Are you sure you want to leave this group?
@@ -742,11 +705,11 @@ tai_Han:
         title: 'Request to join @%{group_name}'
         reason: Let the group owners know why you belong in this group
       membership: Membership
-      name: Name
-      group_name: Group name
-      user_count: Users
-      bio: About Group
-      selector_placeholder: enter username
+      name: 名
+      group_name: 群組名
+      user_count: 使用者
+      bio: 有關只群
+      selector_placeholder: 打用者名
       owner: owner
       index:
         title: Groups
@@ -768,9 +731,8 @@ tai_Han:
         is_group_user: Member
         is_group_owner: Owner
       title:
-        one: Group
-        other: Groups
-      activity: Activity
+        other: 群組
+      activity: 所做个
       members:
         title: Members
         filter_placeholder_admin: username or email
@@ -783,43 +745,43 @@ tai_Han:
         remove_owner_description: 'Remove <b>%{username}</b> as an owner of this group'
         owner: Owner
         forbidden: You're not allowed to view the members.
-      topics: Topics
-      posts: Posts
-      mentions: Mentions
-      messages: Messages
+      topics: 話題
+      posts: Pho͘文
+      mentions: 点名
+      messages: 訊息
       notification_level: Default notification level for group messages
       alias_levels:
         mentionable: Who can @mention this group?
         messageable: Who can message this group?
-        nobody: Nobody
-        only_admins: Only admins
-        mods_and_admins: Only moderators and Admins
+        nobody: 朗袂使
+        only_admins: 干焦管理員
+        mods_and_admins: 干焦管理員甲埕長
         members_mods_and_admins: 'Only group members, moderators and admins'
         owners_mods_and_admins: 'Only group owners, moderators and admins'
-        everyone: Everyone
+        everyone: 朗會使
       notifications:
         watching:
-          title: Watching
+          title: 塊看
           description: >-
             You will be notified of every new post in every message, and a count
             of new replies will be shown.
         watching_first_post:
-          title: Watching First Post
+          title: 塊看新pho͘个
           description: >-
             You will be notified of new messages in this group but not replies
             to the messages.
         tracking:
-          title: Tracking
+          title: 塊綴
           description: >-
             You will be notified if someone mentions your @name or replies to
             you, and a count of new replies will be shown.
         regular:
-          title: Normal
+          title: 普通
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
         muted:
-          title: Muted
+          title: 靜音
           description: You will not be notified of anything about messages in this group.
       flair_url: Avatar Flair Image
       flair_upload_description: Use square images no smaller than 20px by 20px.
@@ -845,43 +807,40 @@ tai_Han:
       '12': Sent Items
       '13': Inbox
       '14': Pending
-      '15': Drafts
+      '15': 草稿
     categories:
-      all: all categories
-      all_subcategories: all
-      no_subcategory: none
-      category: Category
-      category_list: Display category list
+      all: 所有个埕
+      all_subcategories: 所有个
+      no_subcategory: 無
+      category: 埕
+      category_list: 埕表
       reorder:
         title: Reorder Categories
         title_long: Reorganize the category list
         save: Save Order
         apply_all: Apply
         position: Position
-      posts: Posts
-      topics: Topics
-      latest: Latest
+      posts: Pho͘文
+      topics: 話題
+      latest: 新thiⁿ个
       latest_by: latest by
       toggle_ordering: toggle ordering control
-      subcategories: Subcategories
-      muted: Muted categories
+      subcategories: 專題埕
+      muted: 靜音个埕
       topic_sentence:
-        one: '%{count} topic'
-        other: '%{count} topics'
+        other: '%{count} 條話題'
       topic_stat_sentence_week:
-        one: '%{count} new topic in the past week.'
-        other: '%{count} new topics in the past week.'
+        other: '過去一礼拜有 %{count} 條新个話題。'
       topic_stat_sentence_month:
-        one: '%{count} new topic in the past month.'
-        other: '%{count} new topics in the past month.'
-      n_more: 'Categories (%{count} more)...'
+        other: '過去一個月有 %{count} 條新个話題。'
+      n_more: '埕（閣 %{count} 片）...'
     ip_lookup:
-      title: IP Address Lookup
+      title: 尋IP網址
       hostname: Hostname
-      location: Location
+      location: 位置
       location_not_found: (unknown)
-      organisation: Organization
-      phone: Phone
+      organisation: 組織
+      phone: 電話
       other_accounts: 'Other accounts with this IP address:'
       delete_other_accounts: 'Delete %{count}'
       username: username
@@ -893,23 +852,23 @@ tai_Han:
       powered_by: 'using <a href=''https://maxmind.com''>MaxMindDB</a>'
       copied: copied
     user_fields:
-      none: (select an option)
+      none: (揀一項)
       required: 'Please enter a value for "%{name}"'
     user:
       said: '%{username}:'
-      profile: Profile
-      mute: Mute
+      profile: 個人
+      mute: 靜音
       edit: Edit Preferences
       download_archive:
-        button_text: Download All
-        confirm: Are you sure you want to download your posts?
+        button_text: 扐全部
+        confirm: 汝咁確定卜共汝所有个pho͘文扐落來？
         success: >-
           Download initiated, you will be notified via message when the process
           is complete.
-        rate_limit_error: 'Posts can be downloaded once per day, please try again tomorrow.'
-      new_private_message: New Message
-      private_message: Message
-      private_messages: Messages
+        rate_limit_error: '逐工通扐pho͘文一擺、明旦再閣試。'
+      new_private_message: 汝有訊息
+      private_message: 訊息
+      private_messages: 訊息
       user_notifications:
         filters:
           filter_by: Filter By
@@ -936,39 +895,39 @@ tai_Han:
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
-      activity_stream: Activity
-      preferences: Preferences
+      activity_stream: 所做个
+      preferences: 設定
       feature_topic_on_profile:
-        open_search: Select a New Topic
-        title: Select a Topic
-        search_label: Search for Topic by title
-        save: Save
+        open_search: 揀新个話題
+        title: 揀一條話題
+        search_label: 對標題尋話題
+        save: Khiām
         clear:
           title: Clear
           warning: Are you sure you want to clear your featured topic?
       use_current_timezone: Use Current Timezone
       profile_hidden: This user's public profile is hidden.
-      expand_profile: Expand
+      expand_profile: 打開
       collapse_profile: Collapse
-      bookmarks: Bookmarks
-      bio: About me
-      timezone: Timezone
-      invited_by: Invited By
-      trust_level: Trust Level
-      notifications: Notifications
-      statistics: Stats
+      bookmarks: 記号
+      bio: 有關我
+      timezone: 時區
+      invited_by: 邀請人
+      trust_level: 信用級
+      notifications: 通知
+      statistics: 統計
       desktop_notifications:
-        label: Live Notifications
-        not_supported: Notifications are not supported on this browser. Sorry.
-        perm_default: Turn On Notifications
-        perm_denied_btn: Permission Denied
+        label: 隨時通知
+        not_supported: 歹世。只个閱覽器無支援通知。
+        perm_default: 允准通知
+        perm_denied_btn: 無權限
         perm_denied_expl: >-
           You denied permission for notifications. Allow notifications via your
           browser settings.
-        disable: Disable Notifications
-        enable: Enable Notifications
+        disable: 不准通知
+        enable: 允准通知
         each_browser_note: 'Note: You have to change this setting on every browser you use.'
-        consent_prompt: Do you want live notifications when people reply to your posts?
+        consent_prompt: 汝个pho͘文那有新个答復、汝咁愛領通知？
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
       dismiss_notifications_tooltip: Mark all unread notifications as read
@@ -980,7 +939,7 @@ tai_Han:
         skip_link: Skip these tips
       theme_default_on_all_devices: Make this the default theme on all my devices
       color_scheme_default_on_all_devices: Set default color scheme(s) on all my devices
-      color_scheme: Color Scheme
+      color_scheme: 色水
       color_schemes:
         default_description: Default
         disable_dark_scheme: Same as regular
@@ -988,28 +947,28 @@ tai_Han:
           You can preview the dark mode color scheme by toggling your device's
           dark mode.
         undo: Reset
-        regular: Regular
-        dark: Dark mode
-        default_dark_scheme: (site default)
-      dark_mode: Dark Mode
+        regular: 普通
+        dark: 暗色
+        default_dark_scheme: (網站既定个)
+      dark_mode: 暗色
       dark_mode_enable: Enable automatic dark mode color scheme
       text_size_default_on_all_devices: Make this the default text size on all my devices
-      allow_private_messages: Allow other users to send me personal messages
-      external_links_in_new_tab: Open all external links in a new tab
+      allow_private_messages: 允准別个使用者寄私信乎我
+      external_links_in_new_tab: 外網連仔開治新分頁
       enable_quoting: Enable quote reply for highlighted text
       enable_defer: Enable defer to mark topics unread
       change: change
-      featured_topic: Featured Topic
-      moderator: '%{user} is a moderator'
-      admin: '%{user} is an admin'
-      moderator_tooltip: This user is a moderator
-      admin_tooltip: This user is an admin
+      featured_topic: 特別話題
+      moderator: '%{user} 是埕長'
+      admin: '%{user} 是管理員'
+      moderator_tooltip: 使用者是埕長
+      admin_tooltip: 使用者是管理員
       silenced_tooltip: This user is silenced
       suspended_notice: 'This user is suspended until %{date}.'
       suspended_permanently: This user is suspended.
-      suspended_reason: 'Reason: '
+      suspended_reason: '理由： '
       github_profile: GitHub
-      email_activity_summary: Activity Summary
+      email_activity_summary: 所做个大意
       mailing_list_mode:
         label: Mailing list mode
         enabled: Enable mailing list mode
@@ -1023,64 +982,63 @@ tai_Han:
           day)
         few_per_day: Send me an email for every new post (about 2 per day)
         warning: Mailing list mode enabled. Email notification settings are overridden.
-      tag_settings: Tags
-      watched_tags: Watched
+      tag_settings: 標仔
+      watched_tags: 塊看
       watched_tags_instructions: >-
         You will automatically watch all topics with these tags. You will be
         notified of all new posts and topics, and a count of new posts will also
         appear next to the topic.
-      tracked_tags: Tracked
+      tracked_tags: 塊綴
       tracked_tags_instructions: >-
         You will automatically track all topics with these tags. A count of new
         posts will appear next to the topic.
-      muted_tags: Muted
+      muted_tags: 靜音
       muted_tags_instructions: >-
         You will not be notified of anything about new topics with these tags,
         and they will not appear in latest.
-      watched_categories: Watched
+      watched_categories: 塊看
       watched_categories_instructions: >-
-        You will automatically watch all topics in these categories. You will be
-        notified of all new posts and topics, and a count of new posts will also
-        appear next to the topic.
-      tracked_categories: Tracked
+        者个埕所有个話題算是汝塊看。
+        新个話題甲所有个pho͘文汝會收通知、
+        新pho͘額嗎顯示治標題邊仔。
+      tracked_categories: 塊綴
       tracked_categories_instructions: >-
-        You will automatically track all topics in these categories. A count of
-        new posts will appear next to the topic.
-      watched_first_post_categories: Watching First Post
+        者个埕所有个話題算是汝塊綴。
+        新pho͘額嗎顯示治標題邊仔。
+      watched_first_post_categories: 塊看新pho͘个
       watched_first_post_categories_instructions: >-
-        You will be notified of the first post in each new topic in these
-        categories.
-      watched_first_post_tags: Watching First Post
+        新pho͘个話題汝會收通知。
+      watched_first_post_tags: 塊看新pho͘个
       watched_first_post_tags_instructions: >-
         You will be notified of the first post in each new topic with these
         tags.
-      muted_categories: Muted
+      muted_categories: 靜音
       muted_categories_instructions: >-
-        You will not be notified of anything about new topics in these
-        categories, and they will not appear on the categories or latest pages.
+        者个埕那有新个話題、汝袂收通知、
+        埕頁甲新thiⁿ頁嗎看袂着。
       muted_categories_instructions_dont_hide: >-
         You will not be notified of anything about new topics in these
         categories.
-      regular_categories: Regular
+      regular_categories: 一般
       regular_categories_instructions: You will see these categories in the “Latest” and “Top” topic lists.
       no_category_access: 'As a moderator you have limited category access, save is disabled.'
-      delete_account: Delete My Account
+      delete_account: 共我个口座刣兆
       delete_account_confirm: >-
         Are you sure you want to permanently delete your account? This action
         cannot be undone!
       deleted_yourself: Your account has been deleted successfully.
       delete_yourself_not_allowed: Please contact a staff member if you wish your account to be deleted.
-      unread_message_count: Messages
+      unread_message_count: 訊息
       admin_delete: Delete
-      users: Users
-      muted_users: Muted
+      users: 使用者
+      muted_users: 靜音
       muted_users_instructions: Suppress all notifications and PMs from these users.
-      allowed_pm_users: Allowed
+      allowed_pm_users: 允准个
       allowed_pm_users_instructions: Only allow PMs from these users.
       allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
       ignored_users: Ignored
       ignored_users_instructions: 'Suppress all posts, notifications, and PMs from these users.'
-      tracked_topics_link: Show
+      tracked_topics_link: 顯示
       automatically_unpin_topics: Automatically unpin topics when I reach the bottom.
       apps: Apps
       revoke_access: Revoke Access
@@ -1089,7 +1047,7 @@ tai_Han:
       api_last_used_at: 'Last used at:'
       theme: Theme
       save_to_change_theme: 'Theme will be updated after you click "%{save_text}"'
-      home: Default Home Page
+      home: 我个主頁
       staged: Staged
       staff_counters:
         flags_given: helpful flags
@@ -1099,33 +1057,33 @@ tai_Han:
         warnings_received: warnings
         rejected_posts: rejected posts
       messages:
-        all: All
-        inbox: Inbox
-        sent: Sent
+        all: 所有个
+        inbox: 信箱
+        sent: 寄个
         archive: Archive
         groups: My Groups
         bulk_select: Select messages
-        move_to_inbox: Move to Inbox
-        move_to_archive: Archive
+        move_to_inbox: 遷甲信箱
+        move_to_archive: 收藏
         failed_to_move: Failed to move selected messages (perhaps your network is down)
         select_all: Select All
-        tags: Tags
+        tags: 標仔
       preferences_nav:
-        account: Account
-        profile: Profile
-        emails: Emails
-        notifications: Notifications
-        categories: Categories
-        users: Users
-        tags: Tags
-        interface: Interface
-        apps: Apps
+        account: 口座
+        profile: 個人
+        emails: 電批
+        notifications: 通知
+        categories: 埕
+        users: 使用者
+        tags: 標仔
+        interface: 介面
+        apps: APP
       change_password:
-        success: (email sent)
-        in_progress: (sending email)
-        error: (error)
+        success: (電批寄好唖)
+        in_progress: (當塊寄電批)
+        error: (錯誤)
         emoji: lock emoji
-        action: Send Password Reset Email
+        action: 寄 Password Reset 電批
         set_password: Set Password
         choose_new: Choose a new password
         choose: Choose a password
@@ -1136,18 +1094,14 @@ tai_Han:
         enable: Enable
         enable_long: Enable backup codes
         manage:
-          one: >-
-            Manage backup codes. You have <strong>%{count}</strong> backup code
-            remaining.
           other: >-
             Manage backup codes. You have <strong>%{count}</strong> backup codes
             remaining.
-        copy_to_clipboard: Copy to Clipboard
-        copy_to_clipboard_error: Error copying data to Clipboard
-        copied_to_clipboard: Copied to Clipboard
-        download_backup_codes: Download backup codes
+        copy_to_clipboard: Khó͘-pih起去
+        copy_to_clipboard_error: Khó͘-pih發生錯誤
+        copied_to_clipboard: Khó͘-pih好唖
+        download_backup_codes: 共backup codes扐落來
         remaining_codes:
-          one: 'You have <strong>%{count}</strong> backup code remaining.'
           other: 'You have <strong>%{count}</strong> backup codes remaining.'
         use: Use a backup code
         enable_prerequisites: >-
@@ -1159,10 +1113,10 @@ tai_Han:
             Each of these backup codes can only be used once. Keep them
             somewhere safe but accessible.
       second_factor:
-        title: Two-Factor Authentication
-        enable: Manage Two-Factor Authentication
+        title: 二步驗明
+        enable: 管理二步驗明
         disable_all: Disable All
-        forgot_password: Forgot password?
+        forgot_password: Password袂記得？
         confirm_password_description: Please confirm your password to continue
         name: Name
         label: Code
@@ -1194,7 +1148,7 @@ tai_Han:
           this site.
         disable: Disable
         disable_confirm: Are you sure you want to disable all two-factor methods?
-        save: Save
+        save: Khiām
         edit: Edit
         edit_title: Edit Authenticator
         edit_description: Authenticator Name
@@ -1227,15 +1181,15 @@ tai_Han:
         title: Change About Me
         error: There was an error changing this value.
       change_username:
-        title: Change Username
-        confirm: Are you absolutely sure you want to change your username?
+        title: 換用者名
+        confirm: 汝咁確定卜換用者名？
         taken: 'Sorry, that username is taken.'
-        invalid: That username is invalid. It must only include numbers and letters
+        invalid: 用者名干焦通用字母甲數字
       add_email:
-        title: Add Email
-        add: add
+        title: 加電批
+        add: 加
       change_email:
-        title: Change Email
+        title: 換電批
         taken: 'Sorry, that email is not available.'
         error: >-
           There was an error changing your email. Perhaps that address is
@@ -1250,7 +1204,7 @@ tai_Han:
           We've sent an email to your current address. Please follow the
           confirmation instructions.
       change_avatar:
-        title: Change your profile picture
+        title: 換汝个口座尫仔
         gravatar: >-
           <a href='//%{gravatarBaseUrl}%{gravatarLoginUrl}'
           target='_blank'>%{gravatarName}</a>, based on
@@ -1263,30 +1217,30 @@ tai_Han:
         upload_title: Upload your picture
         image_is_not_a_square: 'Warning: we''ve cropped your image; width and height were not equal.'
       change_profile_background:
-        title: Profile Header
+        title: 口座背景圖
         instructions: Profile headers will be centered and have a default width of 1110px.
       change_card_background:
         title: User Card Background
         instructions: Background images will be centered and have a default width of 590px.
       change_featured_topic:
-        title: Featured Topic
+        title: 特別話題
         instructions: 'A link to this topic will be on your user card, and profile.'
       email:
-        title: Email
-        primary: Primary Email
-        secondary: Secondary Emails
-        primary_label: primary
-        unconfirmed_label: unconfirmed
-        resend_label: resend confirmation email
-        resending_label: sending...
-        resent_label: email sent
-        update_email: Change Email
-        set_primary: Set Primary Email
-        destroy: Remove Email
+        title: 電批
+        primary: 主電批
+        secondary: 次電批
+        primary_label: 主
+        unconfirmed_label: 未認証
+        resend_label: 認証電批閣寄一擺
+        resending_label: 當塊寄...
+        resent_label: 電批寄唖
+        update_email: 換電批
+        set_primary: 揀主電批
+        destroy: 刣電批
         add_email: Add Alternate Email
         sso_override_instructions: Email can be updated from SSO provider.
         no_secondary: No secondary emails
-        instructions: Never shown to the public.
+        instructions: 袂公開顯示。阮會保密。
         admin_note: >-
           Note: An admin user changing another non-admin user's email indicates
           the user has lost access to their original email account, so a reset
@@ -1300,7 +1254,6 @@ tai_Han:
           We'll email you immediately if you haven't read the thing we're
           emailing you about.
         frequency:
-          one: We'll only email you if we haven't seen you in the last minute.
           other: >-
             We'll only email you if we haven't seen you in the last %{count}
             minutes.
@@ -1317,70 +1270,70 @@ tai_Han:
             authentication.
           generic: 'Your %{provider} account will be used for authentication.'
       name:
-        title: Name
-        instructions: your full name (optional)
-        instructions_required: Your full name
-        required: Please enter a name
-        too_short: Your name is too short
-        ok: Your name looks good
+        title: 姓名
+        instructions: 汝个姓名（在汝寫・公開顯示个）
+        instructions_required: 汝个姓名
+        required: 請輸入姓名
+        too_short: 姓名箱短
+        ok: 姓名 OK
       username:
-        title: Username
-        instructions: 'unique, no spaces, short'
-        short_instructions: 'People can mention you as @%{username}'
-        available: Your username is available
-        not_available: 'Not available. Try %{suggestion}?'
-        not_available_no_suggestion: Not available
-        too_short: Your username is too short
-        too_long: Your username is too long
-        checking: Checking username availability...
+        title: "用者名"
+        instructions: "字母甲數字・勿籠格・恰短"
+        short_instructions: "別人會凍打 @%{username} 共汝点名"
+        available: 汝揀个用者名會用得
+        not_available: '袂用得。咁愛用 %{suggestion}?'
+        not_available_no_suggestion: 袂用得
+        too_short: 用者名箱短
+        too_long: 用者名箱長
+        checking: 當塊確認用者名咁會用得...
         prefilled: Email matches this registered username
-        required: Please enter a username
+        required: 請打一个用者名
       locale:
-        title: Interface language
-        instructions: User interface language. It will change when you refresh the page.
-        default: (default)
+        title: 介面語言
+        instructions: 使用者介面語言。愛共網頁更新即看會着。
+        default: (既定个)
         any: any
       password_confirmation:
         title: Password Again
       invite_code:
-        title: Invite Code
-        instructions: Account registration requires an invite code
+        title: 請帖碼
+        instructions: 註册愛thiⁿ請帖碼
       auth_tokens:
-        title: Recently Used Devices
-        details: Details
-        log_out_all: Log out all
-        not_you: Not you?
-        show_all: 'Show all (%{count})'
-        show_few: Show fewer
-        was_this_you: Was this you?
+        title: 最近使用設備
+        details: 詳細
+        log_out_all: 全部出站
+        not_you: 不是汝?
+        show_all: '顯示所有个(%{count})'
+        show_few: 顯示恰少
+        was_this_you: 此咁是汝？
         was_this_you_description: >-
           If it wasn’t you, we recommend you change your password and log out
           everywhere.
-        browser_and_device: '%{browser} on %{device}'
+        browser_and_device: '%{browser} 治 %{device}'
         secure_account: Secure my Account
-        latest_post: You last posted…
+        latest_post: 汝頂擺pho͘文…
         device_location: >-
           <span class="auth-token-device">%{device}</span> &ndash; <span
           title="IP: %{ip}">%{location}</span>
         browser_active: '%{browser} | <span class="active">active now</span>'
         browser_last_seen: '%{browser} | %{date}'
-      last_posted: Last Post
-      last_emailed: Last Emailed
+      last_posted: 頂擺pho͘文
+      last_emailed: 頂擺寄電批
       last_seen: Seen
-      created: Joined
-      log_out: Log Out
-      location: Location
-      website: Web Site
-      email_settings: Email
+      created: 創立
+      log_out: 出站
+      location: 位置
+      website: 網站
+      email_settings: 電批
       hide_profile_and_presence: Hide my public profile and presence features
       enable_physical_keyboard: Enable physical keyboard support on iPad
       text_size:
-        title: Text Size
-        smallest: Smallest
-        smaller: Smaller
-        normal: Normal
-        larger: Larger
-        largest: Largest
+        title: 字个寸尺
+        smallest: 上細
+        smaller: 恰細
+        normal: 普通
+        larger: 恰大
+        largest: 上大
       title_count_mode:
         title: 'Background page title displays count of:'
         notifications: New notifications
@@ -1400,12 +1353,12 @@ tai_Han:
         title: >-
           When I don’t visit here, send me an email summary of popular topics
           and replies
-        every_30_minutes: every 30 minutes
-        every_hour: hourly
-        daily: daily
-        weekly: weekly
-        every_month: every month
-        every_six_months: every six months
+        every_30_minutes: 半点鐘一擺
+        every_hour: 一点鐘一擺
+        daily: 逐工
+        weekly: 逐礼拜
+        every_month: 逐個月
+        every_six_months: 半冬
       email_level:
         title: >-
           Send me an email when someone quotes me, replies to my post, mentions
@@ -1437,15 +1390,14 @@ tai_Han:
         after_4_minutes: after 4 minutes
         after_5_minutes: after 5 minutes
         after_10_minutes: after 10 minutes
-      notification_level_when_replying: 'When I post in a topic, set that topic to'
+      notification_level_when_replying: '我那留話、共喜个話題算做'
       invited:
         search: type to search invites...
-        title: Invites
+        title: 請帖
         user: Invited User
         sent: Last Sent
         none: No invites to display.
         truncated:
-          one: Showing the first invite.
           other: 'Showing the first %{count} invites.'
         redeemed: Redeemed Invites
         redeemed_tab: Redeemed
@@ -1501,42 +1453,34 @@ tai_Han:
           confirmation_message: You’re about to email invites to everyone in the uploaded file.
       password:
         title: Password
-        too_short: Your password is too short.
-        common: That password is too common.
-        same_as_username: Your password is the same as your username.
-        same_as_email: Your password is the same as your email.
-        ok: Your password looks good.
-        instructions: 'at least %{count} characters'
-        required: Please enter a password
+        too_short: Password 箱短。
+        common: Password 箱普遍。
+        same_as_username: Password 甲用者名仝欵。
+        same_as_email: Password 甲電批名仝欵。
+        ok: Password 無問題。
+        instructions: '上無愛打 %{count} 字'
+        required: 請輸入 password
       summary:
-        title: Summary
-        stats: Stats
+        title: 大意
+        stats: 統計
         time_read: read time
         recent_time_read: recent read time
         topic_count:
-          one: topic created
           other: topics created
         post_count:
-          one: post created
           other: posts created
         likes_given:
-          one: given
           other: given
         likes_received:
-          one: received
           other: received
         days_visited:
-          one: day visited
           other: days visited
         topics_entered:
-          one: topic viewed
           other: topics viewed
         posts_read:
-          one: post read
           other: posts read
         bookmark_count:
-          one: bookmark
-          other: bookmarks
+          other: 記号
         top_replies: Top Replies
         no_replies: No replies yet.
         more_replies: More Replies
@@ -1560,7 +1504,7 @@ tai_Han:
       registration_ip_address:
         title: Registration IP Address
       avatar:
-        title: Profile Picture
+        title: 口座尫仔
         header_title: 'profile, messages, bookmarks and preferences'
       title:
         title: Title
@@ -1579,30 +1523,30 @@ tai_Han:
     errors:
       prev_page: while trying to load
       reasons:
-        network: Network Error
+        network: 網路錯誤
         server: Server Error
-        forbidden: Access Denied
-        unknown: Error
-        not_found: Page Not Found
+        forbidden: 無權限
+        unknown: 錯誤
+        not_found: 無只頁
       desc:
         network: Please check your connection.
         network_fixed: Looks like it's back.
-        server: 'Error code: %{status}'
-        forbidden: You're not allowed to view that.
+        server: '錯誤番號： %{status}'
+        forbidden: 汝袂凍看彼。
         not_found: 'Oops, the application tried to load a URL that doesn''t exist.'
-        unknown: Something went wrong.
+        unknown: 發生錯誤。
       buttons:
-        back: Go Back
-        again: Try Again
+        back: 返去
+        again: 閣試一擺
         fixed: Load Page
     modal:
-      close: close
+      close: 關
       dismiss_error: Dismiss error
-    close: Close
+    close: 關
     assets_changed_confirm: This site was just updated. Refresh now for the latest version?
-    logout: You were logged out.
+    logout: 汝已經出站。
     refresh: Refresh
-    home: Home
+    home: 主頁
     read_only_mode:
       enabled: >-
         This site is in read only mode. Please continue to browse, but replying,
@@ -1674,15 +1618,13 @@ tai_Han:
     time_read_recently_tooltip: '%{time_read} total time read (%{recent_time_read} in the last 60 days)'
     last_reply_lowercase: last reply
     replies_lowercase:
-      one: reply
-      other: replies
+      other: 答復
     signup_cta:
-      sign_up: Sign Up
-      hide_session: Remind me tomorrow
-      hide_forever: no thanks
+      sign_up: 登記
+      hide_session: 明旦再提醒我
+      hide_forever: 免、多謝
       hidden_for_session: >-
-        OK, I'll ask you tomorrow. You can always use 'Log In' to create an
-        account, too.
+        好、我明旦再閣來問。無、歡迎隨時市「入站」登記。
       intro: >-
         Hello! Looks like you’re enjoying the discussion, but you haven’t signed
         up for an account yet.
@@ -1700,34 +1642,34 @@ tai_Han:
         There are <b>%{replyCount}</b> replies with an estimated read time of
         <b>%{readingTime} minutes</b>.
       enable: Summarize This Topic
-      disable: Show All Posts
+      disable: 顯示所有个pho͘文
     deleted_filter:
       enabled_description: 'This topic contains deleted posts, which have been hidden.'
       disabled_description: Deleted posts in the topic are shown.
       enable: Hide Deleted Posts
       disable: Show Deleted Posts
     private_message_info:
-      title: Message
-      invite: Invite Others...
+      title: 訊息
+      invite: 請別人...
       edit: Add or Remove...
       remove: Remove...
       add: Add...
       leave_message: Do you really want to leave this message?
       remove_allowed_user: 'Do you really want to remove %{name} from this message?'
       remove_allowed_group: 'Do you really want to remove %{name} from this message?'
-    email: Email
-    username: Username
+    email: 電批
+    username: 用者名
     last_seen: Seen
-    created: Created
+    created: 創立時
     created_lowercase: created
     trust_level: Trust Level
     search_hint: 'username, email or IP address'
     create_account:
       disclaimer: >-
-        By registering, you agree to the <a href='%{privacy_link}'
-        target='blank'>privacy policy</a> and <a href='%{tos_link}'
-        target='blank'>terms of service</a>.
-      title: Create New Account
+        登記時、汝同意本平台个<a href='%{privacy_link}'
+        target='blank'>私權條欵</a>甲<a href='%{tos_link}'
+        target='blank'>服務契約</a>。
+      title: 起新口座
       failed: >-
         Something went wrong, perhaps this email is already registered, try the
         forgot password link
@@ -1763,8 +1705,8 @@ tai_Han:
       button_ok: OK
       button_help: Help
     email_login:
-      link_label: Email me a login link
-      button_label: with email
+      link_label: 入站連仔寄電批乎我
+      button_label: 對電批來
       emoji: lock emoji
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
@@ -1784,10 +1726,10 @@ tai_Han:
       logging_in_as: 'Logging in as %{email}'
       confirm_button: Finish Login
     login:
-      title: Log In
-      username: User
+      title: 入站
+      username: 用者名
       password: Password
-      second_factor_title: Two-Factor Authentication
+      second_factor_title: 二步驗明
       second_factor_description: 'Please enter the authentication code from your app:'
       second_factor_backup: Log in using a backup code
       second_factor_backup_title: Two-Factor Backup
@@ -1805,9 +1747,9 @@ tai_Han:
       security_key_support_missing_error: >-
         Your current device or browser does not support the use of security
         keys. Please use a different method.
-      email_placeholder: email or username
+      email_placeholder: 電批也用者名
       caps_lock_warning: Caps Lock is on
-      error: Unknown error
+      error: 發生錯誤
       cookies_error: >-
         Your browser seems to have cookies disabled. You might not be able to
         log in without enabling them first.
@@ -1815,8 +1757,8 @@ tai_Han:
       blank_username: Please enter your email or username.
       blank_username_or_password: 'Please enter your email or username, and password.'
       reset_password: Reset Password
-      logging_in: Signing In...
-      or: Or
+      logging_in: 當塊入站...
+      or: 也是
       authenticating: Authenticating...
       awaiting_activation: >-
         Your account is awaiting activation, use the forgot password link to
@@ -1846,46 +1788,46 @@ tai_Han:
       sent_activation_email_again_generic: >-
         We sent another activation email. It might take a few minutes for it to
         arrive; be sure to check your spam folder.
-      to_continue: Please Log In
+      to_continue: 請入站
       preferences: You need to be logged in to change your user preferences.
       not_approved: >-
         Your account hasn't been approved yet. You will be notified by email
         when you are ready to log in.
       google_oauth2:
         name: Google
-        title: with Google
+        title: 對Google來
       twitter:
-        name: Twitter
-        title: with Twitter
+        name: Thui-thò
+        title: 對Thui-thò來
       instagram:
         name: Instagram
-        title: with Instagram
+        title: 對Instagram來
       facebook:
-        name: Facebook
-        title: with Facebook
+        name: Bīn-chheh
+        title: 對Bīn-chheh來
       github:
         name: GitHub
-        title: with GitHub
+        title: 對GitHub來
       discord:
         name: Discord
-        title: with Discord
+        title: 對Discord來
       second_factor_toggle:
         totp: Use an authenticator app instead
         backup_code: Use a backup code instead
     invites:
-      accept_title: Invitation
+      accept_title: 請帖
       emoji: envelope emoji
-      welcome_to: 'Welcome to %{site_name}!'
-      invited_by: 'You were invited by:'
+      welcome_to: '%{site_name} 請汝來坐！'
+      invited_by: '邀請汝个人：'
       social_login_available: You'll also be able to sign in with any social login using that email.
-      your_email: 'Your account email address is <b>%{email}</b>.'
-      accept_invite: Accept Invitation
-      success: Your account has been created and you're now logged in.
-      name_label: Name
+      your_email: '汝个口座電批是 <b>%{email}</b>.'
+      accept_invite: 接受請帖
+      success: 汝个口座建立好、已經入站唖。
+      name_label: 姓名
       password_label: Password
-      optional_description: (optional)
+      optional_description: (在汝寫)
     password_reset:
-      continue: 'Continue to %{site_name}'
+      continue: '向前甲 %{site_name}'
     emoji_set:
       apple_international: Apple/International
       google: Google
@@ -1910,14 +1852,11 @@ tai_Han:
       loading: Loading...
     category_row:
       topic_count:
-        one: '%{count} topic in this category'
-        other: '%{count} topics in this category'
+        other: '只片埕有 %{count} 條話題'
       plus_subcategories_title:
-        one: '%{name} and one subcategory'
-        other: '%{name} and %{count} subcategories'
+        other: '%{name} 閣 %{count} 片專題埕'
       plus_subcategories:
-        one: '+ %{count} subcategory'
-        other: '+ %{count} subcategories'
+        other: '+ %{count} 片專題埕'
     select_kit:
       default_header_text: Select...
       no_content: No matches found
@@ -1925,40 +1864,37 @@ tai_Han:
       filter_placeholder_with_any: Search or create...
       create: 'Create: ''%{content}'''
       max_content_reached:
-        one: 'You can only select %{count} item.'
         other: 'You can only select %{count} items.'
       min_content_not_reached:
-        one: 'Select at least %{count} item.'
         other: 'Select at least %{count} items.'
       invalid_selection_length:
-        one: 'Selection must be at least %{count} character.'
         other: 'Selection must be at least %{count} characters.'
       components:
         categories_admin_dropdown:
           title: Manage categories
     date_time_picker:
-      from: From
-      to: To
+      from: 對
+      to: 甲
       errors:
         to_before_from: To date must be later than from date.
     emoji_picker:
-      filter_placeholder: Search for emoji
-      smileys_&_emotion: Smileys and Emotion
-      people_&_body: People and Body
-      animals_&_nature: Animals and Nature
-      food_&_drink: Food and Drink
-      travel_&_places: Travel and Places
-      activities: Activities
-      objects: Objects
-      symbols: Symbols
-      flags: Flags
-      recent: Recently used
-      default_tone: No skin tone
-      light_tone: Light skin tone
-      medium_light_tone: Medium light skin tone
-      medium_tone: Medium skin tone
-      medium_dark_tone: Medium dark skin tone
-      dark_tone: Dark skin tone
+      filter_placeholder: 尋心情尫仔圖
+      smileys_&_emotion: 笑面甲表情
+      people_&_body: 人甲動作
+      animals_&_nature: 動物甲自然
+      food_&_drink: 食食
+      travel_&_places: 遊覽甲地点
+      activities: 活動
+      objects: 物件
+      symbols: 符号
+      flags: 旗仔
+      recent: 最近八用个
+      default_tone: 外表黃
+      light_tone: 白肉
+      medium_light_tone: 小可白肉
+      medium_tone: 中央色
+      medium_dark_tone: 小可烏肉
+      dark_tone: 烏肉
       default: Custom emojis
     shared_drafts:
       title: Shared Drafts
@@ -1970,8 +1906,8 @@ tai_Han:
       confirm_publish: Are you sure you want to publish this draft?
       publishing: Publishing Topic...
     composer:
-      emoji: 'Emoji :)'
-      more_emoji: more...
+      emoji: '尫仔圖 :)'
+      more_emoji: 恰多...
       options: Options
       whisper: whisper
       unlist: unlisted
@@ -1980,22 +1916,15 @@ tai_Han:
       toggle_unlisted: Toggle Unlisted
       posting_not_on_topic: Which topic do you want to reply to?
       saved_local_draft_tip: saved locally
-      similar_topics: Your topic is similar to...
+      similar_topics: 汝个話題介成...
       drafts_offline: drafts offline
       edit_conflict: edit conflict
       group_mentioned_limit:
-        one: >-
-          <b>Warning!</b> You mentioned <a href='%{group_link}'>%{group}</a>,
-          however this group has more members than the administrator configured
-          mention limit of %{count} user. Nobody will be notified.
         other: >-
           <b>Warning!</b> You mentioned <a href='%{group_link}'>%{group}</a>,
           however this group has more members than the administrator configured
           mention limit of %{count} users. Nobody will be notified.
       group_mentioned:
-        one: >-
-          By mentioning %{group}, you are about to notify <a
-          href='%{group_link}'>%{count} person</a> – are you sure?
         other: >-
           By mentioning %{group}, you are about to notify <a
           href='%{group_link}'>%{count} people</a> – are you sure?
@@ -2014,15 +1943,14 @@ tai_Han:
         %{ago}</a> – are you sure you want to post it again?
       reference_topic_title: 'RE: %{title}'
       error:
-        title_missing: Title is required
-        title_too_short: 'Title must be at least %{min} characters'
-        title_too_long: 'Title can''t be more than %{max} characters'
-        post_missing: Post can’t be empty
-        post_length: 'Post must be at least %{min} characters'
+        title_missing: 愛寫一个標題
+        title_too_short: '標題上少愛寫 %{min} 字'
+        title_too_long: '標題袂凍超過 %{max} 字'
+        post_missing: Pho͘文內容袂凍空空
+        post_length: 'Pho͘文上少愛寫 %{min} 字'
         try_like: 'Have you tried the %{heart} button?'
-        category_missing: You must choose a category
+        category_missing: 愛揀一片埕
         tags_missing:
-          one: 'You must choose at least %{count} tag'
           other: 'You must choose at least %{count} tags'
         topic_template_not_modified: >-
           Please add details and specifics to your topic by editing the topic
@@ -2031,9 +1959,9 @@ tai_Han:
       overwrite_edit: Overwrite Edit
       reply_original: Reply on Original Topic
       reply_here: Reply Here
-      reply: Reply
+      reply: 答復
       cancel: Cancel
-      create_topic: Create Topic
+      create_topic: Pho͘文
       create_pm: Message
       create_whisper: Whisper
       create_shared_draft: Create Shared Draft
@@ -2051,20 +1979,20 @@ tai_Han:
       reply_placeholder_no_images: 'Type here. Use Markdown, BBCode, or HTML to format.'
       reply_placeholder_choose_category: Select a category before typing here.
       view_new_post: View your new post.
-      saving: Saving
-      saved: Saved!
-      saved_draft: Post draft in progress. Tap to resume.
-      uploading: Uploading...
+      saving: 當塊khiām
+      saved: Khiām唖！
+      saved_draft: 當塊寫草稿。市落去繼續。
+      uploading: 當塊藏...
       show_preview: show preview &raquo;
       hide_preview: '&laquo; hide preview'
       quote_post_title: Quote whole post
-      bold_label: B
-      bold_title: Strong
-      bold_text: strong text
-      italic_label: I
-      italic_title: Emphasis
-      italic_text: emphasized text
-      link_title: Hyperlink
+      bold_label: 粗
+      bold_title: 粗体
+      bold_text: 粗体字
+      italic_label: 斜
+      italic_title: 斜体
+      italic_text: 斜体字
+      link_title: 網連仔
       link_description: enter link description here
       link_dialog_title: Insert Hyperlink
       link_optional_text: optional title
@@ -2100,9 +2028,9 @@ tai_Han:
           discussion you may only post once every %{duration}.
       admin_options_title: Optional staff settings for this topic
       composer_actions:
-        reply: Reply
-        draft: Draft
-        edit: Edit
+        reply: 答復
+        draft: 草稿
+        edit: 編輯
         reply_to_post:
           label: 'Reply to a post by %{postUsername}'
           desc: Reply to a specific post
@@ -2116,16 +2044,16 @@ tai_Han:
           label: Reply as new group message
           desc: Create a new private message with the same recipients
         reply_as_private_message:
-          label: New message
+          label: 寄私信
           desc: Create a new personal message
         reply_to_topic:
-          label: Reply to topic
-          desc: 'Reply to the topic, not any specific post'
+          label: 應話題
+          desc: '應歸个話題、免指定其中一篇pho͘文'
         toggle_whisper:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
         create_topic:
-          label: New Topic
+          label: Pho͘文
         shared_draft:
           label: Shared Draft
           desc: Draft a topic that will only be visible to allowed users
@@ -2137,13 +2065,10 @@ tai_Han:
     notifications:
       tooltip:
         regular:
-          one: '%{count} unseen notification'
-          other: '%{count} unseen notifications'
+          other: '%{count} 通夭未看个通知'
         message:
-          one: '%{count} unread message'
-          other: '%{count} unread messages'
+          other: '%{count} 通夭未看个訊息'
         high_priority:
-          one: '%{count} unread high priority notification'
           other: '%{count} unread high priority notifications'
       title: >-
         notifications of @name mentions, replies to your posts and topics,
@@ -2164,14 +2089,10 @@ tai_Han:
         <span class='double-user'>%{username}, %{username2}</span>
         %{description}
       liked_many:
-        one: >-
-          <span class='multi-user'>%{username}, %{username2} and %{count}
-          other</span> %{description}
         other: >-
           <span class='multi-user'>%{username}, %{username2} and %{count}
           others</span> %{description}
       liked_consolidated_description:
-        one: 'liked %{count} of your posts'
         other: 'liked %{count} of your posts'
       liked_consolidated: '<span>%{username}</span> %{description}'
       private_message: '<span>%{username}</span> %{description}'
@@ -2185,14 +2106,12 @@ tai_Han:
       watching_first_post: '<span>New Topic</span> %{description}'
       membership_request_accepted: 'Membership accepted in ''%{group_name}'''
       membership_request_consolidated:
-        one: '%{count} open membership request for ''%{group_name}'''
         other: '%{count} open membership requests for ''%{group_name}'''
       reaction: '<span>%{username}</span> %{description}'
       reaction_2: '<span>%{username}, %{username2}</span> %{description}'
       votes_released: '%{description} - completed'
       group_message_summary:
-        one: '%{count} message in your %{group_name} inbox'
-        other: '%{count} messages in your %{group_name} inbox'
+        other: '%{group_name} 信箱有 %{count} 通訊息'
       popup:
         mentioned: '%{username} mentioned you in "%{topic}" - %{site_title}'
         group_mentioned: '%{username} mentioned you in "%{topic}" - %{site_title}'
@@ -2206,7 +2125,7 @@ tai_Han:
         confirm_body: Success! Notifications have been enabled.
         custom: 'Notification from %{username} on %{site_title}'
       titles:
-        mentioned: mentioned
+        mentioned: 点名个
         replied: new reply
         quoted: quoted
         edited: edited
@@ -2231,58 +2150,57 @@ tai_Han:
         reaction: new reaction
         votes_released: Vote was released
     upload_selector:
-      title: Add an image
-      title_with_attachments: Add an image or a file
-      from_my_computer: From my device
-      from_the_web: From the web
-      remote_tip: link to image
+      title: 藏一幅圖
+      title_with_attachments: 藏一幅圖也是一个檔案
+      from_my_computer: 對我个設備
+      from_the_web: 對網路頂高
+      remote_tip: 圖个網連仔
       remote_tip_with_attachments: 'link to image or file %{authorized_extensions}'
       local_tip: select images from your device
       local_tip_with_attachments: 'select images or files from your device %{authorized_extensions}'
       hint: (you can also drag & drop into the editor to upload them)
       hint_for_supported_browsers: you can also drag and drop or paste images into the editor
-      uploading: Uploading
+      uploading: 當塊藏...
       select_file: Select File
       default_image_alt_text: image
     search:
-      sort_by: 順序
+      sort_by: 照順序
       relevance: Relevance
-      latest_post: 上新留話
-      latest_topic: 上新話題
-      most_viewed: Most Viewed
-      most_liked: Most Liked
+      latest_post: 新pho͘个
+      latest_topic: 新thiⁿ个
+      most_viewed: 觀覽額
+      most_liked: 甲意个
       select_all: Select All
       clear_all: Clear All
-      too_short: Your search term is too short.
+      too_short: 汝卜尋个語詞箱短。
       result_count:
-        one: '<span>%{count} result for</span><span class=''term''>%{term}</span>'
         other: >-
           <span>%{count}%{plus} results for</span><span
           class='term'>%{term}</span>
-      title: 'search topics, posts, users, or categories'
-      full_page_title: search topics or posts
-      no_results: No results found.
+      title: '尋話題・pho͘文・使用者・也是埕'
+      full_page_title: 尋話題也是pho͘文
+      no_results: 尋無。
       no_more_results: No more results found.
       post_format: '#%{post_number} by %{username}'
       results_page: 'Search results for ''%{term}'''
       more_results: There are more results. Please narrow your search criteria.
       cant_find: Can’t find what you’re looking for?
       start_new_topic: Perhaps start a new topic?
-      or_search_google: 'Or try searching with Google instead:'
-      search_google: 'Try searching with Google instead:'
+      or_search_google: '無、尋Google看覓：'
+      search_google: '尋Google看覓：'
       search_google_button: Google
       context:
-        user: 'Search posts by @%{username}'
-        category: 'Search the #%{category} category'
-        tag: 'Search the #%{tag} tag'
-        topic: Search this topic
-        private_messages: Search messages
+        user: '尋 @%{username} pho͘个'
+        category: '治 #%{category} 埕尋'
+        tag: '尋 #%{tag} 標仔'
+        topic: 治只个話題尋
+        private_messages: 尋私信
       advanced:
         title: Advanced Search
         posted_by:
-          label: Posted by
+          label: 省人pho͘个
         in_category:
-          label: Categorized
+          label: 叨一片埕
         in_group:
           label: In Group
         with_badge:
@@ -2290,19 +2208,19 @@ tai_Han:
         with_tags:
           label: Tagged
         filters:
-          label: Only return topics/posts...
-          title: Matching in title only
-          likes: I liked
+          label: 尋話題・pho͘文...
+          title: 標題尋有个
+          likes: 我甲意个
           posted: I posted in
-          created: I created
-          watching: I'm watching
-          tracking: I'm tracking
-          private: In my messages
-          bookmarks: I bookmarked
+          created: 我開个
+          watching: 我塊看个
+          tracking: 我塊綴个
+          private: 治我个信箱
+          bookmarks: 我記号个
           first: are the very first post
           pinned: are pinned
-          seen: I read
-          unseen: I've not read
+          seen: 我讀去个
+          unseen: 我夭未讀个
           wiki: are wiki
           images: include image(s)
           all_tags: All the above tags
@@ -2362,7 +2280,6 @@ tai_Han:
         notification_level: Notifications
         choose_new_category: 'Choose the new category for the topics:'
         selected:
-          one: 'You have selected <b>%{count}</b> topic.'
           other: 'You have selected <b>%{count}</b> topics.'
         change_tags: Replace Tags
         append_tags: Append Tags
@@ -2371,18 +2288,17 @@ tai_Han:
         changed_tags: The tags of those topics were changed.
         remove_tags: Remove Tags
         progress:
-          one: 'Progress: <strong>%{count}</strong> topic'
           other: 'Progress: <strong>%{count}</strong> topics'
       none:
-        unread: You have no unread topics.
-        new: You have no new topics.
-        read: You haven't read any topics yet.
-        posted: You haven't posted in any topics yet.
-        ready_to_create: 'Ready to '
-        latest: You're all caught up!
-        bookmarks: You have no bookmarked topics yet.
-        category: 'There are no %{category} topics.'
-        top: There are no top topics.
+        unread: 汝無夭未讀个話題。
+        new: 汝無新个話題。
+        read: 汝夭未讀任何話題。
+        posted: 汝夭未答復任何話題。
+        ready_to_create: '汝咁愛'
+        latest: 看了了唖！
+        bookmarks: 汝夭未共話題做記号。
+        category: '%{category} 埕無話題。'
+        top: 無塊銃个話題。
         educate:
           new: >-
             <p>Your new topics will appear here. By default, topics are
@@ -2412,23 +2328,22 @@ tai_Han:
         bookmarks: There are no more bookmarked topics.
     topic:
       filter_to:
-        one: '%{count} post in topic'
         other: '%{count} posts in topic'
-      create: New Topic
+      create: Pho͘文
       create_long: Create a new Topic
-      open_draft: Open Draft
-      private_message: Start a message
+      open_draft: 草稿打開
+      private_message: 寫訊息
       archive_message:
-        help: Move message to your archive
-        title: Archive
+        help: 共只篇訊息收藏
+        title: 收藏
       move_to_inbox:
-        title: Move to Inbox
-        help: Move message back to Inbox
+        title: 遷甲信箱
+        help: 共只篇訊息藏治信箱
       edit_message:
         help: Edit first post of the message
         title: Edit
       defer:
-        help: Mark as unread
+        help: 記做夭未讀
         title: Defer
       feature_on_profile:
         help: Add a link to this topic on your user card and profile
@@ -2439,16 +2354,14 @@ tai_Han:
           will replace the existing topic.
         help: Remove the link to this topic on your user profile
         title: Remove From Profile
-      list: Topics
+      list: 話題
       new: new topic
-      unread: unread
+      unread: 夭未讀
       new_topics:
-        one: '%{count} new topic'
-        other: '%{count} new topics'
+        other: '%{count} 條新个話題'
       unread_topics:
-        one: '%{count} unread topic'
-        other: '%{count} unread topics'
-      title: Topic
+        other: '%{count} 條夭未讀个話題'
+      title: 話題
       invalid_access:
         title: Topic is private
         description: 'Sorry, you don''t have access to that topic!'
@@ -2464,16 +2377,12 @@ tai_Han:
           Sorry, we couldn't find that topic. Perhaps it was removed by a
           moderator?
       total_unread_posts:
-        one: 'you have %{count} unread post in this topic'
-        other: 'you have %{count} unread posts in this topic'
+        other: '只條話題有 %{count} 篇汝夭未讀个pho͘文'
       unread_posts:
-        one: 'you have %{count} unread old post in this topic'
         other: 'you have %{count} unread old posts in this topic'
       new_posts:
-        one: 'there is %{count} new post in this topic since you last read it'
-        other: 'there are %{count} new posts in this topic since you last read it'
+        other: '對汝頂擺看只條話題閣有 %{count} 篇新个pho͘文'
       likes:
-        one: 'there is %{count} like in this topic'
         other: 'there are %{count} likes in this topic'
       back_to_list: Back to Topic List
       options: Topic Options
@@ -2493,13 +2402,13 @@ tai_Han:
       bumped_at_title_MF: |-
         {FIRST_POST}: {CREATED_AT}
         {LAST_POST}: {BUMPED_AT}
-      browse_all_categories: Browse all categories
-      browse_all_tags: Browse all tags
-      view_latest_topics: view latest topics
-      suggest_create_topic: start a new conversation?
+      browse_all_categories: 閱覽所有个埕
+      browse_all_tags: 閱覽所有个標仔
+      view_latest_topics: 看新thiⁿ个話題
+      suggest_create_topic: 咱來開一條新个話題？
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
-      deleted: The topic has been deleted
+      deleted: 話題刣兆唖
       slow_mode_update:
         title: Slow Mode
         select: 'Users may only post in this topic once every:'
@@ -2581,9 +2490,6 @@ tai_Han:
         auto_delete_replies: 'Replies on this topic are automatically deleted after %{duration}.'
       auto_close_title: Auto-Close Settings
       auto_close_immediate:
-        one: >-
-          The last post in the topic is already %{count} hour old, so the topic
-          will be closed immediately.
         other: >-
           The last post in the topic is already %{count} hours old, so the topic
           will be closed immediately.
@@ -2745,18 +2651,11 @@ tai_Han:
         pin_validation: A date is required to pin this topic.
         not_pinned: 'There are no topics pinned in %{categoryLink}.'
         already_pinned:
-          one: >-
-            Topics currently pinned in %{categoryLink}: <strong class='badge
-            badge-notification unread'>%{count}</strong>
           other: >-
             Topics currently pinned in %{categoryLink}: <strong class='badge
             badge-notification unread'>%{count}</strong>
         pin_globally: Make this topic appear at the top of all topic lists until
         confirm_pin_globally:
-          one: >-
-            You already have %{count} globally pinned topic. Too many pinned
-            topics may be a burden for new and anonymous users. Are you sure you
-            want to pin another topic globally?
           other: >-
             You already have %{count} globally pinned topics. Too many pinned
             topics may be a burden for new and anonymous users. Are you sure you
@@ -2768,9 +2667,6 @@ tai_Han:
         global_pin_note: Users can unpin the topic individually for themselves.
         not_pinned_globally: There are no topics pinned globally.
         already_pinned_globally:
-          one: >-
-            Topics currently pinned globally: <strong class='badge
-            badge-notification unread'>%{count}</strong>
           other: >-
             Topics currently pinned globally: <strong class='badge
             badge-notification unread'>%{count}</strong>
@@ -2832,8 +2728,7 @@ tai_Han:
       login_reply: Log In to Reply
       filters:
         n_posts:
-          one: '%{count} post'
-          other: '%{count} posts'
+          other: '%{count} 篇pho͘文'
         cancel: Remove filter
       move_to:
         title: Move to
@@ -2846,9 +2741,6 @@ tai_Han:
         radio_label: New Topic
         error: There was an error moving posts to the new topic.
         instructions:
-          one: >-
-            You are about to create a new topic and populate it with the post
-            you've selected.
           other: >-
             You are about to create a new topic and populate it with the
             <b>%{count}</b> posts you've selected.
@@ -2858,7 +2750,6 @@ tai_Han:
         error: There was an error moving posts into that topic.
         radio_label: Existing Topic
         instructions:
-          one: Please choose the topic you'd like to move that post to.
           other: >-
             Please choose the topic you'd like to move those <b>%{count}</b>
             posts to.
@@ -2869,9 +2760,6 @@ tai_Han:
         radio_label: New Message
         participants: Participants
         instructions:
-          one: >-
-            You are about to create a new message and populate it with the post
-            you've selected.
           other: >-
             You are about to create a new message and populate it with the
             <b>%{count}</b> posts you've selected.
@@ -2881,7 +2769,6 @@ tai_Han:
         radio_label: Existing Message
         participants: Participants
         instructions:
-          one: Please choose the message you'd like to move that post to.
           other: >-
             Please choose the message you'd like to move those <b>%{count}</b>
             posts to.
@@ -2911,12 +2798,10 @@ tai_Han:
         error: There was an error changing the ownership of the posts.
         placeholder: username of new owner
         instructions:
-          one: 'Please choose a new owner for the post by <b>@%{old_user}</b>'
           other: >-
             Please choose a new owner for the %{count} posts by
             <b>@%{old_user}</b>
         instructions_without_old_user:
-          one: Please choose a new owner for the post
           other: 'Please choose a new owner for the %{count} posts'
       change_timestamp:
         title: Change Timestamp...
@@ -2927,13 +2812,13 @@ tai_Han:
           Please select the new timestamp of the topic. Posts in the topic will
           be updated to have the same time difference.
       multi_select:
-        select: select
+        select: 揀
         selected: 'selected (%{count})'
         select_post:
-          label: select
+          label: 揀
           title: Add post to selection
         selected_post:
-          label: selected
+          label: 揀唖
           title: Click to remove post from selection
         select_replies:
           label: select +replies
@@ -2946,76 +2831,60 @@ tai_Han:
         select_all: select all
         deselect_all: deselect all
         description:
-          one: 'You have selected <b>%{count}</b> post.'
           other: 'You have selected <b>%{count}</b> posts.'
       deleted_by_author:
-        one: >-
-          (topic withdrawn by author, will be automatically deleted in %{count}
-          hour unless flagged)
         other: >-
           (topic withdrawn by author, will be automatically deleted in %{count}
           hours unless flagged)
     post:
-      quote_reply: Quote
-      quote_share: Share
-      edit_reason: 'Reason: '
-      post_number: 'post %{number}'
+      quote_reply: 引用
+      quote_share: 分享
+      edit_reason: '理由: '
+      post_number: 'pho͘ %{number}'
       ignored: Ignored content
       wiki_last_edited_on: wiki last edited on
       last_edited_on: post last edited on
       reply_as_new_topic: Reply as linked Topic
       reply_as_new_private_message: Reply as new message to the same recipients
       continue_discussion: 'Continuing the discussion from %{postLink}:'
-      follow_quote: go to the quoted post
-      show_full: Show Full Post
+      follow_quote: 跳甲引用个pho͘文
+      show_full: 顯示歸篇
       show_hidden: View ignored content.
       deleted_by_author:
-        one: >-
-          (post withdrawn by author, will be automatically deleted in %{count}
-          hour unless flagged)
         other: >-
           (post withdrawn by author, will be automatically deleted in %{count}
           hours unless flagged)
-      collapse: collapse
-      expand_collapse: expand/collapse
+      collapse: 縮起來
+      expand_collapse: 伸縮
       locked: a staff member has locked this post from being edited
       gap:
-        one: 'view %{count} hidden reply'
         other: 'view %{count} hidden replies'
       notice:
         new_user: >-
-          This is the first time %{user} has posted — let’s welcome them to our
-          community!
+          此是 %{user} 頭一擺pho͘文。請逐家打一下招呼！
         returning_user: >-
-          It’s been a while since we’ve seen %{user} — their last post was
-          %{time}.
-      unread: Post is unread
+          咱介久無看着 %{user}。伊頂擺pho͘文是 %{time}。
+      unread: Pho͘文夭未讀
       has_replies:
-        one: '%{count} Reply'
-        other: '%{count} Replies'
+        other: '%{count}答復'
       has_replies_count: '%{count}'
       unknown_user: (unknown/deleted user)
       has_likes_title:
-        one: '%{count} person liked this post'
-        other: '%{count} people liked this post'
+        other: '%{count}个人甲意只篇'
       has_likes_title_only_you: you liked this post
       has_likes_title_you:
-        one: 'you and %{count} other person liked this post'
-        other: 'you and %{count} other people liked this post'
+        other: '汝甲另外%{count}个人甲意只篇'
       filtered_replies_hint:
-        one: View this post and its reply
-        other: 'View this post and its %{count} replies'
+        other: '看只篇甲%{count}篇答復'
       errors:
-        create: 'Sorry, there was an error creating your post. Please try again.'
-        edit: 'Sorry, there was an error editing your post. Please try again.'
-        upload: 'Sorry, there was an error uploading that file. Please try again.'
+        create: '歹世。Pho͘文發生錯誤。請閣試一擺。'
+        edit: '歹世。編輯發生錯誤。請閣試一擺。'
+        upload: '歹世。藏檔案發生錯誤。請閣試一擺。'
         file_too_large: >-
-          Sorry, that file is too big (maximum size is %{max_size_kb}kb). Why
-          not upload your large file to a cloud sharing service, then paste the
-          link?
+          歹世。叱个檔案箱鎮位（上大 %{max_size_kb}kb）。
+          無、汝先共藏治一个雲段平台、閣共網連仔搭治者。
         too_many_uploads: 'Sorry, you can only upload one file at a time.'
         too_many_dragged_and_dropped_files:
-          one: 'Sorry, you can only upload %{count} file at a time.'
           other: 'Sorry, you can only upload %{count} files at a time.'
         upload_not_authorized: >-
           Sorry, the file you are trying to upload is not authorized (authorized
@@ -3024,16 +2893,16 @@ tai_Han:
         attachment_upload_not_allowed_for_new_user: 'Sorry, new users can not upload attachments.'
         attachment_download_requires_login: 'Sorry, you need to be logged in to download attachments.'
       abandon_edit:
-        confirm: Are you sure you want to discard your changes?
-        no_value: 'No, keep'
-        no_save_draft: 'No, save draft'
-        yes_value: 'Yes, discard edit'
+        confirm: 汝咁確定卜共編輯旦硯捒？
+        no_value: '無、留レ'
+        no_save_draft: '無、khiām草稿'
+        yes_value: '好、硯兆'
       abandon:
-        title: Abandon Draft
-        confirm: Are you sure you want to abandon your post?
-        no_value: 'No, keep'
-        no_save_draft: 'No, save draft'
-        yes_value: 'Yes, abandon'
+        title: 草稿硯兆
+        confirm: 汝咁確定卜共草稿旦硯捒。
+        no_value: '無、留レ'
+        no_save_draft: '無、khiām草稿'
+        yes_value: '好、硯兆'
       via_email: this post arrived via email
       via_auto_generated_email: this post arrived via an auto generated email
       whisper: this post is a private whisper for moderators
@@ -3044,7 +2913,7 @@ tai_Han:
       few_likes_left: Thanks for sharing the love! You only have a few likes left for today.
       controls:
         reply: begin composing a reply to this post
-        like: like this post
+        like: 市甲意
         has_liked: you've liked this post
         read_indicator: members who read this post
         undo_like: undo like
@@ -3061,10 +2930,8 @@ tai_Han:
         delete_replies:
           confirm: Do you also want to delete the replies to this post?
           direct_replies:
-            one: 'Yes, and %{count} direct reply'
             other: 'Yes, and %{count} direct replies'
           all_replies:
-            one: 'Yes, and %{count} reply'
             other: 'Yes, and all %{count} replies'
           just_the_post: 'No, just this post'
         admin: post admin actions
@@ -3101,17 +2968,13 @@ tai_Han:
       actions:
         people:
           like:
-            one: liked this
-            other: liked this
+            other: 甲意此
           read:
-            one: read this
-            other: read this
+            other: 有看此
           like_capped:
-            one: 'and %{count} other liked this'
-            other: 'and %{count} others liked this'
+            other: '甲另外%{count}个朗甲意此'
           read_capped:
-            one: 'and %{count} other read this'
-            other: 'and %{count} others read this'
+            other: '甲另外%{count}个朗有看此'
         by_you:
           off_topic: You flagged this as off-topic
           spam: You flagged this as spam
@@ -3120,11 +2983,9 @@ tai_Han:
           notify_user: You sent a message to this user
       delete:
         confirm:
-          one: Are you sure you want to delete that post?
           other: 'Are you sure you want to delete those %{count} posts?'
       merge:
         confirm:
-          one: Are you sure you want to merge those posts?
           other: 'Are you sure you want to merge those %{count} posts?'
       revisions:
         controls:
@@ -3188,16 +3049,16 @@ tai_Han:
     category:
       can: 'can&hellip; '
       none: (no category)
-      all: All categories
+      all: 所有个埕
       choose: category&hellip;
       edit: Edit
       edit_dialog_title: 'Edit: %{categoryName}'
       view: View Topics in Category
       back: Back to category
       general: General
-      settings: Settings
+      settings: 設定
       topic_template: Topic Template
-      tags: Tags
+      tags: 標仔
       tags_allowed_tags: 'Restrict these tags to this category:'
       tags_allowed_tag_groups: 'Restrict these tag groups to this category:'
       tags_placeholder: (Optional) list of allowed tags
@@ -3214,14 +3075,14 @@ tai_Han:
       required_tag_group_label: 'Tag group:'
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
-      create: New Category
-      create_long: Create a new category
+      create: 新埕
+      create_long: 起一片埕
       save: Save Category
-      slug: Category Slug
+      slug: 埕个門排
       slug_placeholder: (Optional) dashed-words for url
       creation_error: There has been an error during the creation of the category.
       save_error: There was an error saving the category.
-      name: Category Name
+      name: 埕 名
       description: Description
       topic: category topic
       logo: Category Logo Image
@@ -3310,7 +3171,7 @@ tai_Han:
       navigate_to_first_post_after_read: Navigate to first post after topics are read
       notifications:
         watching:
-          title: Watching
+          title: 塊看
           description: >-
             You will automatically watch all topics in these categories. You
             will be notified of every new post in every topic, and a count of
@@ -3321,7 +3182,7 @@ tai_Han:
             You will be notified of new topics in this category but not replies
             to the topics.
         tracking:
-          title: Tracking
+          title: 塊綴
           description: >-
             You will automatically track all topics in these categories. You
             will be notified if someone mentions your @name or replies to you,
@@ -3372,7 +3233,7 @@ tai_Han:
         none: no subcategories
     flagging:
       title: Thanks for helping to keep our community civil!
-      action: Flag Post
+      action: 共pho͘文舉旗仔
       take_action: Take Action...
       take_action_options:
         default:
@@ -3406,26 +3267,23 @@ tai_Han:
       cant: 'Sorry, you can''t flag this post at this time.'
       notify_staff: Notify staff privately
       formatted_name:
-        off_topic: It's Off-Topic
+        off_topic: 無合話題
         inappropriate: It's Inappropriate
-        spam: It's Spam
+        spam: 糞掃
       custom_placeholder_notify_user: 'Be specific, be constructive, and always be kind.'
       custom_placeholder_notify_moderators: >-
         Let us know specifically what you are concerned about, and provide
         relevant links and examples where possible.
       custom_message:
         at_least:
-          one: 'enter at least %{count} character'
-          other: 'enter at least %{count} characters'
+          other: '上少愛打%{count}字'
         more:
-          one: '%{count} to go...'
-          other: '%{count} to go...'
+          other: '閣愛打%{count}字...'
         left:
-          one: '%{count} remaining'
-          other: '%{count} remaining'
+          other: '春%{count}字'
     flagging_topic:
       title: Thanks for helping to keep our community civil!
-      action: Flag Topic
+      action: 舉旗仔
       notify_action: Message
     topic_map:
       title: Topic Summary
@@ -3433,13 +3291,11 @@ tai_Han:
       links_title: Popular Links
       links_shown: show more links...
       clicks:
-        one: '%{count} click'
-        other: '%{count} clicks'
+        other: '市額%{count}'
     post_links:
       about: expand more links for this post
       title:
-        one: '%{count} more'
-        other: '%{count} more'
+        other: '閣%{count}个'
     topic_statuses:
       warning:
         help: This is an official warning.
@@ -3473,7 +3329,7 @@ tai_Han:
       personal_message:
         title: This topic is a personal message
         help: This topic is a personal message
-    posts: Posts
+    posts: Pho͘文
     posts_likes_MF: >
       This topic has {count, plural, one {1 reply} other {# replies}} {ratio,
       select,
@@ -3482,24 +3338,20 @@ tai_Han:
         high {with an extremely high like to post ratio}
         other {}}
     original_post: Original Post
-    views: Views
+    views: 觀覽
     views_lowercase:
-      one: view
-      other: views
-    replies: Replies
+      other: 觀覽
+    replies: 答復
     views_long:
-      one: 'this topic has been viewed %{count} time'
       other: 'this topic has been viewed %{number} times'
-    activity: Activity
-    likes: Likes
+    activity: 更新
+    likes: 甲意
     likes_lowercase:
-      one: like
-      other: likes
-    users: Users
+      other: 甲意
+    users: 使用者
     users_lowercase:
-      one: user
-      other: users
-    category_title: Category
+      other: 使用者
+    category_title: 埕
     history: History
     changed_by: 'by %{author}'
     raw_email:
@@ -3510,70 +3362,64 @@ tai_Han:
       with_topics: '%{filter} topics'
       with_category: '%{filter} %{category} topics'
       latest:
-        title: Latest
+        title: 新thiⁿ个
         title_with_count:
-          one: 'Latest (%{count})'
-          other: 'Latest (%{count})'
-        help: topics with recent posts
+          other: '新thiⁿ个（%{count}）'
+        help: 最近有新答復个話題
       read:
-        title: Read
+        title: 讀去唖
         help: 'topics you''ve read, in the order that you last read them'
       categories:
-        title: Categories
-        title_in: 'Category - %{categoryName}'
+        title: 埕
+        title_in: '%{categoryName}埕'
         help: all topics grouped by category
       unread:
-        title: Unread
+        title: 夭未讀
         title_with_count:
-          one: 'Unread (%{count})'
-          other: 'Unread (%{count})'
+          other: '夭未讀（%{count}）'
         help: topics you are currently watching or tracking with unread posts
         lower_title_with_count:
-          one: '%{count} unread'
-          other: '%{count} unread'
+          other: '%{count}篇夭未讀'
       new:
         lower_title_with_count:
-          one: '%{count} new'
-          other: '%{count} new'
-        lower_title: new
-        title: New
+          other: '%{count}新个'
+        lower_title: 新个
+        title: 新pho͘个
         title_with_count:
-          one: 'New (%{count})'
-          other: 'New (%{count})'
-        help: topics created in the last few days
+          other: '新pho͘个（%{count}）'
+        help: 只幾工pho͘出來个話題
       posted:
-        title: My Posts
+        title: 我pho͘个
         help: topics you have posted in
       bookmarks:
-        title: Bookmarks
-        help: topics you have bookmarked
+        title: 記号
+        help: 汝做記号个話題
       category:
         title: '%{categoryName}'
         title_with_count:
-          one: '%{categoryName} (%{count})'
           other: '%{categoryName} (%{count})'
-        help: 'latest topics in the %{categoryName} category'
+        help: '%{categoryName}埕新thiⁿ个話題'
       top:
-        title: Top
+        title: 銃
         help: 'the most active topics in the last year, month, week or day'
         all:
           title: All Time
         yearly:
-          title: Yearly
+          title: 一冬
         quarterly:
-          title: Quarterly
+          title: 一季
         monthly:
-          title: Monthly
+          title: 一個月
         weekly:
-          title: Weekly
+          title: 一礼拜
         daily:
-          title: Daily
+          title: 一工
         all_time: All Time
-        this_year: Year
-        this_quarter: Quarter
-        this_month: Month
-        this_week: Week
-        today: Today
+        this_year: 冬
+        this_quarter: 季
+        this_month: 月
+        this_week: 礼拜
+        today: 今旦日
         other_periods: 'see top:'
     browser_update: >-
       Unfortunately, <a href="https://www.discourse.org/faq/#browser">your
@@ -3585,7 +3431,7 @@ tai_Han:
       create_post: Reply / See
       readonly: See
     lightbox:
-      download: download
+      download: 扐落來
       previous: Previous (Left arrow key)
       next: Next (Right arrow key)
       counter: '%curr% of %total%'
@@ -3598,37 +3444,37 @@ tai_Han:
       shortcut_delimiter_or: '%{shortcut1} or %{shortcut2}'
       shortcut_delimiter_slash: '%{shortcut1}/%{shortcut2}'
       shortcut_delimiter_space: '%{shortcut1} %{shortcut2}'
-      title: Keyboard Shortcuts
+      title: 齒盤控制
       jump_to:
-        title: Jump To
-        home: '%{shortcut} Home'
-        latest: '%{shortcut} Latest'
-        new: '%{shortcut} New'
-        unread: '%{shortcut} Unread'
-        categories: '%{shortcut} Categories'
-        top: '%{shortcut} Top'
-        bookmarks: '%{shortcut} Bookmarks'
-        profile: '%{shortcut} Profile'
-        messages: '%{shortcut} Messages'
-        drafts: '%{shortcut} Drafts'
-        next: '%{shortcut} Next Topic'
-        previous: '%{shortcut} Previous Topic'
+        title: 跳甲
+        home: '%{shortcut} 主頁'
+        latest: '%{shortcut} 新thiⁿ个'
+        new: '%{shortcut} 新pho͘个'
+        unread: '%{shortcut} 夭未讀'
+        categories: '%{shortcut} 埕表'
+        top: '%{shortcut} 銃'
+        bookmarks: '%{shortcut} 記号'
+        profile: '%{shortcut} 口座'
+        messages: '%{shortcut} 訊息'
+        drafts: '%{shortcut} 草稿'
+        next: '%{shortcut} 後一條話題'
+        previous: '%{shortcut} 頂一條話題'
       navigation:
         title: Navigation
-        jump: '%{shortcut} Go to post #'
+        jump: '%{shortcut} 去pho͘#'
         back: '%{shortcut} Back'
         up_down: '%{shortcut} Move selection &uarr; &darr;'
         open: '%{shortcut} Open selected topic'
         next_prev: '%{shortcut} Next/previous section'
-        go_to_unread_post: '%{shortcut} Go to the first unread post'
+        go_to_unread_post: '%{shortcut} 去頭篇夭未看个pho͘文'
       application:
         title: Application
-        create: '%{shortcut} Create a new topic'
-        notifications: '%{shortcut} Open notifications'
+        create: '%{shortcut} Pho͘新个話題'
+        notifications: '%{shortcut} 打開通知'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
         show_incoming_updated_topics: '%{shortcut} Show updated topics'
-        search: '%{shortcut} Search'
+        search: '%{shortcut} 走尋'
         help: '%{shortcut} Open keyboard help'
         dismiss_new_posts: '%{shortcut} Dismiss New/Posts'
         dismiss_topics: '%{shortcut} Dismiss Topics'
@@ -3678,21 +3524,17 @@ tai_Han:
         insert_url: '%{shortcut} Insert selection into open composer'
     badges:
       earned_n_times:
-        one: 'Earned this badge %{count} time'
         other: 'Earned this badge %{count} times'
       granted_on: 'Granted %{date}'
       others_count: 'Others with this badge (%{count})'
-      title: Badges
+      title: 獎排
       allow_title: You can use this badge as a title
       multiple_grant: You can earn this multiple times
       badge_count:
-        one: '%{count} Badge'
-        other: '%{count} Badges'
+        other: '%{count}面獎排'
       more_badges:
-        one: '+%{count} More'
-        other: '+%{count} More'
+        other: '閣%{count}面'
       granted:
-        one: '%{count} granted'
         other: '%{count} granted'
       select_badge_for_title: Select a badge to use as your title
       none: (none)
@@ -3709,12 +3551,12 @@ tai_Han:
         posting:
           name: Posting
     tagging:
-      all_tags: All Tags
+      all_tags: 所有个標仔
       other_tags: Other Tags
       selector_all_tags: all tags
       selector_no_tags: no tags
       changed: 'tags changed:'
-      tags: Tags
+      tags: 標仔
       choose_for_topic: optional tags
       info: Info
       default_info: 'This tag isn''t restricted to any categories, and has no synonyms.'
@@ -3726,18 +3568,13 @@ tai_Han:
         When the following tags are used, they will be replaced with
         <b>%{base_tag_name}</b>.
       tag_groups_info:
-        one: 'This tag belongs to the group "%{tag_groups}".'
         other: 'This tag belongs to these groups: %{tag_groups}.'
       category_restrictions:
-        one: 'It can only be used in this category:'
         other: 'It can only be used in these categories:'
       edit_synonyms: Manage Synonyms
       add_synonyms_label: 'Add synonyms:'
       add_synonyms: Add
       add_synonyms_explanation:
-        one: >-
-          Any place that currently uses this tag will be changed to use
-          <b>%{tag_name}</b> instead. Are you sure you want to make this change?
         other: >-
           Any place that currently uses these tags will be changed to use
           <b>%{tag_name}</b> instead. Are you sure you want to make this change?
@@ -3748,15 +3585,11 @@ tai_Han:
       delete_synonym_confirm: 'Are you sure you want to delete the synonym "%{tag_name}"?'
       delete_tag: Delete Tag
       delete_confirm:
-        one: >-
-          Are you sure you want to delete this tag and remove it from %{count}
-          topic it is assigned to?
         other: >-
           Are you sure you want to delete this tag and remove it from %{count}
           topics it is assigned to?
       delete_confirm_no_topics: Are you sure you want to delete this tag?
       delete_confirm_synonyms:
-        one: Its synonym will also be deleted.
         other: 'Its %{count} synonyms will also be deleted.'
       rename_tag: Rename Tag
       rename_instructions: 'Choose a new name for the tag:'
@@ -3772,10 +3605,8 @@ tai_Han:
         'tag_name,tag_group'.
       upload_successful: Tags uploaded successfully
       delete_unused_confirmation:
-        one: '%{count} tag will be deleted: %{tags}'
         other: '%{count} tags will be deleted: %{tags}'
       delete_unused_confirmation_more_tags:
-        one: '%{tags} and %{count} more'
         other: '%{tags} and %{count} more'
       delete_no_unused_tags: There are no unused tags.
       delete_unused: Delete Unused Tags
@@ -3790,28 +3621,27 @@ tai_Han:
         untagged_with_category: '%{filter} untagged topics in %{category}'
       notifications:
         watching:
-          title: Watching
+          title: 塊看
           description: >-
             You will automatically watch all topics with this tag. You will be
             notified of all new posts and topics, plus the count of unread and
             new posts will also appear next to the topic.
         watching_first_post:
-          title: Watching First Post
+          title: 塊看新pho͘个
           description: >-
             You will be notified of new topics in this tag but not replies to
             the topics.
         tracking:
-          title: Tracking
+          title: 塊綴
           description: >-
             You will automatically track all topics with this tag. A count of
             unread and new posts will appear next to the topic.
         regular:
-          title: Regular
+          title: 一般
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            your post.
+            汝娜乎人 @tiám-miâ 也是pho͘文有答復、即會收通知。
         muted:
-          title: Muted
+          title: 靜音
           description: >-
             You will not be notified of anything about new topics with this tag,
             and they will not appear on your unread tab.
@@ -3835,13 +3665,13 @@ tai_Han:
         visible_only_to_groups: Tags are visible only to the following groups
       topics:
         none:
-          unread: You have no unread topics.
-          new: You have no new topics.
-          read: You haven't read any topics yet.
-          posted: You haven't posted in any topics yet.
-          latest: There are no latest topics.
-          bookmarks: You have no bookmarked topics yet.
-          top: There are no top topics.
+          unread: 汝無夭未看个話題。
+          new: 汝無新个話題。
+          read: 汝夭未看任何話題。
+          posted: 汝夭未pho͘文。
+          latest: 無新thiⁿ个話題。
+          bookmarks: 汝夭未共任何話題做記号。
+          top: 無塊銃个話題。
     invite:
       custom_message: >-
         Make your invite a little bit more personal by writing a <a href>custom
@@ -3905,7 +3735,6 @@ tai_Han:
         uploads: Uploads
         backups: Backups
         backup_count:
-          one: '%{count} backup on %{location}'
           other: '%{count} backups on %{location}'
         lastest_backup: 'Latest: %{date}'
         traffic_short: Traffic
@@ -4024,7 +3853,7 @@ tai_Han:
         name_placeholder: 'Group name, no spaces, same as username rule'
         primary: Primary Group
         no_primary: (no primary group)
-        title: Groups
+        title: 群組
         edit: Edit Groups
         refresh: Refresh
         about: Edit your group membership and names here
@@ -4199,10 +4028,8 @@ tai_Han:
           none: There are no related events.
           redeliver: Redeliver
           incoming:
-            one: There is a new event.
             other: 'There are %{count} new events.'
           completed_in:
-            one: 'Completed in %{count} second.'
             other: 'Completed in %{count} seconds.'
           request: Request
           response: Response
@@ -4229,7 +4056,7 @@ tai_Han:
         is_enabled: 'Y'
         not_enabled: 'N'
         change_settings: Change Settings
-        change_settings_short: Settings
+        change_settings_short: 設定
         howto: How do I install plugins?
         official: Official Plugin
       backups:
@@ -4362,9 +4189,9 @@ tai_Han:
             want to continue?
           update_confirm_yes: 'Yes, continue with the update'
           common: Common
-          desktop: Desktop
-          mobile: Mobile
-          settings: Settings
+          desktop: Tiān-náu
+          mobile: Chhiú-ki
+          settings: 設定
           translations: Translations
           extra_scss: Extra SCSS
           extra_files: Extra files
@@ -4476,7 +4303,6 @@ tai_Han:
           theme_translations: Theme Translations
           empty: No items
           commits_behind:
-            one: 'Theme is %{count} commit behind!'
             other: 'Theme is %{count} commits behind!'
           compare_commits: (See new commits)
           repo_unreachable: 'Couldn''t contact the Git repository of this theme. Error message:'
@@ -4601,8 +4427,8 @@ tai_Han:
             Customize the template in which all html emails are rendered, and
             style using CSS.
       email:
-        title: Emails
-        settings: Settings
+        title: 電批
+        settings: 設定
         templates: Templates
         preview_digest: Preview Summary
         advanced_test:
@@ -4880,7 +4706,6 @@ tai_Han:
           Are you sure you want to clear all watched words for the Require
           Approval action?
         word_count:
-          one: '%{count} word'
           other: '%{count} words'
         actions:
           block: Block
@@ -4923,7 +4748,7 @@ tai_Han:
         not_found: That user can't be found.
         invalid: 'Sorry, you may not impersonate that user.'
       users:
-        title: Users
+        title: 使用者
         create: Add Admin User
         last_emailed: Last Emailed
         not_found: 'Sorry, that username doesn''t exist in our system.'
@@ -5096,25 +4921,15 @@ tai_Han:
         delete_forbidden_because_staff: Admins and moderators can't be deleted.
         delete_posts_forbidden_because_staff: Can't delete all posts of admins and moderators.
         delete_forbidden:
-          one: >-
-            Users can't be deleted if they have posts. Delete all posts before
-            trying to delete a user. (Posts older than %{count} day old can't be
-            deleted.)
           other: >-
             Users can't be deleted if they have posts. Delete all posts before
             trying to delete a user. (Posts older than %{count} days old can't
             be deleted.)
         cant_delete_all_posts:
-          one: >-
-            Can't delete all posts. Some posts are older than %{count} day old.
-            (The delete_user_max_post_age setting.)
           other: >-
             Can't delete all posts. Some posts are older than %{count} days old.
             (The delete_user_max_post_age setting.)
         cant_delete_all_too_many_posts:
-          one: >-
-            Can't delete all posts because the user has more than %{count} post.
-            (delete_all_posts_max)
           other: >-
             Can't delete all posts because the user has more than %{count}
             posts. (delete_all_posts_max)
@@ -5169,7 +4984,6 @@ tai_Han:
         tl3_requirements:
           title: Requirements for Trust Level 3
           table_title:
-            one: 'In the last day:'
             other: 'In the last %{count} days:'
           value_heading: Value
           requirement_heading: Requirement
@@ -5260,7 +5074,7 @@ tai_Han:
         reset: reset
         none: none
       site_settings:
-        title: Settings
+        title: 設定
         no_results: No results found.
         more_than_30_results: >-
           There are more than 30 results. Please refine your search or select a
@@ -5273,7 +5087,7 @@ tai_Han:
           label: Edit list
           empty: There are no pictures yet. Please upload one.
           upload:
-            label: Upload
+            label: 藏起去
             title: Upload image(s)
         selectable_avatars:
           title: List of avatars users can choose from
@@ -5317,8 +5131,8 @@ tai_Han:
         simple_list:
           add_item: Add item...
       badges:
-        title: Badges
-        new_badge: New Badge
+        title: 獎排
+        new_badge: 新个獎排
         new: New
         name: Name
         badge: Badge
@@ -5383,7 +5197,6 @@ tai_Han:
               unexpected results later on - please double-check your query.
           no_grant_count: No badges to be assigned.
           grant_count:
-            one: '<b>%{count}</b> badge to be assigned.'
             other: '<b>%{count}</b> badges to be assigned.'
           sample: 'Sample:'
           grant:
@@ -5398,7 +5211,7 @@ tai_Han:
         badge_intro:
           title: Select an existing badge or create a new one to get started
           emoji: woman student emoji
-          what_are_badges_title: What are badges?
+          what_are_badges_title: 獎排 是 省?
           badge_query_examples_title: Badge query examples
         mass_award:
           title: Bulk Award
@@ -5496,7 +5309,6 @@ tai_Han:
       upload_error: 'Sorry, there was an error uploading that file. Please try again.'
       quit: Maybe Later
       staff_count:
-        one: 'Your community has %{count} staff (you).'
         other: 'Your community has %{count} staff, including you.'
       invites:
         add_user: add

@@ -3889,11 +3889,11 @@ tai_Rom:
 
   login_required:
     welcome_message: |
-      ## [Welcome to %{title}](#welcome)
-      An account is required. Please create an account or log in to continue.
+      ## [Hoan-gêng lâi kàu %{title}](#welcome)
+      Nā bô kháu-chō chhiáⁿ seng chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
     welcome_message_invite_only: |
-      ## [Welcome to %{title}](#welcome)
-      An account is required. Please ask an existing member for an invite or log in to continue.
+      ## [Hoan-gêng lâi kàu %{title}](#welcome)
+      Ài siu chhiáⁿ thiap chiah thang chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
 
   deleted: "deleted"
 
