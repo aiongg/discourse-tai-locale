@@ -91,7 +91,7 @@ tai_Han:
       topic_html: '話題：<span class="topic-title">%{topicTitle}</span>'
       post: 'pho͘ #%{postNumber}'
       close: 關
-      twitter: 治Twitter分張
+      twitter: 治推妥分張
       facebook: 治面册分張
       email: 寄電批
       url: 共網連仔khó͘-pih、分出去
@@ -205,7 +205,7 @@ tai_Han:
     more: 恰多
     less: 恰少
     never: 免
-    every_30_minutes: 30分鐘一擺
+    every_30_minutes: 半点鐘一擺
     every_hour: 一点鐘一擺
     daily: 逐工
     weekly: 逐礼拜
@@ -214,7 +214,7 @@ tai_Han:
     max_of_count: 'max of %{count}'
     alternation: 也是
     character_count:
-      other: '%{count} 字'
+      other: '%{count}字'
     related_messages:
       title: Related Messages
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
@@ -708,7 +708,7 @@ tai_Han:
       selector_placeholder: 打用者名
       owner: owner
       index:
-        title: Groups
+        title: 群組
         all: All Groups
         empty: There are no visible groups.
         filter: Filter by group type
@@ -829,7 +829,7 @@ tai_Han:
         other: '過去一礼拜有 %{count} 條新个話題。'
       topic_stat_sentence_month:
         other: '過去一個月有 %{count} 條新个話題。'
-      n_more: '埕（閣 %{count} 片）...'
+      n_more: '埕（閣%{count}片...）'
     ip_lookup:
       title: 尋IP網址
       hostname: Hostname
@@ -2610,7 +2610,7 @@ tai_Han:
         make_banner: Banner Topic
         remove_banner: Remove Banner Topic
       reply:
-        title: Reply
+        title: 答復
         help: begin composing a reply to this topic
       clear_pin:
         title: Clear pin
@@ -2618,14 +2618,14 @@ tai_Han:
           Clear the pinned status of this topic so it no longer appears at the
           top of your topic list
       share:
-        title: Share
-        extended_title: Share a link
-        help: share a link to this topic
+        title: 分張
+        extended_title: 網連仔分張
+        help: 共只條話題个網連仔分張
       print:
         title: Print
         help: Open a printer friendly version of this topic
       flag_topic:
-        title: Flag
+        title: 舉旗仔
         help: >-
           privately flag this topic for attention or send a private notification
           about it
@@ -2912,15 +2912,15 @@ tai_Han:
         has_liked: you've liked this post
         read_indicator: members who read this post
         undo_like: undo like
-        edit: edit this post
-        edit_action: Edit
+        edit: 編輯只篇po͘文
+        edit_action: 編輯
         edit_anonymous: 'Sorry, but you need to be logged in to edit this post.'
         flag: >-
           privately flag this post for attention or send a private notification
           about it
         delete: delete this post
         undelete: undelete this post
-        share: share a link to this post
+        share: 話題个網連仔分張
         more: More
         delete_replies:
           confirm: Do you also want to delete the replies to this post?
@@ -3686,6 +3686,17 @@ tai_Han:
     safe_mode:
       enabled: 'Safe mode is enabled, to exit safe mode close this browser window'
     image_removed: (image removed)
+    do_not_disturb:
+      title: "請勿吵..."
+      save: "儉"
+      label: "勿吵"
+      remaining: "春%{remaining}"
+      options:
+        half_hour: "半点鐘"
+        one_hour: "一点鐘"
+        two_hours: "二点鐘"
+        tomorrow: "到明旦再"
+        custom: "加忌設定"
   admin_js:
     type_to_filter: type to filter...
     admin:

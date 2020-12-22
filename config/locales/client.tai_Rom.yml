@@ -2,11 +2,11 @@ tai_Rom:
   js:
     number:
       format:
-        separator: .
-        delimiter: ','
+        separator: "."
+        delimiter: ","
       human:
         storage_units:
-          format: '%n %u'
+          format: "%n %u"
           units:
             byte:
               other: Bytes
@@ -15,17 +15,17 @@ tai_Rom:
             mb: MB
             tb: TB
       short:
-        thousands: '%{number}k'
-        millions: '%{number}M'
+        thousands: "%{number}k"
+        millions: "%{number}M"
     dates:
-      time: 'HH:mm'
-      time_with_zone: 'HH:mm (z)'
-      time_short_day: 'ddd, HH:mm'
+      time: "HH:mm"
+      time_with_zone: "HH:mm (z)"
+      time_short_day: "ddd, HH:mm"
       timeline_date: YYYY Nî MMM
-      long_no_year: 'MMM D, HH:mm'
+      long_no_year: "MMM D, HH:mm"
       long_no_year_no_time: MMMD号
       full_no_year_no_time: MMMM D Hō
-      long_with_year: 'YYYY年MMMD号 HH:mm'
+      long_with_year: "YYYY年MMMD号 HH:mm"
       long_with_year_no_time: YYYY年MMMD号
       full_with_year_no_time: YYYY Nî MMMM D Hō
       long_date_with_year: YYYY/MM/DD LT
@@ -33,96 +33,96 @@ tai_Rom:
       long_date_with_year_without_time: YYYY/MM/DD
       long_date_without_year_with_linebreak: M月D日 <br/>LT
       long_date_with_year_with_linebreak: YYYY/MM/DD <br/>LT
-      wrap_ago: '%{date} chêng'
+      wrap_ago: "%{date} chêng"
       tiny:
         half_a_minute: < 1h
         less_than_x_seconds:
-          other: '< %{count}b'
+          other: "< %{count}b"
         x_seconds:
-          other: '%{count}b'
+          other: "%{count}b"
         less_than_x_minutes:
-          other: '< %{count}h'
+          other: "< %{count}h"
         x_minutes:
-          other: '%{count}h'
+          other: "%{count}h"
         about_x_hours:
-          other: '%{count}t'
+          other: "%{count}t"
         x_days:
-          other: '%{count}k'
+          other: "%{count}k"
         x_months:
-          other: '%{count}g'
+          other: "%{count}g"
         about_x_years:
-          other: '%{count}n'
+          other: "%{count}n"
         over_x_years:
-          other: '> %{count}n'
+          other: "> %{count}n"
         almost_x_years:
-          other: '%{count}n'
+          other: "%{count}n"
         date_month: MMMD号
         date_year: YY年MMM
       medium:
         x_minutes:
-          other: '%{count} hun'
+          other: "%{count} hun"
         x_hours:
-          other: '%{count} tiám'
+          other: "%{count} tiám"
         x_days:
-          other: '%{count} kang'
+          other: "%{count} kang"
         date_year: YYYY年MMMD号
       medium_with_ago:
         x_minutes:
-          other: '%{count} hun ch. chêng'
+          other: "%{count} hun ch. chêng"
         x_hours:
-          other: '%{count} tiám ch. chêng'
+          other: "%{count} tiám ch. chêng"
         x_days:
-          other: '%{count} kang chêng'
+          other: "%{count} kang chêng"
         x_months:
-          other: '%{count} kò goe̍h chêng'
+          other: "%{count} kò goe̍h chêng"
         x_years:
-          other: '%{count} tang chêng'
+          other: "%{count} tang chêng"
       later:
         x_days:
-          other: '%{count} kang āu'
+          other: "%{count} kang āu"
         x_months:
-          other: '%{count} kò goe̍h āu'
+          other: "%{count} kò goe̍h āu"
         x_years:
-          other: '%{count} tang āu'
+          other: "%{count} tang āu"
       previous_month: Téng kò goe̍h
       next_month: Āu kò goe̍h
       placeholder: ji̍t-kî
     share:
       topic_html: 'Ōe-tê： <span class="topic-title">%{topicTitle}</span>'
-      post: 'pho͘ #%{postNumber}'
+      post: "pho͘ #%{postNumber}"
       close: koaiⁿ
       twitter: Tī Thui-thò pun tiuⁿ
       facebook: Tī Bīn-chheh pun tiuⁿ
       email: Kià tiān-phoe
       url: Kā URL khó͘-pih, pun ·chhut ·khì
     action_codes:
-      public_topic: 'made this topic public %{when}'
-      private_topic: 'made this topic a personal message %{when}'
-      split_topic: 'split this topic %{when}'
-      invited_user: 'invited %{who} %{when}'
-      invited_group: 'invited %{who} %{when}'
-      user_left: '%{who} removed themselves from this message %{when}'
-      removed_user: 'removed %{who} %{when}'
-      removed_group: 'removed %{who} %{when}'
-      autobumped: 'automatically bumped %{when}'
+      public_topic: "made this topic public %{when}"
+      private_topic: "made this topic a personal message %{when}"
+      split_topic: "split this topic %{when}"
+      invited_user: "invited %{who} %{when}"
+      invited_group: "invited %{who} %{when}"
+      user_left: "%{who} removed themselves from this message %{when}"
+      removed_user: "removed %{who} %{when}"
+      removed_group: "removed %{who} %{when}"
+      autobumped: "automatically bumped %{when}"
       autoclosed:
-        enabled: 'closed %{when}'
-        disabled: 'opened %{when}'
+        enabled: "closed %{when}"
+        disabled: "opened %{when}"
       closed:
-        enabled: 'closed %{when}'
-        disabled: 'opened %{when}'
+        enabled: "closed %{when}"
+        disabled: "opened %{when}"
       archived:
-        enabled: 'archived %{when}'
-        disabled: 'unarchived %{when}'
+        enabled: "archived %{when}"
+        disabled: "unarchived %{when}"
       pinned:
-        enabled: 'pinned %{when}'
-        disabled: 'unpinned %{when}'
+        enabled: "pinned %{when}"
+        disabled: "unpinned %{when}"
       pinned_globally:
-        enabled: 'pinned globally %{when}'
-        disabled: 'unpinned %{when}'
+        enabled: "pinned globally %{when}"
+        disabled: "unpinned %{when}"
       visible:
-        enabled: 'listed %{when}'
-        disabled: 'unlisted %{when}'
+        enabled: "listed %{when}"
+        disabled: "unlisted %{when}"
       banner:
         enabled: >-
           made this a banner %{when}. It will appear at the top of every page
@@ -171,12 +171,12 @@ tai_Rom:
         us_west_2: US West (Oregon)
     edit: ōaⁿ chit tiâu ê phiau-tê iā sī tiâⁿ-á
     expand: Phah khui
-    not_implemented: 'That feature hasn''t been implemented yet, sorry!'
-    no_value: 'No'
-    yes_value: 'Yes'
+    not_implemented: "That feature hasn't been implemented yet, sorry!"
+    no_value: "No"
+    yes_value: "Yes"
     submit: Sàng ·chhut ·khì
-    generic_error: 'Pháiⁿ-sè, hoat-seng chhò-gō͘.'
-    generic_error_with_reason: 'Hoat-seng chhò-gō͘: %{error}'
+    generic_error: "Pháiⁿ-sè, hoat-seng chhò-gō͘."
+    generic_error_with_reason: "Hoat-seng chhò-gō͘: %{error}"
     go_ahead: Kè-sio̍k
     sign_up: Teng kì
     log_in: Ji̍p chām
@@ -204,16 +204,16 @@ tai_Rom:
     more: Khah chē
     less: Khah chió
     never: bián
-    every_30_minutes: 30 hun-cheng chi̍t pái
-    every_hour: 1 tiám-cheng chi̍t pái
+    every_30_minutes: pòaⁿ tiám-cheng chi̍t pái
+    every_hour: chi̍t tiám-cheng chi̍t pái
     daily: ta̍k kang
     weekly: ta̍k lé-pài
     every_month: ta̍k kò goe̍h
     every_six_months: pòaⁿ tang chi̍t pái
-    max_of_count: 'max of %{count}'
+    max_of_count: "max of %{count}"
     alternation: iā sī
     character_count:
-      other: '%{count} jī'
+      other: "%{count} jī"
     related_messages:
       title: Related Messages
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
@@ -222,7 +222,7 @@ tai_Rom:
       pm_title: Kiàn-gī ê Sìn-sit
     about:
       simple_title: Iú-koan
-      title: 'Iú-koan %{title}'
+      title: "Iú-koan %{title}"
       stats: Bāng-chām thóng-kè
       our_admins: Lán ê Koán-lí-oân
       our_moderators: Lán ê Tiâⁿ-tiúⁿ
@@ -248,9 +248,9 @@ tai_Rom:
         unbookmark_with_reminder: >-
           Chhi̍h ·lo̍h ·khì kā chit tiâu ōe-tê ê kì-hō kap thê-chhéⁿ thâi tiāu. Bo̍k-chiân ū tiâu %{reminder_at} chò thê-chhéⁿ.
     bookmarks:
-      created: 'Chit tiâu ōe-tê lí ū chò kì-hō. %{name}'
+      created: "Chit tiâu ōe-tê lí ū chò kì-hō. %{name}"
       not_bookmarked: ōe-tê chò kì-hō
-      created_with_reminder: 'You''ve bookmarked this post with a reminder %{date}. %{name}'
+      created_with_reminder: "You've bookmarked this post with a reminder %{date}. %{name}"
       remove: Thâi Kì-hō
       delete: San Kì-hō
       confirm_delete: >-
@@ -260,7 +260,7 @@ tai_Rom:
       no_timezone: >-
         Lí á bē tēng sî-khu. Bô hoat-tō͘ tiâu thê-chhéⁿ.
         Seng kah <a href="%{basePath}/my/preferences/profile">kháu-chō siat-tēng ia̍h</a> kéng sî-khu.
-      invalid_custom_datetime: 'The date and time you provided is invalid, please try again.'
+      invalid_custom_datetime: "The date and time you provided is invalid, please try again."
       list_permission_denied: Lí bô koân-hān khòaⁿ chit ūi sú-iōng-chiá chò ·ê kì-hō.
       no_user_bookmarks: >-
         Lí bô jīm-hô chò kì-hō ê pho͘ bûn; chò kì-hō hō͘ lí khah lī-piān
@@ -270,7 +270,7 @@ tai_Rom:
         never: Never
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
-      search_placeholder: 'Ùi miâ, phiau-tê, iā pho͘ bûn lōe-iông chhōe kì-hō'
+      search_placeholder: "Ùi miâ, phiau-tê, iā pho͘ bûn lōe-iông chhōe kì-hō"
       search: Chhōe
       reminders:
         later_today: Khah-thêng-á
@@ -285,9 +285,9 @@ tai_Rom:
         custom: Custom date and time
         last_custom: Last
         none: Bián siat thê-chhéⁿ
-        today_with_time: 'kin-ná-ji̍t %{time}'
-        tomorrow_with_time: 'miă-chài %{time}'
-        at_time: 'tang-sî %{date_time}'
+        today_with_time: "kin-ná-ji̍t %{time}"
+        tomorrow_with_time: "miă-chài %{time}"
+        at_time: "tang-sî %{date_time}"
         existing_reminder: >-
           You have a reminder set for this bookmark which will be sent
           %{at_date_time}
@@ -304,14 +304,14 @@ tai_Rom:
         confirm: >-
           Pa̍t hūn chháu-kó í-keng khui tī chit tiâu ōe-tê.
           Lí kám khak-tēng beh kā tàn-hìⁿ-sak?
-        yes_value: 'Hó, hìⁿ-tiāu'
-        no_value: 'Bô, lâu ·le'
+        yes_value: "Hó, hìⁿ-tiāu"
+        no_value: "Bô, lâu ·le"
     topic_count_latest:
-      other: 'Khòaⁿ %{count} sin pho͘ ·ê ā sin thiⁿ ·ê ōe-tê'
+      other: "Khòaⁿ %{count} sin pho͘ ·ê ā sin thiⁿ ·ê ōe-tê"
     topic_count_unread:
-      other: 'Khòaⁿ %{count} tiâu á bē tha̍k ê ōe-tê'
+      other: "Khòaⁿ %{count} tiâu á bē tha̍k ê ōe-tê"
     topic_count_new:
-      other: 'Khòaⁿ %{count} tiâu sin pho͘ ê ōe-tê'
+      other: "Khòaⁿ %{count} tiâu sin pho͘ ê ōe-tê"
     preview: iáⁿ ·chi̍t ·ē
     cancel: hú ·khì
     deleting: Tng teh hìⁿ-sak...
@@ -320,7 +320,7 @@ tai_Rom:
     saved: Khiām hó ·a!
     upload: Khǹg ·khí ·lih
     uploading: Tng teh khǹg...
-    uploading_filename: 'Tng teh khǹg: %{filename}...'
+    uploading_filename: "Tng teh khǹg: %{filename}..."
     clipboard: clipboard
     uploaded: Khǹg hó ·a!
     pasting: Tng teh tah...
@@ -336,17 +336,17 @@ tai_Rom:
       close: Dismiss this banner.
       edit: Edit this banner >>
     pwa:
-      install_banner: 'Kám ài <a href>an-chong %{title} ê APP?</a>'
+      install_banner: "Kám ài <a href>an-chong %{title} ê APP?</a>"
     choose_topic:
       none_found: Chhōe bô ōe-tê.
       title:
         search: Cháu-chhōe Ōe-tê
-        placeholder: 'phah phiau-tê, URL, iā ID hō'
+        placeholder: "phah phiau-tê, URL, iā ID hō"
     choose_message:
       none_found: Chhōe bô sìn-sit.
       title:
         search: Cháu-chhōe Sìn-sit
-        placeholder: 'phah sìn-sit ê phiau-tê, URL, iā sī ID hō'
+        placeholder: "phah sìn-sit ê phiau-tê, URL, iā sī ID hō"
     review:
       order_by: "Chiàu sūn-sī:"
       in_reply_to: in reply to
@@ -382,7 +382,7 @@ tai_Rom:
         optional: You can claim this item to prevent others from reviewing it.
         required: You must claim items before you can review them.
         claimed_by_you: You've claimed this item and can review it.
-        claimed_by_other: 'This item can only be reviewed by <b>%{username}</b>.'
+        claimed_by_other: "This item can only be reviewed by <b>%{username}</b>."
       claim:
         title: claim this topic
       unclaim:
@@ -401,9 +401,9 @@ tai_Rom:
       none: There are no items to review.
       view_pending: view pending
       topic_has_pending:
-        other: 'This topic has <b>%{count}</b> posts pending approval'
+        other: "This topic has <b>%{count}</b> posts pending approval"
       title: Review
-      topic: 'Ōe-tê:'
+      topic: "Ōe-tê:"
       filtered_topic: You have filtered to reviewable content in a single topic.
       filtered_user: Sú-iōng-chiá
       filtered_reviewed_by: Reviewed By
@@ -419,24 +419,24 @@ tai_Rom:
         fields: Fields
       user_percentage:
         summary:
-          other: '%{agreed}, %{disagreed}, %{ignored} (%{count} total flags)'
+          other: "%{agreed}, %{disagreed}, %{ignored} (%{count} total flags)"
         agreed:
-          other: '%{count}% tông-ì'
+          other: "%{count}% tông-ì"
         disagreed:
-          other: '%{count}% bô tông-ì'
+          other: "%{count}% bô tông-ì"
         ignored:
-          other: '%{count}% ignore'
+          other: "%{count}% ignore"
       topics:
         topic: Ōe-tê
         reviewable_count: Gia̍h
         reported_by: Reported by
-        deleted: '[Topic Deleted]'
+        deleted: "[Topic Deleted]"
         original: (original topic)
         details: siông-sè
         unique_users:
-          other: '%{count} ê sú-iōng-chiá'
+          other: "%{count} ê sú-iōng-chiá"
       replies:
-        other: '%{count} thong tap-ho̍k'
+        other: "%{count} thong tap-ho̍k"
       edit: Phian-chhip
       save: Khiām
       cancel: Cancel
@@ -446,7 +446,7 @@ tai_Rom:
         type:
           title: Type
           all: (all types)
-        minimum_score: 'Minimum Score:'
+        minimum_score: "Minimum Score:"
         refresh: Refresh
         status: Status
         category: Tiâⁿ
@@ -504,7 +504,7 @@ tai_Rom:
           We've received your new post but it needs to be approved by a
           moderator before it will appear. Please be patient.
         pending_posts:
-          other: 'You have <strong>%{count}</strong> posts pending.'
+          other: "You have <strong>%{count}</strong> posts pending."
         ok: OK
       example_username: abeng
     user_action:
@@ -534,10 +534,10 @@ tai_Rom:
       you_mentioned_user: >-
         <a href='%{user1Url}'>Lí</a> kā <a
         href='%{user2Url}'>%{another_user}</a> tiám miâ
-      posted_by_user: 'Hō͘ <a href=''%{userUrl}''>%{user}</a> pho͘ ·ê'
-      posted_by_you: '<a href=''%{userUrl}''>Lí ka-tī</a> pho͘ ·ê'
-      sent_by_user: 'Hō͘ <a href=''%{userUrl}''>%{user}</a> kià ·ê'
-      sent_by_you: '<a href=''%{userUrl}''>Lí ka-tī</a> kià ·ê'
+      posted_by_user: "Hō͘ <a href='%{userUrl}'>%{user}</a> pho͘ ·ê"
+      posted_by_you: "<a href='%{userUrl}'>Lí ka-tī</a> pho͘ ·ê"
+      sent_by_user: "Hō͘ <a href='%{userUrl}'>%{user}</a> kià ·ê"
+      sent_by_you: "<a href='%{userUrl}'>Lí ka-tī</a> kià ·ê"
     directory:
       username: Iōng-chiá miâ
       filter_name: filter by username
@@ -556,9 +556,9 @@ tai_Rom:
       days_visited_long: Days Visited
       posts_read: Read
       posts_read_long: Posts Read
-      last_updated: 'Last Updated:'
+      last_updated: "Last Updated:"
       total_rows:
-        other: '%{count} users'
+        other: "%{count} users"
     group_histories:
       actions:
         change_group_setting: Change group setting
@@ -570,7 +570,7 @@ tai_Rom:
       member_added: Added
       member_requested: Requested at
       add_members:
-        title: 'Add members to %{group_name}'
+        title: "Add members to %{group_name}"
         description: You can also paste in a comma separated list.
         usernames: Enter usernames or email addresses
         input_placeholder: Usernames or emails
@@ -589,7 +589,7 @@ tai_Rom:
         name: Name
         full_name: Full Name
         add_members: Add Members
-        delete_member_confirm: 'Remove ''%{username}'' from the ''%{group}'' group?'
+        delete_member_confirm: "Remove '%{username}' from the '%{group}' group?"
         profile:
           title: Profile
         interaction:
@@ -598,7 +598,7 @@ tai_Rom:
           notification: Notification
         email:
           title: Tiān-phoe
-          status: 'Synchronized %{old_emails} / %{total_emails} emails via IMAP.'
+          status: "Synchronized %{old_emails} / %{total_emails} emails via IMAP."
           credentials:
             title: Credentials
             smtp_server: SMTP Server
@@ -700,7 +700,7 @@ tai_Rom:
       membership_request_template: Custom template to display to users when sending a membership request
       membership_request:
         submit: Submit Request
-        title: 'Request to join @%{group_name}'
+        title: "Request to join @%{group_name}"
         reason: Let the group owners know why you belong in this group
       membership: Membership
       name: Miâ
@@ -710,7 +710,7 @@ tai_Rom:
       selector_placeholder: phah iōng-chiá miâ
       owner: owner
       index:
-        title: Groups
+        title: Kûn-cho͘
         all: All Groups
         empty: There are no visible groups.
         filter: Filter by group type
@@ -736,11 +736,11 @@ tai_Rom:
         filter_placeholder_admin: username or email
         filter_placeholder: username
         remove_member: Remove Member
-        remove_member_description: 'Remove <b>%{username}</b> from this group'
+        remove_member_description: "Remove <b>%{username}</b> from this group"
         make_owner: Make Owner
-        make_owner_description: 'Make <b>%{username}</b> an owner of this group'
+        make_owner_description: "Make <b>%{username}</b> an owner of this group"
         remove_owner: Remove as Owner
-        remove_owner_description: 'Remove <b>%{username}</b> as an owner of this group'
+        remove_owner_description: "Remove <b>%{username}</b> as an owner of this group"
         owner: Owner
         forbidden: You're not allowed to view the members.
       topics: Ōe-tê
@@ -754,8 +754,8 @@ tai_Rom:
         nobody: Lóng bē sái
         only_admins: Kan-taⁿ koán-lí-oân
         mods_and_admins: Kan-taⁿ koán-lí-oân kap tiâⁿ-tiúⁿ
-        members_mods_and_admins: 'Only group members, moderators and admins'
-        owners_mods_and_admins: 'Only group owners, moderators and admins'
+        members_mods_and_admins: "Only group members, moderators and admins"
+        owners_mods_and_admins: "Only group owners, moderators and admins"
         everyone: Lóng ē sái
       notifications:
         watching:
@@ -793,19 +793,19 @@ tai_Rom:
         icon: Select an icon
         image: Upload an image
     user_action_groups:
-      '1': Likes
-      '2': Likes
-      '3': Bookmarks
-      '4': Topics
-      '5': Replies
-      '6': Responses
-      '7': Mentions
-      '9': Quotes
-      '11': Edits
-      '12': Sent Items
-      '13': Inbox
-      '14': Pending
-      '15': Chháu-kó
+      "1": Likes
+      "2": Likes
+      "3": Bookmarks
+      "4": Topics
+      "5": Replies
+      "6": Responses
+      "7": Mentions
+      "9": Quotes
+      "11": Edits
+      "12": Sent Items
+      "13": Inbox
+      "14": Pending
+      "15": Chháu-kó
     categories:
       all: só͘ ū ê tiâⁿ
       all_subcategories: só͘ ū ê
@@ -826,12 +826,12 @@ tai_Rom:
       subcategories: Choan-tê Tiâⁿ
       muted: Chēng-im ê tiâⁿ
       topic_sentence:
-        other: '%{count} tiâu ōe-tê'
+        other: "%{count} tiâu ōe-tê"
       topic_stat_sentence_week:
-        other: 'kòe khì 1 lé-pài ū %{count} tiâu sin ê ōe-tê.'
+        other: "kòe khì 1 lé-pài ū %{count} tiâu sin ê ōe-tê."
       topic_stat_sentence_month:
-        other: 'kòe khì 1 kò goe̍h ū %{count} tiâu sin ê ōe-tê.'
-      n_more: 'Tiâⁿ (koh %{count} phiàn)...'
+        other: "kòe khì 1 kò goe̍h ū %{count} tiâu sin ê ōe-tê."
+      n_more: "Tiâⁿ (koh %{count} phiàn)..."
     ip_lookup:
       title: Chhōe IP Bāng-chí
       hostname: Hostname
@@ -839,21 +839,21 @@ tai_Rom:
       location_not_found: (unknown)
       organisation: Cho͘-chit
       phone: Tiān-ōe
-      other_accounts: 'Other accounts with this IP address:'
-      delete_other_accounts: 'Delete %{count}'
+      other_accounts: "Other accounts with this IP address:"
+      delete_other_accounts: "Delete %{count}"
       username: username
       trust_level: TL
       read_time: read time
       topics_entered: topics entered
-      post_count: '# posts'
+      post_count: "# posts"
       confirm_delete_other_accounts: Are you sure you want to delete these accounts?
-      powered_by: 'using <a href=''https://maxmind.com''>MaxMindDB</a>'
+      powered_by: "using <a href='https://maxmind.com'>MaxMindDB</a>"
       copied: copied
     user_fields:
       none: (kéng chi̍t hāng)
       required: 'Please enter a value for "%{name}"'
     user:
-      said: '%{username}:'
+      said: "%{username}:"
       profile: Kò Jîn
       mute: Chēng Im
       edit: Ōaⁿ Siat-tēng
@@ -863,7 +863,7 @@ tai_Rom:
         success: >-
           Download initiated, you will be notified via message when the process
           is complete.
-        rate_limit_error: 'Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì.'
+        rate_limit_error: "Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì."
       new_private_message: Kià phoe
       private_message: Kià phoe
       private_messages: Sìn-sit
@@ -875,7 +875,7 @@ tai_Rom:
           unread: Unread
         ignore_duration_title: Ignore User
         ignore_duration_username: Username
-        ignore_duration_when: 'Duration:'
+        ignore_duration_when: "Duration:"
         ignore_duration_save: Ignore
         ignore_duration_note: >-
           Please note that all ignores are automatically removed after the
@@ -924,7 +924,7 @@ tai_Rom:
           browser settings.
         disable: M̄-chún Thong-ti
         enable: Ún-chún Thong-ti
-        each_browser_note: 'Chù: Ōaⁿ oa̍t-lám-khì ài lēng-gōa siat-tēng.'
+        each_browser_note: "Chù: Ōaⁿ oa̍t-lám-khì ài lēng-gōa siat-tēng."
         consent_prompt: Lí ê pho͘-bûn nā ū sin ê tap-ho̍k, lí kám ài niá thong-ti?
       dismiss: Dismiss
       dismiss_notifications: Dismiss All
@@ -957,14 +957,14 @@ tai_Rom:
       enable_defer: Enable defer to mark topics unread
       change: change
       featured_topic: Te̍k-pia̍t Ōe-tê
-      moderator: '%{user} sī tiâⁿ-tiúⁿ'
-      admin: '%{user} sī koán-lí-oân'
+      moderator: "%{user} sī tiâⁿ-tiúⁿ"
+      admin: "%{user} sī koán-lí-oân"
       moderator_tooltip: Sú-iōng-chiá sī tiâⁿ-tiúⁿ
       admin_tooltip: Sú-iōng-chiá sī koán-lí-oân
       silenced_tooltip: This user is silenced
-      suspended_notice: 'This user is suspended until %{date}.'
+      suspended_notice: "This user is suspended until %{date}."
       suspended_permanently: This user is suspended.
-      suspended_reason: 'Lí-iû: '
+      suspended_reason: "Lí-iû: "
       github_profile: GitHub
       email_activity_summary: Tēng-kî Cheng-soán
       mailing_list_mode:
@@ -1019,7 +1019,7 @@ tai_Rom:
         categories.
       regular_categories: It-poaⁿ
       regular_categories_instructions: You will see these categories in the “Latest” and “Top” topic lists.
-      no_category_access: 'As a moderator you have limited category access, save is disabled.'
+      no_category_access: "As a moderator you have limited category access, save is disabled."
       delete_account: Kā Góa ê Kháu-chō Thâi-tiāu
       delete_account_confirm: >-
         Are you sure you want to permanently delete your account? This action
@@ -1041,8 +1041,8 @@ tai_Rom:
       apps: Apps
       revoke_access: Revoke Access
       undo_revoke_access: Undo Revoke Access
-      api_approved: 'Approved:'
-      api_last_used_at: 'Last used at:'
+      api_approved: "Approved:"
+      api_last_used_at: "Last used at:"
       theme: Theme
       save_to_change_theme: 'Theme will be updated after you click "%{save_text}"'
       home: Góa ê Chú-ia̍h
@@ -1100,7 +1100,7 @@ tai_Rom:
         copied_to_clipboard: Khó͘-pih hó ·a
         download_backup_codes: Kā backup codes lia̍h ·lo̍h ·lâi
         remaining_codes:
-          other: 'You have <strong>%{count}</strong> backup codes remaining.'
+          other: "You have <strong>%{count}</strong> backup codes remaining."
         use: Use a backup code
         enable_prerequisites: >-
           You must enable a primary two-factor method before generating backup
@@ -1181,14 +1181,14 @@ tai_Rom:
       change_username:
         title: Ōaⁿ Iōng-chiá Miâ
         confirm: Lí kám khak-tēng beh ōaⁿ iōng-chiá miâ?
-        taken: 'Sorry, that username is taken.'
+        taken: "Sorry, that username is taken."
         invalid: Iōng-chiá miâ kan-taⁿ thang ēng jī-bó kap sò͘-jī
       add_email:
         title: Ka Tiān-phoe
         add: ka
       change_email:
         title: Ōaⁿ Tiān-phoe
-        taken: 'Sorry, that email is not available.'
+        taken: "Sorry, that email is not available."
         error: >-
           There was an error changing your email. Perhaps that address is
           already in use?
@@ -1206,14 +1206,14 @@ tai_Rom:
         gravatar: >-
           <a href='//%{gravatarBaseUrl}%{gravatarLoginUrl}'
           target='_blank'>%{gravatarName}</a>, based on
-        gravatar_title: 'Change your avatar on %{gravatarName}''s website'
-        gravatar_failed: 'We could not find a %{gravatarName} with that email address.'
-        refresh_gravatar_title: 'Refresh your %{gravatarName}'
+        gravatar_title: "Change your avatar on %{gravatarName}'s website"
+        gravatar_failed: "We could not find a %{gravatarName} with that email address."
+        refresh_gravatar_title: "Refresh your %{gravatarName}"
         letter_based: System assigned profile picture
         uploaded_avatar: Custom picture
         uploaded_avatar_empty: Add a custom picture
         upload_title: Upload your picture
-        image_is_not_a_square: 'Warning: we''ve cropped your image; width and height were not equal.'
+        image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
       change_profile_background:
         title: Kháu-chō Pōe-kéng Tô͘
         instructions: Profile headers will be centered and have a default width of 1110px.
@@ -1222,7 +1222,7 @@ tai_Rom:
         instructions: Background images will be centered and have a default width of 590px.
       change_featured_topic:
         title: Te̍k-pia̍t Ōe-tê
-        instructions: 'A link to this topic will be on your user card, and profile.'
+        instructions: "A link to this topic will be on your user card, and profile."
       email:
         title: Tiān-phoe
         primary: Chú Tiān-phoe
@@ -1247,7 +1247,7 @@ tai_Rom:
         ok: We will email you to confirm
         required: Please enter an email address
         invalid: Please enter a valid email address
-        authenticated: 'Your email has been authenticated by %{provider}'
+        authenticated: "Your email has been authenticated by %{provider}"
         frequency_immediately: >-
           We'll email you immediately if you haven't read the thing we're
           emailing you about.
@@ -1261,12 +1261,12 @@ tai_Rom:
         revoke: Revoke
         cancel: Cancel
         not_connected: (not connected)
-        confirm_modal_title: 'Connect %{provider} Account'
+        confirm_modal_title: "Connect %{provider} Account"
         confirm_description:
           account_specific: >-
             Your %{provider} account '%{account_description}' will be used for
             authentication.
-          generic: 'Your %{provider} account will be used for authentication.'
+          generic: "Your %{provider} account will be used for authentication."
       name:
         title: Sèⁿ-miâ
         instructions: lí ê sèⁿ-miâ (chāi lí siá, kong-khai hián-sī ·ê)
@@ -1279,7 +1279,7 @@ tai_Rom:
         instructions: "jī-bó kap sò͘-jī, mài làng keh, khah té"
         short_instructions: "Pa̍t lâng ē tàng phah @%{username} kā lí tiám miâ"
         available: Lí kéng ê iōng-chiá miâ ē ēng tit
-        not_available: 'Bē ēng tit. Kám ài ēng %{suggestion}?'
+        not_available: "Bē ēng tit. Kám ài ēng %{suggestion}?"
         not_available_no_suggestion: Bē ēng tit
         too_short: Iōng-chiá miâ siuⁿ té
         too_long: Iōng-chiá miâ siuⁿ tn̂g
@@ -1301,20 +1301,20 @@ tai_Rom:
         details: Siông-sè
         log_out_all: Choân-pō͘ chhut chām
         not_you: M̄ sī lí?
-        show_all: 'Hián-sī só͘ ū ê (%{count})'
+        show_all: "Hián-sī só͘ ū ê (%{count})"
         show_few: Hián-sī khah chió
         was_this_you: Che kám sī lí?
         was_this_you_description: >-
           If it wasn’t you, we recommend you change your password and log out
           everywhere.
-        browser_and_device: '%{browser} tī %{device}'
+        browser_and_device: "%{browser} tī %{device}"
         secure_account: Secure my Account
         latest_post: Lí téng pái pho͘ bûn…
         device_location: >-
           <span class="auth-token-device">%{device}</span> &ndash; <span
           title="IP: %{ip}">%{location}</span>
         browser_active: '%{browser} | <span class="active">active now</span>'
-        browser_last_seen: '%{browser} | %{date}'
+        browser_last_seen: "%{browser} | %{date}"
       last_posted: Téng pái pho͘ bûn
       last_emailed: Téng pái kià tiān-phoe
       last_seen: Seen
@@ -1333,7 +1333,7 @@ tai_Rom:
         larger: Khah tōa
         largest: Siōng tōa
       title_count_mode:
-        title: 'Background page title displays count of:'
+        title: "Background page title displays count of:"
         notifications: New notifications
         contextual: New page content
       like_notification_frequency:
@@ -1389,7 +1389,7 @@ tai_Rom:
         after_4_minutes: after 4 minutes
         after_5_minutes: after 5 minutes
         after_10_minutes: after 10 minutes
-      notification_level_when_replying: 'Góa nā lâu-ōe, kā hit ê ōe-tê sǹg chò'
+      notification_level_when_replying: "Góa nā lâu-ōe, kā hit ê ōe-tê sǹg chò"
       invited:
         search: type to search invites...
         title: Chhiáⁿ-thiap
@@ -1397,14 +1397,14 @@ tai_Rom:
         sent: Last Sent
         none: No invites to display.
         truncated:
-          other: 'Showing the first %{count} invites.'
+          other: "Showing the first %{count} invites."
         redeemed: Redeemed Invites
         redeemed_tab: Redeemed
-        redeemed_tab_with_count: 'Redeemed (%{count})'
+        redeemed_tab_with_count: "Redeemed (%{count})"
         redeemed_at: Redeemed
         pending: Pending Invites
         pending_tab: Pending
-        pending_tab_with_count: 'Pending (%{count})'
+        pending_tab_with_count: "Pending (%{count})"
         topics_entered: Topics Viewed
         posts_read_count: Posts Read
         expired: This invite has expired.
@@ -1423,7 +1423,7 @@ tai_Rom:
         account_age_days: Account age in days
         source: Invited Via
         links_tab: Links
-        links_tab_with_count: 'Links (%{count})'
+        links_tab_with_count: "Links (%{count})"
         link_url: Link
         link_created_at: Created
         link_redemption_stats: Redemptions
@@ -1433,7 +1433,7 @@ tai_Rom:
         copy_link: Show Link
         generate_link: Create Invite Link
         link_generated: Here's your invite link!
-        valid_for: 'Invite link is only valid for this email address: %{email}'
+        valid_for: "Invite link is only valid for this email address: %{email}"
         single_user: Invite by email
         multiple_user: Invite by link
         invite_link:
@@ -1448,7 +1448,7 @@ tai_Rom:
           success: >-
             File uploaded successfully, you will be notified via message when
             the process is complete.
-          error: 'Sorry, file should be CSV format.'
+          error: "Sorry, file should be CSV format."
           confirmation_message: You’re about to email invites to everyone in the uploaded file.
       password:
         title: Password
@@ -1457,7 +1457,7 @@ tai_Rom:
         same_as_username: Password kap iōng-chiá miâ kāng khoán.
         same_as_email: Password kap tiān-phoe miâ kāng khoán.
         ok: Password bô būn-tê.
-        instructions: 'siōng bô ài phah %{count} jī'
+        instructions: "siōng bô ài phah %{count} jī"
         required: Chhiáⁿ su-ji̍p password
       summary:
         title: Pò-pió
@@ -1504,7 +1504,7 @@ tai_Rom:
         title: Registration IP Address
       avatar:
         title: Kháu-chō Ang-á
-        header_title: 'profile, messages, bookmarks and preferences'
+        header_title: "profile, messages, bookmarks and preferences"
       title:
         title: Title
         none: (none)
@@ -1530,9 +1530,9 @@ tai_Rom:
       desc:
         network: Please check your connection.
         network_fixed: Looks like it's back.
-        server: 'Chhò-gō͘ hoan-hō: %{status}'
+        server: "Chhò-gō͘ hoan-hō: %{status}"
         forbidden: Lí bē tàng khòaⁿ he.
-        not_found: 'Oops, the application tried to load a URL that doesn''t exist.'
+        not_found: "Oops, the application tried to load a URL that doesn't exist."
         unknown: Hoat-seng chhò-gō͘.
       buttons:
         back: Tńg ·Khì
@@ -1612,9 +1612,9 @@ tai_Rom:
     last_post: Posted
     local_time: Chāi-tē Sî-kan
     time_read: Read
-    time_read_recently: '%{time_read} recently'
-    time_read_tooltip: '%{time_read} total time read'
-    time_read_recently_tooltip: '%{time_read} total time read (%{recent_time_read} in the last 60 days)'
+    time_read_recently: "%{time_read} recently"
+    time_read_tooltip: "%{time_read} total time read"
+    time_read_recently_tooltip: "%{time_read} total time read (%{recent_time_read} in the last 60 days)"
     last_reply_lowercase: last reply
     replies_lowercase:
       other: tap-ho̍k
@@ -1637,14 +1637,14 @@ tai_Rom:
       enabled_description: >-
         You're viewing a summary of this topic: the most interesting posts as
         determined by the community.
-      description: 'There are <b>%{replyCount}</b> replies.'
+      description: "There are <b>%{replyCount}</b> replies."
       description_time: >-
         There are <b>%{replyCount}</b> replies with an estimated read time of
         <b>%{readingTime} minutes</b>.
       enable: Summarize This Topic
       disable: Hián-sī só͘ ū ê pho͘ bûn
     deleted_filter:
-      enabled_description: 'This topic contains deleted posts, which have been hidden.'
+      enabled_description: "This topic contains deleted posts, which have been hidden."
       disabled_description: Deleted posts in the topic are shown.
       enable: Hide Deleted Posts
       disable: Show Deleted Posts
@@ -1655,15 +1655,15 @@ tai_Rom:
       remove: Remove...
       add: Add...
       leave_message: Do you really want to leave this message?
-      remove_allowed_user: 'Do you really want to remove %{name} from this message?'
-      remove_allowed_group: 'Do you really want to remove %{name} from this message?'
+      remove_allowed_user: "Do you really want to remove %{name} from this message?"
+      remove_allowed_group: "Do you really want to remove %{name} from this message?"
     email: Tiān-phoe
     username: Iōng-chiá miâ
     last_seen: Sòaⁿ téng
     created: Chhòng-li̍p sî
     created_lowercase: chhòng-li̍p
     trust_level: Sêng-oân-kip
-    search_hint: 'iōng-chiá miâ, tiān-phoe, iā IP bāng-chí'
+    search_hint: "iōng-chiá miâ, tiān-phoe, iā IP bāng-chí"
     create_account:
       disclaimer: >-
         Teng kì sî, lí tông-ì pún pêⁿ-tâi ê <a href='%{privacy_link}'
@@ -1694,8 +1694,8 @@ tai_Rom:
       complete_email_found: >-
         We found an account that matches <b>%{email}</b>. You should receive an
         email with instructions on how to reset your password shortly.
-      complete_username_not_found: 'No account matches the username <b>%{username}</b>'
-      complete_email_not_found: 'No account matches <b>%{email}</b>'
+      complete_username_not_found: "No account matches the username <b>%{username}</b>"
+      complete_email_not_found: "No account matches <b>%{email}</b>"
       help: >-
         Email not arriving? Be sure to check your spam folder first.<p>Not sure
         which email address you used? Enter an email address and we’ll let you
@@ -1720,20 +1720,20 @@ tai_Rom:
       complete_email_found: >-
         We found an account that matches <b>%{email}</b>, you should receive an
         email with a login link shortly.
-      complete_username_not_found: 'Chhōe bô iōng-chiá miâ <b>%{username}</b> ê kháu-chō'
-      complete_email_not_found: 'Chhōe bô tiān-phoe <b>%{email}</b> ê kháu-chō'
-      confirm_title: 'Continue to %{site_name}'
-      logging_in_as: 'Logging in as %{email}'
+      complete_username_not_found: "Chhōe bô iōng-chiá miâ <b>%{username}</b> ê kháu-chō"
+      complete_email_not_found: "Chhōe bô tiān-phoe <b>%{email}</b> ê kháu-chō"
+      confirm_title: "Continue to %{site_name}"
+      logging_in_as: "Logging in as %{email}"
       confirm_button: Finish Login
     login:
       title: Ji̍p Chām
       username: Iōng-chiá miâ
       password: Password
       second_factor_title: Nn̄g Pō͘ Giām-bêng
-      second_factor_description: 'Please enter the authentication code from your app:'
+      second_factor_description: "Please enter the authentication code from your app:"
       second_factor_backup: Log in using a backup code
       second_factor_backup_title: Two-Factor Backup
-      second_factor_backup_description: 'Please enter one of your backup codes:'
+      second_factor_backup_description: "Please enter one of your backup codes:"
       second_factor: Log in using Authenticator app
       security_key_description: >-
         When you have your physical security key prepared press the Authenticate
@@ -1755,7 +1755,7 @@ tai_Rom:
         log in without enabling them first.
       rate_limit: Please wait before trying to log in again.
       blank_username: Please enter your email or username.
-      blank_username_or_password: 'Please enter your email or username, and password.'
+      blank_username_or_password: "Please enter your email or username, and password."
       reset_password: Reset Password
       logging_in: Tng teh ji̍p chām...
       or: Ā sī
@@ -1766,7 +1766,7 @@ tai_Rom:
       awaiting_approval: >-
         Your account has not been approved by a staff member yet. You will be
         sent an email when it is approved.
-      requires_invite: 'Sorry, access to this forum is by invite only.'
+      requires_invite: "Sorry, access to this forum is by invite only."
       not_activated: >-
         You can't log in yet. We previously sent an activation email to you at
         <b>%{sentTo}</b>. Please follow the instructions in that email to
@@ -1817,17 +1817,17 @@ tai_Rom:
     invites:
       accept_title: Chhiáⁿ-thiap
       emoji: envelope emoji
-      welcome_to: '%{site_name} Chhiáⁿ lí lâi chē!'
-      invited_by: 'Iau-chhiáⁿ lí ê lâng:'
+      welcome_to: "%{site_name} Chhiáⁿ lí lâi chē!"
+      invited_by: "Iau-chhiáⁿ lí ê lâng:"
       social_login_available: You'll also be able to sign in with any social login using that email.
-      your_email: 'Lí ê kháu-chō tiān-phoe sī <b>%{email}</b>.'
+      your_email: "Lí ê kháu-chō tiān-phoe sī <b>%{email}</b>."
       accept_invite: Chiap-siū chhiáⁿ-thiap
       success: Lí ê kháu-chō kiàn-li̍p hó, í-keng ji̍p chām ·a.
       name_label: Sèⁿ-miâ
       password_label: Password
       optional_description: (chāi lí siá)
     password_reset:
-      continue: 'Hiòng-chiân kah %{site_name}'
+      continue: "Hiòng-chiân kah %{site_name}"
     emoji_set:
       apple_international: Apple/International
       google: Google
@@ -1852,23 +1852,23 @@ tai_Rom:
       loading: Loading...
     category_row:
       topic_count:
-        other: 'Chit phiàn tiâⁿ ū %{count} tiâu ōe-tê'
+        other: "Chit phiàn tiâⁿ ū %{count} tiâu ōe-tê"
       plus_subcategories_title:
-        other: '%{name} koh %{count} phiàn choan-tê tiâⁿ'
+        other: "%{name} koh %{count} phiàn choan-tê tiâⁿ"
       plus_subcategories:
-        other: '+ %{count} phiàn choan-tê tiâⁿ'
+        other: "+ %{count} phiàn choan-tê tiâⁿ"
     select_kit:
       default_header_text: Select...
       no_content: No matches found
       filter_placeholder: Search...
       filter_placeholder_with_any: Search or create...
-      create: 'Create: ''%{content}'''
+      create: "Create: '%{content}'"
       max_content_reached:
-        other: 'You can only select %{count} items.'
+        other: "You can only select %{count} items."
       min_content_not_reached:
-        other: 'Select at least %{count} items.'
+        other: "Select at least %{count} items."
       invalid_selection_length:
-        other: 'Selection must be at least %{count} characters.'
+        other: "Selection must be at least %{count} characters."
       components:
         categories_admin_dropdown:
           title: Manage categories
@@ -1906,7 +1906,7 @@ tai_Rom:
       confirm_publish: Are you sure you want to publish this draft?
       publishing: Publishing Topic...
     composer:
-      emoji: 'Ang-á-tô͘ :)'
+      emoji: "Ang-á-tô͘ :)"
       more_emoji: khah chē...
       options: Options
       whisper: whisper
@@ -1941,17 +1941,17 @@ tai_Rom:
         It looks like your link to <b>%{domain}</b> was already posted in the
         topic by <b>@%{username}</b> in <a href='%{post_url}'>a reply on
         %{ago}</a> – are you sure you want to post it again?
-      reference_topic_title: 'RE: %{title}'
+      reference_topic_title: "RE: %{title}"
       error:
         title_missing: Ài siá chi̍t ê phiau-tê
-        title_too_short: 'Phiau-tê siōng chió ài siá %{min} jī'
-        title_too_long: 'Phiau-tê bē tàng chhiau-kòe %{max} jī'
+        title_too_short: "Phiau-tê siōng chió ài siá %{min} jī"
+        title_too_long: "Phiau-tê bē tàng chhiau-kòe %{max} jī"
         post_missing: Pho͘ bûn lōe-iông bē tàng khang-khang
-        post_length: 'Pho͘ bûn siōng chió ài siá %{min} jī'
-        try_like: 'Have you tried the %{heart} button?'
+        post_length: "Pho͘ bûn siōng chió ài siá %{min} jī"
+        try_like: "Have you tried the %{heart} button?"
         category_missing: Ài kéng chi̍t phiàn tiâⁿ
         tags_missing:
-          other: 'You must choose at least %{count} tags'
+          other: "You must choose at least %{count} tags"
         topic_template_not_modified: >-
           Please add details and specifics to your topic by editing the topic
           template.
@@ -1969,14 +1969,14 @@ tai_Rom:
       title: Or press Ctrl+Enter
       users_placeholder: Add a user
       title_placeholder: What is this discussion about in one brief sentence?
-      title_or_link_placeholder: 'Type title, or paste a link here'
+      title_or_link_placeholder: "Type title, or paste a link here"
       edit_reason_placeholder: why are you editing?
       topic_featured_link_placeholder: Enter link shown with title.
       remove_featured_link: Remove link from topic.
       reply_placeholder: >-
         Type here. Use Markdown, BBCode, or HTML to format. Drag or paste
         images.
-      reply_placeholder_no_images: 'Type here. Use Markdown, BBCode, or HTML to format.'
+      reply_placeholder_no_images: "Type here. Use Markdown, BBCode, or HTML to format."
       reply_placeholder_choose_category: Select a category before typing here.
       view_new_post: View your new post.
       saving: Tng teh khiām
@@ -1984,7 +1984,7 @@ tai_Rom:
       saved_draft: Tng teh siá chháu-kó. Chhi̍h ·loeh kè-sio̍k.
       uploading: Tng teh khǹg...
       show_preview: show preview &raquo;
-      hide_preview: '&laquo; hide preview'
+      hide_preview: "&laquo; hide preview"
       quote_post_title: Quote whole post
       bold_label: B
       bold_title: Chho͘-thé
@@ -2018,7 +2018,7 @@ tai_Rom:
       hide_toolbar: hide composer toolbar
       modal_ok: OK
       modal_cancel: Cancel
-      cant_send_pm: 'Sorry, you can''t send a message to %{username}.'
+      cant_send_pm: "Sorry, you can't send a message to %{username}."
       yourself_confirm:
         title: Did you forget to add recipients?
         body: Right now this message is only being sent to yourself!
@@ -2032,7 +2032,7 @@ tai_Rom:
         draft: Chháu-kó
         edit: Phian-chhip
         reply_to_post:
-          label: 'Reply to a post by %{postUsername}'
+          label: "Reply to a post by %{postUsername}"
           desc: Reply to a specific post
         reply_as_new_topic:
           label: Reply as linked topic
@@ -2048,7 +2048,7 @@ tai_Rom:
           desc: Create a new personal message
         reply_to_topic:
           label: Ìn ōe-tê
-          desc: 'Ìn kui ê ōe-tê, bián chí-tēng kî-tiong chi̍t phiⁿ pho͘ bûn'
+          desc: "Ìn kui ê ōe-tê, bián chí-tēng kî-tiong chi̍t phiⁿ pho͘ bûn"
         toggle_whisper:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
@@ -2065,11 +2065,11 @@ tai_Rom:
     notifications:
       tooltip:
         regular:
-          other: '%{count} thong á bē khòaⁿ ê thong-ti'
+          other: "%{count} thong á bē khòaⁿ ê thong-ti"
         message:
-          other: '%{count} thong á bē khòaⁿ ê sìn-sit'
+          other: "%{count} thong á bē khòaⁿ ê sìn-sit"
         high_priority:
-          other: '%{count} unread high priority notifications'
+          other: "%{count} unread high priority notifications"
       title: >-
         notifications of @name mentions, replies to your posts and topics,
         messages, etc
@@ -2077,14 +2077,14 @@ tai_Rom:
       empty: No notifications found.
       post_approved: Your post was approved
       reviewable_items: items requiring review
-      mentioned: '<span>%{username}</span> %{description}'
-      group_mentioned: '<span>%{username}</span> %{description}'
-      quoted: '<span>%{username}</span> %{description}'
-      bookmark_reminder: '<span>%{username}</span> %{description}'
-      replied: '<span>%{username}</span> %{description}'
-      posted: '<span>%{username}</span> %{description}'
-      edited: '<span>%{username}</span> %{description}'
-      liked: '<span>%{username}</span> %{description}'
+      mentioned: "<span>%{username}</span> %{description}"
+      group_mentioned: "<span>%{username}</span> %{description}"
+      quoted: "<span>%{username}</span> %{description}"
+      bookmark_reminder: "<span>%{username}</span> %{description}"
+      replied: "<span>%{username}</span> %{description}"
+      posted: "<span>%{username}</span> %{description}"
+      edited: "<span>%{username}</span> %{description}"
+      liked: "<span>%{username}</span> %{description}"
       liked_2: >-
         <span class='double-user'>%{username}, %{username2}</span>
         %{description}
@@ -2093,25 +2093,25 @@ tai_Rom:
           <span class='multi-user'>%{username}, %{username2} and %{count}
           others</span> %{description}
       liked_consolidated_description:
-        other: 'liked %{count} of your posts'
-      liked_consolidated: '<span>%{username}</span> %{description}'
-      private_message: '<span>%{username}</span> %{description}'
-      invited_to_private_message: '<p><span>%{username}</span> %{description}'
-      invited_to_topic: '<span>%{username}</span> %{description}'
-      invitee_accepted: '<span>%{username}</span> accepted your invitation'
-      moved_post: '<span>%{username}</span> moved %{description}'
-      linked: '<span>%{username}</span> %{description}'
-      granted_badge: 'Earned ''%{description}'''
-      topic_reminder: '<span>%{username}</span> %{description}'
-      watching_first_post: '<span>New Topic</span> %{description}'
-      membership_request_accepted: 'Membership accepted in ''%{group_name}'''
+        other: "liked %{count} of your posts"
+      liked_consolidated: "<span>%{username}</span> %{description}"
+      private_message: "<span>%{username}</span> %{description}"
+      invited_to_private_message: "<p><span>%{username}</span> %{description}"
+      invited_to_topic: "<span>%{username}</span> %{description}"
+      invitee_accepted: "<span>%{username}</span> accepted your invitation"
+      moved_post: "<span>%{username}</span> moved %{description}"
+      linked: "<span>%{username}</span> %{description}"
+      granted_badge: "Earned '%{description}'"
+      topic_reminder: "<span>%{username}</span> %{description}"
+      watching_first_post: "<span>New Topic</span> %{description}"
+      membership_request_accepted: "Membership accepted in '%{group_name}'"
       membership_request_consolidated:
-        other: '%{count} open membership requests for ''%{group_name}'''
-      reaction: '<span>%{username}</span> %{description}'
-      reaction_2: '<span>%{username}, %{username2}</span> %{description}'
-      votes_released: '%{description} - completed'
+        other: "%{count} open membership requests for '%{group_name}'"
+      reaction: "<span>%{username}</span> %{description}"
+      reaction_2: "<span>%{username}, %{username2}</span> %{description}"
+      votes_released: "%{description} - completed"
       group_message_summary:
-        other: '%{group_name} sìn-siuⁿ ū %{count} thong sìn-sit'
+        other: "%{group_name} sìn-siuⁿ ū %{count} thong sìn-sit"
       popup:
         mentioned: '%{username} mentioned you in "%{topic}" - %{site_title}'
         group_mentioned: '%{username} mentioned you in "%{topic}" - %{site_title}'
@@ -2121,9 +2121,9 @@ tai_Rom:
         private_message: '%{username} sent you a personal message in "%{topic}" - %{site_title}'
         linked: '%{username} linked to your post from "%{topic}" - %{site_title}'
         watching_first_post: '%{username} created a new topic "%{topic}" - %{site_title}'
-        confirm_title: 'Notifications enabled - %{site_title}'
+        confirm_title: "Notifications enabled - %{site_title}"
         confirm_body: Success! Notifications have been enabled.
-        custom: 'Notification from %{username} on %{site_title}'
+        custom: "Notification from %{username} on %{site_title}"
       titles:
         mentioned: tiám miâ ·ê
         replied: new reply
@@ -2137,7 +2137,7 @@ tai_Rom:
         moved_post: post moved
         linked: linked
         bookmark_reminder: bookmark reminder
-        bookmark_reminder_with_name: 'bookmark reminder - %{name}'
+        bookmark_reminder_with_name: "bookmark reminder - %{name}"
         granted_badge: badge granted
         invited_to_topic: invited to topic
         group_mentioned: group mentioned
@@ -2155,9 +2155,9 @@ tai_Rom:
       from_my_computer: Ùi góa ê siat-pī
       from_the_web: Ùi bāng-lō͘ téng-koân
       remote_tip: tô͘ ê bāng-liân-á
-      remote_tip_with_attachments: 'link to image or file %{authorized_extensions}'
+      remote_tip_with_attachments: "link to image or file %{authorized_extensions}"
       local_tip: select images from your device
-      local_tip_with_attachments: 'select images or files from your device %{authorized_extensions}'
+      local_tip_with_attachments: "select images or files from your device %{authorized_extensions}"
       hint: (you can also drag & drop into the editor to upload them)
       hint_for_supported_browsers: you can also drag and drop or paste images into the editor
       uploading: Tng teh khǹg...
@@ -2177,22 +2177,22 @@ tai_Rom:
         other: >-
           <span>%{count}%{plus} results for</span><span
           class='term'>%{term}</span>
-      title: 'chhōe ōe-tê, pho͘ bûn, sú-iōng-chiá, iā sī tiâⁿ'
+      title: "chhōe ōe-tê, pho͘ bûn, sú-iōng-chiá, iā sī tiâⁿ"
       full_page_title: chhōe ōe-tê iā sī pho͘ bûn
       no_results: Chhōe bô.
       no_more_results: No more results found.
-      post_format: '#%{post_number} by %{username}'
-      results_page: 'Search results for ''%{term}'''
+      post_format: "#%{post_number} by %{username}"
+      results_page: "Search results for '%{term}'"
       more_results: There are more results. Please narrow your search criteria.
       cant_find: Can’t find what you’re looking for?
       start_new_topic: Perhaps start a new topic?
-      or_search_google: 'Bô, chhōe Google khòaⁿ māi:'
-      search_google: 'Chhōe Google khòaⁿ māi:'
+      or_search_google: "Bô, chhōe Google khòaⁿ māi:"
+      search_google: "Chhōe Google khòaⁿ māi:"
       search_google_button: Google
       context:
-        user: 'Chhōe @%{username} pho͘ ·ê'
-        category: 'Tī #%{category} tiâⁿ chhōe'
-        tag: 'Chhōe #%{tag} phiau-á'
+        user: "Chhōe @%{username} pho͘ ·ê"
+        category: "Tī #%{category} tiâⁿ chhōe"
+        tag: "Chhōe #%{tag} phiau-á"
         topic: Tī chit ê ōe-tê chhōe
         private_messages: Chhōe su-sìn
       advanced:
@@ -2278,26 +2278,26 @@ tai_Rom:
         close_topics: Close Topics
         archive_topics: Archive Topics
         notification_level: Notifications
-        choose_new_category: 'Choose the new category for the topics:'
+        choose_new_category: "Choose the new category for the topics:"
         selected:
-          other: 'You have selected <b>%{count}</b> topics.'
+          other: "You have selected <b>%{count}</b> topics."
         change_tags: Replace Tags
         append_tags: Append Tags
-        choose_new_tags: 'Choose new tags for these topics:'
-        choose_append_tags: 'Choose new tags to append for these topics:'
+        choose_new_tags: "Choose new tags for these topics:"
+        choose_append_tags: "Choose new tags to append for these topics:"
         changed_tags: The tags of those topics were changed.
         remove_tags: Remove Tags
         progress:
-          other: 'Progress: <strong>%{count}</strong> topics'
+          other: "Progress: <strong>%{count}</strong> topics"
       none:
         unread: Lí bô á bē tha̍k ê ōe-tê.
         new: Lí bô sin ê ōe-tê.
         read: Lí á bē tha̍k jīm-hô ōe-tê.
         posted: Lí á bē tap-ho̍k jīm-hô ōe-tê.
-        ready_to_create: 'Lí kám ài '
+        ready_to_create: "Lí kám ài "
         latest: Khòaⁿ liáu liáu ·a!
         bookmarks: Lí á bē kā ōe-tê chò kì-hō.
-        category: '%{category} tiâⁿ bô ōe-tê.'
+        category: "%{category} tiâⁿ bô ōe-tê."
         top: Bô teh chhèng ·ê ōe-tê.
         educate:
           new: >-
@@ -2322,13 +2322,13 @@ tai_Rom:
         read: There are no more read topics.
         new: There are no more new topics.
         unread: There are no more unread topics.
-        category: 'There are no more %{category} topics.'
-        tag: 'There are no more %{tag} topics.'
+        category: "There are no more %{category} topics."
+        tag: "There are no more %{tag} topics."
         top: There are no more top topics.
         bookmarks: There are no more bookmarked topics.
     topic:
       filter_to:
-        other: '%{count} posts in topic'
+        other: "%{count} posts in topic"
       create: Pho͘ Bûn
       create_long: Create a new Topic
       open_draft: Chháu-kó Phah Khui
@@ -2358,13 +2358,13 @@ tai_Rom:
       new: new topic
       unread: á bē tha̍k
       new_topics:
-        other: '%{count} tiâu sin ê ōe-tê'
+        other: "%{count} tiâu sin ê ōe-tê"
       unread_topics:
-        other: '%{count} tiâu á bē tha̍k ê ōe-tê'
+        other: "%{count} tiâu á bē tha̍k ê ōe-tê"
       title: Ōe-tê
       invalid_access:
         title: Topic is private
-        description: 'Sorry, you don''t have access to that topic!'
+        description: "Sorry, you don't have access to that topic!"
         login_required: You need to log in to see that topic.
       server_error:
         title: Topic failed to load
@@ -2377,19 +2377,19 @@ tai_Rom:
           Sorry, we couldn't find that topic. Perhaps it was removed by a
           moderator?
       total_unread_posts:
-        other: 'chit tiâu ōe-tê ū %{count} phiⁿ lí á bē tha̍k ê pho͘ bûn'
+        other: "chit tiâu ōe-tê ū %{count} phiⁿ lí á bē tha̍k ê pho͘ bûn"
       unread_posts:
-        other: 'you have %{count} unread old posts in this topic'
+        other: "you have %{count} unread old posts in this topic"
       new_posts:
-        other: 'ùi lí téng pái khòaⁿ chit tiâu ōe-tê koh ū %{count} phiⁿ sin ê pho͘ bûn'
+        other: "ùi lí téng pái khòaⁿ chit tiâu ōe-tê koh ū %{count} phiⁿ sin ê pho͘ bûn"
       likes:
-        other: 'there are %{count} likes in this topic'
+        other: "there are %{count} likes in this topic"
       back_to_list: Back to Topic List
       options: Topic Options
       show_links: show links within this topic
       toggle_information: toggle topic details
-      read_more_in_category: 'Want to read more? Browse other topics in %{catLink} or %{latestLink}.'
-      read_more: 'Want to read more? %{catLink} or %{latestLink}.'
+      read_more_in_category: "Want to read more? Browse other topics in %{catLink} or %{latestLink}."
+      read_more: "Want to read more? %{catLink} or %{latestLink}."
       unread_indicator: No member has read the last post of this topic yet.
       read_more_MF: >-
         There { UNREAD, plural, =0 {} one { is <a href='{basePath}/unread'>1
@@ -2411,15 +2411,15 @@ tai_Rom:
       deleted: Ōe-tê thâi-tiāu ·a
       slow_mode_update:
         title: Slow Mode
-        select: 'Users may only post in this topic once every:'
+        select: "Users may only post in this topic once every:"
         description: >-
           To promote thoughtful discussion in fast moving or contentious
           discussions, users must wait before posting again in this topic.
         save: Enable
         remove: Disable
-        hours: 'Hours:'
-        minutes: 'Minutes:'
-        seconds: 'Seconds:'
+        hours: "Hours:"
+        minutes: "Minutes:"
+        seconds: "Seconds:"
         durations:
           15_minutes: 15 Minutes
           1_hour: 1 Hour
@@ -2428,15 +2428,15 @@ tai_Rom:
           1_week: 1 Week
           custom: Custom Duration
       slow_mode_notice:
-        duration: 'You need to wait %{duration} between posts in this topic'
+        duration: "You need to wait %{duration} between posts in this topic"
       topic_status_update:
         title: Topic Timer
         save: Set Timer
-        num_of_hours: 'Number of hours:'
-        num_of_days: 'Number of days:'
+        num_of_hours: "Number of hours:"
+        num_of_days: "Number of days:"
         remove: Remove Timer
-        publish_to: 'Publish To:'
-        when: 'When:'
+        publish_to: "Publish To:"
+        when: "When:"
         time_frame_required: Please select a time frame
       auto_update_input:
         none: Select a timeframe
@@ -2466,7 +2466,7 @@ tai_Rom:
         title: Close Temporarily
       auto_close:
         title: Auto-Close Topic
-        label: 'Auto-close topic hours:'
+        label: "Auto-close topic hours:"
         error: Please enter a valid value.
         based_on_last_post: Don't close until the last post in the topic is at least this old.
       auto_delete:
@@ -2478,16 +2478,16 @@ tai_Rom:
       auto_delete_replies:
         title: Auto-Delete Replies
       status_update_notice:
-        auto_open: 'This topic will automatically open %{timeLeft}.'
-        auto_close: 'This topic will automatically close %{timeLeft}.'
+        auto_open: "This topic will automatically open %{timeLeft}."
+        auto_close: "This topic will automatically close %{timeLeft}."
         auto_publish_to_category: >-
           This topic will be published to <a
           href=%{categoryUrl}>#%{categoryName}</a> %{timeLeft}.
-        auto_close_based_on_last_post: 'This topic will close %{duration} after the last reply.'
-        auto_delete: 'This topic will be automatically deleted %{timeLeft}.'
-        auto_bump: 'This topic will be automatically bumped %{timeLeft}.'
-        auto_reminder: 'You will be reminded about this topic %{timeLeft}.'
-        auto_delete_replies: 'Replies on this topic are automatically deleted after %{duration}.'
+        auto_close_based_on_last_post: "This topic will close %{duration} after the last reply."
+        auto_delete: "This topic will be automatically deleted %{timeLeft}."
+        auto_bump: "This topic will be automatically bumped %{timeLeft}."
+        auto_reminder: "You will be reminded about this topic %{timeLeft}."
+        auto_delete_replies: "Replies on this topic are automatically deleted after %{duration}."
       auto_close_title: Auto-Close Settings
       auto_close_immediate:
         other: >-
@@ -2496,7 +2496,7 @@ tai_Rom:
       timeline:
         back: Back
         back_description: Go back to your last unread post
-        replies_short: '%{current} / %{total}'
+        replies_short: "%{current} / %{total}"
       progress:
         title: topic progress
         go_top: top
@@ -2504,9 +2504,9 @@ tai_Rom:
         go: go
         jump_bottom: jump to last post
         jump_prompt: jump to...
-        jump_prompt_of: 'of %{count} posts'
+        jump_prompt_of: "of %{count} posts"
         jump_prompt_long: Jump to...
-        jump_bottom_with_number: 'jump to post %{post_number}'
+        jump_bottom_with_number: "jump to post %{post_number}"
         jump_prompt_to_date: to date
         jump_prompt_or: or
         total: total posts
@@ -2514,43 +2514,43 @@ tai_Rom:
       notifications:
         title: change how often you get notified about this topic
         reasons:
-          '0': You are ignoring all notifications on this topic.
-          '1': >-
+          "0": You are ignoring all notifications on this topic.
+          "1": >-
             You will be notified if someone mentions your @name or replies to
             you.
-          '2': >-
+          "2": >-
             You will see a count of new replies because you <a
             href="%{basePath}/u/%{username}/preferences/notifications">read this
             topic</a>.
-          '3': You will receive notifications because you are watching this topic.
+          "3": You will receive notifications because you are watching this topic.
           mailing_list_mode: >-
             You have mailing list mode enabled, so you will be notified of
             replies to this topic via email.
-          '3_10': >-
+          "3_10": >-
             You will receive notifications because you are watching a tag on
             this topic.
-          '3_6': >-
+          "3_6": >-
             You will receive notifications because you are watching this
             category.
-          '3_5': >-
+          "3_5": >-
             You will receive notifications because you started watching this
             topic automatically.
-          '3_2': You will receive notifications because you are watching this topic.
-          '3_1': You will receive notifications because you created this topic.
-          '2_8': >-
+          "3_2": You will receive notifications because you are watching this topic.
+          "3_1": You will receive notifications because you created this topic.
+          "2_8": >-
             You will see a count of new replies because you are tracking this
             category.
-          '2_4': >-
+          "2_4": >-
             You will see a count of new replies because you posted a reply to
             this topic.
-          '2_2': >-
+          "2_2": >-
             You will see a count of new replies because you are tracking this
             topic.
-          '1_2': >-
+          "1_2": >-
             You will be notified if someone mentions your @name or replies to
             you.
-          '0_7': You are ignoring all notifications in this category.
-          '0_2': You are ignoring all notifications on this topic.
+          "0_7": You are ignoring all notifications in this category.
+          "0_2": You are ignoring all notifications on this topic.
         watching_pm:
           title: Teh Khòaⁿ
           description: >-
@@ -2615,7 +2615,7 @@ tai_Rom:
         make_banner: Banner Topic
         remove_banner: Remove Banner Topic
       reply:
-        title: Reply
+        title: Tap-ho̍k
         help: begin composing a reply to this topic
       clear_pin:
         title: Clear pin
@@ -2623,33 +2623,33 @@ tai_Rom:
           Clear the pinned status of this topic so it no longer appears at the
           top of your topic list
       share:
-        title: Share
-        extended_title: Share a link
-        help: share a link to this topic
+        title: Pun Tiuⁿ
+        extended_title: Bāng-liân-á Pun Tiuⁿ
+        help: kā chit tiâu ōe-tê ê bāng-liân-á pun tiuⁿ
       print:
         title: Print
         help: Open a printer friendly version of this topic
       flag_topic:
-        title: Flag
+        title: Gia̍h Kî-á
         help: >-
           privately flag this topic for attention or send a private notification
           about it
         success_message: You successfully flagged this topic.
       make_public:
         title: Convert to Public Topic
-        choose_category: 'Please choose a category for the public topic:'
+        choose_category: "Please choose a category for the public topic:"
       feature_topic:
         title: Feature this topic
         pin: >-
           Make this topic appear at the top of the %{categoryLink} category
           until
-        unpin: 'Remove this topic from the top of the %{categoryLink} category.'
+        unpin: "Remove this topic from the top of the %{categoryLink} category."
         unpin_until: >-
           Remove this topic from the top of the %{categoryLink} category or wait
           until <strong>%{until}</strong>.
         pin_note: Users can unpin the topic individually for themselves.
         pin_validation: A date is required to pin this topic.
-        not_pinned: 'There are no topics pinned in %{categoryLink}.'
+        not_pinned: "There are no topics pinned in %{categoryLink}."
         already_pinned:
           other: >-
             Topics currently pinned in %{categoryLink}: <strong class='badge
@@ -2680,7 +2680,7 @@ tai_Rom:
           There <strong class='badge badge-notification unread'>is</strong>
           currently a banner topic.
       inviting: Inviting...
-      automatically_add_to_groups: 'This invite also includes access to these groups:'
+      automatically_add_to_groups: "This invite also includes access to these groups:"
       invite_private:
         title: Invite to Message
         email_or_username: Invitee's Email or Username
@@ -2688,8 +2688,8 @@ tai_Rom:
         action: Invite
         success: We've invited that user to participate in this message.
         success_group: We've invited that group to participate in this message.
-        error: 'Sorry, there was an error inviting that user.'
-        not_allowed: 'Sorry, that user can''t be invited.'
+        error: "Sorry, there was an error inviting that user."
+        not_allowed: "Sorry, that user can't be invited."
         group_name: group name
       controls: Topic Controls
       invite_reply:
@@ -2728,7 +2728,7 @@ tai_Rom:
       login_reply: Log In to Reply
       filters:
         n_posts:
-          other: '%{count} phiⁿ pho͘ bûn'
+          other: "%{count} phiⁿ pho͘ bûn"
         cancel: Remove filter
       move_to:
         title: Move to
@@ -2785,10 +2785,10 @@ tai_Rom:
         slug: Slug
         public: Public
         public_description: People can see the page even if the associated topic is private.
-        publish_url: 'Your page has been published at:'
-        topic_published: 'Your topic has been published at:'
-        preview_url: 'Your page will be published at:'
-        invalid_slug: 'Sorry, you can''t publish this page.'
+        publish_url: "Your page has been published at:"
+        topic_published: "Your topic has been published at:"
+        preview_url: "Your page will be published at:"
+        invalid_slug: "Sorry, you can't publish this page."
         unpublish: Unpublish
         unpublished: Your page has been unpublished and is no longer accessible.
         publishing_settings: Publishing Settings
@@ -2802,7 +2802,7 @@ tai_Rom:
             Please choose a new owner for the %{count} posts by
             <b>@%{old_user}</b>
         instructions_without_old_user:
-          other: 'Please choose a new owner for the %{count} posts'
+          other: "Please choose a new owner for the %{count} posts"
       change_timestamp:
         title: Change Timestamp...
         action: change timestamp
@@ -2813,7 +2813,7 @@ tai_Rom:
           be updated to have the same time difference.
       multi_select:
         select: kéng
-        selected: 'selected (%{count})'
+        selected: "selected (%{count})"
         select_post:
           label: kéng
           title: Add post to selection
@@ -2831,7 +2831,7 @@ tai_Rom:
         select_all: select all
         deselect_all: deselect all
         description:
-          other: 'You have selected <b>%{count}</b> posts.'
+          other: "You have selected <b>%{count}</b> posts."
       deleted_by_author:
         other: >-
           (topic withdrawn by author, will be automatically deleted in %{count}
@@ -2839,14 +2839,14 @@ tai_Rom:
     post:
       quote_reply: Ín-iōng
       quote_share: Hun-hiáng
-      edit_reason: 'Lí-iû: '
-      post_number: 'pho͘ %{number}'
+      edit_reason: "Lí-iû: "
+      post_number: "pho͘ %{number}"
       ignored: Ignored content
       wiki_last_edited_on: wiki last edited on
       last_edited_on: post last edited on
       reply_as_new_topic: Reply as linked Topic
       reply_as_new_private_message: Reply as new message to the same recipients
-      continue_discussion: 'Continuing the discussion from %{postLink}:'
+      continue_discussion: "Continuing the discussion from %{postLink}:"
       follow_quote: thiàu kah ín-iōng ê pho͘ bûn
       show_full: Hián-sī Kui Phiⁿ
       show_hidden: View ignored content.
@@ -2858,7 +2858,7 @@ tai_Rom:
       expand_collapse: chhun/kiu
       locked: a staff member has locked this post from being edited
       gap:
-        other: 'view %{count} hidden replies'
+        other: "view %{count} hidden replies"
       notice:
         new_user: >-
           Che sī %{user} thâu chi̍t pái pho͘ bûn — chhiáⁿ ta̍k-ke
@@ -2867,44 +2867,44 @@ tai_Rom:
           Lán kài kú bô khòaⁿ tio̍h %{user} — i téng pái pho͘ bûn sī %{time}.
       unread: Pho͘ bûn á bē tha̍k
       has_replies:
-        other: '%{count} Tap-ho̍k'
-      has_replies_count: '%{count}'
+        other: "%{count} Tap-ho̍k"
+      has_replies_count: "%{count}"
       unknown_user: (unknown/deleted user)
       has_likes_title:
-        other: '%{count} ê lâng kah-ì chit phiⁿ'
+        other: "%{count} ê lâng kah-ì chit phiⁿ"
       has_likes_title_only_you: you liked this post
       has_likes_title_you:
-        other: 'lí kap lēng-gōa %{count} ê lâng kah-ì chit phiⁿ'
+        other: "lí kap lēng-gōa %{count} ê lâng kah-ì chit phiⁿ"
       filtered_replies_hint:
-        other: 'Khòaⁿ chit phiⁿ kap %{count} phiⁿ tap-ho̍k'
+        other: "Khòaⁿ chit phiⁿ kap %{count} phiⁿ tap-ho̍k"
       errors:
-        create: 'Pháiⁿ-sè, pho͘ bûn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
-        edit: 'Pháiⁿ-sè, phian-chhip hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
-        upload: 'Pháiⁿ-sè, khǹg tóng-àn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái.'
+        create: "Pháiⁿ-sè, pho͘ bûn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
+        edit: "Pháiⁿ-sè, phian-chhip hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
+        upload: "Pháiⁿ-sè, khǹg tóng-àn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
         file_too_large: >-
           Pháiⁿ-sè, hia ê tóng-àn siuⁿ tìn ūi (siōng tōa: %{max_size_kb}kb).
           Bô, lí seng kā khǹg tī chi̍t ê hûn-tōaⁿ pêⁿ-tâi,
           koh kā bāng-liân-á tah tī chia.
-        too_many_uploads: 'Sorry, you can only upload one file at a time.'
+        too_many_uploads: "Sorry, you can only upload one file at a time."
         too_many_dragged_and_dropped_files:
-          other: 'Sorry, you can only upload %{count} files at a time.'
+          other: "Sorry, you can only upload %{count} files at a time."
         upload_not_authorized: >-
           Sorry, the file you are trying to upload is not authorized (authorized
           extensions: %{authorized_extensions}).
-        image_upload_not_allowed_for_new_user: 'Sorry, new users can not upload images.'
-        attachment_upload_not_allowed_for_new_user: 'Sorry, new users can not upload attachments.'
-        attachment_download_requires_login: 'Sorry, you need to be logged in to download attachments.'
+        image_upload_not_allowed_for_new_user: "Sorry, new users can not upload images."
+        attachment_upload_not_allowed_for_new_user: "Sorry, new users can not upload attachments."
+        attachment_download_requires_login: "Sorry, you need to be logged in to download attachments."
       abandon_edit:
         confirm: Lí kám khak-tēng beh kā phian-chhip tàn-hìⁿ-sak?
-        no_value: 'Bô, lâu ·le'
-        no_save_draft: 'Bô, khiām chháu-kó'
-        yes_value: 'Hó, hìⁿ-tiāu'
+        no_value: "Bô, lâu ·le"
+        no_save_draft: "Bô, khiām chháu-kó"
+        yes_value: "Hó, hìⁿ-tiāu"
       abandon:
         title: Chháu-kó hìⁿ-tiāu
         confirm: Lí kám khak-tēng beh kā chháu-kó tàn-hìⁿ-sak?
-        no_value: 'Bô, lâu ·le'
-        no_save_draft: 'Bô, khiām chháu-kó'
-        yes_value: 'Hó, hìⁿ-tiāu'
+        no_value: "Bô, lâu ·le"
+        no_save_draft: "Bô, khiām chháu-kó"
+        yes_value: "Hó, hìⁿ-tiāu"
       via_email: this post arrived via email
       via_auto_generated_email: this post arrived via an auto generated email
       whisper: this post is a private whisper for moderators
@@ -2919,23 +2919,23 @@ tai_Rom:
         has_liked: you've liked this post
         read_indicator: members who read this post
         undo_like: undo like
-        edit: edit this post
-        edit_action: Edit
-        edit_anonymous: 'Sorry, but you need to be logged in to edit this post.'
+        edit: phian-chhip chit phiⁿ pho͘ bûn
+        edit_action: Phian-chhip
+        edit_anonymous: "Sorry, but you need to be logged in to edit this post."
         flag: >-
           privately flag this post for attention or send a private notification
           about it
         delete: delete this post
         undelete: undelete this post
-        share: share a link to this post
+        share: ōe-tê ê bāng-liân-á pun tiuⁿ
         more: More
         delete_replies:
           confirm: Do you also want to delete the replies to this post?
           direct_replies:
-            other: 'Yes, and %{count} direct replies'
+            other: "Yes, and %{count} direct replies"
           all_replies:
-            other: 'Yes, and all %{count} replies'
-          just_the_post: 'No, just this post'
+            other: "Yes, and all %{count} replies"
+          just_the_post: "No, just this post"
         admin: post admin actions
         wiki: Make Wiki
         unwiki: Remove Wiki
@@ -2959,8 +2959,8 @@ tai_Rom:
           This topic currently has over %{minViews} views and may be a popular
           search destination. Are you sure you want to delete this topic
           entirely, instead of editing it to improve it?
-        delete_topic_confirm_modal_yes: 'Yes, delete this topic'
-        delete_topic_confirm_modal_no: 'No, keep this topic'
+        delete_topic_confirm_modal_yes: "Yes, delete this topic"
+        delete_topic_confirm_modal_no: "No, keep this topic"
         delete_topic_error: An error occurred while deleting this topic
         delete_topic: delete topic
         add_post_notice: Add Staff Notice
@@ -2974,9 +2974,9 @@ tai_Rom:
           read:
             other: ū khòaⁿ che
           like_capped:
-            other: 'kap lēng-gōa %{count} ê lóng kah-ì che'
+            other: "kap lēng-gōa %{count} ê lóng kah-ì che"
           read_capped:
-            other: 'kap lēng-gōa %{count} ê lóng ū khòaⁿ che'
+            other: "kap lēng-gōa %{count} ê lóng ū khòaⁿ che"
         by_you:
           off_topic: You flagged this as off-topic
           spam: You flagged this as spam
@@ -2985,10 +2985,10 @@ tai_Rom:
           notify_user: You sent a message to this user
       delete:
         confirm:
-          other: 'Are you sure you want to delete those %{count} posts?'
+          other: "Are you sure you want to delete those %{count} posts?"
       merge:
         confirm:
-          other: 'Are you sure you want to merge those %{count} posts?'
+          other: "Are you sure you want to merge those %{count} posts?"
       revisions:
         controls:
           first: First revision
@@ -2997,7 +2997,7 @@ tai_Rom:
           last: Last revision
           hide: Hide revision
           show: Show revision
-          revert: 'Revert to revision %{revision}'
+          revert: "Revert to revision %{revision}"
           edit_wiki: Edit Wiki
           edit_post: Edit Post
           comparing_previous_to_current_out_of_total: >-
@@ -3042,27 +3042,27 @@ tai_Rom:
             name: Edit bookmark
             description: Edit the bookmark name or change the reminder date and time
       filtered_replies:
-        viewing: 'Viewing %{reply_count} replies to'
-        viewing_posts_by: 'Viewing %{post_count} posts by'
+        viewing: "Viewing %{reply_count} replies to"
+        viewing_posts_by: "Viewing %{post_count} posts by"
         viewing_subset: Some replies are collapsed
         viewing_summary: Viewing a summary of this topic
-        post_number: '%{username}, post #%{post_number}'
+        post_number: "%{username}, post #%{post_number}"
         show_all: Show all
     category:
-      can: 'can&hellip; '
+      can: "can&hellip; "
       none: (no category)
       all: Só͘ ū ê tiâⁿ
       choose: category&hellip;
       edit: Edit
-      edit_dialog_title: 'Edit: %{categoryName}'
+      edit_dialog_title: "Edit: %{categoryName}"
       view: View Topics in Category
       back: Back to category
       general: General
       settings: Siat-tēng
       topic_template: Topic Template
       tags: Phiau-á
-      tags_allowed_tags: 'Restrict these tags to this category:'
-      tags_allowed_tag_groups: 'Restrict these tag groups to this category:'
+      tags_allowed_tags: "Restrict these tags to this category:"
+      tags_allowed_tag_groups: "Restrict these tag groups to this category:"
       tags_placeholder: (Optional) list of allowed tags
       tags_tab_description: >-
         Tags and tag groups specified above will only be available in this
@@ -3072,9 +3072,9 @@ tai_Rom:
       manage_tag_groups_link: Manage tag groups
       allow_global_tags_label: Also allow other tags
       tag_group_selector_placeholder: (Optional) Tag group
-      required_tag_group_description: 'Require new topics to have tags from a tag group:'
-      min_tags_from_required_group_label: 'Num Tags:'
-      required_tag_group_label: 'Tag group:'
+      required_tag_group_description: "Require new topics to have tags from a tag group:"
+      min_tags_from_required_group_label: "Num Tags:"
+      required_tag_group_label: "Tag group:"
       topic_featured_link_allowed: Allow featured links in this category
       delete: Delete Category
       create: Khí tiâⁿ
@@ -3135,23 +3135,23 @@ tai_Rom:
         You haven't added %{group} to this category; click this button to add
         them.
       images: Images
-      email_in: 'Custom incoming email address:'
+      email_in: "Custom incoming email address:"
       email_in_allow_strangers: Accept emails from anonymous users with no accounts
       email_in_disabled: >-
         Posting new topics via email is disabled in the Site Settings. To enable
-        posting new topics via email, 
+        posting new topics via email,
       email_in_disabled_click: enable the "email in" setting.
       mailinglist_mirror: Category mirrors a mailing list
       show_subcategory_list: Show subcategory list above topics in this category.
-      read_only_banner: 'Banner text when a user cannot create a topic in this category:'
-      num_featured_topics: 'Number of topics shown on the categories page:'
-      subcategory_num_featured_topics: 'Number of featured topics on parent category''s page:'
+      read_only_banner: "Banner text when a user cannot create a topic in this category:"
+      num_featured_topics: "Number of topics shown on the categories page:"
+      subcategory_num_featured_topics: "Number of featured topics on parent category's page:"
       all_topics_wiki: Make new topics wikis by default
-      subcategory_list_style: 'Subcategory List Style:'
-      sort_order: 'Topic List Sort By:'
-      default_view: 'Default Topic List:'
-      default_top_period: 'Default Top Period:'
-      default_list_filter: 'Default List Filter:'
+      subcategory_list_style: "Subcategory List Style:"
+      sort_order: "Topic List Sort By:"
+      default_view: "Default Topic List:"
+      default_top_period: "Default Top Period:"
+      default_list_filter: "Default List Filter:"
       allow_badges_label: Allow badges to be awarded in this category
       edit_permissions: Edit Permissions
       reviewable_by_group: >-
@@ -3161,15 +3161,15 @@ tai_Rom:
       require_topic_approval: Require moderator approval of all new topics
       require_reply_approval: Require moderator approval of all new replies
       this_year: this year
-      position: 'Position on the categories page:'
+      position: "Position on the categories page:"
       default_position: Default Position
       position_disabled: >-
         Categories will be displayed in order of activity. To control the order
-        of categories in lists, 
+        of categories in lists,
       position_disabled_click: enable the "fixed category positions" setting.
-      minimum_required_tags: 'Minimum number of tags required in a topic:'
+      minimum_required_tags: "Minimum number of tags required in a topic:"
       parent: Parent Category
-      num_auto_bump_daily: 'Number of open topics to automatically bump daily:'
+      num_auto_bump_daily: "Number of open topics to automatically bump daily:"
       navigate_to_first_post_after_read: Navigate to first post after topics are read
       notifications:
         watching:
@@ -3245,10 +3245,10 @@ tai_Rom:
             community flags
         suspend:
           title: Suspend User
-          details: 'Reach the flag threshold, and suspend the user'
+          details: "Reach the flag threshold, and suspend the user"
         silence:
           title: Silence User
-          details: 'Reach the flag threshold, and silence the user'
+          details: "Reach the flag threshold, and silence the user"
       notify_action: Message
       official_warning: Official Warning
       delete_spammer: Delete Spammer
@@ -3259,30 +3259,30 @@ tai_Rom:
         from their IP address <b>{ip_address}</b>, and add their email address
         <b>{email}</b> to a permanent block list. Are you sure this user is
         really a spammer?
-      yes_delete_spammer: 'Yes, Delete Spammer'
+      yes_delete_spammer: "Yes, Delete Spammer"
       ip_address_missing: (N/A)
       hidden_email_address: (hidden)
       submit_tooltip: Submit the private flag
       take_action_tooltip: >-
         Reach the flag threshold immediately, rather than waiting for more
         community flags
-      cant: 'Sorry, you can''t flag this post at this time.'
+      cant: "Sorry, you can't flag this post at this time."
       notify_staff: Notify staff privately
       formatted_name:
         off_topic: Bô Ha̍h Ōe-tê
         inappropriate: It's Inappropriate
         spam: Pùn-sò
-      custom_placeholder_notify_user: 'Be specific, be constructive, and always be kind.'
+      custom_placeholder_notify_user: "Be specific, be constructive, and always be kind."
       custom_placeholder_notify_moderators: >-
         Let us know specifically what you are concerned about, and provide
         relevant links and examples where possible.
       custom_message:
         at_least:
-          other: 'siōng chió ài phah %{count} jī'
+          other: "siōng chió ài phah %{count} jī"
         more:
-          other: 'koh ài phah %{count} jī...'
+          other: "koh ài phah %{count} jī..."
         left:
-          other: 'chhun %{count} jī'
+          other: "chhun %{count} jī"
     flagging_topic:
       title: Thanks for helping to keep our community civil!
       action: Gia̍h Kî-á
@@ -3293,11 +3293,11 @@ tai_Rom:
       links_title: Popular Links
       links_shown: show more links...
       clicks:
-        other: 'chhi̍h-gia̍h %{count}'
+        other: "chhi̍h-gia̍h %{count}"
     post_links:
       about: expand more links for this post
       title:
-        other: 'koh %{count} ê'
+        other: "koh %{count} ê"
     topic_statuses:
       warning:
         help: This is an official warning.
@@ -3345,7 +3345,7 @@ tai_Rom:
       other: koan-lám
     replies: Tap-ho̍k
     views_long:
-      other: 'this topic has been viewed %{number} times'
+      other: "this topic has been viewed %{number} times"
     activity: Keng-sin
     likes: Kah-ì
     likes_lowercase:
@@ -3355,40 +3355,40 @@ tai_Rom:
       other: sú-iōng-chiá
     category_title: Tiâⁿ
     history: History
-    changed_by: 'by %{author}'
+    changed_by: "by %{author}"
     raw_email:
       title: Incoming Email
       not_available: Not available!
     categories_list: Categories List
     filters:
-      with_topics: '%{filter} topics'
-      with_category: '%{filter} %{category} topics'
+      with_topics: "%{filter} topics"
+      with_category: "%{filter} %{category} topics"
       latest:
         title: Sin thiⁿ ·ê
         title_with_count:
-          other: 'Sin thiⁿ ·ê (%{count})'
+          other: "Sin thiⁿ ·ê (%{count})"
         help: Chòe-kīn ū sin tap-ho̍k ê ōe-tê
       read:
         title: Tha̍k khì ·a
-        help: 'topics you''ve read, in the order that you last read them'
+        help: "topics you've read, in the order that you last read them"
       categories:
         title: Tiâⁿ
-        title_in: 'Tiâⁿ - %{categoryName}'
+        title_in: "Tiâⁿ - %{categoryName}"
         help: all topics grouped by category
       unread:
         title: Á bē tha̍k
         title_with_count:
-          other: 'Á bē tha̍k (%{count})'
+          other: "Á bē tha̍k (%{count})"
         help: topics you are currently watching or tracking with unread posts
         lower_title_with_count:
-          other: '%{count} phiⁿ á bē tha̍k'
+          other: "%{count} phiⁿ á bē tha̍k"
       new:
         lower_title_with_count:
-          other: '%{count} sin ·ê'
+          other: "%{count} sin ·ê"
         lower_title: sin ·ê
         title: Sin pho͘ ·ê
         title_with_count:
-          other: 'Sin pho͘ ·ê (%{count})'
+          other: "Sin pho͘ ·ê (%{count})"
         help: Chit kúi kang pho͘ ·chhut ·lâi ê ōe-tê
       posted:
         title: Góa pho͘ ·ê
@@ -3397,13 +3397,13 @@ tai_Rom:
         title: Kì-hō
         help: lí chò kì-hō ê ōe-tê
       category:
-        title: '%{categoryName}'
+        title: "%{categoryName}"
         title_with_count:
-          other: '%{categoryName} (%{count})'
-        help: '%{categoryName} tiâⁿ sin thiⁿ ·ê ōe-tê'
+          other: "%{categoryName} (%{count})"
+        help: "%{categoryName} tiâⁿ sin thiⁿ ·ê ōe-tê"
       top:
         title: Chhèng
-        help: 'the most active topics in the last year, month, week or day'
+        help: "the most active topics in the last year, month, week or day"
         all:
           title: All Time
         yearly:
@@ -3422,7 +3422,7 @@ tai_Rom:
         this_month: Goe̍h
         this_week: Lé-pài
         today: Kin-ná-ji̍t
-        other_periods: 'see top:'
+        other_periods: "see top:"
     browser_update: >-
       Unfortunately, <a href="https://www.discourse.org/faq/#browser">your
       browser is too old to work on this site</a>. Please <a
@@ -3436,111 +3436,111 @@ tai_Rom:
       download: lia̍h ·lo̍h ·lâi
       previous: Previous (Left arrow key)
       next: Next (Right arrow key)
-      counter: '%curr% of %total%'
+      counter: "%curr% of %total%"
       close: Close (Esc)
       content_load_error: <a href="%url%">The content</a> could not be loaded.
       image_load_error: <a href="%url%">The image</a> could not be loaded.
     keyboard_shortcuts_help:
-      shortcut_key_delimiter_comma: ', '
+      shortcut_key_delimiter_comma: ", "
       shortcut_key_delimiter_plus: +
-      shortcut_delimiter_or: '%{shortcut1} or %{shortcut2}'
-      shortcut_delimiter_slash: '%{shortcut1}/%{shortcut2}'
-      shortcut_delimiter_space: '%{shortcut1} %{shortcut2}'
+      shortcut_delimiter_or: "%{shortcut1} or %{shortcut2}"
+      shortcut_delimiter_slash: "%{shortcut1}/%{shortcut2}"
+      shortcut_delimiter_space: "%{shortcut1} %{shortcut2}"
       title: Khí-pôaⁿ Khòng-chè
       jump_to:
         title: Thiàu kah
-        home: '%{shortcut} Chú-ia̍h'
-        latest: '%{shortcut} Sin thiⁿ ·ê'
-        new: '%{shortcut} Sin pho͘ ·ê'
-        unread: '%{shortcut} Á bē tha̍k'
-        categories: '%{shortcut} Tiâⁿ pió'
-        top: '%{shortcut} Chhèng'
-        bookmarks: '%{shortcut} Kì-hō'
-        profile: '%{shortcut} Kháu-chō'
-        messages: '%{shortcut} Sìn-sit'
-        drafts: '%{shortcut} Chháu-kó'
-        next: '%{shortcut} Āu chi̍t tiâu ōe-tê'
-        previous: '%{shortcut} Téng chi̍t tiâu ōe-tê'
+        home: "%{shortcut} Chú-ia̍h"
+        latest: "%{shortcut} Sin thiⁿ ·ê"
+        new: "%{shortcut} Sin pho͘ ·ê"
+        unread: "%{shortcut} Á bē tha̍k"
+        categories: "%{shortcut} Tiâⁿ pió"
+        top: "%{shortcut} Chhèng"
+        bookmarks: "%{shortcut} Kì-hō"
+        profile: "%{shortcut} Kháu-chō"
+        messages: "%{shortcut} Sìn-sit"
+        drafts: "%{shortcut} Chháu-kó"
+        next: "%{shortcut} Āu chi̍t tiâu ōe-tê"
+        previous: "%{shortcut} Téng chi̍t tiâu ōe-tê"
       navigation:
         title: Navigation
-        jump: '%{shortcut} Khì pho͘ #'
-        back: '%{shortcut} Back'
-        up_down: '%{shortcut} Move selection &uarr; &darr;'
-        open: '%{shortcut} Open selected topic'
-        next_prev: '%{shortcut} Next/previous section'
-        go_to_unread_post: '%{shortcut} Khì thâu phiⁿ á bē khòaⁿ ê pho͘ bûn'
+        jump: "%{shortcut} Khì pho͘ #"
+        back: "%{shortcut} Back"
+        up_down: "%{shortcut} Move selection &uarr; &darr;"
+        open: "%{shortcut} Open selected topic"
+        next_prev: "%{shortcut} Next/previous section"
+        go_to_unread_post: "%{shortcut} Khì thâu phiⁿ á bē khòaⁿ ê pho͘ bûn"
       application:
         title: Application
-        create: '%{shortcut} Pho͘ sin ê ōe-tê'
-        notifications: '%{shortcut} Phah khui thong-ti'
-        hamburger_menu: '%{shortcut} Open hamburger menu'
-        user_profile_menu: '%{shortcut} Open user menu'
-        show_incoming_updated_topics: '%{shortcut} Show updated topics'
-        search: '%{shortcut} Cháu chhōe'
-        help: '%{shortcut} Open keyboard help'
-        dismiss_new_posts: '%{shortcut} Dismiss New/Posts'
-        dismiss_topics: '%{shortcut} Dismiss Topics'
-        log_out: '%{shortcut} Log Out'
+        create: "%{shortcut} Pho͘ sin ê ōe-tê"
+        notifications: "%{shortcut} Phah khui thong-ti"
+        hamburger_menu: "%{shortcut} Open hamburger menu"
+        user_profile_menu: "%{shortcut} Open user menu"
+        show_incoming_updated_topics: "%{shortcut} Show updated topics"
+        search: "%{shortcut} Cháu chhōe"
+        help: "%{shortcut} Open keyboard help"
+        dismiss_new_posts: "%{shortcut} Dismiss New/Posts"
+        dismiss_topics: "%{shortcut} Dismiss Topics"
+        log_out: "%{shortcut} Log Out"
       composing:
         title: Composing
-        return: '%{shortcut} Return to composer'
-        fullscreen: '%{shortcut} Fullscreen composer'
+        return: "%{shortcut} Return to composer"
+        fullscreen: "%{shortcut} Fullscreen composer"
       bookmarks:
         title: Bookmarking
-        enter: '%{shortcut} Save and close'
-        later_today: '%{shortcut} Later today'
-        later_this_week: '%{shortcut} Later this week'
-        tomorrow: '%{shortcut} Tomorrow'
-        next_week: '%{shortcut} Next week'
-        next_month: '%{shortcut} Next month'
-        next_business_week: '%{shortcut} Start of next week'
-        next_business_day: '%{shortcut} Next business day'
-        custom: '%{shortcut} Custom date and time'
-        none: '%{shortcut} No reminder'
-        delete: '%{shortcut} Delete bookmark'
+        enter: "%{shortcut} Save and close"
+        later_today: "%{shortcut} Later today"
+        later_this_week: "%{shortcut} Later this week"
+        tomorrow: "%{shortcut} Tomorrow"
+        next_week: "%{shortcut} Next week"
+        next_month: "%{shortcut} Next month"
+        next_business_week: "%{shortcut} Start of next week"
+        next_business_day: "%{shortcut} Next business day"
+        custom: "%{shortcut} Custom date and time"
+        none: "%{shortcut} No reminder"
+        delete: "%{shortcut} Delete bookmark"
       actions:
         title: Actions
-        bookmark_topic: '%{shortcut} Toggle bookmark topic'
-        pin_unpin_topic: '%{shortcut} Pin/Unpin topic'
-        share_topic: '%{shortcut} Share topic'
-        share_post: '%{shortcut} Share post'
-        reply_as_new_topic: '%{shortcut} Reply as linked topic'
-        reply_topic: '%{shortcut} Reply to topic'
-        reply_post: '%{shortcut} Reply to post'
-        quote_post: '%{shortcut} Quote post'
-        like: '%{shortcut} Like post'
-        flag: '%{shortcut} Flag post'
-        bookmark: '%{shortcut} Bookmark post'
-        edit: '%{shortcut} Edit post'
-        delete: '%{shortcut} Delete post'
-        mark_muted: '%{shortcut} Mute topic'
-        mark_regular: '%{shortcut} Regular (default) topic'
-        mark_tracking: '%{shortcut} Track topic'
-        mark_watching: '%{shortcut} Watch topic'
-        print: '%{shortcut} Print topic'
-        defer: '%{shortcut} Defer topic'
-        topic_admin_actions: '%{shortcut} Open topic admin actions'
+        bookmark_topic: "%{shortcut} Toggle bookmark topic"
+        pin_unpin_topic: "%{shortcut} Pin/Unpin topic"
+        share_topic: "%{shortcut} Share topic"
+        share_post: "%{shortcut} Share post"
+        reply_as_new_topic: "%{shortcut} Reply as linked topic"
+        reply_topic: "%{shortcut} Reply to topic"
+        reply_post: "%{shortcut} Reply to post"
+        quote_post: "%{shortcut} Quote post"
+        like: "%{shortcut} Like post"
+        flag: "%{shortcut} Flag post"
+        bookmark: "%{shortcut} Bookmark post"
+        edit: "%{shortcut} Edit post"
+        delete: "%{shortcut} Delete post"
+        mark_muted: "%{shortcut} Mute topic"
+        mark_regular: "%{shortcut} Regular (default) topic"
+        mark_tracking: "%{shortcut} Track topic"
+        mark_watching: "%{shortcut} Watch topic"
+        print: "%{shortcut} Print topic"
+        defer: "%{shortcut} Defer topic"
+        topic_admin_actions: "%{shortcut} Open topic admin actions"
       search_menu:
         title: Search Menu
-        prev_next: '%{shortcut} Move selection up and down'
-        insert_url: '%{shortcut} Insert selection into open composer'
+        prev_next: "%{shortcut} Move selection up and down"
+        insert_url: "%{shortcut} Insert selection into open composer"
     badges:
       earned_n_times:
-        other: 'Earned this badge %{count} times'
-      granted_on: 'Granted %{date}'
-      others_count: 'Others with this badge (%{count})'
+        other: "Earned this badge %{count} times"
+      granted_on: "Granted %{date}"
+      others_count: "Others with this badge (%{count})"
       title: Chióng-pâi
       allow_title: You can use this badge as a title
       multiple_grant: You can earn this multiple times
       badge_count:
-        other: '%{count} bīn chióng-pâi'
+        other: "%{count} bīn chióng-pâi"
       more_badges:
-        other: 'koh %{count} bīn'
+        other: "koh %{count} bīn"
       granted:
-        other: '%{count} granted'
+        other: "%{count} granted"
       select_badge_for_title: Select a badge to use as your title
       none: (none)
-      successfully_granted: 'Successfully granted %{badge} to %{username}'
+      successfully_granted: "Successfully granted %{badge} to %{username}"
       badge_grouping:
         getting_started:
           name: Getting Started
@@ -3557,11 +3557,11 @@ tai_Rom:
       other_tags: Other Tags
       selector_all_tags: all tags
       selector_no_tags: no tags
-      changed: 'tags changed:'
+      changed: "tags changed:"
       tags: Phiau-á
       choose_for_topic: optional tags
       info: Info
-      default_info: 'This tag isn''t restricted to any categories, and has no synonyms.'
+      default_info: "This tag isn't restricted to any categories, and has no synonyms."
       category_restricted: >-
         This tag is restricted to categories you don't have permission to
         access.
@@ -3570,11 +3570,11 @@ tai_Rom:
         When the following tags are used, they will be replaced with
         <b>%{base_tag_name}</b>.
       tag_groups_info:
-        other: 'This tag belongs to these groups: %{tag_groups}.'
+        other: "This tag belongs to these groups: %{tag_groups}."
       category_restrictions:
-        other: 'It can only be used in these categories:'
+        other: "It can only be used in these categories:"
       edit_synonyms: Manage Synonyms
-      add_synonyms_label: 'Add synonyms:'
+      add_synonyms_label: "Add synonyms:"
       add_synonyms: Add
       add_synonyms_explanation:
         other: >-
@@ -3592,10 +3592,10 @@ tai_Rom:
           topics it is assigned to?
       delete_confirm_no_topics: Are you sure you want to delete this tag?
       delete_confirm_synonyms:
-        other: 'Its %{count} synonyms will also be deleted.'
+        other: "Its %{count} synonyms will also be deleted."
       rename_tag: Rename Tag
-      rename_instructions: 'Choose a new name for the tag:'
-      sort_by: 'Sort by:'
+      rename_instructions: "Choose a new name for the tag:"
+      sort_by: "Sort by:"
       sort_by_count: count
       sort_by_name: name
       manage_groups: Manage Tag Groups
@@ -3607,9 +3607,9 @@ tai_Rom:
         'tag_name,tag_group'.
       upload_successful: Tags uploaded successfully
       delete_unused_confirmation:
-        other: '%{count} tags will be deleted: %{tags}'
+        other: "%{count} tags will be deleted: %{tags}"
       delete_unused_confirmation_more_tags:
-        other: '%{tags} and %{count} more'
+        other: "%{tags} and %{count} more"
       delete_no_unused_tags: There are no unused tags.
       delete_unused: Delete Unused Tags
       delete_unused_description: >-
@@ -3617,10 +3617,10 @@ tai_Rom:
         messages
       cancel_delete_unused: Cancel
       filters:
-        without_category: '%{filter} %{tag} topics'
-        with_category: '%{filter} %{tag} topics in %{category}'
-        untagged_without_category: '%{filter} untagged topics'
-        untagged_with_category: '%{filter} untagged topics in %{category}'
+        without_category: "%{filter} %{tag} topics"
+        with_category: "%{filter} %{tag} topics in %{category}"
+        untagged_without_category: "%{filter} untagged topics"
+        untagged_with_category: "%{filter} untagged topics in %{category}"
       notifications:
         watching:
           title: Teh Khòaⁿ
@@ -3651,8 +3651,8 @@ tai_Rom:
         title: Tag Groups
         about: Add tags to groups to manage them more easily.
         new: New Group
-        tags_label: 'Tags in this group:'
-        parent_tag_label: 'Parent tag:'
+        tags_label: "Tags in this group:"
+        parent_tag_label: "Parent tag:"
         parent_tag_description: Tags from this group can't be used unless the parent tag is present.
         one_per_topic_label: Limit one tag per topic from this group
         new_name: New Tag Group
@@ -3680,8 +3680,8 @@ tai_Rom:
         message</a>.
       custom_message_placeholder: Enter your custom message
       approval_not_required: User will be auto-approved as soon as they will accept this invite.
-      custom_message_template_forum: 'Hey, you should join this forum!'
-      custom_message_template_topic: 'Hey, I thought you might enjoy this topic!'
+      custom_message_template_forum: "Hey, you should join this forum!"
+      custom_message_template_topic: "Hey, I thought you might enjoy this topic!"
     forced_anonymous: >-
       Due to extreme load, this is temporarily being shown to everyone as a
       logged out user would see it.
@@ -3691,8 +3691,19 @@ tai_Rom:
       share: Share
       dismiss: Dismiss
     safe_mode:
-      enabled: 'Safe mode is enabled, to exit safe mode close this browser window'
+      enabled: "Safe mode is enabled, to exit safe mode close this browser window"
     image_removed: (image removed)
+    do_not_disturb:
+      title: "Chhiáⁿ mài chhá..."
+      save: "Khiām"
+      label: "Mài chhá"
+      remaining: "chhun %{remaining}"
+      options:
+        half_hour: "Pòaⁿ tiám-cheng"
+        one_hour: "1 tiám-cheng"
+        two_hours: "2 tiám-cheng"
+        tomorrow: "Kàu miă-chài"
+        custom: "Ka-kī siat-tēng"
   admin_js:
     type_to_filter: type to filter...
     admin:
@@ -3707,8 +3718,8 @@ tai_Rom:
         title: List of available reports
       dashboard:
         title: Dashboard
-        last_updated: 'Dashboard updated:'
-        discourse_last_updated: 'Discourse updated:'
+        last_updated: "Dashboard updated:"
+        discourse_last_updated: "Discourse updated:"
         version: Version
         up_to_date: You're up to date!
         critical_available: A critical update is available.
@@ -3725,20 +3736,20 @@ tai_Rom:
         last_checked: Last checked
         refresh_problems: Refresh
         no_problems: No problems were found.
-        moderators: 'Moderators:'
-        admins: 'Admins:'
-        silenced: 'Silenced:'
-        suspended: 'Suspended:'
+        moderators: "Moderators:"
+        admins: "Admins:"
+        silenced: "Silenced:"
+        suspended: "Suspended:"
         private_messages_short: Msgs
         private_messages_title: Messages
         mobile_title: Mobile
-        space_used: '%{usedSize} used'
-        space_used_and_free: '%{usedSize} (%{freeSize} free)'
+        space_used: "%{usedSize} used"
+        space_used_and_free: "%{usedSize} (%{freeSize} free)"
         uploads: Uploads
         backups: Backups
         backup_count:
-          other: '%{count} backups on %{location}'
-        lastest_backup: 'Latest: %{date}'
+          other: "%{count} backups on %{location}"
+        lastest_backup: "Latest: %{date}"
         traffic_short: Traffic
         traffic: Application web requests
         page_views: Pageviews
@@ -3755,12 +3766,12 @@ tai_Rom:
         reports_tab: Reports
         report_filter_any: any
         disabled: Disabled
-        timeout_error: 'Sorry, query is taking too long, please pick a shorter interval'
-        exception_error: 'Sorry, an error occurred while executing the query'
+        timeout_error: "Sorry, query is taking too long, please pick a shorter interval"
+        exception_error: "Sorry, an error occurred while executing the query"
         too_many_requests: >-
           You’ve performed this action too many times. Please wait before trying
           again.
-        not_found_error: 'Sorry, this report doesn’t exist'
+        not_found_error: "Sorry, this report doesn’t exist"
         filter_reports: Filter reports
         reports:
           trend_title: >-
@@ -3803,7 +3814,7 @@ tai_Rom:
             include_subcategories:
               label: Include Subcategories
       commits:
-        latest_changes: 'Latest changes: please update often!'
+        latest_changes: "Latest changes: please update often!"
         by: by
       groups:
         new:
@@ -3818,8 +3829,8 @@ tai_Rom:
             blank: Group name cannot be blank
         bulk_add:
           title: Bulk Add to Group
-          complete_users_not_added: 'These users were not added (make sure they have an account):'
-          paste: 'Paste a list of usernames or emails, one per line:'
+          complete_users_not_added: "These users were not added (make sure they have an account):"
+          paste: "Paste a list of usernames or emails, one per line:"
         add_members:
           as_owner: Set user(s) as owner(s) of this group
         manage:
@@ -3832,7 +3843,7 @@ tai_Rom:
               title: Who can see this group?
               public: Everyone
               logged_on_users: Logged on users
-              members: 'Group owners, members and moderators'
+              members: "Group owners, members and moderators"
               staff: Group owners and moderators
               owners: Group owners
               description: Admins can see all groups.
@@ -3842,7 +3853,7 @@ tai_Rom:
             publish_read_state: On group messages publish group read state
           membership:
             automatic: Automatic
-            trust_levels_title: 'Trust level automatically granted to members when they''re added:'
+            trust_levels_title: "Trust level automatically granted to members when they're added:"
             effects: Effects
             trust_levels_none: None
             automatic_membership_email_domains: >-
@@ -3852,7 +3863,7 @@ tai_Rom:
               %{count} users have the new email domains and will be added to the
               group.
             primary_group: Automatically set as primary group
-        name_placeholder: 'Group name, no spaces, same as username rule'
+        name_placeholder: "Group name, no spaces, same as username rule"
         primary: Primary Group
         no_primary: (no primary group)
         title: Kûn-cho͘
@@ -3865,7 +3876,7 @@ tai_Rom:
         delete_failed: >-
           Unable to delete group. If this is an automatic group, it cannot be
           destroyed.
-        delete_owner_confirm: 'Remove owner privilege for ''%{username}''?'
+        delete_owner_confirm: "Remove owner privilege for '%{username}'?"
         add: Add
         custom: Custom
         automatic: Automatic
@@ -3962,14 +3973,14 @@ tai_Rom:
         controls: Controls
         go_back: Back to list
         payload_url: Payload URL
-        payload_url_placeholder: 'https://example.com/postreceive'
+        payload_url_placeholder: "https://example.com/postreceive"
         warn_local_payload_url: >-
           It seems you are trying to set up the webhook to a local url. Event
           delivered to a local address may cause side-effect or unexpected
           behaviours. Continue?
         secret_invalid: Secret must not have any blank characters.
         secret_too_short: Secret should be at least 12 characters.
-        secret_placeholder: 'An optional string, used for generating signature'
+        secret_placeholder: "An optional string, used for generating signature"
         event_type_missing: You need to set up at least one event type.
         content_type: Content Type
         secret: Secret
@@ -3995,22 +4006,22 @@ tai_Rom:
         delete_confirm: Delete this webhook?
         topic_event:
           name: Topic Event
-          details: 'When there is a new topic, revised, changed or deleted.'
+          details: "When there is a new topic, revised, changed or deleted."
         post_event:
           name: Post Event
-          details: 'When there is a new reply, edit, deleted or recovered.'
+          details: "When there is a new reply, edit, deleted or recovered."
         user_event:
           name: User Event
-          details: 'When a user logs in, logs out, is created, approved or updated.'
+          details: "When a user logs in, logs out, is created, approved or updated."
         group_event:
           name: Group Event
-          details: 'When a group is created, updated or destroyed.'
+          details: "When a group is created, updated or destroyed."
         category_event:
           name: Category Event
-          details: 'When a category is created, updated or destroyed.'
+          details: "When a category is created, updated or destroyed."
         tag_event:
           name: Tag Event
-          details: 'When a tag is created, updated or destroyed.'
+          details: "When a tag is created, updated or destroyed."
         reviewable_event:
           name: Reviewable Event
           details: When a new item is ready for review and when its status is updated.
@@ -4030,9 +4041,9 @@ tai_Rom:
           none: There are no related events.
           redeliver: Redeliver
           incoming:
-            other: 'There are %{count} new events.'
+            other: "There are %{count} new events."
           completed_in:
-            other: 'Completed in %{count} seconds.'
+            other: "Completed in %{count} seconds."
           request: Request
           response: Response
           redeliver_confirm: Are you sure you want to redeliver the same payload?
@@ -4055,8 +4066,8 @@ tai_Rom:
         none_installed: You don't have any plugins installed.
         version: Version
         enabled: Enabled?
-        is_enabled: 'Y'
-        not_enabled: 'N'
+        is_enabled: "Y"
+        not_enabled: "N"
         change_settings: Change Settings
         change_settings_short: Siat-tēng
         howto: How do I install plugins?
@@ -4084,14 +4095,14 @@ tai_Rom:
           label: Upload
           title: Upload a backup to this instance
           uploading: Uploading...
-          uploading_progress: 'Uploading... %{progress}%'
+          uploading_progress: "Uploading... %{progress}%"
           success: >-
             '%{filename}' has successfully been uploaded. The file is now being
             processed and will take up to a minute to show up in the list.
-          error: 'There has been an error while uploading ''%{filename}'': %{message}'
+          error: "There has been an error while uploading '%{filename}': %{message}"
         operations:
           is_running: An operation is currently running...
-          failed: 'The %{operation} failed. Please check the logs.'
+          failed: "The %{operation} failed. Please check the logs."
           cancel:
             label: Cancel
             title: Cancel the current operation
@@ -4122,7 +4133,7 @@ tai_Rom:
         location:
           local: Local Storage
           s3: S3
-        backup_storage_error: 'Failed to access backup storage: %{error_message}'
+        backup_storage_error: "Failed to access backup storage: %{error_message}"
       export_csv:
         success: >-
           Export initiated, you will be notified via message when the process is
@@ -4157,7 +4168,7 @@ tai_Rom:
         copy_to_clipboard: Copy to Clipboard
         copied_to_clipboard: Copied to Clipboard
         copy_to_clipboard_error: Error copying data to Clipboard
-        theme_owner: 'Not editable, owned by:'
+        theme_owner: "Not editable, owned by:"
         email_templates:
           title: Email
           subject: Subject
@@ -4176,12 +4187,12 @@ tai_Rom:
           beginners_guide_title: Beginner’s guide to using Discourse Themes
           developers_guide_title: Developer’s guide to Discourse Themes
           browse_themes: Browse community themes
-          customize_desc: 'Customize:'
+          customize_desc: "Customize:"
           title: Themes
           create: Create
           create_type: Type
           create_name: Name
-          long_title: 'Amend colors, CSS and HTML contents of your site'
+          long_title: "Amend colors, CSS and HTML contents of your site"
           edit: Edit
           edit_confirm: >-
             This is a remote theme, if you edit CSS/HTML your changes will be
@@ -4189,7 +4200,7 @@ tai_Rom:
           update_confirm: >-
             These local changes will be erased by the update. Are you sure you
             want to continue?
-          update_confirm_yes: 'Yes, continue with the update'
+          update_confirm_yes: "Yes, continue with the update"
           common: Common
           desktop: Tiān-náu
           mobile: Chhiú-ki
@@ -4210,7 +4221,7 @@ tai_Rom:
           color_scheme: Color Palette
           default_light_scheme: Light (default)
           color_scheme_select: Select colors to be used by theme
-          custom_sections: 'Custom sections:'
+          custom_sections: "Custom sections:"
           theme_components: Theme Components
           add_all_themes: Add all themes
           convert: Convert
@@ -4222,21 +4233,21 @@ tai_Rom:
             Are you sure you want to convert this theme to component? It will be
             removed as a parent from %{relatives}.
           convert_theme_tooltip: Convert this theme to component
-          inactive_themes: 'Inactive themes:'
-          inactive_components: 'Unused components:'
-          broken_theme_tooltip: 'This theme has errors in its CSS, HTML or YAML'
+          inactive_themes: "Inactive themes:"
+          inactive_components: "Unused components:"
+          broken_theme_tooltip: "This theme has errors in its CSS, HTML or YAML"
           disabled_component_tooltip: This component has been disabled
           default_theme_tooltip: This theme is the site's default theme
           updates_available_tooltip: Updates are available for this theme
-          and_x_more: 'and %{count} more.'
+          and_x_more: "and %{count} more."
           collapse: Collapse
           uploads: Uploads
           no_uploads: >-
             You can upload assets associated with your theme such as fonts and
             images
           add_upload: Add Upload
-          upload_file_tip: 'Choose an asset to upload (png, woff2, etc...)'
-          variable_name: 'SCSS var name:'
+          upload_file_tip: "Choose an asset to upload (png, woff2, etc...)"
+          variable_name: "SCSS var name:"
           variable_name_invalid: >-
             Invalid variable name. Only alphanumeric allowed. Must start with a
             letter. Must be unique.
@@ -4265,10 +4276,10 @@ tai_Rom:
           add_all: Add all
           import_web_tip: Repository containing theme
           import_web_advanced: Advanced...
-          import_file_tip: '.tar.gz, .zip, or .dcstyle.json file containing theme'
+          import_file_tip: ".tar.gz, .zip, or .dcstyle.json file containing theme"
           is_private: Theme is in a private git repository
           remote_branch: Branch name (optional)
-          public_key: 'Grant the following public key access to the repo:'
+          public_key: "Grant the following public key access to the repo:"
           install: Install
           installed: Installed
           install_popular: Popular
@@ -4277,9 +4288,9 @@ tai_Rom:
           install_create: Create new
           about_theme: About
           license: License
-          version: 'Version:'
-          authors: 'Authored by:'
-          creator: 'Created by:'
+          version: "Version:"
+          authors: "Authored by:"
+          creator: "Created by:"
           source_url: Source
           enable: Enable
           disable: Disable
@@ -4289,13 +4300,13 @@ tai_Rom:
             error: >-
               This theme has been automatically disabled because it is not
               compatible with this version of Discourse.
-            minimum: 'Requires Discourse version %{version} or above.'
-            maximum: 'Requires Discourse version %{version} or below.'
-          component_of: 'Component of:'
+            minimum: "Requires Discourse version %{version} or above."
+            maximum: "Requires Discourse version %{version} or below."
+          component_of: "Component of:"
           update_to_latest: Update to Latest
           check_for_updates: Check for Updates
           updating: Updating...
-          up_to_date: 'Theme is up-to-date, last checked:'
+          up_to_date: "Theme is up-to-date, last checked:"
           has_overwritten_history: >-
             Current theme version no longer exists because the Git history has
             been overwritten by a force push.
@@ -4305,13 +4316,13 @@ tai_Rom:
           theme_translations: Theme Translations
           empty: No items
           commits_behind:
-            other: 'Theme is %{count} commits behind!'
+            other: "Theme is %{count} commits behind!"
           compare_commits: (See new commits)
-          repo_unreachable: 'Couldn''t contact the Git repository of this theme. Error message:'
+          repo_unreachable: "Couldn't contact the Git repository of this theme. Error message:"
           imported_from_archive: This theme was imported from a .zip file
           scss:
             text: CSS
-            title: 'Enter custom CSS, we accept all valid CSS and SCSS styles'
+            title: "Enter custom CSS, we accept all valid CSS and SCSS styles"
           header:
             text: Header
             title: Enter HTML to display above site header
@@ -4355,7 +4366,7 @@ tai_Rom:
         colors:
           select_base:
             title: Select base color palette
-            description: 'Base palette:'
+            description: "Base palette:"
           title: Colors
           edit: Edit Color Palettes
           long_title: Color Palettes
@@ -4371,17 +4382,17 @@ tai_Rom:
           revert_title: Reset this color to Discourse's default color palette.
           primary:
             name: primary
-            description: 'Most text, icons, and borders.'
+            description: "Most text, icons, and borders."
           primary-medium:
             name: primary-medium
           primary-low-mid:
             name: primary-low-mid
           secondary:
             name: secondary
-            description: 'The main background color, and text color of some buttons.'
+            description: "The main background color, and text color of some buttons."
           tertiary:
             name: tertiary
-            description: 'Links, some buttons, notifications, and accent color.'
+            description: "Links, some buttons, notifications, and accent color."
           quaternary:
             name: quaternary
             description: Navigation links.
@@ -4412,7 +4423,7 @@ tai_Rom:
             name: love
             description: The like button's color.
         robots:
-          title: 'Override your site''s robots.txt file:'
+          title: "Override your site's robots.txt file:"
           warning: This will permanently override any related site settings.
           overridden: Your site's default robots.txt file is overridden.
         email_style:
@@ -4424,7 +4435,7 @@ tai_Rom:
           reset_confirm: >-
             Are you sure you want to reset to the default %{fieldName} and lose
             all your changes?
-          save_error_with_reason: 'Your changes were not saved. %{error}'
+          save_error_with_reason: "Your changes were not saved. %{error}"
           instructions: >-
             Customize the template in which all html emails are rendered, and
             style using CSS.
@@ -4444,7 +4455,7 @@ tai_Rom:
           text: Selected Text Body
           elided: Elided Text
         sending_test: Sending test Email...
-        error: '<b>ERROR</b> - %{server_error}'
+        error: "<b>ERROR</b> - %{server_error}"
         test_error: >-
           There was a problem sending the test email. Please double-check your
           mail settings, verify that your host is not blocking mail connections,
@@ -4465,14 +4476,14 @@ tai_Rom:
         delivery_method: Delivery Method
         preview_digest_desc: Preview the content of the summary emails sent to inactive users.
         refresh: Refresh
-        send_digest_label: 'Send this result to:'
+        send_digest_label: "Send this result to:"
         send_digest: Send
         sending_email: Sending email...
         format: Format
         html: html
         text: text
         html_preview: Email Content Preview
-        last_seen_user: 'Last Seen User:'
+        last_seen_user: "Last Seen User:"
         no_result: No results found for summary.
         reply_key: Reply Key
         skipped_reason: Skip Reason
@@ -4502,7 +4513,7 @@ tai_Rom:
             title: Filter
             user_placeholder: username
             address_placeholder: name@example.com
-            type_placeholder: 'digest, signup...'
+            type_placeholder: "digest, signup..."
             reply_key_placeholder: reply key
       moderation_history:
         performed_by: Performed By
@@ -4532,7 +4543,7 @@ tai_Rom:
           do_nothing: do nothing
         staff_actions:
           all: all
-          filter: 'Filter:'
+          filter: "Filter:"
           title: Staff Actions
           clear_filters: Show Everything
           staff_user: User
@@ -4658,18 +4669,18 @@ tai_Rom:
           description: >-
             IP addresses that are being watched. Use "Allow" to allowlist IP
             addresses.
-          delete_confirm: 'Are you sure you want to remove the rule for %{ip_address}?'
+          delete_confirm: "Are you sure you want to remove the rule for %{ip_address}?"
           roll_up_confirm: >-
             Are you sure you want to roll up commonly screened IP addresses into
             subnets?
-          rolled_up_some_subnets: 'Successfully rolled up IP ban entries to these subnets: %{subnets}.'
+          rolled_up_some_subnets: "Successfully rolled up IP ban entries to these subnets: %{subnets}."
           rolled_up_no_subnet: There was nothing to roll up.
           actions:
             block: Block
             do_nothing: Allow
             allow_admin: Allow Admin
           form:
-            label: 'New:'
+            label: "New:"
             ip_address: IP address
             add: Add
             filter: Search
@@ -4708,7 +4719,7 @@ tai_Rom:
           Are you sure you want to clear all watched words for the Require
           Approval action?
         word_count:
-          other: '%{count} words'
+          other: "%{count} words"
         actions:
           block: Block
           censor: Censor
@@ -4728,7 +4739,7 @@ tai_Rom:
             Allow posts containing these words, but flag them as inappropriate
             so moderators can review them.
         form:
-          label: 'New Word:'
+          label: "New Word:"
           placeholder: full word or * as wildcard
           placeholder_regexp: regular expression
           add: Add
@@ -4738,9 +4749,9 @@ tai_Rom:
           upload_successful: Upload successful. Words have been added.
         test:
           button_label: Test
-          modal_title: 'Test ''%{action}'' Watched Words'
+          modal_title: "Test '%{action}' Watched Words"
           description: Enter text below to check for matches with watched words
-          found_matches: 'Found matches:'
+          found_matches: "Found matches:"
           no_matches: No matches found
       impersonate:
         title: Impersonate
@@ -4748,13 +4759,13 @@ tai_Rom:
           Use this tool to impersonate a user account for debugging purposes.
           You will have to log out once finished.
         not_found: That user can't be found.
-        invalid: 'Sorry, you may not impersonate that user.'
+        invalid: "Sorry, you may not impersonate that user."
       users:
         title: Sú-iōng-chiá
         create: Add Admin User
         last_emailed: Last Emailed
-        not_found: 'Sorry, that username doesn''t exist in our system.'
-        id_not_found: 'Sorry, that user id doesn''t exist in our system.'
+        not_found: "Sorry, that username doesn't exist in our system."
+        id_not_found: "Sorry, that user id doesn't exist in our system."
         active: Activated
         show_emails: Show Emails
         hide_emails: Hide Emails
@@ -4786,8 +4797,8 @@ tai_Rom:
           title: Reveal this user's email address
           text: Show
       user:
-        suspend_failed: 'Something went wrong suspending this user %{error}'
-        unsuspend_failed: 'Something went wrong unsuspending this user %{error}'
+        suspend_failed: "Something went wrong suspending this user %{error}"
+        unsuspend_failed: "Something went wrong unsuspending this user %{error}"
         suspend_duration: How long will the user be suspended for?
         suspend_reason_label: >-
           Why are you suspending? This text <b>will be visible to everyone</b>
@@ -4820,7 +4831,7 @@ tai_Rom:
         silence_reason_placeholder: Silence Reason
         silence_message: Email Message
         silence_message_placeholder: (leave blank to send default message)
-        suspended_until: '(until %{until})'
+        suspended_until: "(until %{until})"
         cant_suspend: This user cannot be suspended.
         delete_all_posts: Delete all posts
         delete_posts_progress: Deleting posts...
@@ -4861,7 +4872,7 @@ tai_Rom:
         unsuspend: Unsuspend
         suspend: Suspend
         show_flags_received: Show Flags Received
-        flags_received_by: 'Flags Received by %{username}'
+        flags_received_by: "Flags Received by %{username}"
         flags_received_none: This user has not received any flags.
         reputation: Reputation
         permissions: Permissions
@@ -4886,13 +4897,13 @@ tai_Rom:
         anonymize_confirm: >-
           Are you SURE you want to anonymize this account? This will change the
           username and email, and reset all profile information.
-        anonymize_yes: 'Yes, anonymize this account'
+        anonymize_yes: "Yes, anonymize this account"
         anonymize_failed: There was a problem anonymizing the account.
         delete: Delete User
         merge:
           button: Merge
           prompt:
-            title: 'Transfer & Delete @%{username}'
+            title: "Transfer & Delete @%{username}"
             description: >
               <p>Please choose a new owner for <b>@%{username}'s</b>
               content.</p>
@@ -4901,10 +4912,10 @@ tai_Rom:
               <p>All topics, posts, messages and other content created by
               <b>@%{username}</b> will be transferred.</p>
             target_username_placeholder: Username of new owner
-            transfer_and_delete: 'Transfer & Delete @%{username}'
+            transfer_and_delete: "Transfer & Delete @%{username}"
             cancel: Cancel
           confirmation:
-            title: 'Transfer & Delete @%{username}'
+            title: "Transfer & Delete @%{username}"
             description: >
               <p>All of <b>@%{username}'s</b> content will be transferred and
               attributed to <b>@%{targetUsername}</b>. After the content is
@@ -4915,8 +4926,8 @@ tai_Rom:
 
 
               <p>To continue type: <code>%{text}</code></p>
-            text: 'transfer @%{username} to @%{targetUsername}'
-            transfer_and_delete: 'Transfer & Delete @%{username}'
+            text: "transfer @%{username} to @%{targetUsername}"
+            transfer_and_delete: "Transfer & Delete @%{username}"
             cancel: Cancel
         merging_user: Merging user...
         merge_failed: There was an error while merging the users.
@@ -4948,7 +4959,7 @@ tai_Rom:
           before trying to delete the user.
         send_activation_email: Send Activation Email
         activation_email_sent: An activation email has been sent.
-        send_activation_email_failed: 'There was a problem sending another activation email. %{error}'
+        send_activation_email_failed: "There was a problem sending another activation email. %{error}"
         activate: Activate Account
         activate_failed: There was a problem activating the user.
         deactivate_account: Deactivate Account
@@ -4958,7 +4969,7 @@ tai_Rom:
         silence_confirm: >-
           Are you sure you want to silence this user? They will not be able to
           create any new topics or posts.
-        silence_accept: 'Yes, silence this user'
+        silence_accept: "Yes, silence this user"
         bounce_score: Bounce Score
         reset_bounce_score:
           label: Reset
@@ -4979,14 +4990,14 @@ tai_Rom:
         confirm_cancel_penalty: Are you sure you want to discard the penalty?
         trust_level_2_users: Trust Level 2 Users
         trust_level_3_requirements: Trust Level 3 Requirements
-        trust_level_locked_tip: 'trust level is locked, system will not promote or demote user'
-        trust_level_unlocked_tip: 'trust level is unlocked, system will may promote or demote user'
+        trust_level_locked_tip: "trust level is locked, system will not promote or demote user"
+        trust_level_unlocked_tip: "trust level is unlocked, system will may promote or demote user"
         lock_trust_level: Lock Trust Level
         unlock_trust_level: Unlock Trust Level
         tl3_requirements:
           title: Requirements for Trust Level 3
           table_title:
-            other: 'In the last %{count} days:'
+            other: "In the last %{count} days:"
           value_heading: Value
           requirement_heading: Requirement
           visits: Visits
@@ -5000,15 +5011,15 @@ tai_Rom:
           flagged_by_users: Users Who Flagged
           likes_given: Likes Given
           likes_received: Likes Received
-          likes_received_days: 'Likes Received: unique days'
-          likes_received_users: 'Likes Received: unique users'
+          likes_received_days: "Likes Received: unique days"
+          likes_received_users: "Likes Received: unique users"
           suspended: Suspended (last 6 months)
           silenced: Silenced (last 6 months)
           qualifies: Qualifies for trust level 3.
           does_not_qualify: Doesn't qualify for trust level 3.
           will_be_promoted: Will be promoted soon.
           will_be_demoted: Will be demoted soon.
-          on_grace_period: 'Currently in promotion grace period, will not be demoted.'
+          on_grace_period: "Currently in promotion grace period, will not be demoted."
           locked_will_not_be_promoted: Trust level locked. Will never be promoted.
           locked_will_not_be_demoted: Trust level locked. Will never be demoted.
         sso:
@@ -5067,7 +5078,7 @@ tai_Rom:
         revert: Revert Changes
         revert_confirm: Are you sure you want to revert your changes?
         go_back: Back to Search
-        recommended: 'We recommend customizing the following text to suit your needs:'
+        recommended: "We recommend customizing the following text to suit your needs:"
         show_overriden: Only show overridden
         more_than_50_results: There are more than 50 results. Please refine your search.
       settings:
@@ -5128,8 +5139,8 @@ tai_Rom:
           modal_description: >-
             Would you like to apply this change historically? This will change
             preferences for %{count} existing users.
-          modal_yes: 'Yes'
-          modal_no: 'No, only apply change going forward'
+          modal_yes: "Yes"
+          modal_no: "No, only apply change going forward"
         simple_list:
           add_item: Add item...
       badges:
@@ -5159,7 +5170,7 @@ tai_Rom:
         grant_badge: Grant Badge
         granted_badges: Granted Badges
         grant: Grant
-        no_user_badges: '%{name} has not been granted any badges.'
+        no_user_badges: "%{name} has not been granted any badges."
         no_badges: There are no badges that can be granted.
         none_selected: Select a badge to get started
         allow_title: Allow badge to be used as a title
@@ -5199,8 +5210,8 @@ tai_Rom:
               unexpected results later on - please double-check your query.
           no_grant_count: No badges to be assigned.
           grant_count:
-            other: '<b>%{count}</b> badges to be assigned.'
-          sample: 'Sample:'
+            other: "<b>%{count}</b> badges to be assigned."
+          sample: "Sample:"
           grant:
             with: '<span class="username">%{username}</span>'
             with_post: '<span class="username">%{username}</span> for post in %{link}'
@@ -5235,7 +5246,7 @@ tai_Rom:
         group: Group
         image: Image
         alt: custom emoji preview
-        delete_confirm: 'Are you sure you want to delete the :%{name}: emoji?'
+        delete_confirm: "Are you sure you want to delete the :%{name}: emoji?"
       embedding:
         get_started: >-
           If you'd like to embed Discourse on another website, begin by adding
@@ -5284,7 +5295,7 @@ tai_Rom:
         copy_to_clipboard: Copy Permalink to Clipboard
         delete_confirm: Are you sure you want to delete this permalink?
         form:
-          label: 'New:'
+          label: "New:"
           add: Add
           filter: Search (URL or External URL)
       reseed:
@@ -5305,13 +5316,13 @@ tai_Rom:
       finish: Finish
       back: Back
       next: Next
-      step: '%{current} of %{total}'
+      step: "%{current} of %{total}"
       upload: Upload
       uploading: Uploading...
-      upload_error: 'Sorry, there was an error uploading that file. Please try again.'
+      upload_error: "Sorry, there was an error uploading that file. Please try again."
       quit: Maybe Later
       staff_count:
-        other: 'Your community has %{count} staff, including you.'
+        other: "Your community has %{count} staff, including you."
       invites:
         add_user: add
         none_added: You haven’t invited any staff. Are you sure you want to continue?
@@ -5321,6 +5332,6 @@ tai_Rom:
           regular: Regular User
       previews:
         topic_title: Discussion topic
-        font_title: '%{font} Font'
+        font_title: "%{font} Font"
         share_button: Share
         reply_button: Reply
