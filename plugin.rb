@@ -2,6 +2,8 @@
 # about: A plugin for Taiwanese language locale
 # version: 1.02
 
+enabled_site_setting :tai_locale_disable_others
+
 register_locale(
   "tai_Han",
   name: "Taiwanese (Hanji)",

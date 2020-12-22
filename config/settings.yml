@@ -1,0 +1,4 @@
+plugins:
+  tai_locale_disable_others:
+    default: true
+    client: true
