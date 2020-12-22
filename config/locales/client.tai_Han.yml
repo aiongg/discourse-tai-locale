@@ -170,12 +170,12 @@ tai_Han:
         us_gov_west_1: AWS GovCloud (US-West)
         us_west_1: US West (N. California)
         us_west_2: US West (Oregon)
-    edit: edit the title and category of this topic
+    edit: 換只條个標題也是埕仔
     expand: 打開
     not_implemented: 'That feature hasn''t been implemented yet, sorry!'
     no_value: 'No'
     yes_value: 'Yes'
-    submit: Submit
+    submit: 送出去
     generic_error: '歹世, 發生錯誤。'
     generic_error_with_reason: '發生錯誤： %{error}'
     go_ahead: 繼續
@@ -247,34 +247,27 @@ tai_Han:
         bookmark: 共只條話題頭一篇文做記号
         unbookmark: 共只條話題所有个記号刣兆
         unbookmark_with_reminder: >-
-          Click to remove all bookmarks and reminders in this topic. You have a
-          reminder set %{reminder_at} for this topic.
+          市落去共只條話題个記号甲提醒刣兆。目前有調%{reminder_at}做提醒。
     bookmarks:
       created: '只條話題汝有做記号。 %{name}'
       not_bookmarked: 話題做記号
       created_with_reminder: 'You''ve bookmarked this post with a reminder %{date}. %{name}'
       remove: 刣記号
       delete: 刪記号
-      confirm_delete: >-
-        Are you sure you want to delete this bookmark? The reminder will also be
-        deleted.
+      confirm_delete: 汝咁確定卜刣記号？提醒嗎同齊刣。
       confirm_clear: Are you sure you want to clear all your bookmarks from this topic?
       save: 儉
       no_timezone: >-
-        You have not set a timezone yet. You will not be able to set reminders.
-        Set one up <a href="%{basePath}/my/preferences/profile">in your
-        profile</a>.
+        汝亜未定時區。無法度調提醒。先甲<a href="%{basePath}/my/preferences/profile">口座設定頁</a>揀時區。
       invalid_custom_datetime: 'The date and time you provided is invalid, please try again.'
       list_permission_denied: 汝無權限看只位使用者做个記号。
-      no_user_bookmarks: >-
-        汝無任何做記号个pho͘文、做記号乎汝恰利便
-        跳甲指定个pho͘文。
+      no_user_bookmarks: 汝無任何做記号个pho͘文、做記号乎汝恰利便跳甲指定个pho͘文。
       auto_delete_preference:
         label: Automatically delete
         never: Never
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
-      search_placeholder: 'Search bookmarks by name, topic title, or post content'
+      search_placeholder: 對名・標題・也pho͘文內容尋記号
       search: 尋
       reminders:
         later_today: 恰停仔
@@ -289,8 +282,8 @@ tai_Han:
         custom: Custom date and time
         last_custom: Last
         none: 免設提醒
-        today_with_time: 'today at %{time}'
-        tomorrow_with_time: 'tomorrow at %{time}'
+        today_with_time: '今旦日 %{time}'
+        tomorrow_with_time: '明旦再 %{time}'
         at_time: 'at %{date_time}'
         existing_reminder: >-
           You have a reminder set for this bookmark which will be sent
@@ -316,7 +309,7 @@ tai_Han:
       other: '看%{count}條夭未讀个話題'
     topic_count_new:
       other: '看%{count}條新pho͘个話題'
-    preview: preview
+    preview: 影一下
     cancel: 脯去
     deleting: 當塊硯捒...
     save: 儉
@@ -391,7 +384,7 @@ tai_Han:
         title: claim this topic
       unclaim:
         help: remove this claim
-      awaiting_approval: Awaiting Approval
+      awaiting_approval: 等待審查
       delete: Delete
       settings:
         saved: 儉唖
@@ -425,9 +418,9 @@ tai_Han:
         summary:
           other: '%{agreed}, %{disagreed}, %{ignored} (%{count} total flags)'
         agreed:
-          other: '%{count}% agree'
+          other: '%{count}%同意'
         disagreed:
-          other: '%{count}% disagree'
+          other: '%{count}%無同意'
         ignored:
           other: '%{count}% ignore'
       topics:
@@ -479,11 +472,11 @@ tai_Han:
         reviewed_by: Reviewed By
       statuses:
         pending:
-          title: Pending
+          title: 等待
         approved:
-          title: Approved
+          title: 通過
         rejected:
-          title: Rejected
+          title: 無通過
         ignored:
           title: Ignored
         deleted:
@@ -513,34 +506,36 @@ tai_Han:
       example_username: abeng
     user_action:
       user_posted_topic: >-
-        <a href='%{userUrl}'>%{user}</a> posted <a href='%{topicUrl}'>the
-        topic</a>
-      you_posted_topic: '<a href=''%{userUrl}''>You</a> posted <a href=''%{topicUrl}''>the topic</a>'
+        <a href='%{topicUrl}'>話題</a>乎<a
+        href='%{userUrl}'>%{user}</a> pho͘个。
+      you_posted_topic: >-
+        <a href=''%{topicUrl}'>話題</a>乎<a
+        href='%{userUrl}'>汝</a>pho͘个
       user_replied_to_post: >-
-        <a href='%{userUrl}'>%{user}</a> replied to <a
+        <a href='%{userUrl}'>%{user}</a>答復<a
         href='%{postUrl}'>%{post_number}</a>
       you_replied_to_post: >-
-        <a href='%{userUrl}'>You</a> replied to <a
+        <a href='%{userUrl}'>汝</a>答復<a
         href='%{postUrl}'>%{post_number}</a>
       user_replied_to_topic: >-
-        <a href='%{userUrl}'>%{user}</a> replied to <a href='%{topicUrl}'>the
-        topic</a>
+        <a href='%{userUrl}'>%{user}</a>答復<a
+        href='%{topicUrl}'>只條話題</a>
       you_replied_to_topic: >-
-        <a href='%{userUrl}'>You</a> replied to <a href='%{topicUrl}'>the
-        topic</a>
+        <a href='%{userUrl}'>汝</a>答復<a
+        href='%{topicUrl}'>只條話題</a>
       user_mentioned_user: >-
-        <a href='%{user1Url}'>%{user}</a> mentioned <a
-        href='%{user2Url}'>%{another_user}</a>
+        <a href='%{user1Url}'>%{user}</a>共<a
+        href='%{user2Url}'>%{another_user}</a>点名
       user_mentioned_you: >-
-        <a href='%{user1Url}'>%{user}</a> mentioned <a
-        href='%{user2Url}'>you</a>
+        <a href='%{user1Url}'>%{user}</a>共<a
+        href='%{user2Url}'>汝</a>点名
       you_mentioned_user: >-
-        <a href='%{user1Url}'>You</a> mentioned <a
-        href='%{user2Url}'>%{another_user}</a>
-      posted_by_user: 'Posted by <a href=''%{userUrl}''>%{user}</a>'
-      posted_by_you: 'Posted by <a href=''%{userUrl}''>you</a>'
-      sent_by_user: 'Sent by <a href=''%{userUrl}''>%{user}</a>'
-      sent_by_you: 'Sent by <a href=''%{userUrl}''>you</a>'
+        <a href='%{user1Url}'>汝</a>共<a
+        href='%{user2Url}'>%{another_user}</a>点名
+      posted_by_user: '乎<a href=''%{userUrl}''>%{user}</a> pho͘个'
+      posted_by_you: '<a href=''%{userUrl}''>汝加治</a>pho͘个'
+      sent_by_user: '乎<a href=''%{userUrl}''>%{user}</a>寄个'
+      sent_by_you: '<a href=''%{userUrl}''>汝加治</a>寄个'
     directory:
       username: 用者名
       filter_name: filter by username
@@ -733,7 +728,7 @@ tai_Han:
         is_group_owner: Owner
       title:
         other: 群組
-      activity: 所做个
+      activity: 脚跡
       members:
         title: Members
         filter_placeholder_admin: username or email
@@ -896,7 +891,7 @@ tai_Han:
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
-      activity_stream: 所做个
+      activity_stream: 脚跡
       preferences: 設定
       feature_topic_on_profile:
         open_search: 揀新个話題
@@ -1543,7 +1538,7 @@ tai_Han:
       close: 關
       dismiss_error: Dismiss error
     close: 關
-    assets_changed_confirm: This site was just updated. Refresh now for the latest version?
+    assets_changed_confirm: 平台抵更新。咁卜換最新版本？
     logout: 汝已經出站。
     refresh: Refresh
     home: 主頁
@@ -1611,7 +1606,7 @@ tai_Han:
     mute: Mute
     unmute: Unmute
     last_post: Posted
-    local_time: Local Time
+    local_time: 在地時間
     time_read: Read
     time_read_recently: '%{time_read} recently'
     time_read_tooltip: '%{time_read} total time read'
@@ -1621,10 +1616,10 @@ tai_Han:
       other: 答復
     signup_cta:
       sign_up: 登記
-      hide_session: 明旦再提醒我
+      hide_session: 明旦再閣提醒
       hide_forever: 免、多謝
       hidden_for_session: >-
-        好、我明旦再閣來問。無、歡迎隨時市「入站」登記。
+        好、明旦再閣來問。無、歡迎市「入站」隨時登記。
       intro: >-
         Hello! Looks like you’re enjoying the discussion, but you haven’t signed
         up for an account yet.
@@ -1720,8 +1715,8 @@ tai_Han:
       complete_email_found: >-
         We found an account that matches <b>%{email}</b>, you should receive an
         email with a login link shortly.
-      complete_username_not_found: 'No account matches the username <b>%{username}</b>'
-      complete_email_not_found: 'No account matches <b>%{email}</b>'
+      complete_username_not_found: '尋無用者名<b>%{username}</b>个口座'
+      complete_email_not_found: '尋無<b>%{email}</b>个口座'
       confirm_title: 'Continue to %{site_name}'
       logging_in_as: 'Logging in as %{email}'
       confirm_button: Finish Login
