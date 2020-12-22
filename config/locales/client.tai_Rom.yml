@@ -170,7 +170,7 @@ tai_Rom:
         us_west_1: US West (N. California)
         us_west_2: US West (Oregon)
     edit: ōaⁿ chit tiâu ê phiau-tê iā sī tiâⁿ-á
-    expand: Phah khui
+    expand: Thoah khui
     not_implemented: 'That feature hasn''t been implemented yet, sorry!'
     no_value: 'No'
     yes_value: 'Yes'
@@ -905,8 +905,8 @@ tai_Rom:
           warning: Are you sure you want to clear your featured topic?
       use_current_timezone: Use Current Timezone
       profile_hidden: This user's public profile is hidden.
-      expand_profile: Phah khui
-      collapse_profile: Collapse
+      expand_profile: Thoah khui
+      collapse_profile: Thoah ·khí ·lâi
       bookmarks: Kì-hō
       bio: Iú-koan góa
       timezone: Sî-khu
@@ -1081,10 +1081,10 @@ tai_Rom:
         in_progress: (tng teh kià tiān-phoe)
         error: (chhò-gō͘)
         emoji: lock emoji
-        action: Kià Password Reset Tiān-phoe
-        set_password: Set Password
-        choose_new: Choose a new password
-        choose: Choose a password
+        action: Têng siat àm-hō tiān-phoe sàng hō͘ ·góa
+        set_password: Siat Àm-hō
+        choose_new: Têng siat àm-hō
+        choose: Siat àm-hō
       second_factor_backup:
         title: Two-Factor Backup Codes
         regenerate: Regenerate
@@ -1114,8 +1114,8 @@ tai_Rom:
         title: Nn̄g Pō͘ Giām-bêng
         enable: Koán-lí Nn̄g Pō͘ Giām-bêng
         disable_all: Disable All
-        forgot_password: Password bē kì ·tit?
-        confirm_password_description: Please confirm your password to continue
+        forgot_password: Àm-hō pàng bē kì?
+        confirm_password_description: Chhiáⁿ khak-jīn lí ê àm-hō chiah thang kè-sio̍k
         name: Name
         label: Code
         rate_limit: Please wait before trying another authentication code.
@@ -1292,7 +1292,7 @@ tai_Rom:
         default: (kì-tēng ·ê)
         any: any
       password_confirmation:
-        title: Password Again
+        title: Àm-hō koh thiⁿ chi̍t pái
       invite_code:
         title: Chhiáⁿ-thiap Bé
         instructions: Chù-chheh ài thiⁿ chhiáⁿ-thiap bé
@@ -1305,8 +1305,8 @@ tai_Rom:
         show_few: Hián-sī khah chió
         was_this_you: Che kám sī lí?
         was_this_you_description: >-
-          If it wasn’t you, we recommend you change your password and log out
-          everywhere.
+          Nā m̄ sī lí chò ·ê, goán kiàn-gī liâm-mi ōaⁿ àm-hō
+          koh ùi só͘ ū ê siat-pī chhut chām.
         browser_and_device: '%{browser} tī %{device}'
         secure_account: Secure my Account
         latest_post: Lí téng pái pho͘ bûn…
@@ -1451,14 +1451,14 @@ tai_Rom:
           error: 'Sorry, file should be CSV format.'
           confirmation_message: You’re about to email invites to everyone in the uploaded file.
       password:
-        title: Password
-        too_short: Password siuⁿ té.
-        common: Password siuⁿ phó͘-phiàn.
-        same_as_username: Password kap iōng-chiá miâ kāng khoán.
-        same_as_email: Password kap tiān-phoe miâ kāng khoán.
-        ok: Password bô būn-tê.
+        title: Àm-hō
+        too_short: Àm-hō siuⁿ té.
+        common: Àm-hō siuⁿ phó͘-phiàn.
+        same_as_username: Àm-hō kap iōng-chiá miâ kāng khoán.
+        same_as_email: Àm-hō kap tiān-phoe miâ kāng khoán.
+        ok: Àm-hō bô būn-tê.
         instructions: 'siōng bô ài phah %{count} jī'
-        required: Chhiáⁿ su-ji̍p password
+        required: Chhiáⁿ tēng àm-hō
       summary:
         title: Pò-pió
         stats: Thóng-kè
@@ -1671,15 +1671,15 @@ tai_Rom:
         target='blank'>ho̍k-bū khè-iok</a>.
       title: Khí Sin Kháu-chō
       failed: >-
-        Something went wrong, perhaps this email is already registered, try the
-        forgot password link
+        Hoat-seng chhò-gō͘. Hoān-sè chit ê tiān-phoe í-keng teng kì ·a.
+        Bô, chhi̍h "àm-hō pàng bē kì" ê bāng-liân-á.
     forgot_password:
-      title: Password Reset
-      action: I forgot my password
+      title: Têng Siat Àm-hō
+      action: Àm-hō pàng bē kì
       invite: >-
-        Enter your username or email address, and we'll send you a password
-        reset email.
-      reset: Reset Password
+        Phah iōng-chiá miâ ā sī tiān-phoe,
+        têng siat àm-hō phoe sûi kià hō͘ ·lí.
+      reset: Têng Siat Àm-hō
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
         receive an email with instructions on how to reset your password
@@ -1728,7 +1728,7 @@ tai_Rom:
     login:
       title: Ji̍p Chām
       username: Iōng-chiá miâ
-      password: Password
+      password: Àm-hō
       second_factor_title: Nn̄g Pō͘ Giām-bêng
       second_factor_description: 'Please enter the authentication code from your app:'
       second_factor_backup: Log in using a backup code
@@ -1756,7 +1756,7 @@ tai_Rom:
       rate_limit: Please wait before trying to log in again.
       blank_username: Please enter your email or username.
       blank_username_or_password: 'Please enter your email or username, and password.'
-      reset_password: Reset Password
+      reset_password: Têng Siat Àm-hō
       logging_in: Tng teh ji̍p chām...
       or: Ā sī
       authenticating: Authenticating...
@@ -1778,9 +1778,9 @@ tai_Rom:
         Your account has two-factor authentication enabled. Please log in with
         your password.
       resend_title: Resend Activation Email
-      change_email: Change Email Address
+      change_email: Ōaⁿ Tiān-phoe
       provide_new_email: Provide a new address and we'll resend your confirmation email.
-      submit_new_email: Update Email Address
+      submit_new_email: Tiān-phoe Keng-sin
       sent_activation_email_again: >-
         We sent another activation email to you at <b>%{currentEmail}</b>. It
         might take a few minutes for it to arrive; be sure to check your spam
@@ -1824,7 +1824,7 @@ tai_Rom:
       accept_invite: Chiap-siū chhiáⁿ-thiap
       success: Lí ê kháu-chō kiàn-li̍p hó, í-keng ji̍p chām ·a.
       name_label: Sèⁿ-miâ
-      password_label: Password
+      password_label: Àm-hō
       optional_description: (chāi lí siá)
     password_reset:
       continue: 'Hiòng-chiân kah %{site_name}'
@@ -2331,7 +2331,7 @@ tai_Rom:
         other: '%{count} posts in topic'
       create: Pho͘ Bûn
       create_long: Create a new Topic
-      open_draft: Chháu-kó Phah Khui
+      open_draft: Chháu-kó Thoah Khui
       private_message: Siá sìn-sit
       archive_message:
         help: Kā chit phiⁿ sìn-sit siu-khǹg
@@ -3472,7 +3472,7 @@ tai_Rom:
       application:
         title: Application
         create: '%{shortcut} Pho͘ sin ê ōe-tê'
-        notifications: '%{shortcut} Phah khui thong-ti'
+        notifications: '%{shortcut} Thong-ti thoah khui'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
         show_incoming_updated_topics: '%{shortcut} Show updated topics'

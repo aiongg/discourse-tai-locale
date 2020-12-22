@@ -903,8 +903,8 @@ tai_Han:
           warning: Are you sure you want to clear your featured topic?
       use_current_timezone: Use Current Timezone
       profile_hidden: This user's public profile is hidden.
-      expand_profile: 打開
-      collapse_profile: Collapse
+      expand_profile: 拖開
+      collapse_profile: 拖起來
       bookmarks: 記号
       bio: 有關我
       timezone: 時區
@@ -1079,10 +1079,10 @@ tai_Han:
         in_progress: (當塊寄電批)
         error: (錯誤)
         emoji: lock emoji
-        action: 寄 Password Reset 電批
-        set_password: Set Password
-        choose_new: Choose a new password
-        choose: Choose a password
+        action: 重設暗号電批送乎我
+        set_password: 設暗号
+        choose_new: 重設暗号
+        choose: 設暗号
       second_factor_backup:
         title: Two-Factor Backup Codes
         regenerate: Regenerate
@@ -1112,8 +1112,8 @@ tai_Han:
         title: 二步驗明
         enable: 管理二步驗明
         disable_all: Disable All
-        forgot_password: Password袂記得？
-        confirm_password_description: Please confirm your password to continue
+        forgot_password: 暗号放袂記？
+        confirm_password_description: 請確認汝个暗号即通繼續
         name: Name
         label: Code
         rate_limit: Please wait before trying another authentication code.
@@ -1290,7 +1290,7 @@ tai_Han:
         default: (既定个)
         any: any
       password_confirmation:
-        title: Password Again
+        title: 暗号閣添一擺
       invite_code:
         title: 請帖碼
         instructions: 註册愛添請帖碼
@@ -1303,8 +1303,7 @@ tai_Han:
         show_few: 顯示恰少
         was_this_you: 此咁是汝？
         was_this_you_description: >-
-          If it wasn’t you, we recommend you change your password and log out
-          everywhere.
+          那不是汝做个、阮建議粘乜換暗号閣對所有个設備出站。
         browser_and_device: '%{browser} 治 %{device}'
         secure_account: Secure my Account
         latest_post: 汝頂擺pho͘文…
@@ -1447,14 +1446,14 @@ tai_Han:
           error: 'Sorry, file should be CSV format.'
           confirmation_message: You’re about to email invites to everyone in the uploaded file.
       password:
-        title: Password
-        too_short: Password 箱短。
-        common: Password 箱普遍。
-        same_as_username: Password 甲用者名仝欵。
-        same_as_email: Password 甲電批名仝欵。
-        ok: Password 無問題。
-        instructions: '上無愛打 %{count} 字'
-        required: 請輸入 password
+        title: 暗号
+        too_short: 暗号箱短。
+        common: 暗号箱普遍。
+        same_as_username: 暗号甲用者名仝欵。
+        same_as_email: 暗号甲電批名仝欵。
+        ok: 暗号無問題。
+        instructions: '上無愛打%{count}字'
+        required: 請定暗号
       summary:
         title: 報表
         stats: 統計
@@ -1669,12 +1668,11 @@ tai_Han:
         Something went wrong, perhaps this email is already registered, try the
         forgot password link
     forgot_password:
-      title: Password Reset
-      action: I forgot my password
+      title: 重設暗号
+      action: 暗号放袂記
       invite: >-
-        Enter your username or email address, and we'll send you a password
-        reset email.
-      reset: Reset Password
+        打用者名也是電批、重設暗号批隨送乎汝。
+      reset: 重設暗号
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
         receive an email with instructions on how to reset your password
@@ -1723,7 +1721,7 @@ tai_Han:
     login:
       title: 入站
       username: 用者名
-      password: Password
+      password: 暗号
       second_factor_title: 二步驗明
       second_factor_description: 'Please enter the authentication code from your app:'
       second_factor_backup: Log in using a backup code
@@ -1751,7 +1749,7 @@ tai_Han:
       rate_limit: Please wait before trying to log in again.
       blank_username: Please enter your email or username.
       blank_username_or_password: 'Please enter your email or username, and password.'
-      reset_password: Reset Password
+      reset_password: 重設暗号
       logging_in: 當塊入站...
       or: 也是
       authenticating: Authenticating...
@@ -1773,9 +1771,9 @@ tai_Han:
         Your account has two-factor authentication enabled. Please log in with
         your password.
       resend_title: Resend Activation Email
-      change_email: Change Email Address
+      change_email: 換電批
       provide_new_email: Provide a new address and we'll resend your confirmation email.
-      submit_new_email: Update Email Address
+      submit_new_email: 電批更新
       sent_activation_email_again: >-
         We sent another activation email to you at <b>%{currentEmail}</b>. It
         might take a few minutes for it to arrive; be sure to check your spam
@@ -1819,7 +1817,7 @@ tai_Han:
       accept_invite: 接受請帖
       success: 汝个口座建立好、已經入站唖。
       name_label: 姓名
-      password_label: Password
+      password_label: 暗号
       optional_description: (在汝寫)
     password_reset:
       continue: '向前甲 %{site_name}'
@@ -2326,7 +2324,7 @@ tai_Han:
         other: '%{count} posts in topic'
       create: Pho͘文
       create_long: Create a new Topic
-      open_draft: 草稿打開
+      open_draft: 草稿拖開
       private_message: 寫訊息
       archive_message:
         help: 共只篇訊息收藏
@@ -3465,7 +3463,7 @@ tai_Han:
       application:
         title: Application
         create: '%{shortcut} Pho͘新个話題'
-        notifications: '%{shortcut} 打開通知'
+        notifications: '%{shortcut} 通知拖開'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
         show_incoming_updated_topics: '%{shortcut} Show updated topics'
