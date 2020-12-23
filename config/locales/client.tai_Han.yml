@@ -2848,10 +2848,8 @@ tai_Han:
       gap:
         other: 'view %{count} hidden replies'
       notice:
-        new_user: >-
-          此是%{user}頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
-        returning_user: >-
-          咱介久無看着 %{user}。伊頂擺pho͘文是 %{time}。
+        new_user: 此是%{user}頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
+        returning_user: 咱介久無看着%{user}。伊頂擺pho͘文是%{time}。
       unread: Pho͘文夭未讀
       has_replies:
         other: '%{count}答復'
