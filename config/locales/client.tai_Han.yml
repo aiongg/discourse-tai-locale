@@ -93,7 +93,7 @@ tai_Han:
       close: 關
       twitter: 治推妥分張
       facebook: 治面册分張
-      email: 寄電批
+      email: 送電批
       url: 共網連仔khó͘-pih、分出去
     action_codes:
       public_topic: 'made this topic public %{when}'
@@ -239,7 +239,7 @@ tai_Han:
       active_user_count: 線頂用者
       contact: 連絡
       contact_info: >-
-        萬一抵着緊急狀態、請寄批乎 %{contact_info} 甲阮連絡。
+        萬一抵着緊急狀態、請送批乎 %{contact_info} 甲阮連絡。
     bookmarked:
       title: 記号
       clear_bookmarks: 除記号
@@ -534,8 +534,8 @@ tai_Han:
         href='%{user2Url}'>%{another_user}</a>点名
       posted_by_user: '乎<a href=''%{userUrl}''>%{user}</a> pho͘个'
       posted_by_you: '<a href=''%{userUrl}''>汝加治</a>pho͘个'
-      sent_by_user: '乎<a href=''%{userUrl}''>%{user}</a>寄个'
-      sent_by_you: '<a href=''%{userUrl}''>汝加治</a>寄个'
+      sent_by_user: '乎<a href=''%{userUrl}''>%{user}</a>送个'
+      sent_by_you: '<a href=''%{userUrl}''>汝加治</a>送个'
     directory:
       username: 用者名
       filter_name: filter by username
@@ -690,7 +690,7 @@ tai_Han:
       join: 加入
       leave: 來走
       request: Request
-      message: 寄批
+      message: 送批
       confirm_leave: Are you sure you want to leave this group?
       allow_membership_requests: >-
         Allow users to send membership requests to group owners (Requires
@@ -862,8 +862,8 @@ tai_Han:
           Download initiated, you will be notified via message when the process
           is complete.
         rate_limit_error: '逐工通扐pho͘文一擺、明旦再閣試。'
-      new_private_message: 寄批
-      private_message: 寄批
+      new_private_message: 送批
+      private_message: 送批
       private_messages: 訊息
       user_notifications:
         filters:
@@ -949,7 +949,7 @@ tai_Han:
       dark_mode: 暗色
       dark_mode_enable: Enable automatic dark mode color scheme
       text_size_default_on_all_devices: Make this the default text size on all my devices
-      allow_private_messages: 允准別个使用者寄私信乎我
+      allow_private_messages: 允准別个使用者送私信乎我
       external_links_in_new_tab: 外網連仔開治新分頁
       enable_quoting: Enable quote reply for highlighted text
       enable_defer: Enable defer to mark topics unread
@@ -1055,7 +1055,7 @@ tai_Han:
       messages:
         all: 所有个
         inbox: 信箱
-        sent: 寄个
+        sent: 送个
         archive: Archive
         groups: My Groups
         bulk_select: Select messages
@@ -1075,11 +1075,11 @@ tai_Han:
         interface: 介面
         apps: APP
       change_password:
-        success: (電批寄好唖)
-        in_progress: (當塊寄電批)
+        success: (電批送好唖)
+        in_progress: (當塊送電批)
         error: (錯誤)
         emoji: lock emoji
-        action: 寄 Password Reset 電批
+        action: 送 Password Reset 電批
         set_password: Set Password
         choose_new: Choose a new password
         choose: Choose a password
@@ -1227,9 +1227,9 @@ tai_Han:
         secondary: 次電批
         primary_label: 主
         unconfirmed_label: 未認証
-        resend_label: 認証電批閣寄一擺
-        resending_label: 當塊寄...
-        resent_label: 電批寄唖
+        resend_label: 認証電批閣送一擺
+        resending_label: 當塊送...
+        resent_label: 電批送唖
         update_email: 換電批
         set_primary: 揀主電批
         destroy: 刣電批
@@ -1314,7 +1314,7 @@ tai_Han:
         browser_active: '%{browser} | <span class="active">active now</span>'
         browser_last_seen: '%{browser} | %{date}'
       last_posted: 頂擺pho͘文
-      last_emailed: 頂擺寄電批
+      last_emailed: 頂擺送電批
       last_seen: Seen
       created: 創立
       log_out: 出站
@@ -1357,11 +1357,11 @@ tai_Han:
         every_six_months: 半冬
       email_level:
         title: >-
-          那有人共我个pho͘文引用・答復、共我点名、也是邀請我看某乜話題、請寄電批通知
+          那有人共我个pho͘文引用・答復、共我点名、也是邀請我看某乜話題、請送電批通知
         always: 朗愛
         only_when_away: 我那無治レ
         never: 朗免
-      email_messages_level: 那收着私信請寄電批通知
+      email_messages_level: 那收着私信請送電批通知
       include_tl0_in_digests: Include content from new users in summary emails
       email_in_reply_to: Include an excerpt of replied to post in emails
       other_settings: Other
@@ -1700,7 +1700,7 @@ tai_Han:
       button_ok: OK
       button_help: Help
     email_login:
-      link_label: 入站連仔寄電批乎我
+      link_label: 入站連仔送電批乎我
       button_label: 對電批來
       emoji: lock emoji
       complete_username: >-
@@ -2039,7 +2039,7 @@ tai_Han:
           label: Reply as new group message
           desc: Create a new private message with the same recipients
         reply_as_private_message:
-          label: 寄私信
+          label: 送私信
           desc: Create a new personal message
         reply_to_topic:
           label: 應話題

@@ -93,7 +93,7 @@ tai_Rom:
       close: koaiⁿ
       twitter: Tī Thui-thò pun tiuⁿ
       facebook: Tī Bīn-chheh pun tiuⁿ
-      email: Kià tiān-phoe
+      email: Sàng tiān-phoe
       url: Kā URL khó͘-pih, pun ·chhut ·khì
     action_codes:
       public_topic: "made this topic public %{when}"
@@ -238,7 +238,7 @@ tai_Rom:
       active_user_count: Sòaⁿ-téng iōng-chiá
       contact: Liân-lo̍k
       contact_info: >-
-        Bān-it tú tio̍h kín-kip chōng-thài, chhiáⁿ kià phoe hō͘ %{contact_info} kap gún liân-lo̍k.
+        Bān-it tú tio̍h kín-kip chōng-thài, chhiáⁿ sàng phoe hō͘ %{contact_info} kap gún liân-lo̍k.
     bookmarked:
       title: Kì-hō
       clear_bookmarks: Tû Kì-hō
@@ -536,8 +536,8 @@ tai_Rom:
         href='%{user2Url}'>%{another_user}</a> tiám miâ
       posted_by_user: "Hō͘ <a href='%{userUrl}'>%{user}</a> pho͘ ·ê"
       posted_by_you: "<a href='%{userUrl}'>Lí ka-tī</a> pho͘ ·ê"
-      sent_by_user: "Hō͘ <a href='%{userUrl}'>%{user}</a> kià ·ê"
-      sent_by_you: "<a href='%{userUrl}'>Lí ka-tī</a> kià ·ê"
+      sent_by_user: "Hō͘ <a href='%{userUrl}'>%{user}</a> sàng ·ê"
+      sent_by_you: "<a href='%{userUrl}'>Lí ka-tī</a> sàng ·ê"
     directory:
       username: Iōng-chiá miâ
       filter_name: filter by username
@@ -692,7 +692,7 @@ tai_Rom:
       join: Ka ji̍p
       leave: Lâi cháu
       request: Request
-      message: Kià Phoe
+      message: Sàng Phoe
       confirm_leave: Are you sure you want to leave this group?
       allow_membership_requests: >-
         Allow users to send membership requests to group owners (Requires
@@ -864,8 +864,8 @@ tai_Rom:
           Download initiated, you will be notified via message when the process
           is complete.
         rate_limit_error: "Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì."
-      new_private_message: Kià phoe
-      private_message: Kià phoe
+      new_private_message: Sàng phoe
+      private_message: Sàng phoe
       private_messages: Sìn-sit
       user_notifications:
         filters:
@@ -951,7 +951,7 @@ tai_Rom:
       dark_mode: Àm-sek
       dark_mode_enable: Enable automatic dark mode color scheme
       text_size_default_on_all_devices: Make this the default text size on all my devices
-      allow_private_messages: Ún-chún pa̍t ê sú-iōng-chiá kià su-sìn hō͘ ·góa
+      allow_private_messages: Ún-chún pa̍t ê sú-iōng-chiá sàng su-sìn hō͘ ·góa
       external_links_in_new_tab: Gōa-bāng liân-á khui tī sin hun-ia̍h
       enable_quoting: Enable quote reply for highlighted text
       enable_defer: Enable defer to mark topics unread
@@ -1057,7 +1057,7 @@ tai_Rom:
       messages:
         all: Só͘ ū ·ê
         inbox: Sìn-siuⁿ
-        sent: Kià ·ê
+        sent: Sàng ·ê
         archive: Archive
         groups: My Groups
         bulk_select: Select messages
@@ -1077,8 +1077,8 @@ tai_Rom:
         interface: Kài-bīn
         apps: APP
       change_password:
-        success: (tiān-phoe kià hó ·a)
-        in_progress: (tng teh kià tiān-phoe)
+        success: (tiān-phoe sàng hó ·a)
+        in_progress: (tng teh sàng tiān-phoe)
         error: (chhò-gō͘)
         emoji: lock emoji
         action: Kià Password Reset Tiān-phoe
@@ -1229,9 +1229,9 @@ tai_Rom:
         secondary: Chhù Tiān-phoe
         primary_label: chú
         unconfirmed_label: bī jīn-chèng
-        resend_label: jīn-chèng tiān-phoe koh kià chi̍t pái
-        resending_label: tng teh kià...
-        resent_label: tiān-phoe kià ·a
+        resend_label: jīn-chèng tiān-phoe koh sàng chi̍t pái
+        resending_label: tng teh sàng...
+        resent_label: tiān-phoe sàng ·a
         update_email: Ōaⁿ Tiān-phoe
         set_primary: Kéng Chú Tiān-phoe
         destroy: Thâi Tiān-phoe
@@ -1316,7 +1316,7 @@ tai_Rom:
         browser_active: '%{browser} | <span class="active">active now</span>'
         browser_last_seen: "%{browser} | %{date}"
       last_posted: Téng pái pho͘ bûn
-      last_emailed: Téng pái kià tiān-phoe
+      last_emailed: Téng pái sàng tiān-phoe
       last_seen: Seen
       created: Chhòng-li̍p
       log_out: Chhut Chām
@@ -1361,11 +1361,11 @@ tai_Rom:
         title: >-
           Nā ū lâng kā góa ê pho͘ bûn ín-iōng / tap-ho̍k,
           kā góa tiám miâ, iā sī iau-chhiáⁿ góa khòaⁿ bó͘-mih ōe-tê,
-          chhiáⁿ kià tiān-phoe thong-ti
+          chhiáⁿ sàng tiān-phoe thong-ti
         always: lóng ài
         only_when_away: góa nā bô tī ·le
         never: lóng bián
-      email_messages_level: Nā siu tio̍h su-sìn chhiáⁿ kià tiān-phoe thong-ti
+      email_messages_level: Nā siu tio̍h su-sìn chhiáⁿ sàng tiān-phoe thong-ti
       include_tl0_in_digests: Include content from new users in summary emails
       email_in_reply_to: Include an excerpt of replied to post in emails
       other_settings: Other
@@ -1705,7 +1705,7 @@ tai_Rom:
       button_ok: OK
       button_help: Help
     email_login:
-      link_label: Ji̍p chām liân-á kià tiān-phoe hō͘ ·góa
+      link_label: Ji̍p chām liân-á sàng tiān-phoe hō͘ ·góa
       button_label: ùi tiān-phoe lâi
       emoji: lock emoji
       complete_username: >-
@@ -2044,7 +2044,7 @@ tai_Rom:
           label: Reply as new group message
           desc: Create a new private message with the same recipients
         reply_as_private_message:
-          label: Kià su-sìn
+          label: Sàng su-sìn
           desc: Create a new personal message
         reply_to_topic:
           label: Ìn ōe-tê
