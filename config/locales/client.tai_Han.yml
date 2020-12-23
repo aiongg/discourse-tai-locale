@@ -45,7 +45,7 @@ tai_Han:
         x_minutes:
           other: '%{count}分'
         about_x_hours:
-          other: '%{count}点'
+          other: '%{count}点鐘'
         x_days:
           other: '%{count}工'
         x_months:
@@ -2849,7 +2849,7 @@ tai_Han:
         other: 'view %{count} hidden replies'
       notice:
         new_user: >-
-          此是 %{user} 頭一擺pho͘文。請逐家打一下招呼！
+          此是%{user}頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
         returning_user: >-
           咱介久無看着 %{user}。伊頂擺pho͘文是 %{time}。
       unread: Pho͘文夭未讀

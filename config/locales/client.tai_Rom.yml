@@ -51,11 +51,11 @@ tai_Rom:
         x_months:
           other: "%{count}g"
         about_x_years:
-          other: "%{count}n"
+          other: "%{count}T"
         over_x_years:
-          other: "> %{count}n"
+          other: "> %{count}T"
         almost_x_years:
-          other: "%{count}n"
+          other: "%{count}T"
         date_month: MMMD号
         date_year: YY年MMM
       medium:
@@ -2859,8 +2859,7 @@ tai_Rom:
         other: "view %{count} hidden replies"
       notice:
         new_user: >-
-          Che sī %{user} thâu chi̍t pái pho͘ bûn — chhiáⁿ ta̍k-ke
-          phah chi̍t ē chio-ho͘!
+          Che sī %{user} thâu chi̍t pái pho͘ bûn — lâi lâi lâi — ta̍k-ke khah jia̍t-chêng ·le, lâi ka sio-chioh-mn̄g!
         returning_user: >-
           Lán kài kú bô khòaⁿ tio̍h %{user} — i téng pái pho͘ bûn sī %{time}.
       unread: Pho͘-bûn á bē tha̍k
