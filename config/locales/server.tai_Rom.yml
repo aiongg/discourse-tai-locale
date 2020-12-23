@@ -285,7 +285,7 @@ tai_Rom:
     title_category: "You must be in a group to see this category."
     request_membership: "Request Membership"
     join_group: "Join Group"
-  deleted_topic: "Hāi ·a! This topic has been deleted and is no longer available."
+  deleted_topic: "Hāi ·a! Chit tiâu ōe-tê hông thâi tiāu, chit-má bô thang khòaⁿ."
   delete_topic_failed: "There was an error deleting that topic. Please contact the site's administrator."
 
   reading_time: "Reading time"
@@ -564,16 +564,16 @@ tai_Rom:
         user:
           attributes:
             password:
-              common: "is one of the 10000 most common passwords. Please use a more secure password."
-              same_as_username: "is the same as your username. Please use a more secure password."
-              same_as_email: "is the same as your email. Please use a more secure password."
-              same_as_current: "is the same as your current password."
-              same_as_name: "is the same as your name."
+              common: "Choân sè-kài thâu 10,000 tiâu chhài-chhī-á àm-hō ū lí chit tiâu chāi lāi. Chhiáⁿ siūⁿ chi̍t tiâu khah phiah ·ê."
+              same_as_username: "Àm-hō kap iōng-chiá miâ sio-kāng. M̄ thang."
+              same_as_email: "Àm-hō kap tiān-phoe sio-kāng. M̄ thang."
+              same_as_current: "Che kap lí chit-má ê àm-hō sio-kāng. M̄ thang."
+              same_as_name: "Àm-hō kap miâ-sèⁿ sio-kāng. M̄ thang."
               unique_characters: "has too many repeated characters. Please use a more secure password."
             username:
-              same_as_password: "is the same as your password."
+              same_as_password: "iōng-chiá miâ kap àm-hō sio-kāng."
             name:
-              same_as_password: "is the same as your password."
+              same_as_password: "miâ-sèⁿ kap àm-hō sio-kāng."
             ip_address:
               signup_not_allowed: "Signup is not allowed from this account."
         user_profile:
@@ -711,8 +711,8 @@ tai_Rom:
       other: "%{count} Likes"
 
   rate_limiter:
-    slow_down: "You’ve performed this action too many times, please try again later."
-    too_many_requests: "You’ve performed this action too many times. Please wait %{time_left} before trying again."
+    slow_down: "Chit chiau lí ēng siuⁿ chē pái ·a. Khah thêng-á koh chhì."
+    too_many_requests: "Chit chiau lí ēng siuⁿ chē pái ·a. Chhiáⁿ tán %{time_left} koh chhì."
     by_type:
       first_day_replies_per_day: "You’ve reached the maximum number of replies a new user can create on their first day. Please wait %{time_left} before trying again."
       first_day_topics_per_day: "You’ve reached the maximum number of topics a new user can create on their first day. Please wait %{time_left} before trying again."
@@ -720,7 +720,7 @@ tai_Rom:
       create_post: "You’re replying too quickly. Please wait %{time_left} before trying again."
       delete_post: "You’re deleting posts too quickly. Please wait %{time_left} before trying again."
       public_group_membership: "You’re joining/leaving groups too frequently. Please wait %{time_left} before trying again."
-      topics_per_day: "You’ve reached the maximum number of new topics. Please wait %{time_left} before trying again."
+      topics_per_day: "Lí khí sin ōe-tê khí kah chīn-pōng ·a. Chhiáⁿ tán %{time_left} koh lâi."
       pms_per_day: "You’ve reached the maximum number of messages. Please wait %{time_left} before trying again."
       create_like: "You’ve reached the maximum number of likes. Please wait %{time_left} before trying again."
       create_bookmark: "You’ve reached the maximum number of bookmarks. Please wait %{time_left} before trying again."
@@ -2471,7 +2471,7 @@ tai_Rom:
     omniauth_confirm_button: "Continue"
     authenticator_error_no_valid_email: "No email addresses associated with %{account} are allowed. You may need to configure your account with a different email address."
     new_registrations_disabled: "New account registrations are not allowed at this time."
-    password_too_long: "Passwords are limited to 200 characters."
+    password_too_long: "Àm-hō siōng tn̂g 200 jī."
     email_too_long: "The email you provided is too long. Mailbox names must be no more than 254 characters, and domain names must be no more than 253 characters."
     wrong_invite_code: "The invite code you entered was incorrect."
     reserved_username: "That username is not allowed."
@@ -2847,16 +2847,16 @@ tai_Rom:
         As you participate here, we’ll get to know you, and temporary new user limitations will be lifted. Over time you’ll gain [trust levels](https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/) that include special abilities to help us manage our community together.
 
     welcome_user:
-      title: "Welcome User"
-      subject_template: "Welcome to %{site_name}!"
+      title: "Lâng-kheh lâi chē"
+      subject_template: "%{site_name}"
       text_body_template: |
-        Thanks for joining %{site_name}, and welcome!
+        Hoan-gêng lâi kàu %{site_name}
 
         %{new_user_tips}
 
-        We believe in [civilized community behavior](%{base_url}/guidelines) at all times.
+        Gún chia tiōng jîn-chêng-bī, chù tiōng giân-lūn chū-iû. [Pêⁿ-tâi kui-kí](%{base_url}/guidelines) chhiáⁿ chim-chiok tha̍k.
 
-        Enjoy your stay!
+        Ū êng koh lâi chē!
 
     welcome_tl1_user:
       title: "Welcome TL1 User"
@@ -3873,10 +3873,10 @@ tai_Rom:
         If this was not you, please [review your existing sessions](%{base_url}/my/preferences/account) and consider changing your password.
 
   page_forbidden:
-    title: "Hāi ·a! That page is private."
+    title: "Hāi ·a! Chit ia̍h bô kong-khai."
 
   page_not_found:
-    title: "Hāi ·a! That page doesn’t exist or is private."
+    title: "Hāi ·a! Bô chit ia̍h iā sī chit ia̍h bô kong-khai."
     popular_topics: "Popular"
     recent_topics: "Recent"
     see_more: "More"
@@ -3890,10 +3890,10 @@ tai_Rom:
   login_required:
     welcome_message: |
       ## [Hoan-gêng lâi kàu %{title}](#welcome)
-      Nā bô kháu-chō chhiáⁿ seng chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
+      Nā bô kháu-chō chhiáⁿ seng teng kì. Teng kì liáu chiah thang ji̍p chām.
     welcome_message_invite_only: |
       ## [Hoan-gêng lâi kàu %{title}](#welcome)
-      Ài siu chhiáⁿ thiap chiah thang chù-chheh. Chù-chheh liáu chiah thang ji̍p chām.
+      Ài chhiáⁿ thiap chiah thang teng kì, ji̍p chām.
 
   deleted: "deleted"
 
@@ -4350,12 +4350,12 @@ tai_Rom:
         invalid_csv: We encountered an error on line %{line_number}. Please confirm the CSV has one email per line.
     editor:
       name: Phian-chiá
-      description: Thâu pái phian-chhip lí ê pho͘ bûn
+      description: Thâu pái phian-chhip ka-tī ê pho͘ bûn
       long_description: |
         This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
     wiki_editor:
-      name: Wiki Editor
-      description: First wiki edit
+      name: Wiki Phian-chiá
+      description: Thâu pái phian-chhip wiki
       long_description: |
         This badge is granted the first time you edit one wiki post.
     basic_user:
@@ -4394,47 +4394,47 @@ tai_Rom:
       long_description: |
         This badge is granted when you’ve been a member for a year with at least one post in that year. Thank you for sticking around and contributing to our community. We couldn’t do it without you.
     nice_post:
-      name: Nice Reply
+      name: Gâu Tap-ho̍k
       description: Received 10 likes on a reply
       long_description: |
         This badge is granted when your reply gets 10 likes. Your reply made an impression on the community and helped move the conversation forward.
     good_post:
-      name: Good Reply
+      name: Chin Gâu Tap-ho̍k
       description: Received 25 likes on a reply
       long_description: |
         This badge is granted when your reply gets 25 likes. Your reply was exceptional and made the conversation much more interesting.
     great_post:
-      name: Great Reply
+      name: Sè-kài Gâu Tap-ho̍k
       description: Received 50 likes on a reply
       long_description: |
         This badge is granted when your reply gets 50 likes. Wow! Your reply was inspiring, fascinating, hilarious, or insightful and the community loved it!
     nice_topic:
-      name: Nice Topic
+      name: Gâu Ōe-tê
       description: Received 10 likes on a topic
       long_description: |
         This badge is granted when your topic gets 10 likes. You started an interesting conversation that the community enjoyed.
     good_topic:
-      name: Good Topic
+      name: Chin Gâu Ōe-tê
       description: Received 25 likes on a topic
       long_description: |
         This badge is granted when your topic gets 25 likes. You launched a vibrant conversation that the community rallied around.
     great_topic:
-      name: Great Topic
+      name: Sè-kài Gâu Ōe-tê
       description: Received 50 likes on a topic
       long_description: |
         This badge is granted when your topic gets 50 likes. You kicked off a fascinating conversation and the community loved the lively discussion that resulted!
     nice_share:
-      name: Nice Share
+      name: Gâu Pun Tiuⁿ
       description: Shared a post with 25 unique visitors
       long_description: |
         This badge is granted for sharing a link that was clicked by 25 outside visitors. Thanks for spreading the word about our discussions, and this community.
     good_share:
-      name: Good Share
+      name: Chin Gâu Pun Tiuⁿ
       description: Shared a post with 300 unique visitors
       long_description: |
         This badge is granted for sharing a link that was clicked by 300 outside visitors. Good work! You’ve shown off a great discussion to a bunch of new people and helped this community grow.
     great_share:
-      name: Great Share
+      name: Sè-kài Gâu Pun Tiuⁿ
       description: Shared a post with 1000 unique visitors
       long_description: |
         This badge is granted for sharing a link that was clicked by 1000 outside visitors. Wow! You’ve promoted an interesting discussion to a huge new audience, and helped us grow our community in a big way!
@@ -4489,17 +4489,17 @@ tai_Rom:
       long_description: |
         This badge is granted the first time you read a long topic with more than 100 replies. Reading a conversation closely helps you follow the discussion, understand different viewpoints, and leads to more interesting conversations. The more you read, the better the conversation gets. As we like to say, Reading is Fundamental! :slight_smile:
     popular_link:
-      name: Popular Link
+      name: Chhut Bāng-liân-á
       description: Posted an external link with 50 clicks
       long_description: |
         This badge is granted when a link you shared gets 50 clicks. Thanks for posting a useful link that added interesting context to the conversation!
     hot_link:
-      name: Hot Link
+      name: Bāng-liân-á Chhut Miâ
       description: Posted an external link with 300 clicks
       long_description: |
         This badge is granted when a link you shared gets 300 clicks. Thanks for posting a fascinating link that drove the conversation forward and illuminated the discussion!
     famous_link:
-      name: Famous Link
+      name: Bāng-liân-á Chhut Thâu Thiⁿ
       description: Posted an external link with 1000 clicks
       long_description: |
         This badge is granted when a link you shared gets 1000 clicks. Wow! You posted a link that significantly improved the conversation by adding essential detail, context, and information. Great work!
@@ -4549,22 +4549,22 @@ tai_Rom:
       long_description: |
         This badge is granted when you have 500 liked posts and give 1000 or more likes in return. Wow! You’re a model of generosity and mutual appreciation :two_hearts:.
     first_emoji:
-      name: First Emoji
-      description: Used an Emoji in a Post
+      name: Thâu Pái Ēng Ang-á-tô͘
+      description: Pho͘ bûn ū ēng tio̍h ang-á-tô͘
       long_description: |
         This badge is granted the first time you add an Emoji to your post :thumbsup:. Emoji let you convey emotion in your posts, from happiness :smiley: to sadness :anguished: to anger :angry: and everything in between :sunglasses:. Just type a : (colon) or press the Emoji toolbar button in the editor to select from hundreds of choices :ok_hand:
     first_mention:
-      name: First Mention
+      name: Thâu Pái Tiám Miâ
       description: Mentioned a user in a post
       long_description: |
         This badge is granted the first time you mention someone’s @username in your post. Each mention generates a notification to that person, so they know about your post. Just begin typing @ (at symbol) to mention any user or, if allowed, group – it’s a convenient way to bring something to their attention.
     first_onebox:
-      name: First Onebox
+      name: Thâu Pái Pho͘ Bāng-liân-siuⁿ
       description: Posted a link that was oneboxed
       long_description: |
         This badge is granted the first time you post a link on a line by itself, which automatically expanded into a onebox with a summary, title, and (when available) picture.
     first_reply_by_email:
-      name: First Reply By Email
+      name: Thâu Pái Ùi Tiān-phoe Tap-ho̍k
       description: Replied to a post via email
       long_description: |
         This badge is granted the first time you reply to a post via email :e-mail:.
@@ -4574,17 +4574,17 @@ tai_Rom:
       long_description: |
         This badge is granted to congratulate two new users each month for their excellent overall contributions, as measured by how often their posts were liked, and by whom.
     enthusiast:
-      name: Enthusiast
+      name: MATCH
       description: Visited 10 consecutive days
       long_description: |
         This badge is granted for visiting 10 consecutive days. Thanks for sticking with us for over a week!
     aficionado:
-      name: Aficionado
+      name: Ōaⁿ Thiap
       description: Visited 100 consecutive days
       long_description: |
         This badge is granted for visiting 100 consecutive days. That’s more than three months!
     devotee:
-      name: Devotee
+      name: Sí Tiong
       description: Visited 365 consecutive days
       long_description: |
         This badge is granted for visiting 365 consecutive days. Wow, an entire year!

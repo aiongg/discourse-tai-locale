@@ -33,7 +33,7 @@ tai_Han:
       long_date_with_year_without_time: YYYY年M月D日
       long_date_without_year_with_linebreak: M月D日 <br/>LT
       long_date_with_year_with_linebreak: YYYY年M月D日 <br/>LT
-      wrap_ago: '%{date}進前'
+      wrap_ago: '%{date} 進前'
       tiny:
         half_a_minute: < 1分
         less_than_x_seconds:
@@ -45,7 +45,7 @@ tai_Han:
         x_minutes:
           other: '%{count}分'
         about_x_hours:
-          other: '%{count}点鐘'
+          other: '%{count}点'
         x_days:
           other: '%{count}工'
         x_months:
@@ -140,7 +140,7 @@ tai_Han:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: "只个網站恰新个、只馬塊使用建立模式。\
-              新入來个使用者宅着成員級一、逐工閣會收精選電批。\
+              新入來个使用者宅着交情坎斬一、逐工閣會收精選電批。\
               %{count}个使用者加入了、建立模式自動關兆。"
     bootstrap_mode_disabled: 建立模式24点鐘了自動關兆。
     themes:
@@ -182,7 +182,7 @@ tai_Han:
     sign_up: 登記
     log_in: 入站
     age: 年歲
-    joined: 創立對
+    joined: 加入
     admin_title: 管理
     show_more: 看恰多
     show_help: options
@@ -200,7 +200,7 @@ tai_Han:
     desktop_view: 電腦畫面
     you: 汝
     or: 也
-    now: 抵仔
+    now: 𫔘仔
     read_more: 看恰多
     more: 恰多
     less: 恰少
@@ -229,7 +229,7 @@ tai_Han:
       our_moderators: 咱个埕長
       moderators: 埕長
       stat:
-        all_time: 所有个
+        all_time: 自來
         last_7_days: 過去7工
         last_30_days: 過去30工
       like_count: 甲意
@@ -239,7 +239,7 @@ tai_Han:
       active_user_count: 線頂用者
       contact: 連絡
       contact_info: >-
-        萬一抵着緊急狀態、請送批乎 %{contact_info} 甲阮連絡。
+        那大志真大條、請送批乎 %{contact_info} 甲阮連絡。
     bookmarked:
       title: 記号
       clear_bookmarks: 除記号
@@ -310,7 +310,7 @@ tai_Han:
     topic_count_new:
       other: '看%{count}條新pho͘个話題'
     preview: 影一下
-    cancel: 脯去
+    cancel: hú去
     deleting: 當塊硯捒...
     save: 儉
     saving: 當塊儉...
@@ -412,7 +412,7 @@ tai_Han:
         website: 網站
         username: 用者名
         email: 電批
-        name: 姓名
+        name: 名姓
         fields: Fields
       user_percentage:
         summary:
@@ -791,11 +791,11 @@ tai_Han:
         icon: Select an icon
         image: Upload an image
     user_action_groups:
-      '1': Likes
+      '1': 甲意
       '2': Likes
-      '3': Bookmarks
-      '4': Topics
-      '5': Replies
+      '3': 記号
+      '4': 話題
+      '5': 答復
       '6': Responses
       '7': Mentions
       '9': Quotes
@@ -894,22 +894,22 @@ tai_Han:
       activity_stream: 脚跡
       preferences: 設定
       feature_topic_on_profile:
-        open_search: 揀新个話題
+        open_search: 揀特別話題
         title: 揀一條話題
         search_label: 對標題尋話題
         save: 儉
         clear:
-          title: Clear
+          title: Hú去
           warning: Are you sure you want to clear your featured topic?
       use_current_timezone: Use Current Timezone
       profile_hidden: This user's public profile is hidden.
-      expand_profile: 拖開
-      collapse_profile: 拖起來
+      expand_profile: thoah開
+      collapse_profile: thoah起來
       bookmarks: 記号
       bio: 有關我
       timezone: 時區
       invited_by: 邀請人
-      trust_level: 成員級
+      trust_level: 交情坎斬
       notifications: 通知
       statistics: 統計
       desktop_notifications:
@@ -924,8 +924,8 @@ tai_Han:
         enable: 允准通知
         each_browser_note: '註：換閱覽器愛另外設定。'
         consent_prompt: 汝个pho͘文那有新个答復、汝咁愛領通知？
-      dismiss: Dismiss
-      dismiss_notifications: Dismiss All
+      dismiss: 知唖
+      dismiss_notifications: 朗知唖
       dismiss_notifications_tooltip: Mark all unread notifications as read
       first_notification: Your first notification! Select it to begin.
       dynamic_favicon: Show counts on browser icon
@@ -1081,7 +1081,7 @@ tai_Han:
         emoji: lock emoji
         action: 再設暗号電批送乎我
         set_password: 設暗号
-        choose_new: 重設暗号
+        choose_new: 再設暗号
         choose: 設暗号
       second_factor_backup:
         title: Two-Factor Backup Codes
@@ -1125,8 +1125,7 @@ tai_Han:
           target="_blank">iOS</a>) and enter your authentication code.
         disable_description: Please enter the authentication code from your app
         show_key_description: Enter manually
-        short_description: |
-          Protect your account with one-time use security codes.
+        short_description: 用孤擺安全碼保護汝个口座。
         extended_description: >
           Two-factor authentication adds extra security to your account by
           requiring a one-time token in addition to your password. Tokens can be
@@ -1136,8 +1135,7 @@ tai_Han:
           href="https://www.google.com/search?q=authenticator+apps+for+ios">iOS</a>
           devices.
         oauth_enabled_warning: >-
-          Please note that social logins will be disabled once two-factor
-          authentication has been enabled on your account.
+          請注意、二步驗明行氣了後、社交口座（FB・Google云云）入站無効。
         use: Use Authenticator app
         enforced_notice: >-
           You are required to enable two-factor authentication before accessing
@@ -1216,7 +1214,7 @@ tai_Han:
         title: 口座背景圖
         instructions: Profile headers will be centered and have a default width of 1110px.
       change_card_background:
-        title: User Card Background
+        title: 用者片背景圖
         instructions: Background images will be centered and have a default width of 590px.
       change_featured_topic:
         title: 特別話題
@@ -1233,7 +1231,7 @@ tai_Han:
         update_email: 換電批
         set_primary: 揀主電批
         destroy: 刣電批
-        add_email: Add Alternate Email
+        add_email: 加次電批
         sso_override_instructions: Email can be updated from SSO provider.
         no_secondary: No secondary emails
         instructions: 袂公開顯示。阮會保密。
@@ -1266,12 +1264,12 @@ tai_Han:
             authentication.
           generic: 'Your %{provider} account will be used for authentication.'
       name:
-        title: 姓名
-        instructions: 汝个姓名（在汝寫・公開顯示个）
-        instructions_required: 汝个姓名
-        required: 請輸入姓名
-        too_short: 姓名箱短
-        ok: 姓名 OK
+        title: 名姓
+        instructions: 汝个名姓（在汝寫・會公開顯示）
+        instructions_required: 汝个名姓
+        required: 請輸入名姓
+        too_short: 名姓箱短
+        ok: 名姓 OK
       username:
         title: "用者名"
         instructions: "字母甲數字・勿籠格・恰短"
@@ -1315,7 +1313,7 @@ tai_Han:
       last_posted: 頂擺pho͘文
       last_emailed: 頂擺送電批
       last_seen: Seen
-      created: 創立
+      created: 起个
       log_out: 出站
       location: 位置
       website: 網站
@@ -1457,42 +1455,42 @@ tai_Han:
       summary:
         title: 報表
         stats: 統計
-        time_read: read time
+        time_read: 塊讀
         recent_time_read: recent read time
         topic_count:
-          other: topics created
+          other: 起話題
         post_count:
-          other: posts created
+          other: Pho͘文
         likes_given:
-          other: given
+          other: 我乎人
         likes_received:
-          other: received
+          other: 人乎我
         days_visited:
-          other: days visited
+          other: 工來坐
         topics_entered:
-          other: topics viewed
+          other: 看話題
         posts_read:
-          other: posts read
+          other: 讀pho͘文
         bookmark_count:
           other: 記号
-        top_replies: Top Replies
-        no_replies: No replies yet.
-        more_replies: More Replies
-        top_topics: Top Topics
-        no_topics: No topics yet.
-        more_topics: More Topics
-        top_badges: Top Badges
-        no_badges: No badges yet.
-        more_badges: More Badges
-        top_links: Top Links
-        no_links: No links yet.
-        most_liked_by: Most Liked By
-        most_liked_users: Most Liked
-        most_replied_to_users: Most Replied To
-        no_likes: No likes yet.
-        top_categories: Top Categories
-        topics: Topics
-        replies: Replies
+        top_replies: 銃〔答復〕
+        no_replies: 夭無答復。
+        more_replies: 恰多答復
+        top_topics: 銃〔話題〕
+        no_topics: 夭無話題。
+        more_topics: 恰多話題
+        top_badges: 銃〔槳排〕
+        no_badges: 夭無槳排。
+        more_badges: 恰多槳排
+        top_links: 銃〔網連仔〕
+        no_links: 夭無網連仔。
+        most_liked_by: 上甲意我
+        most_liked_users: 我上甲意
+        most_replied_to_users: 講上有話
+        no_likes: 夭無人市甲意。
+        top_categories: 銃〔埕〕
+        topics: 話題
+        replies: 答復
       ip_address:
         title: Last IP Address
       registration_ip_address:
@@ -1507,7 +1505,7 @@ tai_Han:
         title: Primary Group
         none: (none)
       filters:
-        all: All
+        all: 總看
       stream:
         posted_by: Posted by
         sent_by: Sent by
@@ -1537,7 +1535,7 @@ tai_Han:
       close: 關
       dismiss_error: Dismiss error
     close: 關
-    assets_changed_confirm: 平台抵更新。咁卜換最新版本？
+    assets_changed_confirm: 平台𫔘更新。咁卜換最新版本？
     logout: 汝已經出站。
     refresh: Refresh
     home: 主頁
@@ -1610,7 +1608,7 @@ tai_Han:
     time_read_recently: '%{time_read} recently'
     time_read_tooltip: '%{time_read} total time read'
     time_read_recently_tooltip: '%{time_read} total time read (%{recent_time_read} in the last 60 days)'
-    last_reply_lowercase: last reply
+    last_reply_lowercase: 更新
     replies_lowercase:
       other: 答復
     signup_cta:
@@ -1654,9 +1652,9 @@ tai_Han:
     email: 電批
     username: 用者名
     last_seen: 線頂
-    created: 創立時
-    created_lowercase: 創立
-    trust_level: 成員級
+    created: 起个
+    created_lowercase: 起个
+    trust_level: 交情坎斬
     search_hint: '用者名・電批・也IP網址'
     create_account:
       disclaimer: >-
@@ -1668,11 +1666,11 @@ tai_Han:
         Something went wrong, perhaps this email is already registered, try the
         forgot password link
     forgot_password:
-      title: 重設暗号
+      title: 再設暗号
       action: 暗号放袂記
       invite: >-
-        打用者名也是電批、重設暗号批隨送乎汝。
-      reset: 重設暗号
+        打用者名也是電批、再設暗号批隨送乎汝。
+      reset: 再設暗号
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
         receive an email with instructions on how to reset your password
@@ -1816,7 +1814,7 @@ tai_Han:
       your_email: '汝个口座電批是 <b>%{email}</b>.'
       accept_invite: 接受請帖
       success: 汝个口座建立好、已經入站唖。
-      name_label: 姓名
+      name_label: 名姓
       password_label: 暗号
       optional_description: (在汝寫)
     password_reset:
@@ -1851,11 +1849,11 @@ tai_Han:
       plus_subcategories:
         other: '+ %{count} 片專題埕'
     select_kit:
-      default_header_text: Select...
+      default_header_text: 揀...
       no_content: No matches found
-      filter_placeholder: Search...
-      filter_placeholder_with_any: Search or create...
-      create: 'Create: ''%{content}'''
+      filter_placeholder: 尋...
+      filter_placeholder_with_any: 尋也起...
+      create: '起： ''%{content}'''
       max_content_reached:
         other: 'You can only select %{count} items.'
       min_content_not_reached:
@@ -1967,17 +1965,16 @@ tai_Han:
       topic_featured_link_placeholder: Enter link shown with title.
       remove_featured_link: Remove link from topic.
       reply_placeholder: >-
-        Type here. Use Markdown, BBCode, or HTML to format. Drag or paste
-        images.
-      reply_placeholder_no_images: 'Type here. Use Markdown, BBCode, or HTML to format.'
+        者打字。Markdown・BBCode・HTML朗會用得。圖拖・搭過來。
+      reply_placeholder_no_images: '者打字。Markdown・BBCode・HTML朗會用得。'
       reply_placeholder_choose_category: Select a category before typing here.
-      view_new_post: View your new post.
+      view_new_post: Pho͘唖、來看覓。
       saving: 當塊儉
       saved: 儉唖！
       saved_draft: 當塊寫草稿。市落去繼續。
       uploading: 當塊藏...
-      show_preview: show preview &raquo;
-      hide_preview: '&laquo; hide preview'
+      show_preview: 影一下 &raquo;
+      hide_preview: '&laquo; thoah起來'
       quote_post_title: Quote whole post
       bold_label: 粗
       bold_title: 粗体
@@ -2143,18 +2140,18 @@ tai_Han:
         reaction: new reaction
         votes_released: Vote was released
     upload_selector:
-      title: 藏一幅圖
-      title_with_attachments: 藏一幅圖也是一个檔案
+      title: 圖卜起去
+      title_with_attachments: 圖也是檔案卜起去
       from_my_computer: 對我个設備
-      from_the_web: 對網路頂高
+      from_the_web: 對網路頂
       remote_tip: 圖个網連仔
-      remote_tip_with_attachments: 'link to image or file %{authorized_extensions}'
-      local_tip: select images from your device
-      local_tip_with_attachments: 'select images or files from your device %{authorized_extensions}'
+      remote_tip_with_attachments: '圖也檔案个連仔 %{authorized_extensions}'
+      local_tip: 對我个設備揀圖
+      local_tip_with_attachments: '對我个設備揀圖・檔案 %{authorized_extensions}'
       hint: (you can also drag & drop into the editor to upload them)
-      hint_for_supported_browsers: you can also drag and drop or paste images into the editor
-      uploading: 當塊藏...
-      select_file: Select File
+      hint_for_supported_browsers: 圖・檔案拖來編輯仔叱放
+      uploading: 當塊起去...
+      select_file: 揀檔案
       default_image_alt_text: image
     search:
       sort_by: 照順序
@@ -2324,7 +2321,7 @@ tai_Han:
         other: '%{count} posts in topic'
       create: Pho͘文
       create_long: Create a new Topic
-      open_draft: 草稿拖開
+      open_draft: 草稿thoah開
       private_message: 寫訊息
       archive_message:
         help: 共只篇訊息收藏
@@ -2609,7 +2606,7 @@ tai_Han:
         remove_banner: Remove Banner Topic
       reply:
         title: 答復
-        help: begin composing a reply to this topic
+        help: 來寫一通答復
       clear_pin:
         title: Clear pin
         help: >-
@@ -2618,15 +2615,13 @@ tai_Han:
       share:
         title: 分張
         extended_title: 網連仔分張
-        help: 共只條話題个網連仔分張
+        help: 宅只條話題个網連仔來分張
       print:
         title: Print
         help: Open a printer friendly version of this topic
       flag_topic:
-        title: 舉旗仔
-        help: >-
-          privately flag this topic for attention or send a private notification
-          about it
+        title: 揷旗仔
+        help: 共只條話題点油做記号。干焦管理員看會着。
         success_message: You successfully flagged this topic.
       make_public:
         title: Convert to Public Topic
@@ -2832,14 +2827,14 @@ tai_Han:
     post:
       quote_reply: 引用
       quote_share: 分享
-      edit_reason: '理由: '
+      edit_reason: '理由：'
       post_number: 'pho͘ %{number}'
       ignored: Ignored content
       wiki_last_edited_on: wiki last edited on
       last_edited_on: post last edited on
       reply_as_new_topic: Reply as linked Topic
       reply_as_new_private_message: Reply as new message to the same recipients
-      continue_discussion: 'Continuing the discussion from %{postLink}:'
+      continue_discussion: '對%{postLink}繼續討論：'
       follow_quote: 跳甲引用个pho͘文
       show_full: 顯示歸篇
       show_hidden: View ignored content.
@@ -2906,8 +2901,8 @@ tai_Han:
       few_likes_left: Thanks for sharing the love! You only have a few likes left for today.
       controls:
         reply: begin composing a reply to this post
-        like: 市甲意
-        has_liked: you've liked this post
+        like: 甲意
+        has_liked: 甲意唖
         read_indicator: members who read this post
         undo_like: undo like
         edit: 編輯只篇po͘文
@@ -3226,7 +3221,7 @@ tai_Han:
         none: no subcategories
     flagging:
       title: Thanks for helping to keep our community civil!
-      action: 共pho͘文舉旗仔
+      action: 共pho͘文揷旗仔
       take_action: Take Action...
       take_action_options:
         default:
@@ -3276,7 +3271,7 @@ tai_Han:
           other: '春%{count}字'
     flagging_topic:
       title: Thanks for helping to keep our community civil!
-      action: 舉旗仔
+      action: 揷旗仔
       notify_action: Message
     topic_map:
       title: Topic Summary
@@ -3463,7 +3458,7 @@ tai_Han:
       application:
         title: Application
         create: '%{shortcut} Pho͘新个話題'
-        notifications: '%{shortcut} 通知拖開'
+        notifications: '%{shortcut} 通知thoah開'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
         show_incoming_updated_topics: '%{shortcut} Show updated topics'
@@ -3538,7 +3533,7 @@ tai_Han:
         community:
           name: Community
         trust_level:
-          name: 成員級
+          name: 交情坎斬
         other:
           name: Other
         posting:

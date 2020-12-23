@@ -140,7 +140,7 @@ tai_Rom:
       email notifications of any kind will be sent.
     bootstrap_mode_enabled:
       other: >-
-        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h sêng-oân-kip 1, ta̍k kang koh ē siu cheng-soán tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek chū-tōng koaiⁿ tiāu.
+        Chit ê bāng-chām khah sin ·ê, chit-má teh sú-iōng kiàn-li̍p bô͘-sek. Sin ji̍p lâi ê sú-iōng-chiá the̍h tio̍h kau-chêng khám-chām 1, ta̍k kang koh ē siu cheng-soán tiān-phoe. %{count} ê sú-iōng-chiá ka ji̍p liáu, kiàn-li̍p bô͘-sek chū-tōng koaiⁿ tiāu.
     bootstrap_mode_disabled: Kiàn-li̍p bô͘-sek 24 tiám-cheng liáu chū-tōng koaiⁿ tiāu.
     themes:
       default_description: Chiàu goân
@@ -228,7 +228,7 @@ tai_Rom:
       our_moderators: Lán ê Tiâⁿ-tiúⁿ
       moderators: Tiâⁿ-tiúⁿ
       stat:
-        all_time: Só͘-ū ê
+        all_time: Chū-lâi
         last_7_days: Kòe khì 7k
         last_30_days: Kòe khì 30k
       like_count: Kah-ì
@@ -238,7 +238,7 @@ tai_Rom:
       active_user_count: Sòaⁿ-téng iōng-chiá
       contact: Liân-lo̍k
       contact_info: >-
-        Bān-it tú tio̍h kín-kip chōng-thài, chhiáⁿ sàng phoe hō͘ %{contact_info} kap gún liân-lo̍k.
+        Nā tāi-chì chin tōa tiâu, chhiáⁿ sàng phoe hō͘ %{contact_info} kap gún liân-lo̍k.
     bookmarked:
       title: Kì-hō
       clear_bookmarks: Tû Kì-hō
@@ -263,14 +263,14 @@ tai_Rom:
       invalid_custom_datetime: "The date and time you provided is invalid, please try again."
       list_permission_denied: Lí bô koân-hān khòaⁿ chit ūi sú-iōng-chiá chò ·ê kì-hō.
       no_user_bookmarks: >-
-        Lí bô jīm-hô chò kì-hō ê pho͘ bûn; chò kì-hō hō͘ lí khah lī-piān
-        thiàu kah chí-tēng ê pho͘ bûn.
+        Lí bô jīm-hô chò kì-hō ê pho͘-bûn; chò kì-hō hō͘ lí khah lī-piān
+        thiàu kah chí-tēng ê pho͘-bûn.
       auto_delete_preference:
         label: Automatically delete
         never: Never
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
-      search_placeholder: "Ùi miâ, phiau-tê, iā pho͘ bûn lōe-iông chhōe kì-hō"
+      search_placeholder: "Ùi miâ, phiau-tê, iā pho͘-bûn lōe-iông chhōe kì-hō"
       search: Chhōe
       reminders:
         later_today: Khah-thêng-á
@@ -415,7 +415,7 @@ tai_Rom:
         website: Bāng-chām
         username: Iōng-chiá miâ
         email: Tiān-phoe
-        name: Sèⁿ-miâ
+        name: Miâ-sèⁿ
         fields: Fields
       user_percentage:
         summary:
@@ -744,7 +744,7 @@ tai_Rom:
         owner: Owner
         forbidden: You're not allowed to view the members.
       topics: Ōe-tê
-      posts: Pho͘ bûn
+      posts: Pho͘-bûn
       mentions: Tiám miâ
       messages: Sìn-sit
       notification_level: Default notification level for group messages
@@ -793,11 +793,11 @@ tai_Rom:
         icon: Select an icon
         image: Upload an image
     user_action_groups:
-      "1": Likes
+      "1": Kah-ì
       "2": Likes
-      "3": Bookmarks
-      "4": Topics
-      "5": Replies
+      "3": Kì-hō
+      "4": Ōe-tê
+      "5": Tap-ho̍k
       "6": Responses
       "7": Mentions
       "9": Quotes
@@ -818,7 +818,7 @@ tai_Rom:
         save: Save Order
         apply_all: Apply
         position: Position
-      posts: Pho͘ bûn
+      posts: Pho͘-bûn
       topics: Ōe-tê
       latest: Sin thiⁿ ·ê
       latest_by: latest by
@@ -859,11 +859,11 @@ tai_Rom:
       edit: Ōaⁿ Siat-tēng
       download_archive:
         button_text: Lia̍h Choân-pō͘
-        confirm: Lí kám khak-tēng beh kā lí só͘ ū ê pho͘ bûn lia̍h ·lo̍h ·lâi?
+        confirm: Lí kám khak-tēng beh kā lí só͘ ū ê pho͘-bûn lia̍h ·lo̍h ·lâi?
         success: >-
           Download initiated, you will be notified via message when the process
           is complete.
-        rate_limit_error: "Ta̍k kang thang lia̍h pho͘ bûn chi̍t pái, miă-chài koh chhì."
+        rate_limit_error: "Ta̍k kang thang lia̍h pho͘-bûn chi̍t pái, miă-chài koh chhì."
       new_private_message: Sàng phoe
       private_message: Sàng phoe
       private_messages: Sìn-sit
@@ -896,22 +896,22 @@ tai_Rom:
       activity_stream: Kha-jiah
       preferences: Siat-tēng
       feature_topic_on_profile:
-        open_search: Kéng Sin ê Ōe-tê
+        open_search: Kéng Te̍k-pia̍t Ōe-tê
         title: Kéng Chi̍t Tiâu Ōe-tê
         search_label: Ùi phiau-tê chhōe Ōe-tê
         save: Khiām
         clear:
-          title: Clear
+          title: Hú ·khì
           warning: Are you sure you want to clear your featured topic?
       use_current_timezone: Use Current Timezone
       profile_hidden: This user's public profile is hidden.
       expand_profile: Thoah khui
-      collapse_profile: Thoah ·khí ·lâi
+      collapse_profile: Thoah ·khiài
       bookmarks: Kì-hō
       bio: Iú-koan góa
       timezone: Sî-khu
       invited_by: Iau-chhiáⁿ lâng
-      trust_level: Sêng-oân-kip
+      trust_level: Kau-chêng Khám-chām
       notifications: Thong-ti
       statistics: Thóng-kè
       desktop_notifications:
@@ -926,8 +926,8 @@ tai_Rom:
         enable: Ún-chún Thong-ti
         each_browser_note: "Chù: Ōaⁿ oa̍t-lám-khì ài lēng-gōa siat-tēng."
         consent_prompt: Lí ê pho͘-bûn nā ū sin ê tap-ho̍k, lí kám ài niá thong-ti?
-      dismiss: Dismiss
-      dismiss_notifications: Dismiss All
+      dismiss: Chai ·a
+      dismiss_notifications: Lóng chai ·a
       dismiss_notifications_tooltip: Mark all unread notifications as read
       first_notification: Your first notification! Select it to begin.
       dynamic_favicon: Show counts on browser icon
@@ -997,7 +997,7 @@ tai_Rom:
       watched_categories: Teh Khòaⁿ
       watched_categories_instructions: >-
         Chia ê tiâⁿ só͘ ū ê ōe-tê sǹg sī lí teh khòaⁿ.
-        Sin ê ōe-tê kap só͘ ū ê pho͘ bûn lí ē siu thong-ti,
+        Sin ê ōe-tê kap só͘ ū ê pho͘-bûn lí ē siu thong-ti,
         sin pho͘ gia̍h mā hián-sī tī phiau-tê piⁿ-·a.
       tracked_categories: Teh Tòe
       tracked_categories_instructions: >-
@@ -1035,7 +1035,7 @@ tai_Rom:
       allowed_pm_users_instructions: Only allow PMs from these users.
       allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
       ignored_users: Làng ·kòe
-      ignored_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê pho͘ bûn / thong-ti / su-sìn, lóng làng ·kòe.
+      ignored_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê pho͘-bûn / thong-ti / su-sìn, lóng làng ·kòe.
       tracked_topics_link: Hián-sī
       automatically_unpin_topics: Automatically unpin topics when I reach the bottom.
       apps: Apps
@@ -1081,9 +1081,9 @@ tai_Rom:
         in_progress: (tng teh sàng tiān-phoe)
         error: (chhò-gō͘)
         emoji: lock emoji
-        action: Chài siat àm-hō tiān-phoe sàng hō͘ ·góa
+        action: Chài-siat àm-hō tiān-phoe sàng hō͘ ·góa
         set_password: Siat Àm-hō
-        choose_new: Chài siat àm-hō
+        choose_new: Chài-siat àm-hō
         choose: Siat àm-hō
       second_factor_backup:
         title: Two-Factor Backup Codes
@@ -1128,7 +1128,7 @@ tai_Rom:
         disable_description: Please enter the authentication code from your app
         show_key_description: Enter manually
         short_description: |
-          Protect your account with one-time use security codes.
+          Ēng ko͘ pái an-choân-bé pó-hō͘ lí ê kháu-chō.
         extended_description: >
           Two-factor authentication adds extra security to your account by
           requiring a one-time token in addition to your password. Tokens can be
@@ -1138,8 +1138,8 @@ tai_Rom:
           href="https://www.google.com/search?q=authenticator+apps+for+ios">iOS</a>
           devices.
         oauth_enabled_warning: >-
-          Please note that social logins will be disabled once two-factor
-          authentication has been enabled on your account.
+          Chhiáⁿ chù-ì, nn̄g pō͘ giām-bêng kiâⁿ-khì liáu āu,
+          siā-kau kháu-chō (FB, Google, u.u.) ji̍p chām bô hāu.
         use: Use Authenticator app
         enforced_notice: >-
           You are required to enable two-factor authentication before accessing
@@ -1218,7 +1218,7 @@ tai_Rom:
         title: Kháu-chō Pōe-kéng Tô͘
         instructions: Profile headers will be centered and have a default width of 1110px.
       change_card_background:
-        title: User Card Background
+        title: Iōng-chiá Phìⁿ Pōe-kéng Tô͘
         instructions: Background images will be centered and have a default width of 590px.
       change_featured_topic:
         title: Te̍k-pia̍t Ōe-tê
@@ -1235,7 +1235,7 @@ tai_Rom:
         update_email: Ōaⁿ Tiān-phoe
         set_primary: Kéng Chú Tiān-phoe
         destroy: Thâi Tiān-phoe
-        add_email: Add Alternate Email
+        add_email: Ke Chhù Tiān-phoe
         sso_override_instructions: Email can be updated from SSO provider.
         no_secondary: No secondary emails
         instructions: Bē kong-khai hián-sī, goán ē pó-bi̍t.
@@ -1268,12 +1268,12 @@ tai_Rom:
             authentication.
           generic: "Your %{provider} account will be used for authentication."
       name:
-        title: Sèⁿ-miâ
-        instructions: lí ê sèⁿ-miâ (chāi lí siá, kong-khai hián-sī ·ê)
-        instructions_required: Lí ê sèⁿ-miâ
-        required: Chhiáⁿ su-ji̍p sèⁿ-miâ
-        too_short: Sèⁿ-miâ siuⁿ té
-        ok: Sèⁿ-miâ OK
+        title: Miâ-sèⁿ
+        instructions: lí ê miâ-sèⁿ (chāi lí siá, ē kong-khai hián-sī)
+        instructions_required: Lí ê miâ-sèⁿ
+        required: Chhiáⁿ su-ji̍p miâ-sèⁿ
+        too_short: Miâ-sèⁿ siuⁿ té
+        ok: Miâ-sèⁿ OK
       username:
         title: "Iōng-chiá miâ"
         instructions: "jī-bó kap sò͘-jī, mài làng keh, khah té"
@@ -1318,7 +1318,7 @@ tai_Rom:
       last_posted: Téng pái pho͘ bûn
       last_emailed: Téng pái sàng tiān-phoe
       last_seen: Seen
-      created: Chhòng-li̍p
+      created: Khí ·ê
       log_out: Chhut Chām
       location: Ūi-tì
       website: Bāng-chām
@@ -1359,7 +1359,7 @@ tai_Rom:
         every_six_months: pòaⁿ tang
       email_level:
         title: >-
-          Nā ū lâng kā góa ê pho͘ bûn ín-iōng / tap-ho̍k,
+          Nā ū lâng kā góa ê pho͘-bûn ín-iōng / tap-ho̍k,
           kā góa tiám miâ, iā sī iau-chhiáⁿ góa khòaⁿ bó͘-mih ōe-tê,
           chhiáⁿ sàng tiān-phoe thong-ti
         always: lóng ài
@@ -1462,42 +1462,42 @@ tai_Rom:
       summary:
         title: Pò-pió
         stats: Thóng-kè
-        time_read: read time
+        time_read: teh tha̍k
         recent_time_read: recent read time
         topic_count:
-          other: topics created
+          other: khí ōe-tê
         post_count:
-          other: posts created
+          other: pho͘ bûn
         likes_given:
-          other: given
+          other: góa hō͘ ·lâng
         likes_received:
-          other: received
+          other: lâng hō͘ ·góa
         days_visited:
-          other: days visited
+          other: kang lâi chē
         topics_entered:
-          other: topics viewed
+          other: khòaⁿ ōe-tê
         posts_read:
-          other: posts read
+          other: tha̍k pho͘ bûn
         bookmark_count:
           other: kì-hō
-        top_replies: Top Replies
-        no_replies: No replies yet.
-        more_replies: More Replies
-        top_topics: Top Topics
-        no_topics: No topics yet.
-        more_topics: More Topics
-        top_badges: Top Badges
-        no_badges: No badges yet.
-        more_badges: More Badges
-        top_links: Top Links
-        no_links: No links yet.
-        most_liked_by: Most Liked By
-        most_liked_users: Most Liked
-        most_replied_to_users: Most Replied To
-        no_likes: No likes yet.
-        top_categories: Top Categories
-        topics: Topics
-        replies: Replies
+        top_replies: Chhèng (Tap-ho̍k)
+        no_replies: Iáu bô tap-ho̍k.
+        more_replies: Khah chē tap-ho̍k
+        top_topics: Chhèng (Ōe-tê)
+        no_topics: Iáu bô ōe-tê.
+        more_topics: Khah chē ōe-tê
+        top_badges: Chhèng (Chióng-pâi)
+        no_badges: Iáu bô chióng-pâi.
+        more_badges: Khah chē chióng-pâi
+        top_links: Chhèng (Bāng-liân-á)
+        no_links: Iáu bô bāng-liân-á.
+        most_liked_by: Siōng Kah-ì Góa
+        most_liked_users: Góa Siōng Kah-ì
+        most_replied_to_users: Kóng Siōng Ū Ōe
+        no_likes: Iáu bô lâng chhi̍h kah-ì.
+        top_categories: Chhèng (Tiâⁿ)
+        topics: Ōe-tê
+        replies: Tap-ho̍k
       ip_address:
         title: Last IP Address
       registration_ip_address:
@@ -1512,7 +1512,7 @@ tai_Rom:
         title: Primary Group
         none: (none)
       filters:
-        all: All
+        all: Chóng khòaⁿ
       stream:
         posted_by: Posted by
         sent_by: Sent by
@@ -1615,7 +1615,7 @@ tai_Rom:
     time_read_recently: "%{time_read} recently"
     time_read_tooltip: "%{time_read} total time read"
     time_read_recently_tooltip: "%{time_read} total time read (%{recent_time_read} in the last 60 days)"
-    last_reply_lowercase: last reply
+    last_reply_lowercase: keng-sin
     replies_lowercase:
       other: tap-ho̍k
     signup_cta:
@@ -1642,7 +1642,7 @@ tai_Rom:
         There are <b>%{replyCount}</b> replies with an estimated read time of
         <b>%{readingTime} minutes</b>.
       enable: Summarize This Topic
-      disable: Hián-sī só͘ ū ê pho͘ bûn
+      disable: Hián-sī só͘ ū ê pho͘-bûn
     deleted_filter:
       enabled_description: "This topic contains deleted posts, which have been hidden."
       disabled_description: Deleted posts in the topic are shown.
@@ -1660,9 +1660,9 @@ tai_Rom:
     email: Tiān-phoe
     username: Iōng-chiá miâ
     last_seen: Sòaⁿ téng
-    created: Chhòng-li̍p sî
-    created_lowercase: chhòng-li̍p
-    trust_level: Sêng-oân-kip
+    created: Khí ·ê
+    created_lowercase: khí ·ê
+    trust_level: Kau-chêng Khám-chām
     search_hint: "iōng-chiá miâ, tiān-phoe, iā IP bāng-chí"
     create_account:
       disclaimer: >-
@@ -1674,12 +1674,12 @@ tai_Rom:
         Hoat-seng chhò-gō͘. Hoān-sè chit ê tiān-phoe í-keng teng kì ·a.
         Bô, chhi̍h "àm-hō pàng bē kì" ê bāng-liân-á.
     forgot_password:
-      title: Têng Siat Àm-hō
+      title: Chài-siat Àm-hō
       action: Àm-hō pàng bē kì
       invite: >-
         Phah iōng-chiá miâ ā sī tiān-phoe,
-        têng siat àm-hō phoe sûi kià hō͘ ·lí.
-      reset: Têng Siat Àm-hō
+        chài-siat àm-hō phoe sûi kià hō͘ ·lí.
+      reset: Chài-siat Àm-hō
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
         receive an email with instructions on how to reset your password
@@ -1756,7 +1756,7 @@ tai_Rom:
       rate_limit: Please wait before trying to log in again.
       blank_username: Please enter your email or username.
       blank_username_or_password: 'Please enter your email or username, and password.'
-      reset_password: Chài Siat Àm-hō
+      reset_password: Chài-siat Àm-hō
       logging_in: Tng teh ji̍p chām...
       or: Ā sī
       authenticating: Authenticating...
@@ -1823,7 +1823,7 @@ tai_Rom:
       your_email: "Lí ê kháu-chō tiān-phoe sī <b>%{email}</b>."
       accept_invite: Chiap-siū chhiáⁿ-thiap
       success: Lí ê kháu-chō kiàn-li̍p hó, í-keng ji̍p chām ·a.
-      name_label: Sèⁿ-miâ
+      name_label: Miâ-sèⁿ
       password_label: Àm-hō
       optional_description: (chāi lí siá)
     password_reset:
@@ -1858,11 +1858,11 @@ tai_Rom:
       plus_subcategories:
         other: "+ %{count} phiàn choan-tê tiâⁿ"
     select_kit:
-      default_header_text: Select...
+      default_header_text: Kéng...
       no_content: No matches found
-      filter_placeholder: Search...
-      filter_placeholder_with_any: Search or create...
-      create: "Create: '%{content}'"
+      filter_placeholder: Chhōe...
+      filter_placeholder_with_any: Chhōe ā khí...
+      create: "Khí: '%{content}'"
       max_content_reached:
         other: "You can only select %{count} items."
       min_content_not_reached:
@@ -1946,8 +1946,8 @@ tai_Rom:
         title_missing: Ài siá chi̍t ê phiau-tê
         title_too_short: "Phiau-tê siōng chió ài siá %{min} jī"
         title_too_long: "Phiau-tê bē tàng chhiau-kòe %{max} jī"
-        post_missing: Pho͘ bûn lōe-iông bē tàng khang-khang
-        post_length: "Pho͘ bûn siōng chió ài siá %{min} jī"
+        post_missing: Pho͘-bûn lōe-iông bē tàng khang-khang
+        post_length: "Pho͘-bûn siōng chió ài siá %{min} jī"
         try_like: "Have you tried the %{heart} button?"
         category_missing: Ài kéng chi̍t phiàn tiâⁿ
         tags_missing:
@@ -1974,17 +1974,16 @@ tai_Rom:
       topic_featured_link_placeholder: Enter link shown with title.
       remove_featured_link: Remove link from topic.
       reply_placeholder: >-
-        Type here. Use Markdown, BBCode, or HTML to format. Drag or paste
-        images.
-      reply_placeholder_no_images: "Type here. Use Markdown, BBCode, or HTML to format."
+        Chia phah jī. Markdown, BBCode, HTML lóng ē ēng tit. Tô͘ thoa / tah ·koài.
+      reply_placeholder_no_images: "Chia phah jī. Markdown, BBCode, HTML lóng ē ēng tit."
       reply_placeholder_choose_category: Select a category before typing here.
-      view_new_post: View your new post.
+      view_new_post: Pho͘ ·a, lâi khòaⁿ māi.
       saving: Tng teh khiām
       saved: Khiām ·a!
       saved_draft: Tng teh siá chháu-kó. Chhi̍h ·loeh kè-sio̍k.
       uploading: Tng teh khǹg...
-      show_preview: show preview &raquo;
-      hide_preview: "&laquo; hide preview"
+      show_preview: iáⁿ ·chi̍t ·ē &raquo;
+      hide_preview: "&laquo; thoah ·khiài"
       quote_post_title: Quote whole post
       bold_label: B
       bold_title: Chho͘-thé
@@ -2048,7 +2047,7 @@ tai_Rom:
           desc: Create a new personal message
         reply_to_topic:
           label: Ìn ōe-tê
-          desc: "Ìn kui ê ōe-tê, bián chí-tēng kî-tiong chi̍t phiⁿ pho͘ bûn"
+          desc: "Ìn kui ê ōe-tê, bián chí-tēng kî-tiong chi̍t phiⁿ pho͘-bûn"
         toggle_whisper:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
@@ -2150,18 +2149,18 @@ tai_Rom:
         reaction: new reaction
         votes_released: Vote was released
     upload_selector:
-      title: Khǹg chi̍t pak tô͘
-      title_with_attachments: Khǹg chi̍t pak tô͘ iā sī chi̍t ê tóng-àn
+      title: Tô͘ beh ·khí ·lih
+      title_with_attachments: Tô͘ iā sī tóng-àn beh ·khí ·lih
       from_my_computer: Ùi góa ê siat-pī
-      from_the_web: Ùi bāng-lō͘ téng-koân
+      from_the_web: Ùi bāng-lō͘ téng
       remote_tip: tô͘ ê bāng-liân-á
-      remote_tip_with_attachments: "link to image or file %{authorized_extensions}"
-      local_tip: select images from your device
-      local_tip_with_attachments: "select images or files from your device %{authorized_extensions}"
+      remote_tip_with_attachments: "tô͘ iā tóng-àn ê liân-á %{authorized_extensions}"
+      local_tip: ùi góa ê siat-pī kéng tô͘
+      local_tip_with_attachments: "ùi góa ê siat-pī kéng tô͘ iā tóng-àn %{authorized_extensions}"
       hint: (you can also drag & drop into the editor to upload them)
-      hint_for_supported_browsers: you can also drag and drop or paste images into the editor
-      uploading: Tng teh khǹg...
-      select_file: Select File
+      hint_for_supported_browsers: tô͘, tóng-àn thoa lâi phian-chhip-á hia pàng
+      uploading: Tng teh ·khí ·lih...
+      select_file: Kéng tóng-àn
       default_image_alt_text: image
     search:
       sort_by: Chiàu sūn-sī
@@ -2177,8 +2176,8 @@ tai_Rom:
         other: >-
           <span>%{count}%{plus} results for</span><span
           class='term'>%{term}</span>
-      title: "chhōe ōe-tê, pho͘ bûn, sú-iōng-chiá, iā sī tiâⁿ"
-      full_page_title: chhōe ōe-tê iā sī pho͘ bûn
+      title: "chhōe ōe-tê, pho͘-bûn, sú-iōng-chiá, iā sī tiâⁿ"
+      full_page_title: chhōe ōe-tê iā sī pho͘-bûn
       no_results: Chhōe bô.
       no_more_results: No more results found.
       post_format: "#%{post_number} by %{username}"
@@ -2208,7 +2207,7 @@ tai_Rom:
         with_tags:
           label: Tagged
         filters:
-          label: Chhōe ōe-tê/pho͘ bûn...
+          label: Chhōe ōe-tê/pho͘-bûn...
           title: Phiau-tê chhōe ū ·ê
           likes: Góa kah-ì ·ê
           posted: I posted in
@@ -2377,11 +2376,11 @@ tai_Rom:
           Sorry, we couldn't find that topic. Perhaps it was removed by a
           moderator?
       total_unread_posts:
-        other: "chit tiâu ōe-tê ū %{count} phiⁿ lí á bē tha̍k ê pho͘ bûn"
+        other: "chit tiâu ōe-tê ū %{count} phiⁿ lí á bē tha̍k ê pho͘-bûn"
       unread_posts:
         other: "you have %{count} unread old posts in this topic"
       new_posts:
-        other: "ùi lí téng pái khòaⁿ chit tiâu ōe-tê koh ū %{count} phiⁿ sin ê pho͘ bûn"
+        other: "ùi lí téng pái khòaⁿ chit tiâu ōe-tê koh ū %{count} phiⁿ sin ê pho͘-bûn"
       likes:
         other: "there are %{count} likes in this topic"
       back_to_list: Back to Topic List
@@ -2616,7 +2615,7 @@ tai_Rom:
         remove_banner: Remove Banner Topic
       reply:
         title: Tap-ho̍k
-        help: begin composing a reply to this topic
+        help: lâi siá chi̍t thong tap-ho̍k
       clear_pin:
         title: Clear pin
         help: >-
@@ -2625,15 +2624,14 @@ tai_Rom:
       share:
         title: Pun Tiuⁿ
         extended_title: Bāng-liân-á Pun Tiuⁿ
-        help: kā chit tiâu ōe-tê ê bāng-liân-á pun tiuⁿ
+        help: the̍h chit tiâu ōe-tê ê bāng-liân-á lâi pun tiuⁿ
       print:
         title: Print
         help: Open a printer friendly version of this topic
       flag_topic:
-        title: Gia̍h Kî-á
+        title: Chhah Kî
         help: >-
-          privately flag this topic for attention or send a private notification
-          about it
+          kah chit tiâu ōe-tê tiám iû chò kì-hō, kan-taⁿ koán-lí-oân khòaⁿ ē tio̍h
         success_message: You successfully flagged this topic.
       make_public:
         title: Convert to Public Topic
@@ -2728,7 +2726,7 @@ tai_Rom:
       login_reply: Log In to Reply
       filters:
         n_posts:
-          other: "%{count} phiⁿ pho͘ bûn"
+          other: "%{count} phiⁿ pho͘-bûn"
         cancel: Remove filter
       move_to:
         title: Move to
@@ -2846,15 +2844,15 @@ tai_Rom:
       last_edited_on: post last edited on
       reply_as_new_topic: Reply as linked Topic
       reply_as_new_private_message: Reply as new message to the same recipients
-      continue_discussion: "Continuing the discussion from %{postLink}:"
-      follow_quote: thiàu kah ín-iōng ê pho͘ bûn
+      continue_discussion: "Ùi %{postLink} kè-sio̍k thó-lūn:"
+      follow_quote: thiàu kah ín-iōng ê pho͘-bûn
       show_full: Hián-sī Kui Phiⁿ
       show_hidden: View ignored content.
       deleted_by_author:
         other: >-
           (post withdrawn by author, will be automatically deleted in %{count}
           hours unless flagged)
-      collapse: kiu ·khí ·lâi
+      collapse: kiu ·khiài
       expand_collapse: chhun/kiu
       locked: a staff member has locked this post from being edited
       gap:
@@ -2865,7 +2863,7 @@ tai_Rom:
           phah chi̍t ē chio-ho͘!
         returning_user: >-
           Lán kài kú bô khòaⁿ tio̍h %{user} — i téng pái pho͘ bûn sī %{time}.
-      unread: Pho͘ bûn á bē tha̍k
+      unread: Pho͘-bûn á bē tha̍k
       has_replies:
         other: "%{count} Tap-ho̍k"
       has_replies_count: "%{count}"
@@ -2915,11 +2913,11 @@ tai_Rom:
       few_likes_left: Thanks for sharing the love! You only have a few likes left for today.
       controls:
         reply: begin composing a reply to this post
-        like: chhi̍h kah-ì
-        has_liked: you've liked this post
+        like: kah-ì
+        has_liked: kah-ì ·a
         read_indicator: members who read this post
         undo_like: undo like
-        edit: phian-chhip chit phiⁿ pho͘ bûn
+        edit: phian-chhip chit phiⁿ pho͘-bûn
         edit_action: Phian-chhip
         edit_anonymous: "Sorry, but you need to be logged in to edit this post."
         flag: >-
@@ -3235,7 +3233,7 @@ tai_Rom:
         none: no subcategories
     flagging:
       title: Thanks for helping to keep our community civil!
-      action: Kā Pho͘ Bûn Gia̍h Kî-á
+      action: Kā Pho͘-bûn Chhah Kî-á
       take_action: Take Action...
       take_action_options:
         default:
@@ -3285,7 +3283,7 @@ tai_Rom:
           other: "chhun %{count} jī"
     flagging_topic:
       title: Thanks for helping to keep our community civil!
-      action: Gia̍h Kî-á
+      action: Chhah Kî
       notify_action: Message
     topic_map:
       title: Topic Summary
@@ -3331,7 +3329,7 @@ tai_Rom:
       personal_message:
         title: This topic is a personal message
         help: This topic is a personal message
-    posts: Pho͘ Bûn
+    posts: Pho͘-bûn
     posts_likes_MF: >
       This topic has {count, plural, one {1 reply} other {# replies}} {ratio,
       select,
@@ -3468,7 +3466,7 @@ tai_Rom:
         up_down: "%{shortcut} Move selection &uarr; &darr;"
         open: "%{shortcut} Open selected topic"
         next_prev: "%{shortcut} Next/previous section"
-        go_to_unread_post: "%{shortcut} Khì thâu phiⁿ á bē khòaⁿ ê pho͘ bûn"
+        go_to_unread_post: "%{shortcut} Khì thâu phiⁿ á bē khòaⁿ ê pho͘-bûn"
       application:
         title: Application
         create: '%{shortcut} Pho͘ sin ê ōe-tê'
@@ -3547,7 +3545,7 @@ tai_Rom:
         community:
           name: Community
         trust_level:
-          name: Sêng-oân-kip
+          name: Kau-chêng Khám-chām
         other:
           name: Other
         posting:
@@ -3641,7 +3639,7 @@ tai_Rom:
         regular:
           title: It-poaⁿ
           description: >-
-            Lí nā hông @tiám-miâ iā sī pho͘ bûn ū tap-ho̍k, chiah ē siu thong-ti.
+            Lí nā hông @tiám-miâ iā sī pho͘-bûn ū tap-ho̍k, chiah ē siu thong-ti.
         muted:
           title: Chēng-im
           description: >-
