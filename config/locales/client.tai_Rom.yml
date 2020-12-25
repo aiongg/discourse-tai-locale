@@ -774,7 +774,7 @@ tai_Rom:
             You will be notified if someone mentions your @name or replies to
             you, and a count of new replies will be shown.
         regular:
-          title: Phó͘-thong
+          title: It-poaⁿ
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
@@ -889,7 +889,7 @@ tai_Rom:
         add_ignored_user: Thiⁿ...
         mute_option: Chēng-im
         mute_option_title: You will not receive any notifications related to this user.
-        normal_option: Phó͘-thong
+        normal_option: It-poaⁿ
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
@@ -2293,7 +2293,7 @@ tai_Rom:
         new: Lí bô sin ê ōe-tê.
         read: Lí á bē tha̍k jīm-hô ōe-tê.
         posted: Lí á bē tap-ho̍k jīm-hô ōe-tê.
-        ready_to_create: "Lí kám ài "
+        ready_to_create: "Hó ·a!"
         latest: Khòaⁿ liáu liáu ·a!
         bookmarks: Lí á bē kā ōe-tê chò kì-hō.
         category: "%{category} tiâⁿ bô ōe-tê."
@@ -2316,15 +2316,15 @@ tai_Rom:
             bottom of each topic.</p><p>Visit your <a
             href="%{userPrefsUrl}">preferences</a> to change this.</p>
       bottom:
-        latest: There are no more latest topics.
+        latest: Chhun bô pòaⁿ tiâu sin thiⁿ ê ōe-tê.
         posted: There are no more posted topics.
-        read: There are no more read topics.
-        new: There are no more new topics.
-        unread: There are no more unread topics.
-        category: "There are no more %{category} topics."
-        tag: "There are no more %{tag} topics."
-        top: There are no more top topics.
-        bookmarks: There are no more bookmarked topics.
+        read: Chhun bô pòaⁿ tiâu tha̍k kòe ê ōe-tê.
+        new: Chhun bô pòaⁿ tiâu sin pho͘ ê ōe-tê.
+        unread: Chhun bô pòaⁿ tiâu á bē tha̍k ê ōe-tê.
+        category: "Chhun bô pòaⁿ tiâu %{category} ōe-tê."
+        tag: "Chhun bô pòaⁿ tiâu %{tag} ōe-tê."
+        top: Chhun bô pòaⁿ tiâu ōe-tê teh chhèng.
+        bookmarks: Chhun bô pòaⁿ tiâu lí chù kì-hō ê ōe-tê.
     topic:
       filter_to:
         other: "%{count} posts in topic"
@@ -2404,7 +2404,7 @@ tai_Rom:
       browse_all_categories: Oa̍t-lám só͘ ū ê tiâⁿ
       browse_all_tags: Oa̍t-lám só͘ ū ê phiau-á
       view_latest_topics: khòaⁿ sin thiⁿ ·ê ōe-tê
-      suggest_create_topic: lán lâi khui chi̍t tiâu sin ê ōe-tê?
+      suggest_create_topic: Lán lâi khí chi̍t tiâu ōe-tê.
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
       deleted: Ōe-tê thâi-tiāu ·a
@@ -2553,41 +2553,40 @@ tai_Rom:
         watching_pm:
           title: Teh Khòaⁿ
           description: >-
-            You will be notified of every new reply in this message, and a count
-            of new replies will be shown.
+            Chit thong su-phoe nā hông tap-ho̍k, lí ē siu thong-ti.
+            Sin tap-ho̍k gia̍h mā ē hián-sī.
         watching:
           title: Teh Khòaⁿ
           description: >-
-            You will be notified of every new reply in this topic, and a count
-            of new replies will be shown.
+            Chit tiâu ōe-tê nā hông tap-ho̍k, lí ē siu thong-ti.
+            Sin tap-ho̍k gia̍h mā ē hián-sī.
         tracking_pm:
           title: Teh Tòe
           description: >-
-            A count of new replies will be shown for this message. You will be
-            notified if someone mentions your @name or replies to you.
+            Chit thong su-phoe sin tap-ho̍k gia̍h ē hián-sī. Hông @tiám miâ,
+            iā sī hôe-èng lí pho͘ ·ê, lí chiah ē siu thong-ti.
         tracking:
           title: Teh Tòe
           description: >-
-            A count of new replies will be shown for this topic. You will be
-            notified if someone mentions your @name or replies to you.
+            Chit tiâu ōe-tê sin tap-ho̍k gia̍h ē hián-sī. Hông @tiám miâ,
+            iā sī hôe-èng lí pho͘ ·ê, lí chiah ē siu thong-ti.
         regular:
-          title: Phó͘-thong
+          title: It-poaⁿ
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            Hông @tiám miâ, iā sī hôe-èng lí pho͘ ·ê, lí chiah ē siu thong-ti.
         regular_pm:
-          title: Phó͘-thong
+          title: It-poaⁿ
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            Hông @tiám miâ, iā sī hôe-èng lí pho͘ ·ê, lí chiah ē siu thong-ti.
         muted_pm:
           title: Chēng-im
-          description: You will never be notified of anything about this message.
+          description: >-
+            Lí ùi chit thong su-phoe bē siu jīm-hô thong-ti.
         muted:
           title: Chēng-im
           description: >-
-            You will never be notified of anything about this topic, and it will
-            not appear in latest.
+            Lí ùi chit tiâu ōe-tê bē siu jīm-hô thong-ti.
+            I tī sin thiⁿ ia̍h mā bē hián-sī.
       actions:
         title: Actions
         recover: Un-Delete Topic
@@ -3170,32 +3169,29 @@ tai_Rom:
       navigate_to_first_post_after_read: Navigate to first post after topics are read
       notifications:
         watching:
-          title: Teh Khòaⁿ
+          title: Teh khòaⁿ
           description: >-
-            You will automatically watch all topics in these categories. You
-            will be notified of every new post in every topic, and a count of
-            new replies will be shown.
+            Chit phiàn tiâⁿ só͘ ū ê ōe-tê lóng chū-tōng sǹg chò lí teh khòaⁿ.
+            Nā ū sin ê tap-ho̍k, lí ē siu thong-ti. Sin tap-ho̍k-gia̍h
+            mā ē hián-sī.
         watching_first_post:
-          title: Watching First Post
+          title: Teh khòaⁿ thâu bûn
           description: >-
-            You will be notified of new topics in this category but not replies
-            to the topics.
+            Sin pho͘ ê ōe-tê, lí ē siu thong-ti. Kū ōe-tê sin tap-ho̍k bô.
         tracking:
-          title: Teh Tòe
+          title: Teh tòe
           description: >-
-            You will automatically track all topics in these categories. You
-            will be notified if someone mentions your @name or replies to you,
-            and a count of new replies will be shown.
+            Chit phiàn tiâⁿ só͘ ū ê ōe-tê lóng chū-tōng sǹg chò lí teh tòe.
+            Hông @tiám miâ, iā sī hôe-èng lí pho͘ ·ê, lí chiah siu thong-ti.
         regular:
-          title: Normal
+          title: It-poaⁿ
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            Hông @tiám miâ, iā sī hôe-èng lí pho͘ ·ê, lí chiah siu thong-ti.
         muted:
-          title: Muted
+          title: Chēng-im
           description: >-
-            You will never be notified of anything about new topics in these
-            categories, and they will not appear in latest.
+            Lí ùi chit phiàn tiâⁿ bē siu jīm-hô thong-ti.
+            Tī sin thiⁿ ia̍h mā bē hián-sī.
       search_priority:
         label: Search Priority
         options:
@@ -3620,21 +3616,20 @@ tai_Rom:
         untagged_with_category: "%{filter} untagged topics in %{category}"
       notifications:
         watching:
-          title: Teh Khòaⁿ
+          title: Teh khòaⁿ
           description: >-
-            You will automatically watch all topics with this tag. You will be
-            notified of all new posts and topics, plus the count of unread and
-            new posts will also appear next to the topic.
+            Kòa chit tiâu phiau-á ê ōe-tê lóng chū-tōng sǹg chò lí teh khòaⁿ.
+            Nā ū sin ōe-tê/tap-ho̍k, lí ē siu thong-ti. Sin pho͘ gia̍h
+            mā ē hián-sī.
         watching_first_post:
-          title: Teh Khòaⁿ Sin Pho͘ ·ê
+          title: Teh khòaⁿ thâu bûn
           description: >-
-            You will be notified of new topics in this tag but not replies to
-            the topics.
+            Sin pho͘ ê ōe-tê nā kòa chit tiâu phiau-á, lí ē siu thong-ti. Tap-ho̍k bô.
         tracking:
-          title: Teh Tòe
+          title: Teh tòe
           description: >-
-            You will automatically track all topics with this tag. A count of
-            unread and new posts will appear next to the topic.
+            Kòa chit tiâu phiau-á ê ōe-tê lóng chū-tōng sǹg chò lí teh tòe.
+            Sin pho͘ gia̍h ē hián-sī.
         regular:
           title: It-poaⁿ
           description: >-
@@ -3642,8 +3637,8 @@ tai_Rom:
         muted:
           title: Chēng-im
           description: >-
-            You will not be notified of anything about new topics with this tag,
-            and they will not appear on your unread tab.
+            Kòa chit tiâu phiau-á ê ōe-tê, lí bē siu jīm-hô thong-ti.
+            Tī á bē tha̍k ia̍h mā bē hián-sī.
       groups:
         title: Tag Groups
         about: Add tags to groups to manage them more easily.

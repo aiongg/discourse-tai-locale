@@ -762,7 +762,7 @@ tai_Han:
             You will be notified of every new post in every message, and a count
             of new replies will be shown.
         watching_first_post:
-          title: 塊看新pho͘个
+          title: 塊看頭文
           description: >-
             You will be notified of new messages in this group but not replies
             to the messages.
@@ -772,7 +772,7 @@ tai_Han:
             You will be notified if someone mentions your @name or replies to
             you, and a count of new replies will be shown.
         regular:
-          title: 普通
+          title: 一般
           description: >-
             You will be notified if someone mentions your @name or replies to
             you.
@@ -887,7 +887,7 @@ tai_Han:
         add_ignored_user: Thiⁿ...
         mute_option: 靜音
         mute_option_title: You will not receive any notifications related to this user.
-        normal_option: 普通
+        normal_option: 一般
         normal_option_title: >-
           You will be notified if this user replies to you, quotes you, or
           mentions you.
@@ -2284,7 +2284,7 @@ tai_Han:
         new: 汝無新个話題。
         read: 汝夭未讀任何話題。
         posted: 汝夭未答復任何話題。
-        ready_to_create: '汝咁愛'
+        ready_to_create: '好唖！'
         latest: 看了了唖！
         bookmarks: 汝夭未共話題做記号。
         category: '%{category} 埕無話題。'
@@ -2307,15 +2307,15 @@ tai_Han:
             bottom of each topic.</p><p>Visit your <a
             href="%{userPrefsUrl}">preferences</a> to change this.</p>
       bottom:
-        latest: There are no more latest topics.
+        latest: 春無半條新添个話題。
         posted: There are no more posted topics.
-        read: There are no more read topics.
-        new: There are no more new topics.
-        unread: There are no more unread topics.
-        category: 'There are no more %{category} topics.'
-        tag: 'There are no more %{tag} topics.'
-        top: There are no more top topics.
-        bookmarks: There are no more bookmarked topics.
+        read: 春無半條讀過个話題。
+        new: 春無半條新pho͘个話題。
+        unread: 春無半條亜未讀个話題。
+        category: "春無半條%{category}話題。"
+        tag: "春無半條%{tag}話題。"
+        top: 春無半條話題塊銃。
+        bookmarks: 春無半條汝做記号个話題。
     topic:
       filter_to:
         other: '%{count} posts in topic'
@@ -2395,7 +2395,7 @@ tai_Han:
       browse_all_categories: 閱覽所有个埕
       browse_all_tags: 閱覽所有个標仔
       view_latest_topics: 看新添个話題
-      suggest_create_topic: 咱來開一條新个話題？
+      suggest_create_topic: 咱來起一條話題。
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
       deleted: 話題刣兆唖
@@ -2544,41 +2544,34 @@ tai_Han:
         watching_pm:
           title: 塊看
           description: >-
-            You will be notified of every new reply in this message, and a count
-            of new replies will be shown.
+            只通私批那乎人答復、汝會收通知。新答復額嗎會顯示。
         watching:
           title: 塊看
           description: >-
-            You will be notified of every new reply in this topic, and a count
-            of new replies will be shown.
+            只條話題那乎人答復、汝會收通知。新答復額嗎會顯示。
         tracking_pm:
           title: 塊綴
           description: >-
-            A count of new replies will be shown for this message. You will be
-            notified if someone mentions your @name or replies to you.
+            只通私批新答復額會顯示。乎人@点名、也是回應汝pho͘个、汝即會收通知。
         tracking:
           title: 塊綴
           description: >-
-            A count of new replies will be shown for this topic. You will be
-            notified if someone mentions your @name or replies to you.
+            只條話題新答復額會顯示。乎人@点名、也是回應汝pho͘个、汝即會收通知。
         regular:
-          title: 普通
+          title: 一般
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            乎人@点名、也是回應汝pho͘个、汝即會收通知。
         regular_pm:
-          title: 普通
+          title: 一般
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            乎人@点名、也是回應汝pho͘个、汝即會收通知。
         muted_pm:
           title: 靜音
-          description: You will never be notified of anything about this message.
+          description: 汝對只通私批袂收任何通知。
         muted:
           title: 靜音
           description: >-
-            You will never be notified of anything about this topic, and it will
-            not appear in latest.
+            汝對只條話題袂收任何通知。伊治新添葉嗎袂顯示。
       actions:
         title: Actions
         recover: Un-Delete Topic
@@ -2848,8 +2841,8 @@ tai_Han:
       gap:
         other: 'view %{count} hidden replies'
       notice:
-        new_user: 此是%{user}頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
-        returning_user: 咱介久無看着%{user}。伊頂擺pho͘文是%{time}。
+        new_user: 此是 %{user} 頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
+        returning_user: 咱介久無看着 %{user}。伊頂擺pho͘文是%{time}。
       unread: Pho͘文夭未讀
       has_replies:
         other: '%{count}答復'
@@ -3159,30 +3152,23 @@ tai_Han:
         watching:
           title: 塊看
           description: >-
-            You will automatically watch all topics in these categories. You
-            will be notified of every new post in every topic, and a count of
-            new replies will be shown.
+            只片埕所有个話題朗自動算做汝塊看。那有新个答復、汝會收通知。新答復額嗎會顯示。
         watching_first_post:
-          title: Watching First Post
+          title: 塊看頭文
           description: >-
-            You will be notified of new topics in this category but not replies
-            to the topics.
+            新pho͘个話題汝會收通知。舊話題新答復無。
         tracking:
           title: 塊綴
           description: >-
-            You will automatically track all topics in these categories. You
-            will be notified if someone mentions your @name or replies to you,
-            and a count of new replies will be shown.
+            只片埕所有个話題朗自動算做汝塊綴。乎人@点名、也是回應汝pho͘个、汝即收通知。新答復額嗎會顯示。
         regular:
-          title: Normal
+          title: 普通
           description: >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            乎人@点名、也是回應汝pho͘个、汝即收通知。
         muted:
-          title: Muted
+          title: 靜音
           description: >-
-            You will never be notified of anything about new topics in these
-            categories, and they will not appear in latest.
+            汝對只片埕袂收任何通知。治新添葉嗎袂顯示。
       search_priority:
         label: Search Priority
         options:
@@ -3609,19 +3595,15 @@ tai_Han:
         watching:
           title: 塊看
           description: >-
-            You will automatically watch all topics with this tag. You will be
-            notified of all new posts and topics, plus the count of unread and
-            new posts will also appear next to the topic.
+            掛只條標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新pho͘額嗎會顯示。
         watching_first_post:
-          title: 塊看新pho͘个
+          title: 塊看頭文
           description: >-
-            You will be notified of new topics in this tag but not replies to
-            the topics.
+            掛只條標仔新pho͘个話題、汝會收通知。答復無。
         tracking:
           title: 塊綴
           description: >-
-            You will automatically track all topics with this tag. A count of
-            unread and new posts will appear next to the topic.
+            掛只條標仔个話題朗自動算做汝塊綴。新pho͘額會顯示。
         regular:
           title: 一般
           description: >-
@@ -3629,8 +3611,7 @@ tai_Han:
         muted:
           title: 靜音
           description: >-
-            You will not be notified of anything about new topics with this tag,
-            and they will not appear on your unread tab.
+            掛只條標仔个話題、汝袂收任何通知。治夭未讀葉嗎袂顯示。
       groups:
         title: Tag Groups
         about: Add tags to groups to manage them more easily.
