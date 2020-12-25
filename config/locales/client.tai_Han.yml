@@ -399,7 +399,7 @@ tai_Han:
       view_pending: view pending
       topic_has_pending:
         other: 'This topic has <b>%{count}</b> posts pending approval'
-      title: Review
+      title: 檢查
       topic: '話題：'
       filtered_topic: You have filtered to reviewable content in a single topic.
       filtered_user: 使用者
@@ -792,16 +792,16 @@ tai_Han:
         image: Upload an image
     user_action_groups:
       '1': 甲意
-      '2': Likes
+      '2': 甲意
       '3': 記号
       '4': 話題
       '5': 答復
-      '6': Responses
-      '7': Mentions
-      '9': Quotes
-      '11': Edits
-      '12': Sent Items
-      '13': Inbox
+      '6': 答復
+      '7': 点名
+      '9': 引用
+      '11': 編輯
+      '12': 送去亜
+      '13': Sìn-siuⁿ
       '14': Pending
       '15': 草稿
     categories:
@@ -879,12 +879,12 @@ tai_Han:
           Please note that all ignores are automatically removed after the
           ignore duration expires.
         ignore_duration_time_frame_required: Please select a time frame
-        ignore_no_users: You have no ignored users.
+        ignore_no_users: 汝無任何卜籠過个使用者
         ignore_option: 籠過
         ignore_option_title: >-
           You will not receive notifications related to this user and all of
           their topics and replies will be hidden.
-        add_ignored_user: Thiⁿ...
+        add_ignored_user: 添卜籠个...
         mute_option: 靜音
         mute_option_title: You will not receive any notifications related to this user.
         normal_option: 一般
@@ -930,9 +930,9 @@ tai_Han:
       first_notification: Your first notification! Select it to begin.
       dynamic_favicon: Show counts on browser icon
       skip_new_user_tips:
-        description: Skip new user onboarding tips and badges
-        not_first_time: Not your first time?
-        skip_link: Skip these tips
+        description: 跳過新手𤆬路甲槳排通知
+        not_first_time: 不是頭擺用只欵平台？
+        skip_link: 跳過𤆬路
       theme_default_on_all_devices: Make this the default theme on all my devices
       color_scheme_default_on_all_devices: Set default color scheme(s) on all my devices
       color_scheme: 色水
@@ -947,7 +947,7 @@ tai_Han:
         dark: 暗色
         default_dark_scheme: (網站既定个)
       dark_mode: 暗色
-      dark_mode_enable: Enable automatic dark mode color scheme
+      dark_mode_enable: 綴我个設備調整暗模式
       text_size_default_on_all_devices: Make this the default text size on all my devices
       allow_private_messages: 允准別个使用者送私信乎我
       external_links_in_new_tab: 外網連仔開治新分頁
@@ -981,40 +981,30 @@ tai_Han:
       tag_settings: 標仔
       watched_tags: 塊看
       watched_tags_instructions: >-
-        You will automatically watch all topics with these tags. You will be
-        notified of all new posts and topics, and a count of new posts will also
-        appear next to the topic.
+        掛者个標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新pho͘額嗎會顯示治標題邊仔。
       tracked_tags: 塊綴
       tracked_tags_instructions: >-
-        You will automatically track all topics with these tags. A count of new
-        posts will appear next to the topic.
+        掛者个標仔个話題朗自動算做汝塊綴。新pho͘額嗎會顯示治標題邊仔。
       muted_tags: 靜音
       muted_tags_instructions: >-
-        You will not be notified of anything about new topics with these tags,
-        and they will not appear in latest.
+        掛者个標仔个話題、汝袂收任何通知。治新添葉嗎看袂着。
       watched_categories: 塊看
       watched_categories_instructions: >-
-        者个埕所有个話題算是汝塊看。
-        新个話題甲所有个pho͘文汝會收通知、
-        新pho͘額嗎顯示治標題邊仔。
+        者个埕所有个話題算是汝塊看。新个話題甲所有个pho͘文汝會收通知、新pho͘額嗎顯示治標題邊仔。
       tracked_categories: 塊綴
       tracked_categories_instructions: >-
-        者个埕所有个話題算是汝塊綴。
-        新pho͘額嗎顯示治標題邊仔。
+        者个埕所有个話題算是汝塊綴。新pho͘額嗎顯示治標題邊仔。
       watched_first_post_categories: 塊看新pho͘个
       watched_first_post_categories_instructions: >-
         新pho͘个話題汝會收通知。
       watched_first_post_tags: 塊看新pho͘个
       watched_first_post_tags_instructions: >-
-        You will be notified of the first post in each new topic with these
-        tags.
+        新pho͘个話題那掛者个標仔、汝會收通知。
       muted_categories: 靜音
       muted_categories_instructions: >-
-        者个埕那有新个話題、汝袂收通知、
-        埕頁甲新添頁嗎看袂着。
+        者个埕那有新个話題、汝袂收通知、埕頁甲新添頁嗎看袂着。
       muted_categories_instructions_dont_hide: >-
-        You will not be notified of anything about new topics in these
-        categories.
+        者个埕那有新个話題、汝袂收通知。
       regular_categories: 一般
       regular_categories_instructions: You will see these categories in the “Latest” and “Top” topic lists.
       no_category_access: 'As a moderator you have limited category access, save is disabled.'
@@ -1030,8 +1020,8 @@ tai_Han:
       muted_users: 靜音
       muted_users_instructions: 對者个使用者來个通知・私信、朗籠過。
       allowed_pm_users: 允准个
-      allowed_pm_users_instructions: Only allow PMs from these users.
-      allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
+      allowed_pm_users_instructions: 允准送私批乎汝个使用者。
+      allow_private_messages_from_specific_users: 干焦允准指定使用者送私批乎我。
       ignored_users: 籠過
       ignored_users_instructions: 對者个使用者來个pho͘文・通知・私信、朗籠過。
       tracked_topics_link: 顯示
@@ -1056,13 +1046,13 @@ tai_Han:
         all: 所有个
         inbox: 信箱
         sent: 送个
-        archive: Archive
+        archive: 收藏个
         groups: My Groups
         bulk_select: Select messages
         move_to_inbox: 遷甲信箱
         move_to_archive: 收藏
         failed_to_move: Failed to move selected messages (perhaps your network is down)
-        select_all: Select All
+        select_all: 揀全部
         tags: 標仔
       preferences_nav:
         account: 口座
@@ -1212,13 +1202,13 @@ tai_Han:
         image_is_not_a_square: 'Warning: we''ve cropped your image; width and height were not equal.'
       change_profile_background:
         title: 口座背景圖
-        instructions: Profile headers will be centered and have a default width of 1110px.
+        instructions: 口座背景圖既定濶度爲1110px。
       change_card_background:
-        title: 用者片背景圖
-        instructions: Background images will be centered and have a default width of 590px.
+        title: Meh-sih背景圖
+        instructions: Meh-sih背景圖既定濶度爲1110px。
       change_featured_topic:
         title: 特別話題
-        instructions: 'A link to this topic will be on your user card, and profile.'
+        instructions: 話題網連仔治meh-sih甲口座葉顯示。
       email:
         title: 電批
         primary: 主電批
@@ -1252,17 +1242,17 @@ tai_Han:
             We'll only email you if we haven't seen you in the last %{count}
             minutes.
       associated_accounts:
-        title: Associated Accounts
-        connect: Connect
-        revoke: Revoke
-        cancel: Cancel
-        not_connected: (not connected)
-        confirm_modal_title: 'Connect %{provider} Account'
+        title: 社交口座
+        connect: 相接
+        revoke: 取消
+        cancel: Hú去
+        not_connected: (夭未相接)
+        confirm_modal_title: '相接%{provider}口座'
         confirm_description:
           account_specific: >-
-            Your %{provider} account '%{account_description}' will be used for
-            authentication.
-          generic: 'Your %{provider} account will be used for authentication.'
+            允准相接%{provider}口座 '%{account_description}'
+            以後通做社交入塹。
+          generic: '汝个%{provider}口座通做社交入塹。'
       name:
         title: 名姓
         instructions: 汝个名姓（在汝寫・會公開顯示）
@@ -1318,7 +1308,7 @@ tai_Han:
       location: 位置
       website: 網站
       email_settings: 電批
-      hide_profile_and_presence: Hide my public profile and presence features
+      hide_profile_and_presence: 葱米我个口座資料
       enable_physical_keyboard: Enable physical keyboard support on iPad
       text_size:
         title: 字个寸尺
@@ -1328,24 +1318,23 @@ tai_Han:
         larger: 恰大
         largest: 上大
       title_count_mode:
-        title: 'Background page title displays count of:'
-        notifications: New notifications
-        contextual: New page content
+        title: '背景分葉顯示：'
+        notifications: 通知額
+        contextual: 新振動額
       like_notification_frequency:
-        title: Notify when liked
-        always: Always
-        first_time_and_daily: First time a post is liked and daily
-        first_time: First time a post is liked
-        never: Never
+        title: 收甲意、咁卜通知？
+        always: 逐擺
+        first_time_and_daily: 頭擺、閣來逐工一擺
+        first_time: 頭擺定
+        never: 朗不免
       email_previous_replies:
-        title: Include previous replies at the bottom of emails
-        unless_emailed: unless previously sent
-        always: always
-        never: never
+        title: 送乎我个電批、共恰早个答復藏治下底。
+        unless_emailed: 除起送過唖
+        always: 逐擺
+        never: 朗不免
       email_digests:
         title: >-
-          When I don’t visit here, send me an email summary of popular topics
-          and replies
+          我那無來、共恰熱情个話題精選送乎我。
         every_30_minutes: 半点鐘一擺
         every_hour: 一点鐘一擺
         daily: 逐工
@@ -1359,29 +1348,29 @@ tai_Han:
         only_when_away: 我那無治レ
         never: 朗免
       email_messages_level: 那收着私信請送電批通知
-      include_tl0_in_digests: Include content from new users in summary emails
-      email_in_reply_to: Include an excerpt of replied to post in emails
+      include_tl0_in_digests: 精選電批愛包含新使用者做个
+      email_in_reply_to: 電批含答復个內容
       other_settings: Other
       categories_settings: Categories
       new_topic_duration:
-        label: Consider topics new when
-        not_viewed: I haven't viewed them yet
-        last_here: created since I was here last
-        after_1_day: created in the last day
-        after_2_days: created in the last 2 days
-        after_1_week: created in the last week
-        after_2_weeks: created in the last 2 weeks
-      auto_track_topics: Automatically track topics I enter
+        label: 話題冬時算新个？
+        not_viewed: 我那夭未看
+        last_here: 對我頂擺來了後即pho͘个
+        after_1_day: 對昨昏pho͘个
+        after_2_days: 對昨日pho͘个
+        after_1_week: 對頂礼拜pho͘个
+        after_2_weeks: 對二礼拜前pho͘个
+      auto_track_topics: 我塊讀个話題、冬時算做塊綴？
       auto_track_options:
-        never: never
-        immediately: immediately
-        after_30_seconds: after 30 seconds
-        after_1_minute: after 1 minute
-        after_2_minutes: after 2 minutes
-        after_3_minutes: after 3 minutes
-        after_4_minutes: after 4 minutes
-        after_5_minutes: after 5 minutes
-        after_10_minutes: after 10 minutes
+        never: 朗不免
+        immediately: 粘乜
+        after_30_seconds: 讀着30秒
+        after_1_minute: 讀着一分鐘
+        after_2_minutes: 讀着二分鐘
+        after_3_minutes: 讀着三分鐘
+        after_4_minutes: 讀着四分鐘
+        after_5_minutes: 讀着五分鐘
+        after_10_minutes: 讀着十分鐘
       notification_level_when_replying: '我那留話、共喜个話題算做'
       invited:
         search: type to search invites...
@@ -1788,14 +1777,14 @@ tai_Han:
         name: Google
         title: 對Google來
       twitter:
-        name: Thui-thò
-        title: 對Thui-thò來
+        name: 推妥
+        title: 對推妥來
       instagram:
         name: Instagram
         title: 對Instagram來
       facebook:
-        name: Bīn-chheh
-        title: 對Bīn-chheh來
+        name: 面册
+        title: 對面册來
       github:
         name: GitHub
         title: 對GitHub來
@@ -2571,7 +2560,7 @@ tai_Han:
         muted:
           title: 靜音
           description: >-
-            汝對只條話題袂收任何通知。伊治新添葉嗎袂顯示。
+            汝對只條話題袂收任何通知。伊治新添葉嗎看袂着。
       actions:
         title: Actions
         recover: Un-Delete Topic
@@ -3168,7 +3157,7 @@ tai_Han:
         muted:
           title: 靜音
           description: >-
-            汝對只片埕袂收任何通知。治新添葉嗎袂顯示。
+            汝對只片埕袂收任何通知。治新添葉嗎看袂着。
       search_priority:
         label: Search Priority
         options:
@@ -3529,7 +3518,7 @@ tai_Han:
       selector_no_tags: no tags
       changed: 'tags changed:'
       tags: 標仔
-      choose_for_topic: optional tags
+      choose_for_topic: 揀標仔
       info: Info
       default_info: 'This tag isn''t restricted to any categories, and has no synonyms.'
       category_restricted: >-
@@ -3599,7 +3588,7 @@ tai_Han:
         watching_first_post:
           title: 塊看頭文
           description: >-
-            掛只條標仔新pho͘个話題、汝會收通知。答復無。
+            新pho͘个話題那掛只條標仔、汝會收通知。答復無。
         tracking:
           title: 塊綴
           description: >-
@@ -3611,7 +3600,7 @@ tai_Han:
         muted:
           title: 靜音
           description: >-
-            掛只條標仔个話題、汝袂收任何通知。治夭未讀葉嗎袂顯示。
+            掛只條標仔个話題、汝袂收任何通知。治夭未讀葉嗎看袂着。
       groups:
         title: Tag Groups
         about: Add tags to groups to manage them more easily.

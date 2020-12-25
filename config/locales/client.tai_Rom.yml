@@ -402,7 +402,7 @@ tai_Rom:
       view_pending: view pending
       topic_has_pending:
         other: "This topic has <b>%{count}</b> posts pending approval"
-      title: Review
+      title: Kiám-cha
       topic: "Ōe-tê:"
       filtered_topic: You have filtered to reviewable content in a single topic.
       filtered_user: Sú-iōng-chiá
@@ -794,16 +794,16 @@ tai_Rom:
         image: Upload an image
     user_action_groups:
       "1": Kah-ì
-      "2": Likes
+      "2": Kah-ì
       "3": Kì-hō
       "4": Ōe-tê
       "5": Tap-ho̍k
-      "6": Responses
-      "7": Mentions
-      "9": Quotes
-      "11": Edits
-      "12": Sent Items
-      "13": Inbox
+      "6": Tap-ho̍k
+      "7": Tiám miâ
+      "9": Ín-iōng
+      "11": Phian-chhip
+      "12": Sàng ·khì ·a
+      "13": Sìn-siuⁿ
       "14": Pending
       "15": Chháu-kó
     categories:
@@ -881,12 +881,12 @@ tai_Rom:
           Please note that all ignores are automatically removed after the
           ignore duration expires.
         ignore_duration_time_frame_required: Please select a time frame
-        ignore_no_users: You have no ignored users.
+        ignore_no_users: Lí bô jīm-hô beh làng kòe ê sú-iōng-chiá
         ignore_option: Làng ·kòe
         ignore_option_title: >-
           You will not receive notifications related to this user and all of
           their topics and replies will be hidden.
-        add_ignored_user: Thiⁿ...
+        add_ignored_user: Thiⁿ beh làng ·ê...
         mute_option: Chēng-im
         mute_option_title: You will not receive any notifications related to this user.
         normal_option: It-poaⁿ
@@ -932,9 +932,9 @@ tai_Rom:
       first_notification: Your first notification! Select it to begin.
       dynamic_favicon: Show counts on browser icon
       skip_new_user_tips:
-        description: Skip new user onboarding tips and badges
-        not_first_time: Not your first time?
-        skip_link: Skip these tips
+        description: Thiàu kòe sin chhiú chhōa lō͘ kap chióng-pâi thong-ti
+        not_first_time: M̄ sī thâu pái ēng chit khoán pêⁿ-tâi?
+        skip_link: Thiàu kòe chhōa lō͘
       theme_default_on_all_devices: Make this the default theme on all my devices
       color_scheme_default_on_all_devices: Set default color scheme(s) on all my devices
       color_scheme: Sek-chúi
@@ -949,7 +949,7 @@ tai_Rom:
         dark: Àm-sek
         default_dark_scheme: (bāng-chām kì-tēng ·ê)
       dark_mode: Àm-sek
-      dark_mode_enable: Enable automatic dark mode color scheme
+      dark_mode_enable: Tòe góa ê siat-pī tiâu-chéng àm bô͘-sek
       text_size_default_on_all_devices: Make this the default text size on all my devices
       allow_private_messages: Ún-chún pa̍t ê sú-iōng-chiá sàng su-sìn hō͘ ·góa
       external_links_in_new_tab: Gōa-bāng liân-á khui tī sin hun-ia̍h
@@ -983,22 +983,22 @@ tai_Rom:
       tag_settings: Phiau-á
       watched_tags: Teh Khòaⁿ
       watched_tags_instructions: >-
-        You will automatically watch all topics with these tags. You will be
-        notified of all new posts and topics, and a count of new posts will also
-        appear next to the topic.
+        Kòa chia ê phiau-á ê ōe-tê lóng chū-tōng sǹg chò lí teh khòaⁿ.
+        Nā ū sin ōe-tê/tap-ho̍k, lí ē siu thong-ti.
+        Sin pho͘ gia̍h mā ē hián-sī tī phiau-tê piⁿ-·a.
       tracked_tags: Teh Tòe
       tracked_tags_instructions: >-
-        You will automatically track all topics with these tags. A count of new
-        posts will appear next to the topic.
+        Kòa chia ê phiau-á ê ōe-tê lóng chū-tōng sǹg chò lí teh tòe.
+        Sin pho͘ gia̍h mā ē hián-sī tī phiau-tê piⁿ-·a.
       muted_tags: Chēng-im
       muted_tags_instructions: >-
-        You will not be notified of anything about new topics with these tags,
-        and they will not appear in latest.
+        Kòa chia ê phiau-á ê ōe-tê, lí bē siu jīm-hô thong-ti.
+        Tī sin thiⁿ ia̍h mā khòaⁿ bē tio̍h.
       watched_categories: Teh Khòaⁿ
       watched_categories_instructions: >-
         Chia ê tiâⁿ só͘ ū ê ōe-tê sǹg sī lí teh khòaⁿ.
-        Sin ê ōe-tê kap só͘ ū ê pho͘-bûn lí ē siu thong-ti,
-        sin pho͘ gia̍h mā hián-sī tī phiau-tê piⁿ-·a.
+        Nā ū sin ōe-tê/tap-ho̍k, lí ē siu thong-ti.
+        Sin pho͘ gia̍h mā hián-sī tī phiau-tê piⁿ-·a.
       tracked_categories: Teh Tòe
       tracked_categories_instructions: >-
         Chia ê tiâⁿ só͘ ū ê ōe-tê sǹg sī lí teh tòe.
@@ -1008,8 +1008,7 @@ tai_Rom:
         Sin pho͘ ê ōe-tê lí ē siu thong-ti.
       watched_first_post_tags: Teh Khòaⁿ Sin Pho͘ ·ê
       watched_first_post_tags_instructions: >-
-        You will be notified of the first post in each new topic with these
-        tags.
+        Sin pho͘ ê ōe-tê nā kòa chia ê phiau-á, lí ē siu thong-ti.
       muted_categories: Chēng-im
       muted_categories_instructions: >-
         Chia ê tiâⁿ nā ū sin ê ōe-tê, lí bē siu thong-ti,
@@ -1032,8 +1031,8 @@ tai_Rom:
       muted_users: Chēng-im
       muted_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê thong-ti / su-sìn, lóng làng ·kòe.
       allowed_pm_users: Ún-chún ·ê
-      allowed_pm_users_instructions: Only allow PMs from these users.
-      allow_private_messages_from_specific_users: Only allow specific users to send me personal messages
+      allowed_pm_users_instructions: Ún-chún sàng su-phoe hō͘ ·lí ê sú-iōng-chiá.
+      allow_private_messages_from_specific_users: Kan-taⁿ ún-chún chí-tēng sú-iōng-chiá sàng su-phoe hō͘ ·góa.
       ignored_users: Làng ·kòe
       ignored_users_instructions: Ùi chia ê sú-iōng-chiá lâi ê pho͘-bûn / thong-ti / su-sìn, lóng làng ·kòe.
       tracked_topics_link: Hián-sī
@@ -1058,13 +1057,13 @@ tai_Rom:
         all: Só͘ ū ·ê
         inbox: Sìn-siuⁿ
         sent: Sàng ·ê
-        archive: Archive
+        archive: Siu khǹg ·ê
         groups: My Groups
         bulk_select: Select messages
         move_to_inbox: Chhian kah Sìn-siuⁿ
         move_to_archive: Siu khǹg
         failed_to_move: Failed to move selected messages (perhaps your network is down)
-        select_all: Select All
+        select_all: Kéng choân-pō͘
         tags: Phiau-á
       preferences_nav:
         account: Kháu-chō
@@ -1215,14 +1214,14 @@ tai_Rom:
         upload_title: Upload your picture
         image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
       change_profile_background:
-        title: Kháu-chō Pōe-kéng Tô͘
-        instructions: Profile headers will be centered and have a default width of 1110px.
+        title: Kháu-chō pōe-kéng tô͘
+        instructions: Kháu-chō pōe-kéng tô͘ kì-tēng khoah-tō͘ ūi 1110px.
       change_card_background:
-        title: Iōng-chiá Phìⁿ Pōe-kéng Tô͘
-        instructions: Background images will be centered and have a default width of 590px.
+        title: Meh-sih pōe-kéng tô͘
+        instructions: Meh-sih pōe-kéng tô͘ kì-tēng khoah-tō͘ ūi 590px.
       change_featured_topic:
         title: Te̍k-pia̍t Ōe-tê
-        instructions: "A link to this topic will be on your user card, and profile."
+        instructions: "Ōe-tê bāng-liân-á tī meh-sih kap kháu-chō ia̍h hián-sī."
       email:
         title: Tiān-phoe
         primary: Chú Tiān-phoe
@@ -1256,17 +1255,17 @@ tai_Rom:
             We'll only email you if we haven't seen you in the last %{count}
             minutes.
       associated_accounts:
-        title: Associated Accounts
-        connect: Connect
-        revoke: Revoke
-        cancel: Cancel
-        not_connected: (not connected)
-        confirm_modal_title: "Connect %{provider} Account"
+        title: Siā-kau kháu-chō
+        connect: Sio-chiap
+        revoke: Chhú-siau
+        cancel: Hú ·khì
+        not_connected: (á bē sio-chiap)
+        confirm_modal_title: "Sio-chiap %{provider} Kháu-chō"
         confirm_description:
           account_specific: >-
-            Your %{provider} account '%{account_description}' will be used for
-            authentication.
-          generic: "Your %{provider} account will be used for authentication."
+            Ún-chún sio-chiap %{provider} kháu-chō '%{account_description}',
+            í āu thang chò siā-kau ji̍p chām.
+          generic: "Lí ê %{provider} kháu-chō thang chò siā-kau ji̍p chām."
       name:
         title: Miâ-sèⁿ
         instructions: lí ê miâ-sèⁿ (chāi lí siá, ē kong-khai hián-sī)
@@ -1323,7 +1322,7 @@ tai_Rom:
       location: Ūi-tì
       website: Bāng-chām
       email_settings: Tiān-phoe
-      hide_profile_and_presence: Hide my public profile and presence features
+      hide_profile_and_presence: Chhàng-bih góa ê kháu-chō chu-liāu
       enable_physical_keyboard: Enable physical keyboard support on iPad
       text_size:
         title: Jī ê chhùn-chhioh
@@ -1333,24 +1332,23 @@ tai_Rom:
         larger: Khah tōa
         largest: Siōng tōa
       title_count_mode:
-        title: "Background page title displays count of:"
-        notifications: New notifications
-        contextual: New page content
+        title: "Pōe-kéng hun-ia̍h hián-sī:"
+        notifications: Thong-ti gia̍h
+        contextual: Sin tín-tāng gia̍h
       like_notification_frequency:
-        title: Notify when liked
-        always: Always
-        first_time_and_daily: First time a post is liked and daily
-        first_time: First time a post is liked
-        never: Never
+        title: Siu kah-ì, kám beh thong-ti?
+        always: Ta̍k pái
+        first_time_and_daily: Thâu pái, koh lâi ta̍k kang chi̍t pái
+        first_time: Thâu pái niâ
+        never: Lóng m̄ bián
       email_previous_replies:
-        title: Include previous replies at the bottom of emails
-        unless_emailed: unless previously sent
-        always: always
-        never: never
+        title: Sàng hō͘ góa ê tiān-phoe, kā khah chá ê tap-ho̍k khǹg tī ē-té.
+        unless_emailed: tû khí sàng ·kòe ·a
+        always: ta̍k pái
+        never: lóng m̄ bián
       email_digests:
         title: >-
-          When I don’t visit here, send me an email summary of popular topics
-          and replies
+          Góa nā bô lâi, kā khah jia̍t-chêng ê ōe-tê cheng-soán sàng hō͘ ·góa.
         every_30_minutes: pòaⁿ tiám-cheng chi̍t pái
         every_hour: chi̍t tiám-cheng chi̍t pái
         daily: ta̍k kang
@@ -1366,29 +1364,29 @@ tai_Rom:
         only_when_away: góa nā bô tī ·le
         never: lóng bián
       email_messages_level: Nā siu tio̍h su-sìn chhiáⁿ sàng tiān-phoe thong-ti
-      include_tl0_in_digests: Include content from new users in summary emails
-      email_in_reply_to: Include an excerpt of replied to post in emails
+      include_tl0_in_digests: Cheng-soán tiān-phoe hâm sin sú-iōng-chiá pho͘ ·ê
+      email_in_reply_to: Tiān-phoe hâm tap-ho̍k ê lōe-iông
       other_settings: Other
       categories_settings: Categories
       new_topic_duration:
-        label: Consider topics new when
-        not_viewed: I haven't viewed them yet
-        last_here: created since I was here last
-        after_1_day: created in the last day
-        after_2_days: created in the last 2 days
-        after_1_week: created in the last week
-        after_2_weeks: created in the last 2 weeks
-      auto_track_topics: Automatically track topics I enter
+        label: Ōe-tê tang-sî sǹg sin ·ê?
+        not_viewed: góa nā á bē khòaⁿ ·ê
+        last_here: ùi góa téng pái lâi liáu-āu chiah pho͘ ·ê
+        after_1_day: ùi chăng pho͘ ·ê
+        after_2_days: ùi cho̍h ·ji̍t pho͘ ·ê
+        after_1_week: ùi téng lé-pài pho͘ ·ê
+        after_2_weeks: ùi nn̄g lé-pài chêng pho͘ ·ê
+      auto_track_topics: Góa teh tha̍k ê ōe-tê, tang-sî sǹg chò teh tòe?
       auto_track_options:
-        never: never
-        immediately: immediately
-        after_30_seconds: after 30 seconds
-        after_1_minute: after 1 minute
-        after_2_minutes: after 2 minutes
-        after_3_minutes: after 3 minutes
-        after_4_minutes: after 4 minutes
-        after_5_minutes: after 5 minutes
-        after_10_minutes: after 10 minutes
+        never: lóng m̄ bián
+        immediately: liâm-mi
+        after_30_seconds: tha̍k tio̍h 30 bió
+        after_1_minute: tha̍k tio̍h 1 hun-cheng
+        after_2_minutes: tha̍k tio̍h 2 hun-cheng
+        after_3_minutes: tha̍k tio̍h 3 hun-cheng
+        after_4_minutes: tha̍k tio̍h 4 hun-cheng
+        after_5_minutes: tha̍k tio̍h 5 hun-cheng
+        after_10_minutes: tha̍k tio̍h 10 hun-cheng
       notification_level_when_replying: "Góa nā lâu-ōe, kā hit ê ōe-tê sǹg chò"
       invited:
         search: type to search invites...
@@ -2586,7 +2584,7 @@ tai_Rom:
           title: Chēng-im
           description: >-
             Lí ùi chit tiâu ōe-tê bē siu jīm-hô thong-ti.
-            I tī sin thiⁿ ia̍h mā bē hián-sī.
+            I tī sin thiⁿ ia̍h mā khòaⁿ bē tio̍h.
       actions:
         title: Actions
         recover: Un-Delete Topic
@@ -3191,7 +3189,7 @@ tai_Rom:
           title: Chēng-im
           description: >-
             Lí ùi chit phiàn tiâⁿ bē siu jīm-hô thong-ti.
-            Tī sin thiⁿ ia̍h mā bē hián-sī.
+            Tī sin thiⁿ ia̍h mā khòaⁿ bē tio̍h.
       search_priority:
         label: Search Priority
         options:
@@ -3552,7 +3550,7 @@ tai_Rom:
       selector_no_tags: no tags
       changed: "tags changed:"
       tags: Phiau-á
-      choose_for_topic: optional tags
+      choose_for_topic: kéng phiau-á
       info: Info
       default_info: "This tag isn't restricted to any categories, and has no synonyms."
       category_restricted: >-
@@ -3638,7 +3636,7 @@ tai_Rom:
           title: Chēng-im
           description: >-
             Kòa chit tiâu phiau-á ê ōe-tê, lí bē siu jīm-hô thong-ti.
-            Tī á bē tha̍k ia̍h mā bē hián-sī.
+            Tī á bē tha̍k ia̍h mā khòaⁿ bē tio̍h.
       groups:
         title: Tag Groups
         about: Add tags to groups to manage them more easily.
