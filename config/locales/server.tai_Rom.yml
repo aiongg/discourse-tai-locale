@@ -4360,22 +4360,22 @@ tai_Rom:
         This badge is granted the first time you edit one wiki post.
     basic_user:
       name: Chheⁿ-kak
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> all essential community functions
+      description: Oân-sêng só͘ ū ki-pún ê siā-kau <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">kong-lêng</a>
       long_description: |
         This badge is granted when you reach trust level 1. Thanks for sticking around and reading a few topics to learn what our community is about. New user restrictions have been lifted; you’ve been granted all essential community abilities, such as personal messaging, flagging, wiki editing, and the ability to post multiple images and links.
     member:
       name: Chú Kò͘-kheh
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> invitations, group messaging, more likes
+      description: Sàng chhiáⁿ thiap, chò kûn-cho͘, cheng-ka chhi̍h kah-ì gia̍h ê <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">kong-lêng</a>
       long_description: |
         This badge is granted when you reach trust level 2. Thanks for participating over a period of weeks to truly join our community. You can now send invitations from your user page or individual topics, create group personal messages, and have more likes per day.
     regular:
       name: Sai-hū
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> recategorize, rename, followed links, wiki, more likes
+      description: Kā ōe-tê ōaⁿ tiâⁿ, ōaⁿ phiau-tê, kiàn-li̍p wiki ê<a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">kong-lêng</a>
       long_description: |
         This badge is granted when you reach trust level 3. Thanks for being a regular part of our community over a period of months. You’re now one of the most active readers, and a reliable contributor that makes our community great. You can now recategorize and rename topics, take advantage of more powerful spam flags, access a private lounge area, and you’ll also get lots more likes per day.
     leader:
       name: Thâu-lâng
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> global edit, pin, close, archive, split and merge, more likes
+      description: Kā jīm-hô pho͘ bûn phian-chhip, pín ·khí ·lì ā thâi tiāu ê <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">kong-lêng</a>
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
@@ -4439,13 +4439,13 @@ tai_Rom:
       long_description: |
         This badge is granted for sharing a link that was clicked by 1000 outside visitors. Wow! You’ve promoted an interesting discussion to a huge new audience, and helped us grow our community in a big way!
     first_like:
-      name: First Like
-      description: Liked a post
+      name: Chhi̍h Kah-ì
+      description: Thâu piàn chhi̍h kah-ì
       long_description: |
         This badge is granted the first time you like a post using the :heart: button. Liking posts is a great way to let your fellow community members know that what they posted was interesting, useful, cool, or fun. Share the love!
     first_flag:
-      name: First Flag
-      description: Flagged a post
+      name: Chhah Kî-á
+      description: Thâu piàn kā ōe-tê chhah kî-á
       long_description: |
         This badge is granted the first time you flag a post. Flagging is how we all help keep this a nice place for everyone. If you notice any posts that require moderator attention for any reason please don’t hesitate to flag. If you see a problem, :flag_black: flag it!
     promoter:
@@ -4504,8 +4504,8 @@ tai_Rom:
       long_description: |
         This badge is granted when a link you shared gets 1000 clicks. Wow! You posted a link that significantly improved the conversation by adding essential detail, context, and information. Great work!
     appreciated:
-      name: Appreciated
-      description: Received 1 like on 20 posts
+      name: Kám-kek
+      description: Ū 20 pho͘ bûn siu tio̍h kah-ì
       long_description: |
         This badge is granted when you receive at least one like on 20 different posts. The community is enjoying your contributions to the conversations here!
     respected:
@@ -4534,8 +4534,8 @@ tai_Rom:
       long_description: |
         This badge is granted when you use all %{max_likes_per_day} of your daily likes for 20 days. Wow! You’re a role model for encouraging your fellow community members!
     thank_you:
-      name: Thank You
-      description: Has 20 liked posts and gave 10 likes
+      name: Chin Ló͘-la̍t
+      description: Ū 20 pho͘ bûn siu tio̍h kah-ì, 10 pho͘ lí chhi̍h kah-ì
       long_description: |
         This badge is granted when you have 20 liked posts and give 10 or more likes in return. When someone likes your posts, you find the time to like what others are posting, too.
     gives_back:
@@ -4574,20 +4574,20 @@ tai_Rom:
       long_description: |
         This badge is granted to congratulate two new users each month for their excellent overall contributions, as measured by how often their posts were liked, and by whom.
     enthusiast:
-      name: MATCH
-      description: Visited 10 consecutive days
+      name: Má-chih
+      description: Liân-sòa 10 kang ji̍p chām
       long_description: |
-        This badge is granted for visiting 10 consecutive days. Thanks for sticking with us for over a week!
+        Siúⁿ lí chit bīn chióng-pâi sī ūi tio̍h beh kám-siā lí liân-sòa 10 kang lóng ū ji̍p chām. Kám-siā lí hām lán ta̍k ê iōng-sim tàu-tīn chit lé-pài gōa. Kám-siā, ló͘-la̍t!
     aficionado:
       name: Ōaⁿ Thiap
-      description: Visited 100 consecutive days
+      description: Liân-sòa 100 kang ji̍p chām
       long_description: |
-        This badge is granted for visiting 100 consecutive days. That’s more than three months!
+        Siúⁿ lí chit bīn chióng-pâi sī ūi tio̍h beh kám-siā lí liân-sòa 10 kang lóng ū ji̍p chām. Án-ne tō chhiau kòe saⁿ kò goe̍h ·a!
     devotee:
       name: Sí Tiong
-      description: Visited 365 consecutive days
+      description: Liân-sòa 365 kang ji̍p chām
       long_description: |
-        This badge is granted for visiting 365 consecutive days. Wow, an entire year!
+        Siúⁿ lí chit bīn chióng-pâi sī ūi tio̍h beh kám-siā lí liân-sòa 10 kang lóng ū ji̍p chām. Òa, kui nî thàng thiⁿ!
     badge_title_metadata: "%{display_name} badge on %{site_title}"
 
   admin_login:

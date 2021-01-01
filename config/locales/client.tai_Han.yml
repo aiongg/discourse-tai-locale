@@ -89,7 +89,7 @@ tai_Han:
       placeholder: 日期
     share:
       topic_html: '話題：<span class="topic-title">%{topicTitle}</span>'
-      post: 'pho͘ #%{postNumber}'
+      post: '鋪 #%{postNumber}'
       close: 關
       twitter: 治推妥分張
       facebook: 治面册分張
@@ -234,7 +234,7 @@ tai_Han:
         last_30_days: 過去30工
       like_count: 甲意
       topic_count: 話題
-      post_count: Pho͘文
+      post_count: 鋪文
       user_count: 使用者
       active_user_count: 線頂用者
       contact: 連絡
@@ -261,13 +261,13 @@ tai_Han:
         汝亜未定時區。無法度調提醒。先甲<a href="%{basePath}/my/preferences/profile">口座設定頁</a>揀時區。
       invalid_custom_datetime: 'The date and time you provided is invalid, please try again.'
       list_permission_denied: 汝無權限看只位使用者做个記号。
-      no_user_bookmarks: 汝無任何做記号个pho͘文、做記号乎汝恰利便跳甲指定个pho͘文。
+      no_user_bookmarks: 汝無任何做記号个鋪文、做記号乎汝恰利便跳甲指定个鋪文。
       auto_delete_preference:
         label: Automatically delete
         never: Never
         when_reminder_sent: Once the reminder is sent
         on_owner_reply: After I reply to this topic
-      search_placeholder: 對名・標題・也pho͘文內容尋記号
+      search_placeholder: 對名・標題・也鋪文內容尋記号
       search: 尋
       reminders:
         later_today: 恰停仔
@@ -304,22 +304,22 @@ tai_Han:
         yes_value: '好、硯兆'
         no_value: '無, 留レ'
     topic_count_latest:
-      other: '看%{count}新pho͘个也新添个話題'
+      other: '看%{count}新鋪个也新添个話題'
     topic_count_unread:
       other: '看%{count}條夭未讀个話題'
     topic_count_new:
-      other: '看%{count}條新pho͘个話題'
+      other: '看%{count}條新鋪个話題'
     preview: 影一下
     cancel: hú去
     deleting: 當塊硯捒...
     save: 儉
     saving: 當塊儉...
     saved: 儉好唖!
-    upload: 藏起去
-    uploading: 當塊藏...
-    uploading_filename: '當塊藏： %{filename}...'
+    upload: 寄起去
+    uploading: 當塊寄...
+    uploading_filename: '當塊寄： %{filename}...'
     clipboard: clipboard
-    uploaded: 藏好唖!
+    uploaded: 寄好唖!
     pasting: 當塊搭...
     enable: 允准
     disable: 不准
@@ -507,10 +507,10 @@ tai_Han:
     user_action:
       user_posted_topic: >-
         <a href='%{topicUrl}'>話題</a>乎<a
-        href='%{userUrl}'>%{user}</a> pho͘个。
+        href='%{userUrl}'>%{user}</a> 鋪个。
       you_posted_topic: >-
         <a href=''%{topicUrl}'>話題</a>乎<a
-        href='%{userUrl}'>汝</a>pho͘个
+        href='%{userUrl}'>汝</a>鋪个
       user_replied_to_post: >-
         <a href='%{userUrl}'>%{user}</a>答復<a
         href='%{postUrl}'>%{post_number}</a>
@@ -532,8 +532,8 @@ tai_Han:
       you_mentioned_user: >-
         <a href='%{user1Url}'>汝</a>共<a
         href='%{user2Url}'>%{another_user}</a>点名
-      posted_by_user: '乎<a href=''%{userUrl}''>%{user}</a> pho͘个'
-      posted_by_you: '<a href=''%{userUrl}''>汝加治</a>pho͘个'
+      posted_by_user: '乎<a href=''%{userUrl}''>%{user}</a> 鋪个'
+      posted_by_you: '<a href=''%{userUrl}''>汝加治</a>鋪个'
       sent_by_user: '乎<a href=''%{userUrl}''>%{user}</a>送个'
       sent_by_you: '<a href=''%{userUrl}''>汝加治</a>送个'
     directory:
@@ -742,7 +742,7 @@ tai_Han:
         owner: Owner
         forbidden: You're not allowed to view the members.
       topics: 話題
-      posts: Pho͘文
+      posts: 鋪文
       mentions: 点名
       messages: 訊息
       notification_level: Default notification level for group messages
@@ -816,7 +816,7 @@ tai_Han:
         save: Save Order
         apply_all: Apply
         position: Position
-      posts: Pho͘文
+      posts: 鋪文
       topics: 話題
       latest: 新添个
       latest_by: latest by
@@ -856,12 +856,12 @@ tai_Han:
       mute: 靜音
       edit: 換設定
       download_archive:
-        button_text: 扐全部
-        confirm: 汝咁確定卜共汝所有个pho͘文扐落來？
+        button_text: 挽全部
+        confirm: 汝咁確定卜共汝所有个鋪文挽落來？
         success: >-
           Download initiated, you will be notified via message when the process
           is complete.
-        rate_limit_error: '逐工通扐pho͘文一擺、明旦再閣試。'
+        rate_limit_error: '逐工通挽鋪文一擺、明旦再閣試。'
       new_private_message: 送批
       private_message: 送批
       private_messages: 訊息
@@ -923,7 +923,7 @@ tai_Han:
         disable: 不准通知
         enable: 允准通知
         each_browser_note: '註：換閱覽器愛另外設定。'
-        consent_prompt: 汝个pho͘文那有新个答復、汝咁愛領通知？
+        consent_prompt: 汝个鋪文那有新个答復、汝咁愛領通知？
       dismiss: 知唖
       dismiss_notifications: 朗知唖
       dismiss_notifications_tooltip: Mark all unread notifications as read
@@ -951,8 +951,8 @@ tai_Han:
       text_size_default_on_all_devices: Make this the default text size on all my devices
       allow_private_messages: 允准別个使用者送私信乎我
       external_links_in_new_tab: 外網連仔開治新分頁
-      enable_quoting: Enable quote reply for highlighted text
-      enable_defer: Enable defer to mark topics unread
+      enable_quoting: 共選取个內文直接引用來寫答復
+      enable_defer: 會使共話題標記做夭未讀
       change: change
       featured_topic: 特別話題
       moderator: '%{user} 是埕長'
@@ -981,25 +981,25 @@ tai_Han:
       tag_settings: 標仔
       watched_tags: 塊看
       watched_tags_instructions: >-
-        掛者个標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新pho͘額嗎會顯示治標題邊仔。
+        掛者个標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新鋪額嗎會顯示治標題邊仔。
       tracked_tags: 塊綴
       tracked_tags_instructions: >-
-        掛者个標仔个話題朗自動算做汝塊綴。新pho͘額嗎會顯示治標題邊仔。
+        掛者个標仔个話題朗自動算做汝塊綴。新鋪額嗎會顯示治標題邊仔。
       muted_tags: 靜音
       muted_tags_instructions: >-
         掛者个標仔个話題、汝袂收任何通知。治新添葉嗎看袂着。
       watched_categories: 塊看
       watched_categories_instructions: >-
-        者个埕所有个話題算是汝塊看。新个話題甲所有个pho͘文汝會收通知、新pho͘額嗎顯示治標題邊仔。
+        者个埕所有个話題算是汝塊看。新个話題甲所有个鋪文汝會收通知、新鋪額嗎顯示治標題邊仔。
       tracked_categories: 塊綴
       tracked_categories_instructions: >-
-        者个埕所有个話題算是汝塊綴。新pho͘額嗎顯示治標題邊仔。
-      watched_first_post_categories: 塊看新pho͘个
+        者个埕所有个話題算是汝塊綴。新鋪額嗎顯示治標題邊仔。
+      watched_first_post_categories: 塊看新鋪个
       watched_first_post_categories_instructions: >-
-        新pho͘个話題汝會收通知。
-      watched_first_post_tags: 塊看新pho͘个
+        新鋪个話題汝會收通知。
+      watched_first_post_tags: 塊看新鋪个
       watched_first_post_tags_instructions: >-
-        新pho͘个話題那掛者个標仔、汝會收通知。
+        新鋪个話題那掛者个標仔、汝會收通知。
       muted_categories: 靜音
       muted_categories_instructions: >-
         者个埕那有新个話題、汝袂收通知、埕頁甲新添頁嗎看袂着。
@@ -1023,7 +1023,7 @@ tai_Han:
       allowed_pm_users_instructions: 允准送私批乎汝个使用者。
       allow_private_messages_from_specific_users: 干焦允准指定使用者送私批乎我。
       ignored_users: 籠過
-      ignored_users_instructions: 對者个使用者來个pho͘文・通知・私信、朗籠過。
+      ignored_users_instructions: 對者个使用者來个鋪文・通知・私信、朗籠過。
       tracked_topics_link: 顯示
       automatically_unpin_topics: Automatically unpin topics when I reach the bottom.
       apps: Apps
@@ -1086,7 +1086,7 @@ tai_Han:
         copy_to_clipboard: Khó͘-pih起去
         copy_to_clipboard_error: Khó͘-pih發生錯誤
         copied_to_clipboard: Khó͘-pih好唖
-        download_backup_codes: 共backup codes扐落來
+        download_backup_codes: 共backup codes挽落來
         remaining_codes:
           other: 'You have <strong>%{count}</strong> backup codes remaining.'
         use: Use a backup code
@@ -1294,13 +1294,13 @@ tai_Han:
           那不是汝做个、阮建議粘乜換暗号閣對所有个設備出站。
         browser_and_device: '%{browser} 治 %{device}'
         secure_account: Secure my Account
-        latest_post: 汝頂擺pho͘文…
+        latest_post: 汝頂擺鋪文…
         device_location: >-
           <span class="auth-token-device">%{device}</span> &ndash; <span
           title="IP: %{ip}">%{location}</span>
         browser_active: '%{browser} | <span class="active">active now</span>'
         browser_last_seen: '%{browser} | %{date}'
-      last_posted: 頂擺pho͘文
+      last_posted: 頂擺鋪文
       last_emailed: 頂擺送電批
       last_seen: Seen
       created: 起个
@@ -1343,7 +1343,7 @@ tai_Han:
         every_six_months: 半冬
       email_level:
         title: >-
-          那有人共我个pho͘文引用・答復、共我点名、也是邀請我看某乜話題、請送電批通知
+          那有人共我个鋪文引用・答復、共我点名、也是邀請我看某乜話題、請送電批通知
         always: 朗愛
         only_when_away: 我那無治レ
         never: 朗免
@@ -1355,11 +1355,11 @@ tai_Han:
       new_topic_duration:
         label: 話題冬時算新个？
         not_viewed: 我那夭未看
-        last_here: 對我頂擺來了後即pho͘个
-        after_1_day: 對昨昏pho͘个
-        after_2_days: 對昨日pho͘个
-        after_1_week: 對頂礼拜pho͘个
-        after_2_weeks: 對二礼拜前pho͘个
+        last_here: 對我頂擺來了後即鋪个
+        after_1_day: 對昨昏鋪个
+        after_2_days: 對昨日鋪个
+        after_1_week: 對頂礼拜鋪个
+        after_2_weeks: 對二礼拜前鋪个
       auto_track_topics: 我塊讀个話題、冬時算做塊綴？
       auto_track_options:
         never: 朗不免
@@ -1449,7 +1449,7 @@ tai_Han:
         topic_count:
           other: 起話題
         post_count:
-          other: Pho͘文
+          other: 鋪文
         likes_given:
           other: 我乎人
         likes_received:
@@ -1459,7 +1459,7 @@ tai_Han:
         topics_entered:
           other: 看話題
         posts_read:
-          other: 讀pho͘文
+          other: 讀鋪文
         bookmark_count:
           other: 記号
         top_replies: 銃〔答復〕
@@ -1581,16 +1581,16 @@ tai_Han:
     learn_more: learn more...
     all_time: total
     all_time_desc: total topics created
-    year: year
-    year_desc: topics created in the last 365 days
-    month: month
-    month_desc: topics created in the last 30 days
-    week: week
-    week_desc: topics created in the last 7 days
-    day: day
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
+    year: 冬
+    year_desc: 過去365工鋪个文
+    month: 個月
+    month_desc: 過去30工鋪个文
+    week: 礼拜
+    week_desc: 過去7工鋪个文
+    day: 工
+    first_post: 頭文
+    mute: 靜音
+    unmute: 取消靜音
     last_post: Posted
     local_time: 在地時間
     time_read: Read
@@ -1623,7 +1623,7 @@ tai_Han:
         There are <b>%{replyCount}</b> replies with an estimated read time of
         <b>%{readingTime} minutes</b>.
       enable: Summarize This Topic
-      disable: 顯示所有个pho͘文
+      disable: 顯示所有个鋪文
     deleted_filter:
       enabled_description: 'This topic contains deleted posts, which have been hidden.'
       disabled_description: Deleted posts in the topic are shown.
@@ -1926,8 +1926,8 @@ tai_Han:
         title_missing: 愛寫一个標題
         title_too_short: '標題上少愛寫 %{min} 字'
         title_too_long: '標題袂凍超過 %{max} 字'
-        post_missing: Pho͘文內容袂凍空空
-        post_length: 'Pho͘文上少愛寫 %{min} 字'
+        post_missing: 鋪文內容袂凍空空
+        post_length: '鋪文上少愛寫 %{min} 字'
         try_like: 'Have you tried the %{heart} button?'
         category_missing: 愛揀一片埕
         tags_missing:
@@ -1935,13 +1935,13 @@ tai_Han:
         topic_template_not_modified: >-
           Please add details and specifics to your topic by editing the topic
           template.
-      save_edit: Save Edit
+      save_edit: 好唖
       overwrite_edit: Overwrite Edit
       reply_original: Reply on Original Topic
       reply_here: Reply Here
       reply: 答復
       cancel: Cancel
-      create_topic: Pho͘文
+      create_topic: 鋪文
       create_pm: Message
       create_whisper: Whisper
       create_shared_draft: Create Shared Draft
@@ -1957,11 +1957,11 @@ tai_Han:
         者打字。Markdown・BBCode・HTML朗會用得。圖拖・搭過來。
       reply_placeholder_no_images: '者打字。Markdown・BBCode・HTML朗會用得。'
       reply_placeholder_choose_category: Select a category before typing here.
-      view_new_post: Pho͘唖、來看覓。
+      view_new_post: 鋪唖、來看覓。
       saving: 當塊儉
       saved: 儉唖！
       saved_draft: 當塊寫草稿。市落去繼續。
-      uploading: 當塊藏...
+      uploading: 當塊寄...
       show_preview: 影一下 &raquo;
       hide_preview: '&laquo; thoah起來'
       quote_post_title: Quote whole post
@@ -2027,12 +2027,12 @@ tai_Han:
           desc: Create a new personal message
         reply_to_topic:
           label: 應話題
-          desc: '應歸个話題、免指定其中一篇pho͘文'
+          desc: '應歸个話題、免指定其中一篇鋪文'
         toggle_whisper:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
         create_topic:
-          label: Pho͘文
+          label: 鋪文
         shared_draft:
           label: Shared Draft
           desc: Draft a topic that will only be visible to allowed users
@@ -2145,7 +2145,7 @@ tai_Han:
     search:
       sort_by: 照順序
       relevance: Relevance
-      latest_post: 新pho͘个
+      latest_post: 新鋪个
       latest_topic: 新添个
       most_viewed: 觀覽額
       most_liked: 甲意个
@@ -2156,8 +2156,8 @@ tai_Han:
         other: >-
           <span>%{count}%{plus} results for</span><span
           class='term'>%{term}</span>
-      title: '尋話題・pho͘文・使用者・也是埕'
-      full_page_title: 尋話題也是pho͘文
+      title: '尋話題・鋪文・使用者・也是埕'
+      full_page_title: 尋話題也是鋪文
       no_results: 尋無。
       no_more_results: No more results found.
       post_format: '#%{post_number} by %{username}'
@@ -2169,7 +2169,7 @@ tai_Han:
       search_google: '尋Google看覓：'
       search_google_button: Google
       context:
-        user: '尋 @%{username} pho͘个'
+        user: '尋 @%{username} 鋪个'
         category: '治 #%{category} 埕尋'
         tag: '尋 #%{tag} 標仔'
         topic: 治只个話題尋
@@ -2177,7 +2177,7 @@ tai_Han:
       advanced:
         title: Advanced Search
         posted_by:
-          label: 省人pho͘个
+          label: 省人鋪个
         in_category:
           label: 叨一片埕
         in_group:
@@ -2187,7 +2187,7 @@ tai_Han:
         with_tags:
           label: Tagged
         filters:
-          label: 尋話題・pho͘文...
+          label: 尋話題・鋪文...
           title: 標題尋有个
           likes: 我甲意个
           posted: I posted in
@@ -2299,7 +2299,7 @@ tai_Han:
         latest: 春無半條新添个話題。
         posted: There are no more posted topics.
         read: 春無半條讀過个話題。
-        new: 春無半條新pho͘个話題。
+        new: 春無半條新鋪个話題。
         unread: 春無半條亜未讀个話題。
         category: "春無半條%{category}話題。"
         tag: "春無半條%{tag}話題。"
@@ -2308,7 +2308,7 @@ tai_Han:
     topic:
       filter_to:
         other: '%{count} posts in topic'
-      create: Pho͘文
+      create: 鋪文
       create_long: Create a new Topic
       open_draft: 草稿thoah開
       private_message: 寫訊息
@@ -2356,11 +2356,11 @@ tai_Han:
           Sorry, we couldn't find that topic. Perhaps it was removed by a
           moderator?
       total_unread_posts:
-        other: '只條話題有 %{count} 篇汝夭未讀个pho͘文'
+        other: '只條話題有 %{count} 篇汝夭未讀个鋪文'
       unread_posts:
         other: 'you have %{count} unread old posts in this topic'
       new_posts:
-        other: '對汝頂擺看只條話題閣有 %{count} 篇新个pho͘文'
+        other: '對汝頂擺看只條話題閣有 %{count} 篇新个鋪文'
       likes:
         other: 'there are %{count} likes in this topic'
       back_to_list: Back to Topic List
@@ -2396,18 +2396,18 @@ tai_Han:
           discussions, users must wait before posting again in this topic.
         save: Enable
         remove: Disable
-        hours: 'Hours:'
-        minutes: 'Minutes:'
-        seconds: 'Seconds:'
+        hours: '点鐘：'
+        minutes: '分鐘：'
+        seconds: '秒：'
         durations:
-          15_minutes: 15 Minutes
-          1_hour: 1 Hour
-          4_hours: 4 Hours
-          1_day: 1 Day
-          1_week: 1 Week
+          15_minutes: 15分鐘
+          1_hour: 1点鐘
+          4_hours: 4点鐘
+          1_day: 1工
+          1_week: 1礼拜
           custom: Custom Duration
       slow_mode_notice:
-        duration: 'You need to wait %{duration} between posts in this topic'
+        duration: '治只條話題鋪文愛籠%{duration}'
       topic_status_update:
         title: Topic Timer
         save: Set Timer
@@ -2491,45 +2491,36 @@ tai_Han:
         total: total posts
         current: current post
       notifications:
-        title: change how often you get notified about this topic
+        title: 換汝冬時卜收只條話題个通知
         reasons:
-          '0': You are ignoring all notifications on this topic.
+          '0': 只條話題个通知、汝朗籠過
           '1': >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            那是有人共汝用 @ 点名・答復、汝會收通知。
           '2': >-
-            You will see a count of new replies because you <a
-            href="%{basePath}/u/%{username}/preferences/notifications">read this
-            topic</a>.
-          '3': You will receive notifications because you are watching this topic.
+            汝 <a
+            href="%{basePath}/u/%{username}/preferences/notifications">讀過了後</a>、會顯示新答復額。
+          '3': 只條話題汝塊看。汝會收通知。
           mailing_list_mode: >-
             You have mailing list mode enabled, so you will be notified of
             replies to this topic via email.
           '3_10': >-
-            You will receive notifications because you are watching a tag on
-            this topic.
+            汝塊看只條話題个標仔。汝會收通知。
           '3_6': >-
-            You will receive notifications because you are watching this
-            category.
+            汝塊看只片埕。汝會收通知。
           '3_5': >-
-            You will receive notifications because you started watching this
-            topic automatically.
-          '3_2': You will receive notifications because you are watching this topic.
-          '3_1': You will receive notifications because you created this topic.
+            只條話題自動算做汝塊看。汝會收通知。
+          '3_2': 只條話題汝塊看。汝會收通知。
+          '3_1': 只條話題是汝鋪个。汝會收通知。
           '2_8': >-
-            You will see a count of new replies because you are tracking this
-            category.
+            汝塊綴只片埕。會顯示新答復額。
           '2_4': >-
-            You will see a count of new replies because you posted a reply to
-            this topic.
+            汝八答復只條話題。會顯示新答復額。
           '2_2': >-
-            You will see a count of new replies because you are tracking this
-            topic.
+            汝塊綴只條話題。會顯示新答復額。
           '1_2': >-
-            You will be notified if someone mentions your @name or replies to
-            you.
-          '0_7': You are ignoring all notifications in this category.
-          '0_2': You are ignoring all notifications on this topic.
+            那是有人共汝用 @ 点名・答復、汝會收通知。
+          '0_7': 只片埕个知、汝朗籠過
+          '0_2': 只條話題个通知、汝朗籠過
         watching_pm:
           title: 塊看
           description: >-
@@ -2541,19 +2532,19 @@ tai_Han:
         tracking_pm:
           title: 塊綴
           description: >-
-            只通私批新答復額會顯示。乎人@点名、也是回應汝pho͘个、汝即會收通知。
+            只通私批新答復額會顯示。乎人@点名、也是回應汝鋪个、汝即會收通知。
         tracking:
           title: 塊綴
           description: >-
-            只條話題新答復額會顯示。乎人@点名、也是回應汝pho͘个、汝即會收通知。
+            只條話題新答復額會顯示。乎人@点名、也是回應汝鋪个、汝即會收通知。
         regular:
           title: 一般
           description: >-
-            乎人@点名、也是回應汝pho͘个、汝即會收通知。
+            乎人@点名、也是回應汝鋪个、汝即會收通知。
         regular_pm:
           title: 一般
           description: >-
-            乎人@点名、也是回應汝pho͘个、汝即會收通知。
+            乎人@点名、也是回應汝鋪个、汝即會收通知。
         muted_pm:
           title: 靜音
           description: 汝對只通私批袂收任何通知。
@@ -2698,7 +2689,7 @@ tai_Han:
       login_reply: Log In to Reply
       filters:
         n_posts:
-          other: '%{count} 篇pho͘文'
+          other: '%{count} 篇鋪文'
         cancel: Remove filter
       move_to:
         title: Move to
@@ -2810,14 +2801,14 @@ tai_Han:
       quote_reply: 引用
       quote_share: 分享
       edit_reason: '理由：'
-      post_number: 'pho͘ %{number}'
+      post_number: '鋪 %{number}'
       ignored: Ignored content
       wiki_last_edited_on: wiki last edited on
       last_edited_on: post last edited on
       reply_as_new_topic: Reply as linked Topic
       reply_as_new_private_message: Reply as new message to the same recipients
       continue_discussion: '對%{postLink}繼續討論：'
-      follow_quote: 跳甲引用个pho͘文
+      follow_quote: 跳甲引用个鋪文
       show_full: 顯示歸篇
       show_hidden: View ignored content.
       deleted_by_author:
@@ -2830,9 +2821,9 @@ tai_Han:
       gap:
         other: 'view %{count} hidden replies'
       notice:
-        new_user: 此是 %{user} 頭一擺pho͘文。來來來。逐家恰熱情レ。來加相借問。
-        returning_user: 咱介久無看着 %{user}。伊頂擺pho͘文是%{time}。
-      unread: Pho͘文夭未讀
+        new_user: 此是 %{user} 頭一擺鋪文。來來來。逐家恰熱情レ。來加相借問。
+        returning_user: 咱介久無看着 %{user}。伊頂擺鋪文是%{time}。
+      unread: 鋪文夭未讀
       has_replies:
         other: '%{count}答復'
       has_replies_count: '%{count}'
@@ -2845,12 +2836,12 @@ tai_Han:
       filtered_replies_hint:
         other: '看只篇甲%{count}篇答復'
       errors:
-        create: '歹世。Pho͘文發生錯誤。請閣試一擺。'
+        create: '歹世。鋪文發生錯誤。請閣試一擺。'
         edit: '歹世。編輯發生錯誤。請閣試一擺。'
-        upload: '歹世。藏檔案發生錯誤。請閣試一擺。'
+        upload: '歹世。寄檔案發生錯誤。請閣試一擺。'
         file_too_large: >-
           歹世。叱个檔案箱鎮位（上大 %{max_size_kb}kb）。
-          無、汝先共藏治一个雲段平台、閣共網連仔搭治者。
+          無、汝先寄甲一个雲段平台、閣共網連仔搭治者。
         too_many_uploads: 'Sorry, you can only upload one file at a time.'
         too_many_dragged_and_dropped_files:
           other: 'Sorry, you can only upload %{count} files at a time.'
@@ -3145,15 +3136,15 @@ tai_Han:
         watching_first_post:
           title: 塊看頭文
           description: >-
-            新pho͘个話題汝會收通知。舊話題新答復無。
+            新鋪个話題汝會收通知。舊話題新答復無。
         tracking:
           title: 塊綴
           description: >-
-            只片埕所有个話題朗自動算做汝塊綴。乎人@点名、也是回應汝pho͘个、汝即收通知。新答復額嗎會顯示。
+            只片埕所有个話題朗自動算做汝塊綴。乎人@点名、也是回應汝鋪个、汝即收通知。新答復額嗎會顯示。
         regular:
           title: 普通
           description: >-
-            乎人@点名、也是回應汝pho͘个、汝即收通知。
+            乎人@点名、也是回應汝鋪个、汝即收通知。
         muted:
           title: 靜音
           description: >-
@@ -3194,7 +3185,7 @@ tai_Han:
         none: no subcategories
     flagging:
       title: Thanks for helping to keep our community civil!
-      action: 共pho͘文揷旗仔
+      action: 共鋪文揷旗仔
       take_action: Take Action...
       take_action_options:
         default:
@@ -3290,7 +3281,7 @@ tai_Han:
       personal_message:
         title: This topic is a personal message
         help: This topic is a personal message
-    posts: Pho͘文
+    posts: 鋪文
     posts_likes_MF: >
       This topic has {count, plural, one {1 reply} other {# replies}} {ratio,
       select,
@@ -3345,12 +3336,12 @@ tai_Han:
         lower_title_with_count:
           other: '%{count}新个'
         lower_title: 新个
-        title: 新pho͘个
+        title: 新鋪个
         title_with_count:
-          other: '新pho͘个（%{count}）'
-        help: 只幾工pho͘出來个話題
+          other: '新鋪个（%{count}）'
+        help: 只幾工鋪出來个話題
       posted:
-        title: 我pho͘个
+        title: 我鋪个
         help: topics you have posted in
       bookmarks:
         title: 記号
@@ -3392,7 +3383,7 @@ tai_Han:
       create_post: Reply / See
       readonly: See
     lightbox:
-      download: 扐落來
+      download: 挽落來
       previous: Previous (Left arrow key)
       next: Next (Right arrow key)
       counter: '%curr% of %total%'
@@ -3410,7 +3401,7 @@ tai_Han:
         title: 跳甲
         home: '%{shortcut} 主頁'
         latest: '%{shortcut} 新添个'
-        new: '%{shortcut} 新pho͘个'
+        new: '%{shortcut} 新鋪个'
         unread: '%{shortcut} 夭未讀'
         categories: '%{shortcut} 埕表'
         top: '%{shortcut} 銃'
@@ -3422,15 +3413,15 @@ tai_Han:
         previous: '%{shortcut} 頂一條話題'
       navigation:
         title: Navigation
-        jump: '%{shortcut} 去pho͘#'
+        jump: '%{shortcut} 去鋪#'
         back: '%{shortcut} Back'
         up_down: '%{shortcut} Move selection &uarr; &darr;'
         open: '%{shortcut} Open selected topic'
         next_prev: '%{shortcut} Next/previous section'
-        go_to_unread_post: '%{shortcut} 去頭篇夭未看个pho͘文'
+        go_to_unread_post: '%{shortcut} 去頭篇夭未看个鋪文'
       application:
         title: Application
-        create: '%{shortcut} Pho͘新个話題'
+        create: '%{shortcut} 鋪新个話題'
         notifications: '%{shortcut} 通知thoah開'
         hamburger_menu: '%{shortcut} Open hamburger menu'
         user_profile_menu: '%{shortcut} Open user menu'
@@ -3584,19 +3575,19 @@ tai_Han:
         watching:
           title: 塊看
           description: >-
-            掛只條標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新pho͘額嗎會顯示。
+            掛只條標仔个話題朗自動算做汝塊看。那有新話題・答復、汝會收通知。新鋪額嗎會顯示。
         watching_first_post:
           title: 塊看頭文
           description: >-
-            新pho͘个話題那掛只條標仔、汝會收通知。答復無。
+            新鋪个話題那掛只條標仔、汝會收通知。答復無。
         tracking:
           title: 塊綴
           description: >-
-            掛只條標仔个話題朗自動算做汝塊綴。新pho͘額會顯示。
+            掛只條標仔个話題朗自動算做汝塊綴。新鋪額會顯示。
         regular:
           title: 一般
           description: >-
-            汝娜乎人 @tiám-miâ 也是pho͘文有答復、即會收通知。
+            汝娜乎人 @tiám-miâ 也是鋪文有答復、即會收通知。
         muted:
           title: 靜音
           description: >-
@@ -3624,7 +3615,7 @@ tai_Han:
           unread: 汝無夭未看个話題。
           new: 汝無新个話題。
           read: 汝夭未看任何話題。
-          posted: 汝夭未pho͘文。
+          posted: 汝夭未鋪文。
           latest: 無新添个話題。
           bookmarks: 汝夭未共任何話題做記号。
           top: 無塊銃个話題。
@@ -5054,7 +5045,7 @@ tai_Han:
           label: Edit list
           empty: There are no pictures yet. Please upload one.
           upload:
-            label: 藏起去
+            label: 寄起去
             title: Upload image(s)
         selectable_avatars:
           title: List of avatars users can choose from

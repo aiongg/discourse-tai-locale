@@ -45,7 +45,7 @@ tai_Han:
 
   title: "Discourse"
   topics: "話題"
-  posts: "pho͘文"
+  posts: "鋪文"
   views: "views"
   loading: "Loading"
   powered_by_html: 'Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled'
@@ -4350,7 +4350,7 @@ tai_Han:
         invalid_csv: We encountered an error on line %{line_number}. Please confirm the CSV has one email per line.
     editor:
       name: 編者
-      description: 頭擺編輯加治个pho͘文
+      description: 頭擺編輯加治个鋪文
       long_description: |
         This badge is granted the first time you edit one of your posts. While you won’t be able to edit your posts forever, editing is encouraged — you can improve the formatting, fix small mistakes, or add anything you missed when you originally posted. Edit to make your posts even better!
     wiki_editor:
@@ -4360,27 +4360,27 @@ tai_Han:
         This badge is granted the first time you edit one wiki post.
     basic_user:
       name: 青角
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> all essential community functions
+      description: 完成所有基本个社交<a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">功能</a>
       long_description: |
         This badge is granted when you reach trust level 1. Thanks for sticking around and reading a few topics to learn what our community is about. New user restrictions have been lifted; you’ve been granted all essential community abilities, such as personal messaging, flagging, wiki editing, and the ability to post multiple images and links.
     member:
       name: 主顧客
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> invitations, group messaging, more likes
+      description: 送請帖・做群組・增加市甲意額个<a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">功能</a>
       long_description: |
         This badge is granted when you reach trust level 2. Thanks for participating over a period of weeks to truly join our community. You can now send invitations from your user page or individual topics, create group personal messages, and have more likes per day.
     regular:
       name: 司父
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> recategorize, rename, followed links, wiki, more likes
+      description: 共話題換埕・標題、建立 Wiki 个<a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">功能</a>
       long_description: |
         This badge is granted when you reach trust level 3. Thanks for being a regular part of our community over a period of months. You’re now one of the most active readers, and a reliable contributor that makes our community great. You can now recategorize and rename topics, take advantage of more powerful spam flags, access a private lounge area, and you’ll also get lots more likes per day.
     leader:
       name: 頭人
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> global edit, pin, close, archive, split and merge, more likes
+      description: 共任何鋪文編輯・pín起去・刣兆个<a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">功能</a>
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
       name: 歡迎
-      description: 有人甲意汝个pho͘文
+      description: 有人甲意汝个鋪文
       long_description: |
         This badge is granted when you receive your first like on a post. Congratulations, you’ve posted something that your fellow community members found interesting, cool, or useful!
     autobiographer:
@@ -4439,13 +4439,13 @@ tai_Han:
       long_description: |
         This badge is granted for sharing a link that was clicked by 1000 outside visitors. Wow! You’ve promoted an interesting discussion to a huge new audience, and helped us grow our community in a big way!
     first_like:
-      name: First Like
-      description: Liked a post
+      name: 市甲意
+      description: 頭遍市甲意
       long_description: |
         This badge is granted the first time you like a post using the :heart: button. Liking posts is a great way to let your fellow community members know that what they posted was interesting, useful, cool, or fun. Share the love!
     first_flag:
-      name: First Flag
-      description: Flagged a post
+      name: 揷旗仔
+      description: 頭遍共話題揷旗仔
       long_description: |
         This badge is granted the first time you flag a post. Flagging is how we all help keep this a nice place for everyone. If you notice any posts that require moderator attention for any reason please don’t hesitate to flag. If you see a problem, :flag_black: flag it!
     promoter:
@@ -4504,8 +4504,8 @@ tai_Han:
       long_description: |
         This badge is granted when a link you shared gets 1000 clicks. Wow! You posted a link that significantly improved the conversation by adding essential detail, context, and information. Great work!
     appreciated:
-      name: Appreciated
-      description: Received 1 like on 20 posts
+      name: 感激
+      description: 有20鋪文收着甲意
       long_description: |
         This badge is granted when you receive at least one like on 20 different posts. The community is enjoying your contributions to the conversations here!
     respected:
@@ -4534,8 +4534,8 @@ tai_Han:
       long_description: |
         This badge is granted when you use all %{max_likes_per_day} of your daily likes for 20 days. Wow! You’re a role model for encouraging your fellow community members!
     thank_you:
-      name: Thank You
-      description: Has 20 liked posts and gave 10 likes
+      name: 真魯力
+      description: 有20鋪文收着甲意、10鋪汝市甲意
       long_description: |
         This badge is granted when you have 20 liked posts and give 10 or more likes in return. When someone likes your posts, you find the time to like what others are posting, too.
     gives_back:
@@ -4550,7 +4550,7 @@ tai_Han:
         This badge is granted when you have 500 liked posts and give 1000 or more likes in return. Wow! You’re a model of generosity and mutual appreciation :two_hearts:.
     first_emoji:
       name: 頭擺用尫仔圖
-      description: Pho͘文有用着尫仔圖
+      description: 鋪文有用着尫仔圖
       long_description: |
         This badge is granted the first time you add an Emoji to your post :thumbsup:. Emoji let you convey emotion in your posts, from happiness :smiley: to sadness :anguished: to anger :angry: and everything in between :sunglasses:. Just type a : (colon) or press the Emoji toolbar button in the editor to select from hundreds of choices :ok_hand:
     first_mention:
@@ -4559,7 +4559,7 @@ tai_Han:
       long_description: |
         This badge is granted the first time you mention someone’s @username in your post. Each mention generates a notification to that person, so they know about your post. Just begin typing @ (at symbol) to mention any user or, if allowed, group – it’s a convenient way to bring something to their attention.
     first_onebox:
-      name: 頭擺pho͘網連箱
+      name: 頭擺鋪網連箱
       description: Posted a link that was oneboxed
       long_description: |
         This badge is granted the first time you post a link on a line by itself, which automatically expanded into a onebox with a summary, title, and (when available) picture.
@@ -4574,20 +4574,20 @@ tai_Han:
       long_description: |
         This badge is granted to congratulate two new users each month for their excellent overall contributions, as measured by how often their posts were liked, and by whom.
     enthusiast:
-      name: MATCH
-      description: Visited 10 consecutive days
+      name: Má-chih
+      description: 連續十工入站
       long_description: |
-        This badge is granted for visiting 10 consecutive days. Thanks for sticking with us for over a week!
+        賞汝只面槳排是爲着卜感謝汝連續十工朗有入站。感謝汝含咱逐个用心鬥陣只礼拜外。感謝、魯力！
     aficionado:
       name: 換帖
-      description: Visited 100 consecutive days
+      description: 連續一百工入站
       long_description: |
-        This badge is granted for visiting 100 consecutive days. That’s more than three months!
+        賞汝只面槳排是爲着卜感謝汝連續十工朗有入站。按呢着超過三個月唖！
     devotee:
       name: 死忠
-      description: Visited 365 consecutive days
+      description: 連續365工入站
       long_description: |
-        This badge is granted for visiting 365 consecutive days. Wow, an entire year!
+        賞汝只面槳排是爲着卜感謝汝連續十工朗有入站。哇、歸年痛天！
     badge_title_metadata: "%{display_name} badge on %{site_title}"
 
   admin_login:

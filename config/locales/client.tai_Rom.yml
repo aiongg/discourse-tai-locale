@@ -29,9 +29,9 @@ tai_Rom:
       long_with_year_no_time: YYYY年MMMD号
       full_with_year_no_time: YYYY Nî MMMM D Hō
       long_date_with_year: YYYY/MM/DD LT
-      long_date_without_year: M月D日 LT
+      long_date_without_year: M/D LT
       long_date_with_year_without_time: YYYY/MM/DD
-      long_date_without_year_with_linebreak: M月D日 <br/>LT
+      long_date_without_year_with_linebreak: M/D <br/>LT
       long_date_with_year_with_linebreak: YYYY/MM/DD <br/>LT
       wrap_ago: "%{date} chêng"
       tiny:
@@ -318,11 +318,11 @@ tai_Rom:
     save: Khiām
     saving: Tng teh khiām...
     saved: Khiām hó ·a!
-    upload: Khǹg ·khí ·lih
-    uploading: Tng teh khǹg...
-    uploading_filename: "Tng teh khǹg: %{filename}..."
+    upload: Kià ·khí-·lì
+    uploading: Tng teh kià...
+    uploading_filename: "Tng teh kià: %{filename}..."
     clipboard: clipboard
-    uploaded: Khǹg hó ·a!
+    uploaded: kià hó ·a!
     pasting: Tng teh tah...
     enable: Ún-chún
     disable: M̄-chún
@@ -858,12 +858,12 @@ tai_Rom:
       mute: Chēng Im
       edit: Ōaⁿ Siat-tēng
       download_archive:
-        button_text: Lia̍h Choân-pō͘
-        confirm: Lí kám khak-tēng beh kā lí só͘ ū ê pho͘-bûn lia̍h ·lo̍h ·lâi?
+        button_text: Bán choân-pō͘
+        confirm: Lí kám khak-tēng beh kā lí só͘ ū ê pho͘-bûn bán ·loài?
         success: >-
           Download initiated, you will be notified via message when the process
           is complete.
-        rate_limit_error: "Ta̍k kang thang lia̍h pho͘-bûn chi̍t pái, miă-chài koh chhì."
+        rate_limit_error: "Ta̍k kang thang bán pho͘-bûn chi̍t pái, miă-chài koh chhì."
       new_private_message: Sàng phoe
       private_message: Sàng phoe
       private_messages: Sìn-sit
@@ -953,8 +953,8 @@ tai_Rom:
       text_size_default_on_all_devices: Make this the default text size on all my devices
       allow_private_messages: Ún-chún pa̍t ê sú-iōng-chiá sàng su-sìn hō͘ ·góa
       external_links_in_new_tab: Gōa-bāng liân-á khui tī sin hun-ia̍h
-      enable_quoting: Enable quote reply for highlighted text
-      enable_defer: Enable defer to mark topics unread
+      enable_quoting: Kā soán-chhú ê lāi-bûn ti̍t-chiap ín-iōng lâi siá tap-ho̍k
+      enable_defer: Ē-sái kā ōe-tê piau-kì chò á bē tha̍k
       change: change
       featured_topic: Te̍k-pia̍t Ōe-tê
       moderator: "%{user} sī tiâⁿ-tiúⁿ"
@@ -1094,10 +1094,10 @@ tai_Rom:
           other: >-
             Manage backup codes. You have <strong>%{count}</strong> backup codes
             remaining.
-        copy_to_clipboard: Khó͘-pih ·khí ·lih
+        copy_to_clipboard: Khó͘-pih ·khí-·lì
         copy_to_clipboard_error: Khó͘-pih hoat-seng chhò-gō͘
         copied_to_clipboard: Khó͘-pih hó ·a
-        download_backup_codes: Kā backup codes lia̍h ·lo̍h ·lâi
+        download_backup_codes: Kā backup codes bán ·loài
         remaining_codes:
           other: "You have <strong>%{count}</strong> backup codes remaining."
         use: Use a backup code
@@ -1597,16 +1597,16 @@ tai_Rom:
     learn_more: learn more...
     all_time: total
     all_time_desc: total topics created
-    year: year
-    year_desc: topics created in the last 365 days
-    month: month
-    month_desc: topics created in the last 30 days
-    week: week
-    week_desc: topics created in the last 7 days
-    day: day
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
+    year: tang
+    year_desc: kòe khì 365 kang pho͘ ê bûn
+    month: kò goe̍h
+    month_desc: kòe khì 30 kang pho͘ ê bûn
+    week: lé-pài
+    week_desc: kòe khì 7 kang pho͘ ê bûn
+    day: kang
+    first_post: Thâu bûn
+    mute: Chēng-im
+    unmute: Chhú-siau chēng-im
     last_post: Posted
     local_time: Chāi-tē Sî-kan
     time_read: Read
@@ -1676,7 +1676,7 @@ tai_Rom:
       action: Àm-hō pàng bē kì
       invite: >-
         Phah iōng-chiá miâ ā sī tiān-phoe,
-        chài-siat àm-hō phoe sûi kià hō͘ ·lí.
+        chài-siat àm-hō phoe sûi sàng hō͘ ·lí.
       reset: Chài-siat Àm-hō
       complete_username: >-
         If an account matches the username <b>%{username}</b>, you should
@@ -1953,7 +1953,7 @@ tai_Rom:
         topic_template_not_modified: >-
           Please add details and specifics to your topic by editing the topic
           template.
-      save_edit: Save Edit
+      save_edit: Hó ·a
       overwrite_edit: Overwrite Edit
       reply_original: Reply on Original Topic
       reply_here: Reply Here
@@ -1979,7 +1979,7 @@ tai_Rom:
       saving: Tng teh khiām
       saved: Khiām ·a!
       saved_draft: Tng teh siá chháu-kó. Chhi̍h ·loeh kè-sio̍k.
-      uploading: Tng teh khǹg...
+      uploading: Tng teh kià...
       show_preview: iáⁿ ·chi̍t ·ē &raquo;
       hide_preview: "&laquo; thoah ·khiài"
       quote_post_title: Quote whole post
@@ -2147,8 +2147,8 @@ tai_Rom:
         reaction: new reaction
         votes_released: Vote was released
     upload_selector:
-      title: Tô͘ beh ·khí ·lih
-      title_with_attachments: Tô͘ iā sī tóng-àn beh ·khí ·lih
+      title: Tô͘ beh ·khí-·lì
+      title_with_attachments: Tô͘ iā sī tóng-àn beh ·khí-·lì
       from_my_computer: Ùi góa ê siat-pī
       from_the_web: Ùi bāng-lō͘ téng
       remote_tip: tô͘ ê bāng-liân-á
@@ -2157,7 +2157,7 @@ tai_Rom:
       local_tip_with_attachments: "ùi góa ê siat-pī kéng tô͘ iā tóng-àn %{authorized_extensions}"
       hint: (you can also drag & drop into the editor to upload them)
       hint_for_supported_browsers: tô͘, tóng-àn thoa lâi phian-chhip-á hia pàng
-      uploading: Tng teh ·khí ·lih...
+      uploading: Tng teh ·khí-·lì...
       select_file: Kéng tóng-àn
       default_image_alt_text: image
     search:
@@ -2414,18 +2414,18 @@ tai_Rom:
           discussions, users must wait before posting again in this topic.
         save: Enable
         remove: Disable
-        hours: "Hours:"
-        minutes: "Minutes:"
-        seconds: "Seconds:"
+        hours: "Tiám-cheng:"
+        minutes: "Hun-cheng:"
+        seconds: "Bió:"
         durations:
-          15_minutes: 15 Minutes
-          1_hour: 1 Hour
-          4_hours: 4 Hours
-          1_day: 1 Day
-          1_week: 1 Week
+          15_minutes: 15 Hun-cheng
+          1_hour: 1 Tiám-cheng
+          4_hours: 4 Tiám-cheng
+          1_day: 1 Kang
+          1_week: 1 Lé-pài
           custom: Custom Duration
       slow_mode_notice:
-        duration: "You need to wait %{duration} between posts in this topic"
+        duration: "Tī chit tiâu ōe-tê pho͘ bûn ài làng %{duration}"
       topic_status_update:
         title: Topic Timer
         save: Set Timer
@@ -2509,45 +2509,36 @@ tai_Rom:
         total: total posts
         current: current post
       notifications:
-        title: change how often you get notified about this topic
+        title: ōaⁿ lí tang-sî beh siu chit tiâu ōe-tê ê thong-ti
         reasons:
-          "0": You are ignoring all notifications on this topic.
+          "0": Chit tiâu ōe-tê ê thong-ti, lí lóng làng ·kòe.
           "1": >-
-            You will be notified if someone mentions your @name or replies to
-            you.
+            Nā sī ū lâng kā lí @tiám miâ / tap-ho̍k, lí ē siu thong-ti.
           "2": >-
-            You will see a count of new replies because you <a
-            href="%{basePath}/u/%{username}/preferences/notifications">read this
-            topic</a>.
-          "3": You will receive notifications because you are watching this topic.
+            Lí <a
+            href="%{basePath}/u/%{username}/preferences/notifications">tha̍k kòe liáu āu</a>, ē hián-sī sin tap-ho̍k gia̍h.
+          "3": Chit tiâu ōe-tê lí teh khòaⁿ, lí ē siu thong-ti.
           mailing_list_mode: >-
             You have mailing list mode enabled, so you will be notified of
             replies to this topic via email.
           "3_10": >-
-            You will receive notifications because you are watching a tag on
-            this topic.
+            Lí teh khòaⁿ chit tiâu ōe-tê ê phiau-á, lí ē siu thong-ti.
           "3_6": >-
-            You will receive notifications because you are watching this
-            category.
+            Lí teh khòaⁿ chit phiàn tiâⁿ, lí ē siu thong-ti.
           "3_5": >-
-            You will receive notifications because you started watching this
-            topic automatically.
-          "3_2": You will receive notifications because you are watching this topic.
-          "3_1": You will receive notifications because you created this topic.
+            Chit tiâu ōe-tê chū-tōng sǹg chò lí teh khòaⁿ, lí ē siu thong-ti.
+          "3_2": Chit tiâu ōe-tê lí teh khòaⁿ, lí ē siu thong-ti.
+          "3_1": Chit tiâu ōe-tê sī lí pho͘ ·ê, lí ē siu thong-ti.
           "2_8": >-
-            You will see a count of new replies because you are tracking this
-            category.
+            Lí teh tòe chit phiàn tiâⁿ, ē hián-sī sin tap-ho̍k gia̍h.
           "2_4": >-
-            You will see a count of new replies because you posted a reply to
-            this topic.
+            Lí bat tap-ho̍k chit tiâu ōe-tê, ē hián-sī sin tap-ho̍k gia̍h.
           "2_2": >-
-            You will see a count of new replies because you are tracking this
-            topic.
+            Lí teh tòe chit tiâu ōe-tê, ē hián-sī sin tap-ho̍k gia̍h.
           "1_2": >-
-            You will be notified if someone mentions your @name or replies to
-            you.
-          "0_7": You are ignoring all notifications in this category.
-          "0_2": You are ignoring all notifications on this topic.
+            Nā sī ū lâng kā lí @tiám miâ / tap-ho̍k, lí ē siu thong-ti.
+          "0_7": Chit phiàn tiâⁿ ê thong-ti, lí lóng làng ·kòe.
+          "0_2": Chit tiâu ōe-tê ê thong-ti, lí lóng làng ·kòe.
         watching_pm:
           title: Teh Khòaⁿ
           description: >-
@@ -2874,10 +2865,10 @@ tai_Rom:
       errors:
         create: "Pháiⁿ-sè, pho͘ bûn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
         edit: "Pháiⁿ-sè, phian-chhip hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
-        upload: "Pháiⁿ-sè, khǹg tóng-àn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
+        upload: "Pháiⁿ-sè, kià tóng-àn hoat-seng chhò-gō͘. Chhiáⁿ koh chhì chi̍t pái."
         file_too_large: >-
           Pháiⁿ-sè, hia ê tóng-àn siuⁿ tìn ūi (siōng tōa: %{max_size_kb}kb).
-          Bô, lí seng kā khǹg tī chi̍t ê hûn-tōaⁿ pêⁿ-tâi,
+          Bô, lí seng kià kah chi̍t ê hûn-tōaⁿ pêⁿ-tâi,
           koh kā bāng-liân-á tah tī chia.
         too_many_uploads: "Sorry, you can only upload one file at a time."
         too_many_dragged_and_dropped_files:
@@ -3424,7 +3415,7 @@ tai_Rom:
       create_post: Reply / See
       readonly: See
     lightbox:
-      download: lia̍h ·lo̍h ·lâi
+      download: bán ·loài
       previous: Previous (Left arrow key)
       next: Next (Right arrow key)
       counter: "%curr% of %total%"
@@ -5090,7 +5081,7 @@ tai_Rom:
           label: Edit list
           empty: There are no pictures yet. Please upload one.
           upload:
-            label: Khǹg ·khí ·lih
+            label: kià ·khí-·lì
             title: Upload image(s)
         selectable_avatars:
           title: List of avatars users can choose from
