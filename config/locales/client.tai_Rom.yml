@@ -21,13 +21,13 @@ tai_Rom:
       time: "HH:mm"
       time_with_zone: "HH:mm (z)"
       time_short_day: "ddd, HH:mm"
-      timeline_date: YYYY Nî MMM
-      long_no_year: "MMM D, HH:mm"
-      long_no_year_no_time: MMMD号
-      full_no_year_no_time: MMMM D Hō
-      long_with_year: "YYYY年MMMD号 HH:mm"
-      long_with_year_no_time: YYYY年MMMD号
-      full_with_year_no_time: YYYY Nî MMMM D Hō
+      timeline_date: YYYY nî MM goe̍h
+      long_no_year: "M goe̍h D, HH:mm"
+      long_no_year_no_time: M goe̍h D
+      full_no_year_no_time: MM goe̍h DD Hō
+      long_with_year: "YYYY nî M goe̍h D HH:mm"
+      long_with_year_no_time: YYYY nî M goe̍h D hō
+      full_with_year_no_time: YYYY nî MM goe̍h DD hō
       long_date_with_year: YYYY/MM/DD LT
       long_date_without_year: M/D LT
       long_date_with_year_without_time: YYYY/MM/DD
@@ -296,13 +296,13 @@ tai_Rom:
     drafts:
       resume: Kè-sio̍k
       remove: Thâi tiāu
-      remove_confirmation: Lí kám khak-tēng beh kā chit phiⁿ chháu-kó hìⁿ tiāu?
-      new_topic: Sin ōe-tê chháu-kó
-      new_private_message: Sin su-sìn chháu-kó
-      topic_reply: Tap-ho̍k chháu-kó
+      remove_confirmation: Lí kám khak-tēng beh kā chit phiⁿ chhó-kó hìⁿ tiāu?
+      new_topic: Sin ōe-tê chhó-kó
+      new_private_message: Sin su-sìn chhó-kó
+      topic_reply: Tap-ho̍k chhó-kó
       abandon:
         confirm: >-
-          Pa̍t hūn chháu-kó í-keng khui tī chit tiâu ōe-tê.
+          Pa̍t hūn chhó-kó í-keng khui tī chit tiâu ōe-tê.
           Lí kám khak-tēng beh kā tàn-hìⁿ-sak?
         yes_value: "Hó, hìⁿ-tiāu"
         no_value: "Bô, lâu ·le"
@@ -805,7 +805,7 @@ tai_Rom:
       "12": Sàng ·khì ·a
       "13": Sìn-siuⁿ
       "14": Pending
-      "15": Chháu-kó
+      "15": Chhó-kó
     categories:
       all: só͘ ū ê tiâⁿ
       all_subcategories: só͘ ū ê
@@ -911,7 +911,7 @@ tai_Rom:
       bio: Iú-koan góa
       timezone: Sî-khu
       invited_by: Iau-chhiáⁿ lâng
-      trust_level: Kau-chêng Khám-chām
+      trust_level: Sêng-oân khám-chām
       notifications: Thong-ti
       statistics: Thóng-kè
       desktop_notifications:
@@ -1316,7 +1316,7 @@ tai_Rom:
         browser_last_seen: "%{browser} | %{date}"
       last_posted: Téng pái pho͘ bûn
       last_emailed: Téng pái sàng tiān-phoe
-      last_seen: Seen
+      last_seen: Téng pái lâi chē
       created: Khí ·ê
       log_out: Chhut Chām
       location: Ūi-tì
@@ -1660,7 +1660,7 @@ tai_Rom:
     last_seen: Sòaⁿ téng
     created: Khí ·ê
     created_lowercase: khí ·ê
-    trust_level: Kau-chêng Khám-chām
+    trust_level: Sêng-oân khám-chām
     search_hint: "iōng-chiá miâ, tiān-phoe, iā IP bāng-chí"
     create_account:
       disclaimer: >-
@@ -1978,7 +1978,7 @@ tai_Rom:
       view_new_post: Pho͘ ·a, lâi khòaⁿ māi.
       saving: Tng teh khiām
       saved: Khiām ·a!
-      saved_draft: Tng teh siá chháu-kó. Chhi̍h ·loeh kè-sio̍k.
+      saved_draft: Tng teh siá chhó-kó. Chhi̍h ·loeh kè-sio̍k.
       uploading: Tng teh kià...
       show_preview: iáⁿ ·chi̍t ·ē &raquo;
       hide_preview: "&laquo; thoah ·khiài"
@@ -2026,7 +2026,7 @@ tai_Rom:
       admin_options_title: Optional staff settings for this topic
       composer_actions:
         reply: Tap-ho̍k
-        draft: Chháu-kó
+        draft: Chhó-kó
         edit: Phian-chhip
         reply_to_post:
           label: "Reply to a post by %{postUsername}"
@@ -2328,7 +2328,7 @@ tai_Rom:
         other: "%{count} posts in topic"
       create: Pho͘ Bûn
       create_long: Create a new Topic
-      open_draft: Chháu-kó Thoah Khui
+      open_draft: Chhó-kó Thoah Khui
       private_message: Siá sìn-sit
       archive_message:
         help: Kā chit phiⁿ sìn-sit siu-khǹg
@@ -2480,7 +2480,7 @@ tai_Rom:
         auto_publish_to_category: >-
           This topic will be published to <a
           href=%{categoryUrl}>#%{categoryName}</a> %{timeLeft}.
-        auto_close_based_on_last_post: "This topic will close %{duration} after the last reply."
+        auto_close_based_on_last_post: "Nā %{duration} bô sin thiⁿ ê, chit ê ōe-tê hō͘ hē-thóng chū-tōng thâi tiāu."
         auto_delete: "This topic will be automatically deleted %{timeLeft}."
         auto_bump: "This topic will be automatically bumped %{timeLeft}."
         auto_reminder: "You will be reminded about this topic %{timeLeft}."
@@ -2882,13 +2882,13 @@ tai_Rom:
       abandon_edit:
         confirm: Lí kám khak-tēng beh kā phian-chhip tàn-hìⁿ-sak?
         no_value: "Bô, lâu ·le"
-        no_save_draft: "Bô, khiām chháu-kó"
+        no_save_draft: "Bô, khiām chhó-kó"
         yes_value: "Hó, hìⁿ-tiāu"
       abandon:
-        title: Chháu-kó hìⁿ-tiāu
-        confirm: Lí kám khak-tēng beh kā chháu-kó tàn-hìⁿ-sak?
+        title: Chhó-kó hìⁿ-tiāu
+        confirm: Lí kám khak-tēng beh kā chhó-kó tàn-hìⁿ-sak?
         no_value: "Bô, lâu ·le"
-        no_save_draft: "Bô, khiām chháu-kó"
+        no_save_draft: "Bô, khiām chhó-kó"
         yes_value: "Hó, hìⁿ-tiāu"
       via_email: this post arrived via email
       via_auto_generated_email: this post arrived via an auto generated email
@@ -3440,7 +3440,7 @@ tai_Rom:
         bookmarks: "%{shortcut} Kì-hō"
         profile: "%{shortcut} Kháu-chō"
         messages: "%{shortcut} Sìn-sit"
-        drafts: "%{shortcut} Chháu-kó"
+        drafts: "%{shortcut} Chhó-kó"
         next: "%{shortcut} Āu chi̍t tiâu ōe-tê"
         previous: "%{shortcut} Téng chi̍t tiâu ōe-tê"
       navigation:

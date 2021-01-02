@@ -1302,7 +1302,7 @@ tai_Han:
         browser_last_seen: '%{browser} | %{date}'
       last_posted: 頂擺鋪文
       last_emailed: 頂擺送電批
-      last_seen: Seen
+      last_seen: 頂擺來坐
       created: 起个
       log_out: 出站
       location: 位置
@@ -2462,7 +2462,7 @@ tai_Han:
         auto_publish_to_category: >-
           This topic will be published to <a
           href=%{categoryUrl}>#%{categoryName}</a> %{timeLeft}.
-        auto_close_based_on_last_post: 'This topic will close %{duration} after the last reply.'
+        auto_close_based_on_last_post: '那%{duration}無新添个、只个話題乎系統自動刣兆。'
         auto_delete: 'This topic will be automatically deleted %{timeLeft}.'
         auto_bump: 'This topic will be automatically bumped %{timeLeft}.'
         auto_reminder: 'You will be reminded about this topic %{timeLeft}.'

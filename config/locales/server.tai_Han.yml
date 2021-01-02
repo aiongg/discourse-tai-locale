@@ -692,15 +692,15 @@ tai_Han:
     uncategorized_description: "Topics that don't need a category, or don't fit into any other existing category."
   trust_levels:
     newuser:
-      title: "new user"
+      title: "新手"
     basic:
-      title: "basic user"
+      title: "青角"
     member:
-      title: "member"
+      title: "主顧客"
     regular:
-      title: "regular"
+      title: "司父"
     leader:
-      title: "leader"
+      title: "頭人"
     change_failed_explanation: "You attempted to demote %{user_name} to '%{new_trust_level}'. However their trust level is already '%{current_trust_level}'. %{user_name} will remain at '%{current_trust_level}' - if you wish to demote user lock trust level first"
 
   post:
