@@ -21,10 +21,10 @@ tai_Rom:
       time: "HH:mm"
       time_with_zone: "HH:mm (z)"
       time_short_day: "ddd, HH:mm"
-      timeline_date: YYYY nî MM goe̍h
-      long_no_year: "M goe̍h D, HH:mm"
-      long_no_year_no_time: M goe̍h D
-      full_no_year_no_time: MM goe̍h DD Hō
+      timeline_date: YYYY/MM
+      long_no_year: "M/D, HH:mm"
+      long_no_year_no_time: M/D
+      full_no_year_no_time: MM/DD
       long_with_year: "YYYY nî M goe̍h D HH:mm"
       long_with_year_no_time: YYYY nî M goe̍h D hō
       full_with_year_no_time: YYYY nî MM goe̍h DD hō
@@ -56,8 +56,8 @@ tai_Rom:
           other: "> %{count}T"
         almost_x_years:
           other: "%{count}T"
-        date_month: MMMD号
-        date_year: YY年MMM
+        date_month: MMM D
+        date_year: "'YY MMM"
       medium:
         x_minutes:
           other: "%{count} hun"
@@ -65,7 +65,7 @@ tai_Rom:
           other: "%{count} tiám"
         x_days:
           other: "%{count} kang"
-        date_year: YYYY年MMMD号
+        date_year: YYYY MMM D
       medium_with_ago:
         x_minutes:
           other: "%{count} hun ch. chêng"
